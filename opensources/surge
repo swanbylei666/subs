@@ -4,8 +4,8 @@
 
 [Proxy Group]
 #测速分组
-🚀 地区选择 = select,🇭🇰
-🇭🇰 = url-test,001,002,003,url=http://www.gstatic.com/generate_204,interval=50,timeout=3
+🚀 地区选择 = select,🆓
+🆓 = url-test,001,002,003,url=http://www.gstatic.com/generate_204,interval=50,timeout=3
 
 [Rule]
 #全局策略
