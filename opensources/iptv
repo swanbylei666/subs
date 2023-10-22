@@ -5,7 +5,7 @@
 https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
 #EXTINF:-1 group-title="央视组",cctv1
 https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
-#EXTINF:-1 group-title="央视组",cctv1
+#EXTINF:-1 group-title="央视组",cctv2
 https://node1.olelive.com:6443/live/CCTV2HD/hls.m3u8
 #EXTINF:-1 group-title="央视组",cctv3
 https://node1.olelive.com:6443/live/CCTV3HD/hls.m3u8
