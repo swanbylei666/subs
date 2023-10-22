@@ -1,1 +1,34 @@
 #surge
+[Proxy]
+#hongkong,china
+001 = ss, hk01.ptrecord.com, 33449, encrypt-method=rc4-md5, password=qcpyzb7dpy, udp-relay=false
+002 = ss, hk02.ptrecord.com, 33449, encrypt-method=rc4-md5, password=qcpyzb7dpy, udp-relay=false
+003 = ss, hk03.ptrecord.com, 33449, encrypt-method=rc4-md5, password=qcpyzb7dpy, udp-relay=false
+
+#taiwan,china
+011 = ss, tw01.ptrecord.com, 33449, encrypt-method=rc4-md5, password=qcpyzb7dpy, udp-relay=false
+012 = ss, tw02.ptrecord.com, 33449, encrypt-method=rc4-md5, password=qcpyzb7dpy, udp-relay=false
+013 = ss, tw03.ptrecord.com, 33449, encrypt-method=rc4-md5, password=qcpyzb7dpy, udp-relay=false
+014 = ss, d9e3a5o3m3-fbnode-tw04.6pzfwf.com, 56024, encrypt-method=chacha20-ietf-poly1305, password=CjpMg8, udp-relay=true
+
+#usa
+101 = ss, us06.ptrecord.com, 33449, encrypt-method=rc4-md5, password=qcpyzb7dpy, udp-relay=false
+102 = ss, us07.ptrecord.com, 33449, encrypt-method=rc4-md5, password=qcpyzb7dpy, udp-relay=false
+103 = ss, us08.ptrecord.com, 33449, encrypt-method=rc4-md5, password=qcpyzb7dpy, udp-relay=false
+
+#japan
+111 = ss, jp01.ptrecord.com, 33449, encrypt-method=rc4-md5, password=qcpyzb7dpy, udp-relay=false
+112 = ss, jp02.ptrecord.com, 33449, encrypt-method=rc4-md5, password=qcpyzb7dpy, udp-relay=false
+113 = ss, jp03.ptrecord.com, 33449, encrypt-method=rc4-md5, password=qcpyzb7dpy, udp-relay=false
+
+[Proxy Group]
+#测速分组
+🚀 地区选择 = select,🇭🇰,🇹🇼,🇺🇸,🇯🇵
+🇭🇰 = url-test,001,002,003,url=http://www.gstatic.com/generate_204,interval=50,timeout=3
+🇹🇼 = url-test,011,012,013,url=http://www.gstatic.com/generate_204,interval=50,timeout=3
+🇺🇸 = url-test,101,102,103,url=http://www.gstatic.com/generate_204,interval=50,timeout=3
+🇯🇵 = url-test,111,112,113,url=http://www.gstatic.com/generate_204,interval=50,timeout=3
+
+[Rule]
+#全局策略
+FINAL,🚀 地区选择
