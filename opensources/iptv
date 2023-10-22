@@ -1,1 +1,4 @@
-#iptv
+#iptv utf-8
+#EXTM3U
+#EXTINF:-1 group-title="测试组",cctv1
+http://cfss.cc/ds/ysp/qp.php?id=cctv1&Cf.m3u8
