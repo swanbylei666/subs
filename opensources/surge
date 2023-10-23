@@ -1,14 +1,16 @@
 #surge
 [Proxy]
 #free
+54.186.250.178；美国 = ss, 54.186.250.178, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+
 荷兰，阿姆斯特丹 = vmess, 45.199.138.191, 30000, username=418048af-a293-4b99-9b0c-98ca3580dd24, ws=true, tls=true, ws-path=/path/1696251522438, skip-cert-verify=false, udp-relay=false, vmess-aead=false, ws-headers=Host:www.42077230.xyz, sni=www.42077230.xyz
 
 荷兰，哈勒姆 = ss, 51.158.195.96, 80, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
 
 [Proxy Group]
 #测速分组
-🚀 地区选择 = select,🆓,荷兰，阿姆斯特丹,荷兰，哈勒姆
-🆓 = url-test,荷兰，阿姆斯特丹,荷兰，哈勒姆,url=http://www.gstatic.com/generate_204,interval=50,timeout=3
+🚀 地区选择 = select,🆓,54.186.250.178；美国,荷兰，阿姆斯特丹,荷兰，哈勒姆
+🆓 = url-test,54.186.250.178；美国,荷兰，阿姆斯特丹,荷兰，哈勒姆,url=http://www.gstatic.com/generate_204,interval=50,timeout=3
 
 [Rule]
 #全局策略
