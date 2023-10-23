@@ -4,7 +4,7 @@
 https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" user-agent="" group-title="测试组",翡翠台
 #EXTVLCOPT: http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
-https://pull-f5-spe.ixigua.com/live/YesLiveTV-3a3f59fa-ec95-45c5-80f1-6e5343afbabf/index.m3u8?by=yeslivetv.com
+https://pull-f5-spe.ixigua.com/live/YesLiveTV-711a21e2-b32b-4da0-9704-b49f4537c3f7/index.m3u8?by=yeslivetv.com
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" user-agent="" group-title="测试组",J2台
 #EXTVLCOPT: http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 https://pull-f5-spe.ixigua.com/live/YesLiveTV-80aeef9d-86b7-4564-9f02-75d82a836bd5/index.m3u8?by=yeslivetv.com
