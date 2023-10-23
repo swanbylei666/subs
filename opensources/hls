@@ -2,5 +2,5 @@
 #EXTINF:-1 tvg-id="" tvg-country="" tvg-language="" tvg-logo="" user-agent="" group-title="抢播组",J1
 #EXTVLCOPT: http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
-#EXTINF:-1 group-title="电影组",学爸
-https://aws.ulivetv.net/v3/api/dianbo/m3u8/488054_kk.m3u8
+#EXTINF:-1 group-title="电影组",白日青春【黄秋生】
+https://europe.olemovienews.com/ts2/20230811/EfpCdzJc/mp4/EfpCdzJc.mp4/index-v1-a1.m3u8
