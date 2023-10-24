@@ -3,11 +3,8 @@
 #EXTVLCOPT: http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 https://
 
-#EXTINF:-1 tvg-logo="" group-title="热门组",扎职2【粤】【海外IP】
-https://m3u.haiwaikan.com/xm3u8/65e0e06a3587b22557f2f2d81cd5d9e756c0a73ccb728b31fc1a4c1a53be9a349921f11e97d0da21.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="热门组",扎职2【粤】
-https://110.42.2.247:9092/c/cts_301/eea0f6943c156778a19467076a5fdc1b.m3u8?vkey=a88eAlKwRShtD1J96_YHPsQIfxvkfXHwxa-xzI27rC0bR54Gn0OfCw
+https://jy3.we-vip.com/api.php?url=UjFOYzJqMEh0bmRjL0R1ZW9wSGRkWGc0UDlHMWJnTTFJaThoZUl4VlcweStmYWVzVUlNOElXNzlGRmgrdkdJZWxBNURpZFBVSVM5Y2YxN0FZajRWczJWNDR3NnVzRVJ2c05ZckpKdUlkZGFKRk5uRW91TXl0SXFSMVpkeVNqaHh3OGdFSW5UWWRnNnNIeWx0UnhxL2tidGEyNUx6d2JRWGdkcXFscUpxbVdTNXhUNXh4YVRNZU9yaE1TYjVqY0d5MUJuUnJRVkt2cXNKdTBQcExWcVdTQT09
 
 #EXTINF:-1 tvg-logo="" group-title="巨齿鲨",巨齿鲨2：深渊【吴京】
 https://vip.lz-cdn3.com/20230825/21318_ed12a4ac/2000k/hls/mixed.m3u8
