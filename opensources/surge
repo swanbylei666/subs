@@ -6,10 +6,16 @@
 美国🇺🇸002 = vmess, asb2.shabijichang.com, 80, username=c458695d-6908-45c3-9512-e0c46418454c, ws=true, tls=false, ws-path=/, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:asb2.shabijichang.com
 荷兰🇳🇱003 = ss, 51.158.195.96, 80, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
 
-[Proxy Group]
-🚀 地区选择 = select, 🆓, 荷兰🇳🇱001, 印度🇮🇳001, 荷兰🇳🇱002, 荷兰🇳🇱004, 美国🇺🇸002, 荷兰🇳🇱003
+001 = vmess, 156.225.67.104, 30000, username=29a5d48e-24f1-48fd-a5e1-9a46cb31032f, ws=true, tls=true, ws-path=/path/1697184716677, skip-cert-verify=false, udp-relay=false, vmess-aead=false, ws-headers=Host:www.41758112.xyz, sni=www.41758112.xyz
+002 = vmess, 45.199.138.191, 30000, username=418048af-a293-4b99-9b0c-98ca3580dd24, ws=true, tls=true, ws-path=/path/1696251522438, skip-cert-verify=false, udp-relay=false, vmess-aead=false, ws-headers=Host:www.42077230.xyz, sni=www.42077230.xyz
+003 = vmess, 156.225.67.104, 30000, username=29a5d48e-24f1-48fd-a5e1-9a46cb31032f, ws=true, tls=true, ws-path=/path/1696944806961, skip-cert-verify=false, udp-relay=false, vmess-aead=false, ws-headers=Host:www.41758112.xyz, sni=www.41758112.xyz
+004 = vmess, 156.225.67.104, 30000, username=29a5d48e-24f1-48fd-a5e1-9a46cb31032f, ws=true, tls=true, ws-path=/path/1697288722266, skip-cert-verify=false, udp-relay=false, vmess-aead=false, ws-headers=Host:www.41758112.xyz, sni=www.41758112.xyz
+005 = vmess, 45.199.138.186, 30000, username=4ec0ae62-de09-4029-904a-0313d4628ecf, ws=true, tls=true, ws-path=/path/1697376782879, skip-cert-verify=false, udp-relay=false, vmess-aead=false, ws-headers=Host:www.19229362.xyz, sni=www.19229362.xyz
 
-🆓 = url-test, 荷兰🇳🇱001, 印度🇮🇳001, 荷兰🇳🇱002, 荷兰🇳🇱004, 美国🇺🇸002, 荷兰🇳🇱003,url=http://www.gstatic.com/generate_204,interval=50,timeout=3
+[Proxy Group]
+🚀 地区选择 = select, 🆓, 荷兰🇳🇱001, 印度🇮🇳001, 荷兰🇳🇱002, 荷兰🇳🇱004, 美国🇺🇸002, 荷兰🇳🇱003,001,002,003,004,005
+
+🆓 = url-test, 荷兰🇳🇱001, 印度🇮🇳001, 荷兰🇳🇱002, 荷兰🇳🇱004, 美国🇺🇸002, 荷兰🇳🇱003,001,002,003,004,005,url=http://www.gstatic.com/generate_204,interval=50,timeout=3
 
 [Rule]
 FINAL,🚀 地区选择
