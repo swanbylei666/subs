@@ -3,17 +3,11 @@
 #EXTVLCOPT: http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 https://
 
-#EXTINF:-1 tvg-logo="" group-title="热门组",扎职
+#EXTINF:-1 tvg-logo="" group-title="云播厅",学爸（黄渤）
+https://cache.we-vip.com:2096/wweebb/index.m3u8?data=MwTwYe5eObDbI1NjAzNCYmJmUwYThiMjRkMzg3MDhiZmE2YzgxZDY2ZjNjNTczN2Fi
+
+#EXTINF:-1 tvg-logo="" group-title="云播厅",扎职 II（粤语）
 https://videocut-upload-sz.oss-cn-shenzhen.aliyuncs.com/feedback/1698173029992_4ef7d1a166334149bd47ca1576913c2b.jpg?Expires=1698259430&OSSAccessKeyId=LTAIyIPluzf98f5v&Signature=f9QVX54a%2Fyd6Al%2FY4EiMIb%2FZOyM%3D
 
-#EXTINF:-1 tvg-logo="" group-title="巨齿鲨",巨齿鲨2：深渊【吴京】
-https://vip.lz-cdn3.com/20230825/21318_ed12a4ac/2000k/hls/mixed.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="巨齿鲨",巨齿鲨2：深渊【吴京】
-https://cevip.jiguangcdn3.com/7f8a170e059579343515a246962c05b3/index.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="八角笼中",八角笼中【王宝强】
+#EXTINF:-1 tvg-logo="" group-title="点播厅",八角笼中（王宝强）
 https://europe.olemovienews.com/ts2/20230907/tDJdfEpk/mp4/tDJdfEpk.mp4/index-v1-a1.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="白日青春",白日青春【黄秋生】
-https://europe.olemovienews.com/ts2/20230811/EfpCdzJc/mp4/EfpCdzJc.mp4/index-v1-a1.m3u8
