@@ -2,7 +2,6 @@ port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
-log-level: none
 
 proxies:
   - {name: 1, server: 156.225.67.104, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.41758112.xyz, network: ws, ws-opts: {path: /path/1698239888914, headers: {Host: www.41758112.xyz}}, udp: true}
