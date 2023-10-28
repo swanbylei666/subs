@@ -9,3 +9,10 @@ http://183.238.66.1:9090/live/1350_1500.m3u8?t=b9fe6157aedccb24&u=freeuser&p=1&p
 https://pull-f5-spe.ixigua.com/live/YesLiveTV-5f6ff896-c2d9-4790-8bd1-771a672564a9/index.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="电影厅",N/A
+
+#EXTINF:-1 tvg-logo="" group-title="粤｜香港人在北京",【01】
+https://vz-asp83m00-ts2.immmm.top/cache/look/5a10f751267593acae1977df5115c790.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="粤｜香港人在北京",【02】
+https://vz-asp83m00-ts2.immmm.top/cache/look/929dc1f16048ab8629cec7e0e199f3b5.m3u8
+
