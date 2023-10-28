@@ -1,6 +1,3 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="" group-title="",▲ 翡翠台
 https://pull-f5-spe.ixigua.com/yeslivetv.com/beebf2b0-ac46-4513-a87c-892f225c545a/index.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="",▲ 翡翠台 II
-http://27.36.62.162:9090/live/1350_1500.m3u8
