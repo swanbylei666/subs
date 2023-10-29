@@ -5,11 +5,14 @@ https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/53240
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】翡翠台
 https://pull-f5-spe.ixigua.com/yeslivetv.com/beebf2b0-ac46-4513-a87c-892f225c545a/index.m3u8
 
+#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB-81
+https://tvp22.sky4k.top/index1.php
+
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】Jade2
 https://pull-f5-spe.ixigua.com/live/YesLiveTV-5f6ff896-c2d9-4790-8bd1-771a672564a9/index.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="电影厅",【电视】星空国际
-https://cdn.ggapk.net/live/tv?id=53e2eliYxi3T9N6YTz7mDO01vx4sq55CUECCaFL6PePY8bgJMS2NkyGGpm9tDIMBGIQAN256Xx1pIZ8wEA5OBgVpMd_-Er67RqFRrBy5i1ghZA6thJsuypLqo_2UMjrD6XShUCmlNVQMKdvZcIzWGk7ct1MJj8KbJMej0Uewf6VO2IPOi7zVs14FtOq1NTdx5VvVXkjMnAiTrb4kOMDdUjCBILFUrefF1MzeS6J604hVmpeV9hVnweBZThQdgohHco1McB5CzrWYLKf6NadfEj5h-gf6JAnjw0b4Wg
+#EXTINF:-1 tvg-logo="" group-title="电影厅",【N/A】
+https://
 
 #EXTINF:-1 tvg-logo="" group-title="粤｜香港人在北京",【01】香港人在北京
 https://vz-asp83m00-ts2.immmm.top/cache/look/5a10f751267593acae1977df5115c790.m3u8
