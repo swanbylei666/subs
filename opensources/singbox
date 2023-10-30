@@ -4,4 +4,4 @@ allow-lan: true
 mode: Rule
 
 proxies:
-  - {name: 000, server: 10086.com, port: 10086, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
+  - {name: 000, server: hk01.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
