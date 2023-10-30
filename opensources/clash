@@ -14,6 +14,22 @@ proxies:
 
   - {name: 5, server: 8h2k03.2weradf.xyz, port: 36018, type: ss, cipher: chacha20-ietf-poly1305, password: 4f2c1206-9728-416d-be80-08e0f64b9368}
 
+  - {name: 6, server: 1j8p01.abzoones.xyz, port: 36116, type: trojan, password: 4f2c1206-9728-416d-be80-08e0f64b9368, sni: jp01.abpilot.xyz}
+
+  - {name: 7, server: 1j8p02.abzoones.xyz, port: 36106, type: trojan, password: 4f2c1206-9728-416d-be80-08e0f64b9368, sni: jp02.abpilot.xyz}
+
+  - {name: 8, server: 1j8p03.abzoones.xyz, port: 36111, type: trojan, password: 4f2c1206-9728-416d-be80-08e0f64b9368, sni: jp03.abpilot.xyz}
+
+  - {name: 9, server: 1j8p01.2weradf.xyz, port: 36010, type: ss, cipher: chacha20-ietf-poly1305, password: 4f2c1206-9728-416d-be80-08e0f64b9368}
+
+  - {name: 10, server: 1j8p01.2weradf.xyz, port: 36011, type: ss, cipher: chacha20-ietf-poly1305, password: 4f2c1206-9728-416d-be80-08e0f64b9368}
+
+  - {name: 11, server: 1j8p03.2weradf.xyz, port: 36012, type: ss, cipher: chacha20-ietf-poly1305, password: 4f2c1206-9728-416d-be80-08e0f64b9368}
+
+  - {name: 12, server: 1j8p05.abzoones.xyz, port: 36106, type: vmess, uuid: 4f2c1206-9728-416d-be80-08e0f64b9368, alterId: 0, cipher: auto, tls: true, servername: jp05.abpilot.xyz}
+
+  - {name: 13, server: 1j8p06.abzoones.xyz, port: 36111, type: vmess, uuid: 4f2c1206-9728-416d-be80-08e0f64b9368, alterId: 0, cipher: auto, tls: true, servername: jp06.abpilot.xyz}
+
 proxy-groups:
   - name: Proxies
     type: select
@@ -25,6 +41,14 @@ proxy-groups:
       - 3
       - 4
       - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
   - name: LoadBalance
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -35,6 +59,14 @@ proxy-groups:
       - 3
       - 4
       - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
   - name: UrlTest
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -45,6 +77,14 @@ proxy-groups:
       - 3
       - 4
       - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
 
 rules:
   - GEOIP,CN,DIRECT
