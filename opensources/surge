@@ -13,5 +13,6 @@ SelectGroup = select, 负载均衡, 最快响应, 0, 1, 2
 最快响应 = url-test, 0, 1, 2, url=http://www.gstatic.com/generate_204, interval=300, tolerance=50, timeout=5
 
 [Rule]
+DOMAIN-SUFFIX,local,DIRECT
 GEOIP,CN,DIRECT
 FINAL,SelectGroup
