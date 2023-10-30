@@ -1,7 +1,7 @@
 port: 7890
 socks-port: 7891
 allow-lan: true
-mode: Rule
+mode: rule
 
 proxies:
   - {name: 000, server: hk01.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
