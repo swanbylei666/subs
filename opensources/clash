@@ -14,10 +14,6 @@ proxies:
 
   - {name: 5, server: 8h2k03.2weradf.xyz, port: 36018, type: ss, cipher: chacha20-ietf-poly1305, password: 4f2c1206-9728-416d-be80-08e0f64b9368}
 
-  - {name: 6, server: 107.167.16.85, port: 443, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.51109057.xyz, network: ws, ws-opts: {path: /path/080822272914, headers: {Host: www.51109057.xyz}}, udp: true}
-  - {name: 7, server: 38.26.135.25, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.39838266.xyz, network: ws, ws-opts: {path: /path/1697980101249, headers: {Host: www.39838266.xyz}}, udp: true}
-  - {name: 8, server: 156.225.67.234, port: 30000, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.47734647.xyz, network: ws, ws-opts: {path: /path/1698239888914, headers: {Host: www.47734647.xyz}}, udp: true}
-
 proxy-groups:
   - name: Proxies
     type: select
@@ -29,9 +25,6 @@ proxy-groups:
       - 3
       - 4
       - 5
-      - 6
-      - 7
-      - 8
   - name: LoadBalance
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -42,9 +35,6 @@ proxy-groups:
       - 3
       - 4
       - 5
-      - 6
-      - 7
-      - 8
   - name: UrlTest
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -55,9 +45,6 @@ proxy-groups:
       - 3
       - 4
       - 5
-      - 6
-      - 7
-      - 8
 
 rules:
   - GEOIP,CN,DIRECT
