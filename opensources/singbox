@@ -5,3 +5,17 @@ mode: Rule
 
 proxies:
   - {name: 000, server: hk01.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - LoadBalance
+      - UrlTest
+      - 000
+
+  - name: LoadBalance
+    type: load-balance
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - 000
