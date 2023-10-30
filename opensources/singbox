@@ -1,1 +1,7 @@
-1
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+
+proxies:
+  - {name: 000, server: 10086.com, port: 10086, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
