@@ -32,7 +32,6 @@ proxy-groups:
       - 6
       - 7
       - 8
-
   - name: LoadBalance
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -46,7 +45,6 @@ proxy-groups:
       - 6
       - 7
       - 8
-
   - name: UrlTest
     type: url-test
     url: http://www.gstatic.com/generate_204
