@@ -46,7 +46,6 @@ proxy-groups:
       - 6
       - 7
       - 8
-      - 🇭🇰 1
 
   - name: UrlTest
     type: url-test
