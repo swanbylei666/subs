@@ -11,18 +11,18 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - LoadBalance
-      - UrlTest
+      - ♻️ LoadBalance
+      - ♻️ UrlTest
       - 有限流量0
       - 有限流量1
-  - name: LoadBalance
+  - name: ♻️ LoadBalance
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 有限流量0
       - 有限流量1
-  - name: UrlTest
+  - name: ♻️ UrlTest
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
