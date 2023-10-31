@@ -4,7 +4,6 @@ allow-lan: true
 mode: rule
 
 proxies:
-proxies:
   - {name: US_489, server: vn.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: vn.mjt001.com, skip-cert-verify: true, udp: true}
   - {name: _235, server: vn.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: vn.mjt001.com, skip-cert-verify: true, udp: true}
   - {name: US_490, server: usla.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: usla.mjt001.com, skip-cert-verify: true, udp: true}
