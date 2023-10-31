@@ -12,7 +12,7 @@ proxies:
 
   - {"name":"4","server":"5.104.108.109","type":"trojan","country":"🇩🇪DE","port":443,"password":"6504a551-673d-44d6-85a9-b05f67fdf971","sni":"20-24-33-134.nhost.00cdn.com","skip-cert-verify":true,"udp":true}
 
-  - {"name":"🇬🇧GB_28 |10.10Mb","server":"35.179.27.143","type":"trojan","country":"🇬🇧GB","port":22222,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"udp":true}
+  - {"name":"5","server":"35.179.27.143","type":"trojan","country":"🇬🇧GB","port":22222,"password":"telegram-id-directvpn","sni":"trj.rollingnext.co.uk","skip-cert-verify":true,"udp":true}
 
   - {name: 6, server: 1j8p01.abzoones.xyz, port: 36116, type: trojan, password: 4f2c1206-9728-416d-be80-08e0f64b9368, sni: jp01.abpilot.xyz}
 
