@@ -1,16 +1,16 @@
 [Proxy]
-0 = vmess, 107.167.16.85, 443, username=7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, ws=true, tls=true, ws-path=/path/080822272914, skip-cert-verify=false, udp-relay=false, vmess-aead=false, ws-headers=Host:www.51109057.xyz, sni=www.51109057.xyz
-
-1 = trojan, 3.9.154.124, 22222, password=telegram-id-privatevpns, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=trj.rollingnext.co.uk
-
-2 = trojan, 35.157.14.187, 22222, password=telegram-id-privatevpns, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=trj.rollingnext.co.uk
-
+0 = ss, bjcu.xzyunjiasu.icu, 33952, encrypt-method=aes-256-gcm, password=5c8b210a-2f00-4292-964b-05281c7ad5d1, udp-relay=false
+1 = vmess, 20.kccic2pa.xyz, 50020, username=d5b6a6b1-feee-4318-b33b-51378f5787e8, ws=false, tls=false, ws-path=/, skip-cert-verify=false, udp-relay=false, vmess-aead=true
+2 = ss, foshan.chiguayun.cc, 27126, encrypt-method=chacha20-ietf-poly1305, password=54ce4495-de85-4448-b6d5-32fbc17c8e1c, udp-relay=false
+3 = ss, hefei.chiguayun.cc, 27141, encrypt-method=chacha20-ietf-poly1305, password=54ce4495-de85-4448-b6d5-32fbc17c8e1c, udp-relay=false
+4 = trojan, 94.131.13.159, 16128, password=zwbdPys6Va, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false
+5 = trojan, other.kunlun-ppg.com, 10839, password=f93e38b4-5453-40b4-acc0-5f7c9850a5ff, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=other.kunlun-ppg.com
 
 [Proxy Group]
-SelectGroup = select, 负载均衡, 最快响应, 0, 1, 2
-负载均衡 = load-balance, 0, 1, 2, url=http://www.gstatic.com/generate_204, interval=300, tolerance=50, timeout=5
+SelectGroup = select, 负载均衡, 最快响应, 0, 1, 2, 3, 4, 5
+负载均衡 = load-balance, 0, 1, 2, 3, 4, 5, url=http://www.gstatic.com/generate_204, interval=300, tolerance=50, timeout=5
 
-最快响应 = url-test, 0, 1, 2, url=http://www.gstatic.com/generate_204, interval=300, tolerance=50, timeout=5
+最快响应 = url-test, 0, 1, 2, 3, 4, 5, url=http://www.gstatic.com/generate_204, interval=300, tolerance=50, timeout=5
 
 [Rule]
 DOMAIN-SUFFIX,local,DIRECT
