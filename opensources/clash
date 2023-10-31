@@ -4,67 +4,527 @@ allow-lan: true
 mode: rule
 
 proxies:
-  - {name: 1, server: 54.36.174.181, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 2, server: 54.36.174.181, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 3, server: gsawsjp2.aiopen.cfd, port: 443, type: trojan, password: 6504a551-673d-44d6-85a9-b05f67fdf971, sni: gsawsjp2.aiopen.cfd, skip-cert-verify: true, udp: true}
-  - {name: 4, server: 5.104.108.109, port: 443, type: trojan, password: 6504a551-673d-44d6-85a9-b05f67fdf971, skip-cert-verify: true, udp: true}
-  - {name: 5, server: 35.179.27.143, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
-  - {name: 6, server: 13.53.239.7, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
-
-  - {name: 7, server: 1j8p02.abzoones.xyz, port: 36106, type: trojan, password: 4f2c1206-9728-416d-be80-08e0f64b9368, sni: jp02.abpilot.xyz}
-
-  - {name: 8, server: 1j8p03.abzoones.xyz, port: 36111, type: trojan, password: 4f2c1206-9728-416d-be80-08e0f64b9368, sni: jp03.abpilot.xyz}
-
-  - {name: 9, server: 1j8p01.2weradf.xyz, port: 36010, type: ss, cipher: chacha20-ietf-poly1305, password: 4f2c1206-9728-416d-be80-08e0f64b9368}
-
-  - {name: 10, server: 1j8p01.2weradf.xyz, port: 36011, type: ss, cipher: chacha20-ietf-poly1305, password: 4f2c1206-9728-416d-be80-08e0f64b9368}
-
+proxies:
+  - {name: US_489, server: vn.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: vn.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: _235, server: vn.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: vn.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_490, server: usla.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: usla.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: _232, server: usla.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: usla.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_466, server: usla.mjt001.com, port: 443, type: trojan, password: 9d3b1e0e-252a-4c67-9628-8b62e77197e7, sni: usla.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: JP_331, server: uk.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: uk.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: _217, server: uk.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: uk.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: JP_347, server: ua.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: ua.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_478, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, sni: tw02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_480, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: d8fd60d7-4c50-47c8-9e2d-adf37ad81af4, sni: tw02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_461, server: tw02.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: tw02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_474, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, sni: tw01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_485, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: d8fd60d7-4c50-47c8-9e2d-adf37ad81af4, sni: tw01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK_313, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 0c188781-2971-4bd9-ad72-73eb860d115f, sni: tw01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK_310, server: tw01.trojanyyds.xyz, port: 443, type: trojan, password: 6a91134d-1e3f-4b63-9a46-99515cb62596, sni: tw01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: _244, server: tr.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: tr.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_460, server: tr.mjt001.com, port: 443, type: trojan, password: 9d3b1e0e-252a-4c67-9628-8b62e77197e7, sni: tr.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: NO_360, server: tj2.dalazhi.eu.org, port: 443, type: trojan, password: 23fd9f2e-7ff8-4d98-8099-8acce9499433, sni: tj2.dalazhi.eu.org, skip-cert-verify: true, udp: true}
+  - {name: US_451, server: tj1.dalazhi.eu.org, port: 443, type: trojan, password: d256e73b-8259-490a-aeb5-23f6a3636a1a, sni: tj1.dalazhi.eu.org, skip-cert-verify: true, udp: true}
+  - {name: JP_336, server: sk01.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: sk01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_481, server: sk01.trojanyyds.xyz, port: 443, type: trojan, password: d8fd60d7-4c50-47c8-9e2d-adf37ad81af4, sni: sk01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_476, server: sk01.trojanyyds.xyz, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, sni: sk01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: _233, server: sg.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: sg.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: JP_349, server: sg.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: sg.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: _242, server: ru.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: ru.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: HK_314, server: ru.mjt001.com, port: 443, type: trojan, password: 5a035db3-34ea-48ca-9aa2-72c8229e1532, sni: ru.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: _236, server: pt.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: pt.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_472, server: pt.mjt001.com, port: 443, type: trojan, password: b00ac480-3e34-4ca9-8b3b-0b4515e4b75d, sni: pt.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_487, server: pt.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: pt.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_457, server: pl.mjt001.com, port: 443, type: trojan, password: 9d3b1e0e-252a-4c67-9628-8b62e77197e7, sni: pl.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: CN_260, server: official.taipeicitygovernment.kiev.ua, port: 8443, type: trojan, password: 5505f6ba-cd37-30ce-8f92-be4120c83d7f, sni: official.taipeicitygovernment.kiev.ua, skip-cert-verify: true, udp: true}
+  - {name: US_448, server: need.uno, port: 443, type: trojan, password: 6aWFNbrFDs, sni: need.uno, skip-cert-verify: true, udp: true}
+  - {name: HK_308, server: my02.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: my02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_482, server: my02.trojanyyds.xyz, port: 443, type: trojan, password: d8fd60d7-4c50-47c8-9e2d-adf37ad81af4, sni: my02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_477, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, sni: my01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_471, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: ee20db28-0e13-4936-96b1-37bfa5244854, sni: my01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP_339, server: my01.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: my01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: _243, server: lux.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: lux.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: TW_375, server: levuior.taiwanesefood.link, port: 443, type: trojan, password: 2FlAxyOy3ScaC5xNOSFeRqZgASj73CpIlCYTE8p4DaBD3Rn3zXe9Y80uaZwD6K, sni: levuior.taiwanesefood.link, skip-cert-verify: true, udp: true}
+  - {name: _219, server: kz.mjt001.com, port: 443, type: trojan, password: 366c34f3-cc1a-428e-94ac-a5d9c99eef70, sni: kz.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: JP_353, server: kr.mjt001.com, port: 443, type: trojan, password: ad3f9bf7-d8d1-47df-a6bd-77ff50037339, sni: kr.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: _231, server: kh.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: kh.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_464, server: kh.mjt001.com, port: 443, type: trojan, password: 2f31805a-b9e0-4b7b-808f-c7971332d068, sni: kh.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: SG_371, server: kbawssg2.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: kbawssg2.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: SG_374, server: kbawssg1.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: kbawssg1.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: JP_332, server: kbawsjp2.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: kbawsjp2.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: JP_355, server: kbawsjp1.aiopen.cfd, port: 443, type: trojan, password: 74faee5a-4b4c-43ef-ab9c-549d2618772a, sni: kbawsjp1.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: US_459, server: kbawsjp1.aiopen.cfd, port: 443, type: trojan, password: 3c1f22a0-2aec-46ed-b0ee-9c09b8cafa1d, sni: kbawsjp1.aiopen.cfd, skip-cert-verify: true, udp: true}
+  - {name: _212, server: jp-am48-6.eqnode.net, port: 8081, type: ssr, cipher: aes-256-cfb, password: eAokbaDN6, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: US_463, server: jp2.twincloud.xyz, port: 443, type: trojan, password: 6455f944-7c07-4ab0-b88f-440e581f41d9, sni: jp2.twincloud.xyz, skip-cert-verify: true, udp: true}
+  - {name: _241, server: jp.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: jp.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_390, server: jp.mjt001.com, port: 443, type: trojan, password: 224c91ee-7e18-4f1e-86bb-c1836f218c95, sni: jp.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_467, server: jp.mjt001.com, port: 443, type: trojan, password: 9d3b1e0e-252a-4c67-9628-8b62e77197e7, sni: jp.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_445, server: jp.mjt001.com, port: 443, type: trojan, password: b00ac480-3e34-4ca9-8b3b-0b4515e4b75d, sni: jp.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: JP_333, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: in01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_479, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: d8fd60d7-4c50-47c8-9e2d-adf37ad81af4, sni: in01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_449, server: in01.trojanyyds.xyz, port: 443, type: trojan, password: 36d48ba9-7445-4b41-b210-58f4e07a627a, sni: in01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: _238, server: il.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: il.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: HK_315, server: home-hkt-2.strongpipe.live, port: 29444, type: trojan, password: 7f831d7a-4890-4443-9db6-d3ae18d782a1, sni: home-hkt-2.strongpipe.live, skip-cert-verify: true, udp: true}
+  - {name: JP_346, server: hk2.downloadvip.cfd, port: 443, type: trojan, password: 5451df8a-531c-4f68-8287-e6ac1d536771, sni: hk2.downloadvip.cfd, skip-cert-verify: true, udp: true}
+  - {name: US_486, server: hk04.trojanyyds.xyz, port: 443, type: trojan, password: d8fd60d7-4c50-47c8-9e2d-adf37ad81af4, sni: hk04.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK_309, server: hk04.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: hk04.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP_337, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: hk03.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_455, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: d7a82727-5365-4517-8a92-c2864081008a, sni: hk03.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_473, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, sni: hk03.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_484, server: hk03.trojanyyds.xyz, port: 443, type: trojan, password: d8fd60d7-4c50-47c8-9e2d-adf37ad81af4, sni: hk03.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP_334, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: hk02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK_317, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: ae4da236-bfec-4673-9e1e-bbbd942162a8, sni: hk02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_475, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: 8d1e94cd-23cf-4267-b630-c6894e6e1b4d, sni: hk02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_483, server: hk02.trojanyyds.xyz, port: 443, type: trojan, password: d8fd60d7-4c50-47c8-9e2d-adf37ad81af4, sni: hk02.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: JP_335, server: hk01.trojanyyds.xyz, port: 443, type: trojan, password: 9bb27128-e6d2-4cac-bbd3-beb46c4417f8, sni: hk01.trojanyyds.xyz, skip-cert-verify: true, udp: true}
+  - {name: _237, server: hinet.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: HK_316, server: hinet.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_470, server: hinet.mjt001.com, port: 443, type: trojan, password: 74400921-f59f-4009-b52a-c2789b49fab6, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_469, server: hinet.mjt001.com, port: 443, type: trojan, password: 9d3b1e0e-252a-4c67-9628-8b62e77197e7, sni: hinet.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: _222, server: frontend.yijianlian.app, port: 54430, type: trojan, password: b5e4e360-5946-470b-aad0-db98f50faa57, sni: frontend.yijianlian.app, skip-cert-verify: true, udp: true}
+  - {name: JP_343, server: ch.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: ch.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: _230, server: ch.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: ch.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: _234, server: au.mjt001.com, port: 443, type: trojan, password: 61d2b2f6-d6ce-4724-9a5d-cc1123a1c949, sni: au.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: US_488, server: ar.mjt001.com, port: 443, type: trojan, password: af4dc66a-ec88-4057-9e46-777b584577f7, sni: ar.mjt001.com, skip-cert-verify: true, udp: true}
+  - {name: _160, server: ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _45, server: 54.36.174.181, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _161, server: 54.36.174.181, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _181, server: 54.36.174.181, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _172, server: 54.36.174.181, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _158, server: 54.36.174.181, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _171, server: 54.36.174.181, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _182, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _109, server: 54.36.174.181, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _108, server: 54.36.174.181, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _152, server: 54.36.174.181, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _107, server: 54.36.174.181, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _10, server: 54.36.174.181, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _48, server: 54.36.174.181, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: FR_272, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _159, server: 54.36.174.181, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: FR_300, server: 54.36.174.181, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: FR_298, server: 54.36.174.181, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _09, server: 54.36.174.181, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _167, server: 54.36.174.181, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _168, server: 54.36.174.181, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _47, server: 54.36.174.181, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _105, server: 54.36.174.181, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: _149, server: 54.36.174.181, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _127, server: 54.36.174.181, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: FR_283, server: 54.36.174.181, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _183, server: 54.36.174.181, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _166, server: 54.36.174.181, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _170, server: 54.36.174.181, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: _147, server: 54.36.174.181, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _165, server: 54.36.174.181, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: ZZ_499, server: 5.44.249.53, port: 3306, type: trojan, password: 7b06d22a8a7c764f, skip-cert-verify: true, udp: true}
+  - {name: ZZ_500, server: 5.44.249.53, port: 3306, type: trojan, password: 70face6dd320ea29, skip-cert-verify: true, udp: true}
+  - {name: SG_362, server: 5.44.249.53, port: 3306, type: trojan, password: d02058f4f819dced, skip-cert-verify: true, udp: true}
+  - {name: ZZ_491, server: 5.44.249.50, port: 3306, type: trojan, password: 8e6f2dc7eb9f9a13, skip-cert-verify: true, udp: true}
+  - {name: ZZ_496, server: 5.44.249.50, port: 3306, type: trojan, password: faf42aa0a9ad4c1e, skip-cert-verify: true, udp: true}
+  - {name: ZZ_504, server: 5.44.249.44, port: 3306, type: trojan, password: d02058f4f819dced, skip-cert-verify: true, udp: true}
+  - {name: SG_363, server: 5.44.249.42, port: 3306, type: trojan, password: 111b927ef6be6671, skip-cert-verify: true, udp: true}
+  - {name: ZZ_501, server: 5.44.249.42, port: 3306, type: trojan, password: 36fe28a331638747, skip-cert-verify: true, udp: true}
+  - {name: ZZ_502, server: 5.44.249.42, port: 3306, type: trojan, password: d4e41ff772c7fd45, skip-cert-verify: true, udp: true}
+  - {name: _23, server: 41.203.4.34, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: DE_264, server: 213.202.216.14, port: 443, type: trojan, password: e42767d0-0833-4f76-a94b-2cfd197e389f, skip-cert-verify: true, udp: true}
+  - {name: _29, server: 212.113.106.243, port: 12949, type: ss, cipher: chacha20-ietf-poly1305, password: P2zxXPewlV3BlfqqYiSthvtLc, udp: true}
+  - {name: _17, server: 185.47.255.219, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
+  - {name: ZZ_494, server: 163.123.192.151, port: 443, type: trojan, password: e42767d0-0833-4f76-a94b-2cfd197e389f, skip-cert-verify: true, udp: true}
+  - {name: US_389, server: 134.195.101.33, port: 3306, type: trojan, password: 8a1ab0df6abea549, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
       - LoadBalance
       - UrlTest
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
+      - US_489
+      - _235
+      - US_490
+      - _232
+      - US_466
+      - JP_331
+      - _217
+      - JP_347
+      - US_478
+      - US_480
+      - US_461
+      - US_474
+      - US_485
+      - HK_313
+      - HK_310
+      - _244
+      - US_460
+      - NO_360
+      - US_451
+      - JP_336
+      - US_481
+      - US_476
+      - _233
+      - JP_349
+      - _242
+      - HK_314
+      - _236
+      - US_472
+      - US_487
+      - US_457
+      - CN_260
+      - US_448
+      - HK_308
+      - US_482
+      - US_477
+      - US_471
+      - JP_339
+      - _243
+      - TW_375
+      - _219
+      - JP_353
+      - _231
+      - US_464
+      - SG_371
+      - SG_374
+      - JP_332
+      - JP_355
+      - US_459
+      - _212
+      - US_463
+      - _241
+      - US_390
+      - US_467
+      - US_445
+      - JP_333
+      - US_479
+      - US_449
+      - _238
+      - HK_315
+      - JP_346
+      - US_486
+      - HK_309
+      - JP_337
+      - US_455
+      - US_473
+      - US_484
+      - JP_334
+      - HK_317
+      - US_475
+      - US_483
+      - JP_335
+      - _237
+      - HK_316
+      - US_470
+      - US_469
+      - _222
+      - JP_343
+      - _230
+      - _234
+      - US_488
+      - _160
+      - _45
+      - _161
+      - _181
+      - _172
+      - _158
+      - _171
+      - _182
+      - _109
+      - _108
+      - _152
+      - _107
+      - _10
+      - _48
+      - FR_272
+      - _159
+      - FR_300
+      - FR_298
+      - _09
+      - _167
+      - _168
+      - _47
+      - _105
+      - _149
+      - _127
+      - FR_283
+      - _183
+      - _166
+      - _170
+      - _147
+      - _165
+      - ZZ_499
+      - ZZ_500
+      - SG_362
+      - ZZ_491
+      - ZZ_496
+      - ZZ_504
+      - SG_363
+      - ZZ_501
+      - ZZ_502
+      - _23
+      - DE_264
+      - _29
+      - _17
+      - ZZ_494
+      - US_389
   - name: LoadBalance
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
+      - US_489
+      - _235
+      - US_490
+      - _232
+      - US_466
+      - JP_331
+      - _217
+      - JP_347
+      - US_478
+      - US_480
+      - US_461
+      - US_474
+      - US_485
+      - HK_313
+      - HK_310
+      - _244
+      - US_460
+      - NO_360
+      - US_451
+      - JP_336
+      - US_481
+      - US_476
+      - _233
+      - JP_349
+      - _242
+      - HK_314
+      - _236
+      - US_472
+      - US_487
+      - US_457
+      - CN_260
+      - US_448
+      - HK_308
+      - US_482
+      - US_477
+      - US_471
+      - JP_339
+      - _243
+      - TW_375
+      - _219
+      - JP_353
+      - _231
+      - US_464
+      - SG_371
+      - SG_374
+      - JP_332
+      - JP_355
+      - US_459
+      - _212
+      - US_463
+      - _241
+      - US_390
+      - US_467
+      - US_445
+      - JP_333
+      - US_479
+      - US_449
+      - _238
+      - HK_315
+      - JP_346
+      - US_486
+      - HK_309
+      - JP_337
+      - US_455
+      - US_473
+      - US_484
+      - JP_334
+      - HK_317
+      - US_475
+      - US_483
+      - JP_335
+      - _237
+      - HK_316
+      - US_470
+      - US_469
+      - _222
+      - JP_343
+      - _230
+      - _234
+      - US_488
+      - _160
+      - _45
+      - _161
+      - _181
+      - _172
+      - _158
+      - _171
+      - _182
+      - _109
+      - _108
+      - _152
+      - _107
+      - _10
+      - _48
+      - FR_272
+      - _159
+      - FR_300
+      - FR_298
+      - _09
+      - _167
+      - _168
+      - _47
+      - _105
+      - _149
+      - _127
+      - FR_283
+      - _183
+      - _166
+      - _170
+      - _147
+      - _165
+      - ZZ_499
+      - ZZ_500
+      - SG_362
+      - ZZ_491
+      - ZZ_496
+      - ZZ_504
+      - SG_363
+      - ZZ_501
+      - ZZ_502
+      - _23
+      - DE_264
+      - _29
+      - _17
+      - ZZ_494
+      - US_389
   - name: UrlTest
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 10
+      - US_489
+      - _235
+      - US_490
+      - _232
+      - US_466
+      - JP_331
+      - _217
+      - JP_347
+      - US_478
+      - US_480
+      - US_461
+      - US_474
+      - US_485
+      - HK_313
+      - HK_310
+      - _244
+      - US_460
+      - NO_360
+      - US_451
+      - JP_336
+      - US_481
+      - US_476
+      - _233
+      - JP_349
+      - _242
+      - HK_314
+      - _236
+      - US_472
+      - US_487
+      - US_457
+      - CN_260
+      - US_448
+      - HK_308
+      - US_482
+      - US_477
+      - US_471
+      - JP_339
+      - _243
+      - TW_375
+      - _219
+      - JP_353
+      - _231
+      - US_464
+      - SG_371
+      - SG_374
+      - JP_332
+      - JP_355
+      - US_459
+      - _212
+      - US_463
+      - _241
+      - US_390
+      - US_467
+      - US_445
+      - JP_333
+      - US_479
+      - US_449
+      - _238
+      - HK_315
+      - JP_346
+      - US_486
+      - HK_309
+      - JP_337
+      - US_455
+      - US_473
+      - US_484
+      - JP_334
+      - HK_317
+      - US_475
+      - US_483
+      - JP_335
+      - _237
+      - HK_316
+      - US_470
+      - US_469
+      - _222
+      - JP_343
+      - _230
+      - _234
+      - US_488
+      - _160
+      - _45
+      - _161
+      - _181
+      - _172
+      - _158
+      - _171
+      - _182
+      - _109
+      - _108
+      - _152
+      - _107
+      - _10
+      - _48
+      - FR_272
+      - _159
+      - FR_300
+      - FR_298
+      - _09
+      - _167
+      - _168
+      - _47
+      - _105
+      - _149
+      - _127
+      - FR_283
+      - _183
+      - _166
+      - _170
+      - _147
+      - _165
+      - ZZ_499
+      - ZZ_500
+      - SG_362
+      - ZZ_491
+      - ZZ_496
+      - ZZ_504
+      - SG_363
+      - ZZ_501
+      - ZZ_502
+      - _23
+      - DE_264
+      - _29
+      - _17
+      - ZZ_494
+      - US_389
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
