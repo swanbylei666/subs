@@ -4,15 +4,16 @@ allow-lan: true
 mode: rule
 
 proxies:
-  - {name: 000, server: 54.36.174.181, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
 
-  - {name: 001, server: 54.36.174.181, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 000, server: 54.249.6.242, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
 
-  - {name: 002, server: 54.36.174.181, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 001, server: 3.112.199.58, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
 
-  - {name: 003, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 002, server: n1697856806.izwhvan.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: 5975c6d7-da15-4211-8496-6f52cf6c4fae, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: n1697856806.izwhvan.cn, network: ws, ws-opts: {path: /, headers: {Host: n1697856806.izwhvan.cn}}}
 
-  - {name: 004, server: 94.131.13.159, port: 16128, type: trojan, password: zwbdPys6Va, skip-cert-verify: true, udp: true}
+  - {name: 003, server: n1697555560.aaigefm.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: 56691c3c-b9a5-440f-a678-478618854e75, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: n1697555560.aaigefm.cn, network: ws, ws-opts: {path: /, headers: {Host: n1697555560.aaigefm.cn}}}
+
+  - {name: 004, server: fn600mtw005.testnewline.info, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: a0068c048cb0, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mtw005.testnewline.info, path: /gfrotntnxv, tls: true, mux: true, skip-cert-verify: false}}
 
   - {name: 005, server: other.kunlun-ppg.com, port: 10839, type: trojan, password: f93e38b4-5453-40b4-acc0-5f7c9850a5ff, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
 
