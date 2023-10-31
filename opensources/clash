@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 
 proxies:
-  - {name: 1, server: 8h2k01.2weradf.xyz, port: 36016, type: ss, cipher: chacha20-ietf-poly1305, password: 4f2c1206-9728-416d-be80-08e0f64b9368}
+  - {"name":"1","server":"54.36.174.181","type":"ss","country":"🇫🇷FR","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
 
   - {name: 2, server: 8h2k01.abzoones.xyz, port: 36601, type: trojan, password: 4f2c1206-9728-416d-be80-08e0f64b9368, sni: hk01.abpilot.xyz}
 
