@@ -8,7 +8,7 @@ proxies:
 
   - {"name":"2","server":"54.36.174.181","type":"ss","country":"🇫🇷FR","port":8000,"password":"KixLvKzwjekG00rm","cipher":"aes-256-gcm"}
 
-  - {name: 3, server: 8h2k03.abzoones.xyz, port: 36611, type: trojan, password: 4f2c1206-9728-416d-be80-08e0f64b9368, sni: hk03.abpilot.xyz}
+  - {"name":"3","server":"gsawsjp2.aiopen.cfd","type":"trojan","country":"🇺🇸US","port":443,"password":"6504a551-673d-44d6-85a9-b05f67fdf971","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"udp":true}
 
   - {name: 4, server: 8h2k02.2weradf.xyz, port: 36017, type: ss, cipher: chacha20-ietf-poly1305, password: 4f2c1206-9728-416d-be80-08e0f64b9368}
 
