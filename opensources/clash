@@ -394,7 +394,7 @@ proxy-groups:
       - ZZ_494
       - US_389
   - name: UrlTest
-    type: url-test
+    type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
