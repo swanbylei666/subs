@@ -4,11 +4,16 @@ allow-lan: true
 mode: rule
 
 proxies:
-  - {name: 000, server: bjcu.xzyunjiasu.icu, port: 33952, type: ss, cipher: aes-256-gcm, password: 5c8b210a-2f00-4292-964b-05281c7ad5d1, udp: true}
-  - {name: 001, server: 20.kccic2pa.xyz, port: 50020, type: vmess, uuid: d5b6a6b1-feee-4318-b33b-51378f5787e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 002, server: foshan.chiguayun.cc, port: 27126, type: ss, cipher: chacha20-ietf-poly1305, password: 54ce4495-de85-4448-b6d5-32fbc17c8e1c, udp: true}
-  - {name: 003, server: hefei.chiguayun.cc, port: 27141, type: ss, cipher: chacha20-ietf-poly1305, password: 54ce4495-de85-4448-b6d5-32fbc17c8e1c, udp: true}
+  - {name: 000, server: 54.36.174.181, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+
+  - {name: 001, server: 54.36.174.181, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+
+  - {name: 002, server: 54.36.174.181, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+
+  - {name: 003, server: 54.36.174.181, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+
   - {name: 004, server: 94.131.13.159, port: 16128, type: trojan, password: zwbdPys6Va, skip-cert-verify: true, udp: true}
+
   - {name: 005, server: other.kunlun-ppg.com, port: 10839, type: trojan, password: f93e38b4-5453-40b4-acc0-5f7c9850a5ff, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
 
 proxy-groups:
