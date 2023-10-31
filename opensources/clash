@@ -15,8 +15,8 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - ♻️LoadBalance
-      - ♻️UrlTest
+      - ♻️ LoadBalance
+      - ♻️ UrlTest
       - 000
       - 001
       - 002
@@ -24,7 +24,7 @@ proxy-groups:
       - 004
       - 005
 
-  - name: ♻️LoadBalance
+  - name: ♻️ LoadBalance
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -37,7 +37,7 @@ proxy-groups:
       - 004
       - 005
 
-  - name: ♻️UrlTest
+  - name: ♻️ UrlTest
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
