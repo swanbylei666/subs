@@ -10,7 +10,7 @@ proxies:
 
   - {"name":"3","server":"gsawsjp2.aiopen.cfd","type":"trojan","country":"🇺🇸US","port":443,"password":"6504a551-673d-44d6-85a9-b05f67fdf971","sni":"18-140-66-207.nhost.00cdn.com","skip-cert-verify":true,"udp":true}
 
-  - {name: 4, server: 8h2k02.2weradf.xyz, port: 36017, type: ss, cipher: chacha20-ietf-poly1305, password: 4f2c1206-9728-416d-be80-08e0f64b9368}
+  - {"name":"4","server":"5.104.108.109","type":"trojan","country":"🇩🇪DE","port":443,"password":"6504a551-673d-44d6-85a9-b05f67fdf971","sni":"20-24-33-134.nhost.00cdn.com","skip-cert-verify":true,"udp":true}
 
   - {name: 5, server: 8h2k03.2weradf.xyz, port: 36018, type: ss, cipher: chacha20-ietf-poly1305, password: 4f2c1206-9728-416d-be80-08e0f64b9368}
 
