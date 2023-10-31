@@ -9,7 +9,7 @@ proxies:
   - {name: 002, server: foshan.chiguayun.cc, port: 27126, type: ss, cipher: chacha20-ietf-poly1305, password: 54ce4495-de85-4448-b6d5-32fbc17c8e1c, udp: true}
   - {name: 003, server: hefei.chiguayun.cc, port: 27141, type: ss, cipher: chacha20-ietf-poly1305, password: 54ce4495-de85-4448-b6d5-32fbc17c8e1c, udp: true}
   - {name: 004, server: 94.131.13.159, port: 16128, type: trojan, password: zwbdPys6Va, skip-cert-verify: true, udp: true}
-  - {name: 005, server: nl03-ss-test.66688888.xyz, port: 54221, type: ss, cipher: chacha20-ietf-poly1305, password: 2cec0b4d-b744-44de-bcf3-cbe0a3ba243e, udp: true}
+  - {name: 005, server: other.kunlun-ppg.com, port: 10839, type: trojan, password: f93e38b4-5453-40b4-acc0-5f7c9850a5ff, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
 
 proxy-groups:
   - name: Proxies
