@@ -1,22 +1,6 @@
-port: 7890
-socks-port: 7891
-allow-lan: true
 mode: rule
-
 proxies:
-
-  - {name: 火箭🚀001, server: 223.95.40.85, port: 20299, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
-
-  - {name: 001, server: 223.95.40.85, port: 20299, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
-
-  - {name: 002, server: n1697856806.izwhvan.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: 5975c6d7-da15-4211-8496-6f52cf6c4fae, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: n1697856806.izwhvan.cn, network: ws, ws-opts: {path: /, headers: {Host: n1697856806.izwhvan.cn}}}
-
-  - {name: 003, server: n1697555560.aaigefm.cn, port: 443, client-fingerprint: chrome, type: vmess, uuid: 56691c3c-b9a5-440f-a678-478618854e75, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, servername: n1697555560.aaigefm.cn, network: ws, ws-opts: {path: /, headers: {Host: n1697555560.aaigefm.cn}}}
-
-  - {name: 004, server: fn600mtw005.testnewline.info, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: a0068c048cb0, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mtw005.testnewline.info, path: /gfrotntnxv, tls: true, mux: true, skip-cert-verify: false}}
-
-  - {name: 005, server: other.kunlun-ppg.com, port: 10839, type: trojan, password: f93e38b4-5453-40b4-acc0-5f7c9850a5ff, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
-
+- {name: 火箭🚀001, server: 223.95.40.85, port: 20299, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
 proxy-groups:
   - name: Proxies
     type: select
@@ -24,12 +8,6 @@ proxy-groups:
       - ♻️ LoadBalance
       - ♻️ UrlTest
       - 火箭🚀001
-      - 001
-      - 002
-      - 003
-      - 004
-      - 005
-
   - name: ♻️ LoadBalance
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -37,12 +15,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 火箭🚀001
-      - 001
-      - 002
-      - 003
-      - 004
-      - 005
-
   - name: ♻️ UrlTest
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -50,12 +22,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 火箭🚀001
-      - 001
-      - 002
-      - 003
-      - 004
-      - 005
-
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
   - GEOIP,CN,DIRECT
