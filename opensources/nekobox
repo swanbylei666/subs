@@ -1,35 +1,32 @@
+mode: rule
 port: 7890
 socks-port: 7891
 allow-lan: true
-mode: rule
-
 proxies:
-  - {name: 有限流量0, server: hk01.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-  - {name: 有限流量1, server: sg02.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-
+  - {name: 收费流量0, server: hk01.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
+  - {name: 收费流量1, server: sg02.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
       - ♻️ LoadBalance
       - ♻️ UrlTest
-      - 有限流量0
-      - 有限流量1
+      - 收费流量0
+      - 收费流量1
   - name: ♻️ LoadBalance
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 有限流量0
-      - 有限流量1
+      - 收费流量0
+      - 收费流量1
   - name: ♻️ UrlTest
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 有限流量0
-      - 有限流量1
-
+      - 收费流量0
+      - 收费流量1
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
   - GEOIP,CN,DIRECT
