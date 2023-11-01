@@ -5,7 +5,7 @@ mode: rule
 
 proxies:
 
-  - {name: 000, server: 54.249.6.242, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 000, server: fn600mtw005.testnewline.info, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: a0068c048cb0, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mtw005.testnewline.info, path: /gfrotntnxv, tls: true, mux: true, skip-cert-verify: false}}
 
   - {name: 001, server: 3.112.199.58, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
 
