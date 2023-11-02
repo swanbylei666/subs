@@ -2,11 +2,14 @@
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】J1
 https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
 
+#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB81
+https://pull-f5-spe.ixigua.com/yeslivetv.com/291403ea-fabd-4dc1-bdfa-f14ebe74411e/index.m3u8?by=yeslivetv.com
+
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】翡翠台-大马
 https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】Jade2
-https://pull-f5-spe.ixigua.com/yeslivetv.com/447113885-679947255/index.m3u8?
+https://pull-f5-spe.ixigua.com/yeslivetv.com/6027316-581799927/index.m3u8?by=yeslivetv.com
 
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB-新闻台
 https://tvp22.sky4k.top/index1.php
