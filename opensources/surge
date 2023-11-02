@@ -4,7 +4,7 @@
 2 = ss, foshan.chiguayun.cc, 27126, encrypt-method=chacha20-ietf-poly1305, password=54ce4495-de85-4448-b6d5-32fbc17c8e1c, udp-relay=false
 3 = ss, hefei.chiguayun.cc, 27141, encrypt-method=chacha20-ietf-poly1305, password=54ce4495-de85-4448-b6d5-32fbc17c8e1c, udp-relay=false
 4 = trojan, 94.131.13.159, 16128, password=zwbdPys6Va, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false
-5 = trojan, other.kunlun-ppg.com, 10839, password=f93e38b4-5453-40b4-acc0-5f7c9850a5ff, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=other.kunlun-ppg.com
+5 = ss, sg1.lianpi.xyz, 56138, encrypt-method=chacha20-ietf-poly1305, password=1f3d67b4-6929-4598-90ca-84a841bf02e4, udp-relay=false
 
 [Proxy Group]
 SelectGroup = select, 负载均衡, 最快响应, 0, 1, 2, 3, 4, 5
