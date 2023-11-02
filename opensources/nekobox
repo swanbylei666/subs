@@ -5,6 +5,8 @@ allow-lan: true
 proxies:
   - {name: 收费流量0, server: hk01.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
   - {name: 收费流量1, server: sg02.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
+  - {name: 收费流量2, server: hk02.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
+  - {name: 收费流量3, server: sg02.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
 proxy-groups:
   - name: Proxies
     type: select
@@ -13,6 +15,8 @@ proxy-groups:
       - ♻️ UrlTest
       - 收费流量0
       - 收费流量1
+      - 收费流量2
+      - 收费流量3
   - name: ♻️ LoadBalance
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -20,6 +24,8 @@ proxy-groups:
     proxies:
       - 收费流量0
       - 收费流量1
+      - 收费流量2
+      - 收费流量3
   - name: ♻️ UrlTest
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -27,6 +33,8 @@ proxy-groups:
     proxies:
       - 收费流量0
       - 收费流量1
+      - 收费流量2
+      - 收费流量3
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
   - GEOIP,CN,DIRECT
