@@ -1,5 +1,7 @@
 # subscription #
 ***  ***  ***  ***  ***  ***  ***
+https://raw.staticdn.net/kwaan-y1kx7im/subscription/main/opensources/
+***  ***  ***  ***  ***  ***  ***
 https://ghproxy.com/https://raw.githubusercontent.com/kwaan-y1kx7im/subscription/main/opensources/...
 ***  ***  ***  ***  ***  ***  ***
 https://ghproxy.net/https://raw.githubusercontent.com/kwaan-y1kx7im/subscription/main/opensources/...
