@@ -62,8 +62,8 @@ proxy-groups:
 proxy-providers:
   all:
     type: http
-    url: "https://free.jingfu.cf/clash/proxies"
-    path: free.jingfu.cf/provider.yaml
+    url: "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
+    path: /ripaojiedian/freenode/main/clash
     health-check:
       enable: true
       interval: 300
