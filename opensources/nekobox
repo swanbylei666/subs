@@ -9,6 +9,11 @@ proxies:
   - {name: 收费流量3, server: sg02.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
   - {name: 收费流量4, server: hk03.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
   - {name: 收费流量5, server: sg03.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
+  - {name: 收费流量6, server: hk04.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
+  - {name: 收费流量7, server: sg04.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
+  - {name: 收费流量8, server: hk05.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
+  - {name: 收费流量9, server: sg05.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
+
 proxy-groups:
   - name: Proxies
     type: select
@@ -21,6 +26,10 @@ proxy-groups:
       - 收费流量3
       - 收费流量4
       - 收费流量5
+      - 收费流量6
+      - 收费流量7
+      - 收费流量8
+      - 收费流量9
   - name: ♻️ LoadBalance
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -32,6 +41,10 @@ proxy-groups:
       - 收费流量3
       - 收费流量4
       - 收费流量5
+      - 收费流量6
+      - 收费流量7
+      - 收费流量8
+      - 收费流量9
   - name: ♻️ UrlTest
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -43,6 +56,10 @@ proxy-groups:
       - 收费流量3
       - 收费流量4
       - 收费流量5
+      - 收费流量6
+      - 收费流量7
+      - 收费流量8
+      - 收费流量9
 
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
