@@ -27,7 +27,7 @@ proxy-groups:
     proxies:
       - ♻️ LoadBalance
       - ♻️ UrlTest
-      - ♻️ raws
+      - ♻️ 免费RAW1
       - 火箭🚀001
       - 火箭🚀002
       - 火箭🚀003
@@ -52,15 +52,15 @@ proxy-groups:
       - 火箭🚀002
       - 火箭🚀003
       - 火箭🚀004
-  - name: ♻️ raws
+  - name: ♻️ 免费RAW-1
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     use:
-      - all
+      - gh1
 proxy-providers:
-  all:
+  gh1:
     type: http
     url: "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
     path: /ripaojiedian/freenode/main/clash
