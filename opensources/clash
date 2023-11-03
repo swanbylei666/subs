@@ -16,42 +16,28 @@ dns:
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
 proxies:
-- {name: 火箭🚀001, server: 183.232.170.32, port: 20023, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
-- {name: 火箭🚀002, server: 183.232.170.32, port: 30017, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
-- {name: 火箭🚀003, server: 8.217.237.237, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-- {name: 火箭🚀004, server: 223.95.40.85, port: 20295, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
 
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - ♻️ LoadBalance
-      - ♻️ UrlTest
-      - ♻️ 免费RAW1
-      - 火箭🚀001
-      - 火箭🚀002
-      - 火箭🚀003
-      - 火箭🚀004
-  - name: ♻️ LoadBalance
+      - ♻️ 付费NEKOBOX-I
+      - ♻️ 付费NEKOBOX-II
+      - ♻️ 免费RAW-1
+  - name: ♻️ 付费NEKOBOX-I
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies:
-      - 火箭🚀001
-      - 火箭🚀002
-      - 火箭🚀003
-      - 火箭🚀004
-  - name: ♻️ UrlTest
+    use:
+      - nekobox
+  - name: ♻️ 付费NEKOBOX-II
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies:
-      - 火箭🚀001
-      - 火箭🚀002
-      - 火箭🚀003
-      - 火箭🚀004
+    use:
+      - nekobox
   - name: ♻️ 免费RAW-1
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -60,6 +46,14 @@ proxy-groups:
     use:
       - gh1
 proxy-providers:
+  nekobox:
+    type: http
+    url: "https://raw.githubusercontent.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
+    path: /kwaan-y1kx7im/subscription/main/opensources/nekobox
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
   gh1:
     type: http
     url: "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
