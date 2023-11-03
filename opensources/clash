@@ -26,6 +26,8 @@ proxy-groups:
       - ♻️ 免费RAW-1
       - ♻️ 免费RAW-2
       - ♻️ 免费RAW-3
+      - ♻️ 免费RAW-4
+      - ♻️ 免费RAW-5
   - name: ♻️ 付费NEKOBOX-I
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -61,6 +63,20 @@ proxy-groups:
     tolerance: 50
     use:
       - blues
+  - name: ♻️ 免费RAW-4
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - nodefree
+  - name: ♻️ 免费RAW-5
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - v2rayshare
 
 proxy-providers:
   nekobox:
@@ -91,6 +107,22 @@ proxy-providers:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FBarabama%2FFreeNodes%2Fmaster%2Fnodes%2Fblues.txt"
     path: /sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FBarabama%2FFreeNodes%2Fmaster%2Fnodes%2Fblues.txt
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+  nodefree:
+    type: http
+    url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FBarabama%2FFreeNodes%2Fmaster%2Fnodes%2Fnodefree.txt"
+    path: /sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FBarabama%2FFreeNodes%2Fmaster%2Fnodes%2Fnodefree.txt
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+  v2rayshare:
+    type: http
+    url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FBarabama%2FFreeNodes%2Fmaster%2Fnodes%2Fv2rayshare.txt"
+    path: /sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FBarabama%2FFreeNodes%2Fmaster%2Fnodes%2Fv2rayshare.txt
     health-check:
       enable: true
       interval: 300
