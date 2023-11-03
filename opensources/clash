@@ -24,6 +24,7 @@ proxy-groups:
       - ♻️ 付费NEKOBOX-I
       - ♻️ 付费NEKOBOX-II
       - ♻️ 免费RAW-1
+      - ♻️ 免费RAW-2
   - name: ♻️ 付费NEKOBOX-I
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -44,7 +45,15 @@ proxy-groups:
     interval: 300
     tolerance: 50
     use:
-      - gh1
+      - ripao
+  - name: ♻️ 免费RAW-2
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - yudou66
+
 proxy-providers:
   nekobox:
     type: http
@@ -54,10 +63,18 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-  gh1:
+  ripao:
     type: http
     url: "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
     path: /ripaojiedian/freenode/main/clash
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+  yudou66:
+    type: http
+    url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FBarabama%2FFreeNodes%2Fmaster%2Fnodes%2Fyudou66.txt"
+    path: /sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FBarabama%2FFreeNodes%2Fmaster%2Fnodes%2Fyudou66.txt
     health-check:
       enable: true
       interval: 300
