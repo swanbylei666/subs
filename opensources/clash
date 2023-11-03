@@ -62,7 +62,7 @@ proxy-groups:
 proxy-providers:
   all:
     type: http
-    url: https://free.jingfu.cf/clash/proxies
+    url: "https://free.jingfu.cf/clash/proxies"
     path: free.jingfu.cf/provider.yaml
     health-check:
       enable: true
