@@ -24,6 +24,7 @@ proxy-groups:
     proxies:
       - 🚀 付费NEKOBOX-I 🚀
       - 🚀 付费NEKOBOX-II 🚀
+      - ♻️ 免费池-1
       - ♻️ 免费RAW-1
       - ♻️ 免费RAW-2
       - ♻️ 免费RAW-3
@@ -43,6 +44,13 @@ proxy-groups:
     tolerance: 50
     use:
       - nekobox
+  - name: ♻️ 免费池-1
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - proxypool-1
   - name: ♻️ 免费RAW-1
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -84,6 +92,14 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
     path: /kwaan-y1kx7im/subscription/main/opensources/nekobox
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+  proxypool-1:
+    type: http
+    url: "https://proxypool.fly.dev/clash/proxies?filter=rp"
+    path: /clash/proxies?filter=rp
     health-check:
       enable: true
       interval: 300
