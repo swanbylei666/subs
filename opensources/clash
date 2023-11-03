@@ -1,4 +1,20 @@
 mode: rule
+port: 7890
+socks-port: 7891
+allow-lan: true
+dns:
+  enabled: true
+  default-nameserver:
+    - 223.5.5.5
+  nameserver:
+    - 'tls://8.8.4.4#dns'
+    - 'tls://1.0.0.1#dns'
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+  nameserver-policy:
+    "geosite:cn,private":
+      - https://doh.pub/dns-query
+      - https://dns.alidns.com/dns-query
 proxies:
 - {name: 火箭🚀001, server: 183.232.170.32, port: 20023, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
 - {name: 火箭🚀002, server: 183.232.170.32, port: 30017, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: "g12sQi#ss#&1", tfo: false, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
@@ -11,6 +27,7 @@ proxy-groups:
     proxies:
       - ♻️ LoadBalance
       - ♻️ UrlTest
+      - ♻️ raws
       - 火箭🚀001
       - 火箭🚀002
       - 火箭🚀003
@@ -35,6 +52,22 @@ proxy-groups:
       - 火箭🚀002
       - 火箭🚀003
       - 火箭🚀004
+  - name: ♻️ raws
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - raw
+proxy-providers:
+  raw:
+    type: http
+    url: https://free.jingfu.cf/clash/proxies
+    path: free.jingfu.cf/provider.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
   - GEOIP,CN,DIRECT
