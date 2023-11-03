@@ -1,6 +1,6 @@
 # subscription #
 ***  ***  ***  ***  ***  ***  ***
-https://raw.staticdn.net/kwaan-y1kx7im/subscription/main/opensources/
+https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/
 ***  ***  ***  ***  ***  ***  ***
 https://raw.fastgit.org/kwaan-y1kx7im/subscription/main/opensources/...
 ***  ***  ***  ***  ***  ***  ***
