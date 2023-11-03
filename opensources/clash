@@ -21,21 +21,21 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - ♻️ 付费NEKOBOX-I
-      - ♻️ 付费NEKOBOX-II
+      - 🚀 付费NEKOBOX-I 🚀
+      - 🚀 付费NEKOBOX-II 🚀
       - ♻️ 免费RAW-1
       - ♻️ 免费RAW-2
       - ♻️ 免费RAW-3
       - ♻️ 免费RAW-4
       - ♻️ 免费RAW-5
-  - name: ♻️ 付费NEKOBOX-I
+  - name: 🚀 付费NEKOBOX-I 🚀
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     use:
       - nekobox
-  - name: ♻️ 付费NEKOBOX-II
+  - name: 🚀 付费NEKOBOX-II 🚀
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
