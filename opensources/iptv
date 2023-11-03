@@ -1,84 +1,66 @@
 #EXTM3U
+
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】J1
 https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
-
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB81
+#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB翡翠-大陆
+https://pi.0472.org/tv/fct.php?auth=202311030915
+#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB明珠-大陆
+https://pi.0472.org/tv/mzt.php?auth=202311030915
+#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB翡翠
 https://pull-f5-spe.ixigua.com/yeslivetv.com/291403ea-fabd-4dc1-bdfa-f14ebe74411e/index.m3u8?by=yeslivetv.com
-
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】翡翠台-大马
 https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】Jade2
 https://pull-f5-spe.ixigua.com/yeslivetv.com/6027316-581799927/index.m3u8?by=yeslivetv.com
-
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB-新闻台
 https://tvp22.sky4k.top/index1.php
-
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB-财经
 https://tvp22.sky4k.top/index2.php
+#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】星空频道
+https://pi.0472.org/tv/startv.php?auth=202311030915
 
 #EXTINF:-1 tvg-logo="" group-title="广东地区组",广州综合
 https://justsometime.gztv.com/sec/zhonghe.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="广东地区组",广州新闻
 https://justsometime.gztv.com/sec/xinwen.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="广东地区组",广州竞赛
 https://justsometime.gztv.com/sec/jingsai.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="广东地区组",广州影视
 https://justsometime.gztv.com/sec/yingshi.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-1
 http://mqiptv.com:8014/ch/cctv1/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-2
 http://mqiptv.com:8014/ch/cctv2/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-3
 http://mqiptv.com:8014/ch/cctv3/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-4
 http://mqiptv.com:8014/ch/cctv4/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-5
 http://mqiptv.com:8014/ch/cctv5/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-5+
 http://mqiptv.com:8014/ch/cctv5p/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-6
 http://mqiptv.com:8014/ch/cctv6/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-7
 http://mqiptv.com:8014/ch/cctv7/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-8
 http://mqiptv.com:8014/ch/cctv8/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-9
 http://mqiptv.com:8014/ch/cctv9/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-10
 http://mqiptv.com:8014/ch/cctv10/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-11
 http://mqiptv.com:8014/ch/cctv11/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-12
 http://mqiptv.com:8014/ch/cctv12/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-13
 http://mqiptv.com:8014/ch/cctv13/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-14
 http://mqiptv.com:8014/ch/cctv14/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-15
 http://mqiptv.com:8014/ch/cctv15/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-16
 http://mqiptv.com:8014/ch/cctv16/mqlive.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-17
 http://mqiptv.com:8014/ch/cctv17/mqlive.m3u8
