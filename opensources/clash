@@ -30,6 +30,7 @@ proxy-groups:
       - ♻️ 免费RAW-3
       - ♻️ 免费RAW-4
       - ♻️ 免费RAW-5
+      - ♻️ 免费RAW-6
   - name: 🚀 付费NEKOBOX-I 🚀
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -64,22 +65,29 @@ proxy-groups:
     interval: 300
     tolerance: 50
     use:
-      - yudou66
+      - freefq
   - name: ♻️ 免费RAW-3
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     use:
-      - blues
+      - yudou66
   - name: ♻️ 免费RAW-4
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     use:
-      - nodefree
+      - blues
   - name: ♻️ 免费RAW-5
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - nodefree
+  - name: ♻️ 免费RAW-6
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -108,6 +116,14 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
     path: /ripaojiedian/freenode/main/clash
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+  freefq:
+    type: http
+    url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Ffreefq%2Ffree%2Fmaster%2Fv2"
+    path: /sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Ffreefq%2Ffree%2Fmaster%2Fv2
     health-check:
       enable: true
       interval: 300
