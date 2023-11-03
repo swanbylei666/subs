@@ -58,9 +58,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     use:
-      - raw
+      - all
 proxy-providers:
-  raw:
+  all:
     type: http
     url: https://free.jingfu.cf/clash/proxies
     path: free.jingfu.cf/provider.yaml
