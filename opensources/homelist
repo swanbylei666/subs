@@ -6,27 +6,26 @@ https://www.apple.com/
 
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】J1
 https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB翡翠-大陆
 https://pi.0472.org/tv/fct.php?auth=202311030915
-
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB明珠-大陆
 https://pi.0472.org/tv/mzt.php?auth=202311030915
-
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB翡翠
 https://pull-f5-spe.ixigua.com/yeslivetv.com/291403ea-fabd-4dc1-bdfa-f14ebe74411e/index.m3u8?by=yeslivetv.com
-
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】翡翠台-大马
 https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】Jade2
 https://pull-f5-spe.ixigua.com/yeslivetv.com/6027316-581799927/index.m3u8?by=yeslivetv.com
-
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB-新闻台
 https://tvp22.sky4k.top/index1.php
-
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB-财经
 https://tvp22.sky4k.top/index2.php
-
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】星空频道
 https://pi.0472.org/tv/startv.php?auth=202311030915
+
+#EXTINF:-1 tvg-logo="" group-title="影视直播",CHC高清电影
+http://hls.live.cqccn.com/__cl/cg:live/__c/chcgqdyHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="影视直播",CHC动作电影
+http://hls.live.cqccn.com/__cl/cg:live/__c/chcdzdyHD/__op/default/__f/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="影视直播",CHC家庭影院
+http://hls.live.cqccn.com/__cl/cg:live/__c/chcjtyyHD/__op/default/__f/index.m3u8
