@@ -32,6 +32,7 @@ proxy-groups:
       - ♻️ 免费RAW-4
       - ♻️ 免费RAW-5
       - ♻️ 免费RAW-6
+      - ♻️ 免费RAW-7
   - name: 🚀 付费NEKOBOX-I 🚀
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -102,6 +103,13 @@ proxy-groups:
     tolerance: 50
     use:
       - v2rayshare
+  - name: ♻️ 免费RAW-7
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - tbbatbb
 
 proxy-providers:
   nekobox:
@@ -172,6 +180,14 @@ proxy-providers:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FBarabama%2FFreeNodes%2Fmaster%2Fnodes%2Fv2rayshare.txt"
     path: /sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FBarabama%2FFreeNodes%2Fmaster%2Fnodes%2Fv2rayshare.txt
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+  tbbatbb:
+    type: http
+    url: "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml"
+    path: /tbbatbb/Proxy/master/dist/clash.config.yaml
     health-check:
       enable: true
       interval: 300
