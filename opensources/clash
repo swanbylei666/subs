@@ -106,8 +106,8 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   proxypool-1:
     type: http
-    url: "https://proxypool.fly.dev/clash/proxies?filter=rp"
-    path: /clash/proxies?filter=rp
+    url: "https://proxypool.fly.dev/clash/proxies?type=ss"
+    path: /clash/proxies?type=ss
     health-check:
       enable: true
       interval: 300
