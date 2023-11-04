@@ -17,7 +17,6 @@ proxy-groups:
       - ♻️ 免费池-2
       - ♻️ 免费RAW-1
       - ♻️ 免费RAW-2
-      - ♻️ 免费RAW-3
       - ♻️ 免费RAW-4
       - ♻️ 免费RAW-5
       - ♻️ 免费RAW-6
@@ -71,13 +70,6 @@ proxy-groups:
     tolerance: 50
     use:
       - freefq
-  - name: ♻️ 免费RAW-3
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    use:
-      - yudou66
   - name: ♻️ 免费RAW-4
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -152,14 +144,6 @@ proxy-providers:
     type: http
     url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Ffreefq%2Ffree%2Fmaster%2Fv2"
     path: /sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Ffreefq%2Ffree%2Fmaster%2Fv2
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  yudou66:
-    type: http
-    url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FBarabama%2FFreeNodes%2Fmaster%2Fnodes%2Fyudou66.txt"
-    path: /sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FBarabama%2FFreeNodes%2Fmaster%2Fnodes%2Fyudou66.txt
     health-check:
       enable: true
       interval: 300
