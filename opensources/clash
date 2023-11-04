@@ -182,6 +182,5 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 
 rules:
-  - DOMAIN-SUFFIX,local,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Proxies
