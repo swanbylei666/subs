@@ -12,7 +12,8 @@ proxy-groups:
       - 🚩 付费选择
       - 🚩 付费测速
       - DIRECT
-      - 📡 白嫖测速
+      - 📡 yml精选
+      - 📡 ini精选
       - 🐐 薅羊毛-I
   - name: 🚩 付费选择
     type: select
@@ -28,13 +29,20 @@ proxy-groups:
     tolerance: 50
     use:
       - nekobox
-  - name: 📡 白嫖测速
+  - name: 📡 yml精选
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     use:
-      - freenode
+      - ymlshare
+  - name: 📡 ini精选
+    type: fallback
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - inishare
   - name: 🐐 薅羊毛-I
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -52,10 +60,18 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-  freenode:
+  ymlshare:
     type: http
-    url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/freenode"
-    path: /kwaan-y1kx7im/subscription/main/opensources/freenode
+    url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
+    path: /kwaan-y1kx7im/subscription/main/opensources/ymlshare
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+  inishare:
+    type: http
+    url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fkwaan-y1kx7im%2Fsubscription%2Fmain%2Fopensources%2Finishare"
+    path: /sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fkwaan-y1kx7im%2Fsubscription%2Fmain%2Fopensources%2Finishare
     health-check:
       enable: true
       interval: 300
