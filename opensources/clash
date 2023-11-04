@@ -22,7 +22,6 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - DIRECT
       - 🚀 付费NEKOBOX 🚀
       - 🚀 付费NEKOBOX-II 🚀
       - 📡 FREENODE 📡
