@@ -139,16 +139,16 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   proxypool-1:
     type: http
-    url: "https://proxypool.fly.dev/clash/proxies?type=ss"
-    path: /clash/proxies?type=ss
+    url: "https://proxypool.fly.dev/clash/proxies?speed=15,50"
+    path: /clash/proxies?speed=15,50
     health-check:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
   proxypool-2:
     type: http
-    url: "https://free.jingfu.cf/clash/proxies?type=ss"
-    path: /clash/proxies?type=ss
+    url: "https://free.jingfu.cf/clash/proxies?speed=15,50"
+    path: /clash/proxies?speed=15,50
     health-check:
       enable: true
       interval: 300
