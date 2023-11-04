@@ -110,7 +110,7 @@ proxy-groups:
 proxy-providers:
   nekobox:
     type: http
-    url: "https://raw.githubusercontent.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
+    url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
     path: /kwaan-y1kx7im/subscription/main/opensources/nekobox
     health-check:
       enable: true
