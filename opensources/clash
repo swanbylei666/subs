@@ -36,7 +36,7 @@ proxy-groups:
       - ♻️ 免费RAW-6
       - ♻️ 免费RAW-7
   - name: 🚀 付费NEKOBOX-I 🚀
-    type: load-balance
+    type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
