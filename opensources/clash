@@ -22,6 +22,7 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
+      - DIRECT
       - 🚀 付费NEKOBOX-I 🚀
       - 🚀 付费NEKOBOX-II 🚀
       - ♻️ 免费池-1
