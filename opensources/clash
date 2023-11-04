@@ -43,14 +43,14 @@ proxy-groups:
     use:
       - freenode
   - name: ♻️ 免费池-1
-    type: fallback
+    type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     use:
       - proxypool-1
   - name: ♻️ 免费池-2
-    type: fallback
+    type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
