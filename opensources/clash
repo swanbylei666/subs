@@ -70,8 +70,8 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   inishare:
     type: http
-    url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fkwaan-y1kx7im%2Fsubscription%2Fmain%2Fopensources%2Finishare"
-    path: /sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fkwaan-y1kx7im%2Fsubscription%2Fmain%2Fopensources%2Finishare
+    url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2Fkwaan-y1kx7im%2Fsubscription%40main%2Fopensources%2Finshare%7C"
+    path: /sub?target=clash&url=https%3A%2F%2Ffastly.jsdelivr.net%2Fgh%2Fkwaan-y1kx7im%2Fsubscription%40main%2Fopensources%2Finshare%7C
     health-check:
       enable: true
       interval: 300
