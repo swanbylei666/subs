@@ -2,7 +2,15 @@ mode: rule
 port: 7890
 socks-port: 7891
 allow-lan: true
-
+dns:
+  enabled: true
+  ipv6: true
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
 proxies:
   - {name: 更新订阅专线, server: us06.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
 
