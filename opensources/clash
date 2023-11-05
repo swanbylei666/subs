@@ -25,8 +25,8 @@ proxy-groups:
       - 🚩 付费 随机
       - 📡 yml 选择
       - 📡 yml 随机
-      - 🐐 互联网
-      - 🐐 薅羊毛 - I
+      - 🐐 薅毛圈 选择
+      - 🐐 薅毛圈 随机
   - name: 🚩 付费 选择
     type: select
     url: http://www.gstatic.com/generate_204
@@ -55,15 +55,7 @@ proxy-groups:
     tolerance: 50
     use:
       - ymlshare
-  - name: 🐐 互联网
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    use:
-      - 互联网000
-      - 互联网001
-  - name: 🐐 薅羊毛 - I
+  - name: 🐐 薅毛圈 选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -71,6 +63,17 @@ proxy-groups:
     use:
       - github000
       - github001
+      - github002
+  - name: 🐐 薅毛圈 随机
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - github000
+      - github001
+      - github002
+
 proxy-providers:
   nekobox:
     type: http
@@ -104,18 +107,10 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-  互联网000:
+  github002:
     type: http
-    url: "https://www.crazygeeky.com/wp-content/uploads/attachment/20231105.yaml"
-    path: /wp-content/uploads/attachment/20231105.yaml
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  互联网001:
-    type: http
-    url: "https://clashgithub.com/wp-content/uploads/rss/20231105.yml"
-    path: /clashgithub.com/wp-content/uploads/rss/20231105.yml
+    url: "https://raw.gitmirror.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
+    path: /zhangkaiitugithub/passcro/main/speednodes.yaml
     health-check:
       enable: true
       interval: 300
