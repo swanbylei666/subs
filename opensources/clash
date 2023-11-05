@@ -25,6 +25,7 @@ proxy-groups:
       - 🚩 付费 随机
       - 📡 yml 选择
       - 📡 yml 随机
+      - 🐐 互联网
       - 🐐 薅羊毛 - I
   - name: 🚩 付费 选择
     type: select
@@ -54,6 +55,13 @@ proxy-groups:
     tolerance: 50
     use:
       - ymlshare
+  - name: 🐐 互联网
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - 互联网000
   - name: 🐐 薅羊毛 - I
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -61,7 +69,6 @@ proxy-groups:
     tolerance: 50
     use:
       - ripao
-
 proxy-providers:
   nekobox:
     type: http
@@ -83,6 +90,14 @@ proxy-providers:
     type: http
     url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash"
     path: /ripaojiedian/freenode/main/clash
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+  互联网000:
+    type: http
+    url: "https://www.crazygeeky.com/wp-content/uploads/attachment/20231105.yaml"
+    path: /wp-content/uploads/attachment/20231105.yaml
     health-check:
       enable: true
       interval: 300
