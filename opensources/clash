@@ -54,7 +54,7 @@ proxy-groups:
     tolerance: 50
     use:
       - ymlshare
-  - name: 🐐 薅羊毛 - II
+  - name: 🐐 薅羊毛 - I
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
