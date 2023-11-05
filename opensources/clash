@@ -4,13 +4,13 @@ socks-port: 7891
 allow-lan: true
 
 proxies:
-  - {name: 订阅位置文件专用, server: us06.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
+  - {name: 订阅专用, server: us06.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
 
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - 订阅位置文件专用
+      - 订阅专用
       - 🚩 付费选择
       - 🚩 付费测速
       - DIRECT
