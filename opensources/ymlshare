@@ -12,4 +12,3 @@ proxies:
   - {name: 🇺🇸 美国 CloudFlare节点 4, server: xjp3.shabijichang.com, port: 80, type: vmess, uuid: 10ea3b2a-b615-45f1-b1b7-c62bafe8c80c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: xjp3.shabijichang.com}}}
   - {name: 🇺🇸 美国 CloudFlare节点 5, server: it1.cou.gay, port: 443, type: vmess, uuid: 84c275fd-8d61-43dc-925c-e11ec79e9514, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/it1?ed=2048", headers: {Host: it1.cou.gay}}}
   - {name: 🇺🇸 美国 CloudFlare节点 6, server: yhnsb3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: yhnsb3.shabijichang.com}}}
-proxy-groups:
