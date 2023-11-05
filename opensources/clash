@@ -11,9 +11,9 @@ proxy-groups:
     type: select
     proxies:
       - 更新订阅专线
+      - DIRECT
       - 🚩 付费选择
       - 🚩 付费测速
-      - DIRECT
       - 📡 yml精选
       - 📡 ini精选
       - 🐐 薅羊毛-I
