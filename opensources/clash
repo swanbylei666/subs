@@ -25,7 +25,7 @@ proxy-groups:
       - 🚩 付费 随机
       - 📡 yml 选择
       - 📡 yml 随机
-      - 🐐 薅羊毛-I
+      - 🐐 薅羊毛 - I
   - name: 🚩 付费 选择
     type: select
     url: http://www.gstatic.com/generate_204
@@ -34,7 +34,7 @@ proxy-groups:
     use:
       - nekobox
   - name: 🚩 付费 随机
-    type: fallback
+    type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
@@ -48,14 +48,14 @@ proxy-groups:
     use:
       - ymlshare
   - name: 📡 yml 随机
-    type: fallback
+    type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     use:
       - ymlshare
-  - name: 🐐 薅羊毛-I
-    type: fallback
+  - name: 🐐 薅羊毛 - II
+    type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
