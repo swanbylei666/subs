@@ -1,6 +1,4 @@
 proxies:
-  - {name: 更新订阅专线, server: us06.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-
   - {name: 收费流量0, server: hk01.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
   - {name: 收费流量1, server: sg02.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
   - {name: 收费流量2, server: hk02.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
