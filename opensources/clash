@@ -13,7 +13,7 @@ proxy-groups:
       - 更新订阅专线
       - DIRECT
       - 🚩 付费选择
-      - 🚩 付费测速
+      - 🚩 付费随机
       - 📡 yml精选
       - 📡 ini精选
       - 🐐 薅羊毛-I
@@ -24,7 +24,7 @@ proxy-groups:
     tolerance: 50
     use:
       - nekobox
-  - name: 🚩 付费测速
+  - name: 🚩 付费随机
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
