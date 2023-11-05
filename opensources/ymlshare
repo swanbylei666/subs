@@ -1,2 +1,2 @@
 proxies:
-  - {name: 🇺🇸 美国, server: 104.21.75.246, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, servername: cf.tonyluk.link, network: ws, ws-opts: {path: /ophelia.mom:443/linkvws, headers: {Host: cf.tonyluk.link}}}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: cfcdn3.sanfencdn9.com, port: 2052, type: vmess, uuid: 1c9e1c2a-b302-4757-8ec2-f02d8af475df, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /video/bDRAqynF, headers: {Host: jp5accf5c6e.chvsifetrj.xyz}}}
