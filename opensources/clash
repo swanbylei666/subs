@@ -62,6 +62,7 @@ proxy-groups:
     tolerance: 50
     use:
       - 互联网000
+      - 互联网001
   - name: 🐐 薅羊毛 - I
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -98,6 +99,14 @@ proxy-providers:
     type: http
     url: "https://www.crazygeeky.com/wp-content/uploads/attachment/20231105.yaml"
     path: /wp-content/uploads/attachment/20231105.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+  互联网001:
+    type: http
+    url: "https://clashgithub.com/wp-content/uploads/rss/20231105.yml"
+    path: /clashgithub.com/wp-content/uploads/rss/20231105.yml
     health-check:
       enable: true
       interval: 300
