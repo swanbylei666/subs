@@ -56,7 +56,7 @@ proxy-groups:
     use:
       - ymlshare
   - name: 🐐 薅毛圈 选择
-    type: url-test
+    type: select
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
