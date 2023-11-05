@@ -69,7 +69,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     use:
-      - ripao
+      - github000
+      - github001
 proxy-providers:
   nekobox:
     type: http
@@ -87,10 +88,18 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
-  ripao:
+  github000:
     type: http
     url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash"
     path: /ripaojiedian/freenode/main/clash
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+  github001:
+    type: http
+    url: "https://raw.gitmirror.com/vveg26/chromego_merge/main/sub/merged_proxies_new.yaml"
+    path: /vveg26/chromego_merge/main/sub/merged_proxies_new.yaml
     health-check:
       enable: true
       interval: 300
