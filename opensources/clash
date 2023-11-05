@@ -98,8 +98,8 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   github001:
     type: http
-    url: "https://raw.gitmirror.com/vveg26/chromego_merge/main/sub/merged_proxies_new.yaml"
-    path: /vveg26/chromego_merge/main/sub/merged_proxies_new.yaml
+    url: "https://raw.gitmirror.com/vveg26/chromego_merge/main/sub/merged_warp_proxies_new.yaml"
+    path: /vveg26/chromego_merge/main/sub/merged_warp_proxies_new.yaml
     health-check:
       enable: true
       interval: 300
