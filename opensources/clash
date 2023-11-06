@@ -24,16 +24,16 @@ proxy-groups:
       - 更新订阅专线
       - DIRECT
       - 🚩 付费 选择
-      - 🚩 付费 随机
+      - 🚩 付费 机选
       - 📡 yml 选择
-      - 📡 yml 随机
+      - 📡 yml 机选
       - 🐐 薅毛圈 选择
-      - 🐐 薅毛圈 随机
+      - 🐐 薅毛圈 机选
   - name: 🚩 付费 选择
     type: select
     use:
       - nekobox
-  - name: 🚩 付费 随机
+  - name: 🚩 付费 机选
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -44,7 +44,7 @@ proxy-groups:
     type: select
     use:
       - ymlshare
-  - name: 📡 yml 随机
+  - name: 📡 yml 机选
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -58,7 +58,7 @@ proxy-groups:
       - github001
       - github002
       - github003
-  - name: 🐐 薅毛圈 随机
+  - name: 🐐 薅毛圈 机选
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
