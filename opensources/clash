@@ -57,7 +57,6 @@ proxy-groups:
       - github000
       - github001
       - github002
-      - github003
   - name: 🐐 薅毛圈｜机选
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -67,7 +66,6 @@ proxy-groups:
       - github000
       - github001
       - github002
-      - github003
 
 proxy-providers:
   nekobox:
@@ -106,14 +104,6 @@ proxy-providers:
     type: http
     url: "https://raw.gitmirror.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
     path: /zhangkaiitugithub/passcro/main/speednodes.yaml
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-  github003:
-    type: http
-    url: "https://raw.gitmirror.com/Flik6/getNode/main/clash.yaml"
-    path: /Flik6/getNode/main/clash.yaml
     health-check:
       enable: true
       interval: 300
