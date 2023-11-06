@@ -112,8 +112,8 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   github003:
     type: http
-    url: "https://raw.githubusercontent.com/allenapllo/private-node/main/clash/%E6%9C%AC%E5%9C%B0clash.yaml"
-    path: /allenapllo/private-node/main/clash/%E6%9C%AC%E5%9C%B0clash.yaml
+    url: "https://raw.githubusercontent.com/allenapllo/private-node/main/clash/hebei.yaml"
+    path: /allenapllo/private-node/main/clash/hebei.yaml
     health-check:
       enable: true
       interval: 300
