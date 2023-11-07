@@ -94,7 +94,7 @@ proxy-providers:
   ymlshare:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
-    path: /kwaan-y1kx7im/subscription/main/opensources/ymlshare
+    path: ./ymlshare
     health-check:
       enable: true
       interval: 300
