@@ -1,3 +1,3 @@
 proxies:
-  - {name: none, server: 192.168.1.1, port: 80, type: ss, cipher: none, password: 00000000}
+  - {name: none, type: ss, server: 192.168.1.1, port: 80, cipher: none, password: 00000000}
   - {name: 香港, type: trojan, server: xg107.npv4.com, port: 443, password: 6d282265-a115-3242-a11b-941c0789017b, sni: xg107.npv4.com}
