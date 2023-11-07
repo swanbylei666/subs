@@ -85,7 +85,7 @@ proxy-providers:
   nekobox:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
-    path: /kwaan-y1kx7im/subscription/main/opensources/nekobox
+    path: ./nekobox
     health-check:
       enable: true
       interval: 300
