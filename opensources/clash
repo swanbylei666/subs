@@ -44,6 +44,7 @@ proxy-groups:
     type: select
     use:
       - ymlshare
+      - yml000
   - name: 📡 yml｜机选
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -51,6 +52,7 @@ proxy-groups:
     tolerance: 50
     use:
       - ymlshare
+      - yml000
   - name: 🐐 薅毛圈｜手选
     type: select
     use:
@@ -117,6 +119,15 @@ proxy-providers:
     health-check:
       enable: true
       interval: 300
+      url: http://www.gstatic.com/generate_204
+  yml000
+    type: http
+    url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
+    interval: 86400
+    path: ./冲浪云.yaml
+    health-check:
+      enable: true
+      interval: 600
       url: http://www.gstatic.com/generate_204
 
 rules:
