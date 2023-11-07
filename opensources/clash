@@ -75,6 +75,7 @@ proxy-providers:
   nekobox:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
+    interval: 600
     path: /kwaan-y1kx7im/subscription/main/opensources/nekobox
     health-check:
       enable: true
@@ -83,6 +84,7 @@ proxy-providers:
   ymlshare:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
+    interval: 600
     path: /kwaan-y1kx7im/subscription/main/opensources/ymlshare
     health-check:
       enable: true
@@ -91,6 +93,7 @@ proxy-providers:
   github000:
     type: http
     url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash"
+    interval: 600
     path: /ripaojiedian/freenode/main/clash
     health-check:
       enable: true
@@ -99,6 +102,7 @@ proxy-providers:
   github001:
     type: http
     url: "https://raw.gitmirror.com/vveg26/chromego_merge/main/sub/merged_warp_proxies_new.yaml"
+    interval: 600
     path: /vveg26/chromego_merge/main/sub/merged_warp_proxies_new.yaml
     health-check:
       enable: true
@@ -107,6 +111,7 @@ proxy-providers:
   github002:
     type: http
     url: "https://raw.gitmirror.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
+    interval: 600
     path: /zhangkaiitugithub/passcro/main/speednodes.yaml
     health-check:
       enable: true
@@ -115,6 +120,7 @@ proxy-providers:
   github003:
     type: http
     url: "https://raw.gitmirror.com/allenapllo/private-node/main/clash/hebei.yaml"
+    interval: 600
     path: /allenapllo/private-node/main/clash/hebei.yaml
     health-check:
       enable: true
