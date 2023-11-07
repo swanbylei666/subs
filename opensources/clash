@@ -29,10 +29,12 @@ proxy-groups:
       - 📡 yml｜机选
       - 🐐 薅毛圈｜手选
       - 🐐 薅毛圈｜机选
+
   - name: 🚩 付费｜手选
     type: select
     use:
       - nekobox
+
   - name: 🚩 付费｜机选
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -40,10 +42,12 @@ proxy-groups:
     tolerance: 50
     use:
       - nekobox
+
   - name: 📡 yml｜手选
     type: select
     use:
       - ymlshare
+
   - name: 📡 yml｜机选
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -51,6 +55,7 @@ proxy-groups:
     tolerance: 50
     use:
       - ymlshare
+
   - name: 🐐 薅毛圈｜手选
     type: select
     use:
@@ -58,6 +63,7 @@ proxy-groups:
       - github001
       - github002
       - github003
+
   - name: 🐐 薅毛圈｜机选
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -78,6 +84,7 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
+
   ymlshare:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
@@ -86,6 +93,7 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
+
   github000:
     type: http
     url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash"
@@ -94,6 +102,7 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
+
   github001:
     type: http
     url: "https://raw.gitmirror.com/vveg26/chromego_merge/main/sub/merged_warp_proxies_new.yaml"
@@ -102,6 +111,7 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
+
   github002:
     type: http
     url: "https://raw.gitmirror.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
@@ -110,6 +120,7 @@ proxy-providers:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204
+
   github003:
     type: http
     url: "https://raw.gitmirror.com/allenapllo/private-node/main/clash/hebei.yaml"
