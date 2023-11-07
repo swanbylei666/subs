@@ -21,14 +21,14 @@ proxy-groups:
   - name: Proxies
     type: select
     proxies:
-      - 更新订阅专线
-      - DIRECT
       - 🚩 付费｜手选
       - 🚩 付费｜机选
       - 📡 yml｜手选
       - 📡 yml｜机选
       - 🐐 薅毛圈｜手选
       - 🐐 薅毛圈｜机选
+      - 更新订阅专线
+      - DIRECT
 
   - name: 🚩 付费｜手选
     type: select
