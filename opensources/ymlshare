@@ -2,11 +2,6 @@ proxies:
   - {name: none, type: ss, server: 192.168.1.1, port: 80, cipher: none, password: 00000000}
   - {name: 香港, type: trojan, server: xg107.npv4.com, port: 443, password: 6d282265-a115-3242-a11b-941c0789017b, sni: xg107.npv4.com}
 
-  - { name: '剩余流量：30 GB', type: ss, server: 8.8.8.8, port: 1, cipher: chacha20-ietf-poly1305, password: 8473c296-0c2a-4c4e-be7c-0b8a9be6650f, udp: true }
-  - { name: '距离下次重置剩余：28 天', type: ss, server: 8.8.8.8, port: 1, cipher: chacha20-ietf-poly1305, password: 8473c296-0c2a-4c4e-be7c-0b8a9be6650f, udp: true }
-  - { name: 套餐到期：2023-12-05, type: ss, server: 8.8.8.8, port: 1, cipher: chacha20-ietf-poly1305, password: 8473c296-0c2a-4c4e-be7c-0b8a9be6650f, udp: true }
-  - { name: 最新官方：冲浪.xyz, type: ss, server: 8.8.8.8, port: 1, cipher: chacha20-ietf-poly1305, password: 8473c296-0c2a-4c4e-be7c-0b8a9be6650f, udp: true }
-  - { name: '官方频道：https://t.me/cloudacces', type: ss, server: 8.8.8.8, port: 1, cipher: chacha20-ietf-poly1305, password: 8473c296-0c2a-4c4e-be7c-0b8a9be6650f, udp: true }
   - { name: 🇺🇸US|VMS|0.3x, type: vmess, server: 26.namesilo123.top, port: 2082, uuid: 8473c296-0c2a-4c4e-be7c-0b8a9be6650f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: '/grdhhgrdhhhhhhj?ed=2048', headers: { Host: uszhang.sanfen002.top } }, ws-path: '/grdhhgrdhhhhhhj?ed=2048', ws-headers: { Host: uszhang.sanfen002.top } }
   - { name: 🇺🇸US|VMS|0.3x-2, type: vmess, server: 28.namesilo123.top, port: 80, uuid: 8473c296-0c2a-4c4e-be7c-0b8a9be6650f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: '/grdhhgrdhhhhhhj?ed=2048', headers: { Host: uszhang.sanfen002.top } }, ws-path: '/grdhhgrdhhhhhhj?ed=2048', ws-headers: { Host: uszhang.sanfen002.top } }
   - { name: 🇺🇸US|VMS|0.3x-3, type: vmess, server: 27.namesilo123.top, port: 8080, uuid: 8473c296-0c2a-4c4e-be7c-0b8a9be6650f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: '/grdhhgrdhhhhhhj?ed=2048', headers: { Host: uszhang.sanfen002.top } }, ws-path: '/grdhhgrdhhhhhhj?ed=2048', ws-headers: { Host: uszhang.sanfen002.top } }
@@ -14,4 +9,3 @@ proxies:
   - { name: 🇸🇬SG|VMS|1x-1, type: vmess, server: 29.namesilo123.top, port: 8880, uuid: 8473c296-0c2a-4c4e-be7c-0b8a9be6650f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: '/grdhhgrdhhhhhhj?ed=2048', headers: { Host: freesg.sanfen002.top } }, ws-path: '/grdhhgrdhhhhhhj?ed=2048', ws-headers: { Host: freesg.sanfen002.top } }
   - { name: 🇸🇬SG|VMS|1x-2, type: vmess, server: 30.namesilo123.top, port: 80, uuid: 8473c296-0c2a-4c4e-be7c-0b8a9be6650f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: '/grdhhgrdhhhhhhj?ed=2048', headers: { Host: freesg.sanfen002.top } }, ws-path: '/grdhhgrdhhhhhhj?ed=2048', ws-headers: { Host: freesg.sanfen002.top } }
   - { name: 🇸🇬SG|VMS|1x-3, type: vmess, server: 31.namesilo123.top, port: 8080, uuid: 8473c296-0c2a-4c4e-be7c-0b8a9be6650f, alterId: 0, cipher: auto, udp: true, network: ws, ws-opts: { path: '/grdhhgrdhhhhhhj?ed=2048', headers: { Host: freesg.sanfen002.top } }, ws-path: '/grdhhgrdhhhhhhj?ed=2048', ws-headers: { Host: freesg.sanfen002.top } }
-
