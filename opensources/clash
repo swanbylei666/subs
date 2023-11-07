@@ -49,6 +49,7 @@ proxy-groups:
       - ymlshare
       - yml000
       - yml001
+      - yml002
 
   - name: 📡 yml｜机选
     type: url-test
@@ -59,6 +60,7 @@ proxy-groups:
       - ymlshare
       - yml000
       - yml001
+      - yml002
 
   - name: 🐐 薅毛圈｜手选
     type: select
@@ -149,6 +151,16 @@ proxy-providers:
     url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
     interval: 3600
     path: ./冲浪云.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  yml002:
+    type: http
+    url: "https://www.szcloud.xyz/api/v1/client/subscribe?token=5e1e0174287d114fbed053da6aea2a7c"
+    interval: 3600
+    path: ./三藏云.yaml
     health-check:
       enable: true
       interval: 600
