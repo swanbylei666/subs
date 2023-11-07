@@ -127,7 +127,7 @@ proxy-providers:
     path: ./冲浪云.yaml
     health-check:
       enable: true
-      interval: 600
+      interval: 300
       url: http://www.gstatic.com/generate_204
 
 rules:
