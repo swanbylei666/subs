@@ -48,6 +48,7 @@ proxy-groups:
     use:
       - ymlshare
       - yml000
+      - yml001
 
   - name: 📡 yml｜机选
     type: url-test
@@ -57,6 +58,7 @@ proxy-groups:
     use:
       - ymlshare
       - yml000
+      - yml001
 
   - name: 🐐 薅毛圈｜手选
     type: select
@@ -135,7 +137,18 @@ proxy-providers:
   yml000:
     type: http
     url: "https://xn--4gq62f52g.com/api/v1/client/subscribe?token=cd1306394fdac2502bcade3ee0e52ccc"
+    interval: 3600
     path: ./一元场.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: http://www.gstatic.com/generate_204
+
+  yml001:
+    type: http
+    url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
+    interval: 3600
+    path: ./冲浪云.yaml
     health-check:
       enable: true
       interval: 600
