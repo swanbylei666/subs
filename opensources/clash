@@ -18,7 +18,7 @@ proxies:
   - {name: 更新订阅专线, server: us06.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
 
 proxy-groups:
-  - name: Proxies
+  - name: 全局代理
     type: select
     proxies:
       - 🚩 付费｜机选
@@ -168,4 +168,4 @@ proxy-providers:
 
 rules:
   - GEOIP,CN,DIRECT
-  - MATCH,Proxies
+  - MATCH,全局代理
