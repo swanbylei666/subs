@@ -33,7 +33,7 @@ proxy-groups:
   - name: 🚩 付费｜手选
     type: select
     use:
-      - cnixcloud
+      - nekobox
       - hutaocloud
 
   - name: 🚩 付费｜机选
@@ -42,7 +42,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     use:
-      - cnixcloud
+      - nekobox
       - hutaocloud
 
   - name: 📡 yml｜手选
@@ -93,10 +93,10 @@ proxy-providers:
       interval: 300
       url: http://www.gstatic.com/generate_204
 
-  cnixcloud:
+  nekobox:
     type: http
-    url: "https://fast.lycorisrecoil.org/link/o6phYkwuS9oeGZDt?list=ssa"
-    path: ./cnixcloud.yaml
+    url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
+    path: ./nekobox
     health-check:
       enable: true
       interval: 300
