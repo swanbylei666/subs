@@ -33,7 +33,6 @@ proxy-groups:
   - name: 🚩 付费｜手选
     type: select
     use:
-      - nekobox
       - cnix
       - hutaocloud
 
@@ -43,7 +42,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     use:
-      - nekobox
       - cnix
       - hutaocloud
 
@@ -101,16 +99,6 @@ proxy-providers:
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
     interval: 3600
     path: ./hutaocloud.yaml
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-
-  nekobox:
-    type: http
-    url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
-    interval: 3600
-    path: ./nekobox
     health-check:
       enable: true
       interval: 300
