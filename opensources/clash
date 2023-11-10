@@ -34,6 +34,7 @@ proxy-groups:
     type: select
     use:
       - nekobox
+      - cnix
       - hutaocloud
 
   - name: 🚩 付费｜机选
@@ -43,6 +44,7 @@ proxy-groups:
     tolerance: 50
     use:
       - nekobox
+      - cnix
       - hutaocloud
 
   - name: 📡 yml｜手选
