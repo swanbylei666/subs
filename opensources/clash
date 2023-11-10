@@ -34,7 +34,7 @@ proxy-groups:
     type: select
     use:
       - cnix
-      - hutaocloud
+      - hutao
 
   - name: 🚩 付费｜机选
     type: url-test
@@ -43,7 +43,7 @@ proxy-groups:
     tolerance: 50
     use:
       - cnix
-      - hutaocloud
+      - hutao
 
   - name: 📡 yml｜手选
     type: select
@@ -94,11 +94,11 @@ proxy-providers:
       interval: 300
       url: http://www.gstatic.com/generate_204
 
-  hutaocloud:
+  hutao:
     type: http
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
     interval: 3600
-    path: ./hutaocloud.yaml
+    path: ./hutao.yaml
     health-check:
       enable: true
       interval: 300
