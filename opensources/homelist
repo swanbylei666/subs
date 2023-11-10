@@ -8,15 +8,11 @@ https://404.com/
 https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB翡翠 - 原版
 https://pull-f5-spe.ixigua.com/yeslivetv.com/665488254-259490512/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】翡翠台 - 大马
-https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB明珠 - 广电
-https://pi.0472.org/tv/mzt.php?auth=202311030915
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】Jade2
-https://pull-f5-spe.ixigua.com/yeslivetv.com/821572238-387406036/index.m3u8?by=yeslivetv.com
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB-新闻台
+#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】Jade2 － 原版
+https://pull-f5-spe.ixigua.com/yeslivetv.com/669176097-593643026/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB - 新闻台
 https://tvp22.sky4k.top/index1.php
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB-财经
+#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB - 财经
 https://tvp22.sky4k.top/index2.php
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】星空频道
 https://pi.0472.org/tv/startv.php?auth=202311030915
