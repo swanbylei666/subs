@@ -84,9 +84,21 @@ proxy-groups:
       - github003
 
 proxy-providers:
+  cnix:
+    type: http
+    url: "https://fast.lycorisrecoil.org/link/o6phYkwuS9oeGZDt?clash=1"
+    interval: 86400
+    interval: 3600
+    path: ./cnix.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204
+
   hutaocloud:
     type: http
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
+    interval: 3600
     path: ./hutaocloud.yaml
     health-check:
       enable: true
@@ -96,6 +108,7 @@ proxy-providers:
   nekobox:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
+    interval: 3600
     path: ./nekobox
     health-check:
       enable: true
@@ -105,6 +118,7 @@ proxy-providers:
   ymlshare:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
+    interval: 3600
     path: ./ymlshare
     health-check:
       enable: true
@@ -114,7 +128,8 @@ proxy-providers:
   github000:
     type: http
     url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash"
-    path: /ripaojiedian/freenode/main/clash
+    interval: 3600
+    path: ./clash
     health-check:
       enable: true
       interval: 300
@@ -123,7 +138,8 @@ proxy-providers:
   github001:
     type: http
     url: "https://raw.gitmirror.com/vveg26/chromego_merge/main/sub/merged_warp_proxies_new.yaml"
-    path: /vveg26/chromego_merge/main/sub/merged_warp_proxies_new.yaml
+    interval: 3600
+    path: ./merged_warp_proxies_new.yaml
     health-check:
       enable: true
       interval: 300
@@ -132,7 +148,8 @@ proxy-providers:
   github002:
     type: http
     url: "https://raw.gitmirror.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
-    path: /zhangkaiitugithub/passcro/main/speednodes.yaml
+    interval: 3600
+    path: ./speednodes.yaml
     health-check:
       enable: true
       interval: 300
@@ -141,7 +158,8 @@ proxy-providers:
   github003:
     type: http
     url: "https://raw.gitmirror.com/allenapllo/private-node/main/clash/hebei.yaml"
-    path: /allenapllo/private-node/main/clash/hebei.yaml
+    interval: 3600
+    path: ./hebei.yaml
     health-check:
       enable: true
       interval: 300
