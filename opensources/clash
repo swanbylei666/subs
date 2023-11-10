@@ -89,7 +89,6 @@ proxy-providers:
   cnix:
     type: http
     url: "https://fast.lycorisrecoil.org/link/o6phYkwuS9oeGZDt?clash=1"
-    interval: 86400
     interval: 3600
     path: ./cnix.yaml
     health-check:
