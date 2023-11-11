@@ -96,7 +96,7 @@ proxy-providers:
 
   hutao:
     type: http
-    url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=11"
+    url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?"
     interval: 3600
     path: ./hutao.yaml
     health-check:
