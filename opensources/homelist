@@ -4,34 +4,35 @@
 #EXTVLCOPT: http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
 https://404.com/
 
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】J1台 - 网页版
+#EXTINF:-1 tvg-logo="" group-title="∅ 电视频道 ∅",▲ 【电视】J1台 - 网页版
 https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】翡翠台 - 网页版
+#EXTINF:-1 tvg-logo="" group-title="∅ 电视频道 ∅",▲ 【电视】翡翠台 - 网页版
+#EXTVLCOPT: http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://cdn.ggapk.net/live/tv?id=8d3a4wPPf23-pJJ06TQ7YwjmiCysgdZSx_8fPa1ccKUKhEnbIJhDvismj52uyYI-_nX1ok1xK3KmtNoZv5Ei5sLGqWA-xNdknF5mPD33msVgc84SfV_IUUkjpFj6EiLuZolSRmEwtCY3aX5DfRZUpi9pd0WDo4JVY8wrBlS2w6BmxJfxtTqnnBOGMRf_jJwlmqcpMRoU7IAt6cjGF0UPWdusdWPaS6wQMUNGGCJEPZF5-oe5P630OJuOT662bwJsFkII_B3slxeWO9ZcDSDtmgQ78zxIQTJWgeBWqA
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】翡翠台 - 广电版
+#EXTINF:-1 tvg-logo="" group-title="∅ 电视频道 ∅",▲ 【电视】翡翠台 - 广电版
 https://pi.0472.org/tv/fct.php?auth=231110
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】明珠台 - 广电版
+#EXTINF:-1 tvg-logo="" group-title=∅ 电视频道 ∅",▲ 【电视】明珠台 - 广电版
 https://pi.0472.org/tv/mzt.php?auth=231110
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB翡翠 - 原版
+#EXTINF:-1 tvg-logo="" group-title="∅ 电视频道 ∅",▲ 【电视】TVB翡翠 - 原版
 https://pull-f5-spe.ixigua.com/yeslivetv.com/665488254-259490512/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】Jade2 － 原版
+#EXTINF:-1 tvg-logo="" group-title="∅ 电视频道 ∅",▲ 【电视】Jade2 － 原版
 https://pull-f5-spe.ixigua.com/yeslivetv.com/669176097-593643026/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB - 新闻台
+#EXTINF:-1 tvg-logo="" group-title="∅ 电视频道 ∅",▲ 【电视】TVB - 新闻台
 https://tvp22.sky4k.top/index1.php
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】TVB - 财经
+#EXTINF:-1 tvg-logo="" group-title="∅ 电视频道 ∅",▲ 【电视】TVB - 财经
 https://tvp22.sky4k.top/index2.php
-#EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】星空频道
+#EXTINF:-1 tvg-logo="" group-title="∅ 电视频道 ∅",▲ 【电视】星空频道
 https://pi.0472.org/tv/startv.php?auth=202311030915
 
-#EXTINF:-1 tvg-logo="" group-title="影视直播",CHC高清电影
+#EXTINF:-1 tvg-logo="" group-title="∅ 影视频道 ∅",CHC高清电影
 http://hls.live.cqccn.com/__cl/cg:live/__c/chcgqdyHD/__op/default/__f/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="影视直播",CHC动作电影
+#EXTINF:-1 tvg-logo="" group-title="∅ 影视频道 ∅",CHC动作电影
 http://hls.live.cqccn.com/__cl/cg:live/__c/chcdzdyHD/__op/default/__f/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="影视直播",CHC家庭影院
+#EXTINF:-1 tvg-logo="" group-title="∅ 影视频道 ∅",CHC家庭影院
 http://hls.live.cqccn.com/__cl/cg:live/__c/chcjtyyHD/__op/default/__f/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="影视直播",华语影院
+#EXTINF:-1 tvg-logo="" group-title="∅ 影视频道 ∅",华语影院
 https://cntv.lat/tv?auth=202311030915&id=hyyy
-#EXTINF:-1 tvg-logo="" group-title="影视直播",星光影院
+#EXTINF:-1 tvg-logo="" group-title="∅ 影视频道 ∅",星光影院
 https://cntv.lat/tv?auth=202311030915&id=xgyy
-#EXTINF:-1 tvg-logo="" group-title="影视直播",全球大片
+#EXTINF:-1 tvg-logo="" group-title="∅ 影视频道 ∅",全球大片
 https://cntv.lat/tv?auth=202311030915&id=qqdp
