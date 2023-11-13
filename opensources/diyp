@@ -3,18 +3,23 @@
 明珠台【广电】,https://pi.0472.org/tv/mzt.php?auth=231110
 星空台,https://pi.0472.org/tv/startv.php?auth=231110
 
-测试地区_0000,#genre#
+测试频道_0000,#genre#
 翡翠台,http://r.jdshipin.com/n90gt
-翡翠台,http://113.117.74.20:8081/hls/25/index.m3u8
 华丽台,http://r.jdshipin.com/thuYX
 J2台,http://r.jdshipin.com/Nr5jq
-无线新闻台,http://kkwk1122.top/tvvb.php?id=0&hq
-无线新闻台,http://kkwk1122.top/tvvb.php?id=0
 无线新闻台,http://r.jdshipin.com/CkuBd
 财经咨讯台,http://r.jdshipin.com/jUx8K
 viuTV,http://r.jdshipin.com/vSJvl
 星河台,http://r.jdshipin.com/sXuuD
 
-欧美地区,#genre#
+卫视频道,#genre#
+浙江卫视,http://125.210.152.19:9120/live/hzgq-zjwsgq-h264.m3u8
+湖南卫视,http://125.210.152.19:9120/live/hzgq-hnwsgq-h264.m3u8
+江苏卫视,http://125.210.152.19:9120/live/hzgq-jswsgq-h264.m3u8
+北京卫视,http://125.210.152.19:9120/live/hzgq-bjgqws-h264.m3u8
+东方卫视,http://125.210.152.19:9120/live/hzgq-dftvgq-h264.m3u8
+广东卫视,http://125.210.152.19:9120/live/hzgq-gdwsgq-h264.m3u8
+
+欧美频道,#genre#
 TVBAnywhere - J1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/profile_0/94b0b6ed329d445babb191fefc8893ce/chunklist_ssaiV.m3u8
 TVBAnywhere - 新闻,https://bcovlive-a.akamaihd.net/351d13124e724e2f8c62833bfe3d98c2/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
