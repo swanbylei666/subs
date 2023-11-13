@@ -1,2 +1,2 @@
 proxies:
-  - {name: 人家の机场, type: ss, server: 0.0.0.0, port:443, cipher: none, password: 0000}
+  - {name: 人家の机场, type: ss, server: 0.0.0.0, port: 80, cipher: none, password: 00000000}
