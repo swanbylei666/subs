@@ -86,7 +86,7 @@ proxy-groups:
 proxy-providers:
   cnix:
     type: http
-    url: "https://fast.lycorisrecoil.org/link/o6phYkwuS9oeGZDt?clash=1"
+    url: "https://fast.lycorisrecoil.org/link/o6phYkwuS9oeGZDt?"
     interval: 3600
     path: ./cnix.yaml
     health-check:
@@ -96,7 +96,7 @@ proxy-providers:
 
   hutao:
     type: http
-    url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?"
+    url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
     interval: 3600
     path: ./hutao.yaml
     health-check:
