@@ -15,7 +15,7 @@ dns:
     - https://doh.pub/dns-query
 
 proxies:
-  - {name: 自家clash, server: 0.0.0.0, port: 443, type: ss, cipher: none, password: 0000}
+  - {name: 自家の鸡场, server: 0.0.0.0, port: 443, type: ss, cipher: none, password: 0000}
 
 proxy-groups:
   - name: 全局代理
@@ -27,7 +27,7 @@ proxy-groups:
       - 📡 yml｜手选
       - 🐐 薅毛圈｜机选
       - 🐐 薅毛圈｜手选
-      - 自家clash
+      - 自家の鸡场
       - DIRECT
 
   - name: 🚩 付费｜手选
