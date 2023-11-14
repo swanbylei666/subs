@@ -1,13 +1,21 @@
 proxies:
-  - {name: 收费流量0, server: hk01.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-  - {name: 收费流量1, server: sg02.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-  - {name: 收费流量2, server: hk02.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-  - {name: 收费流量3, server: sg02.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-  - {name: 收费流量4, server: hk03.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-  - {name: 收费流量5, server: sg03.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-  - {name: 收费流量6, server: hk04.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-  - {name: 收费流量7, server: sg04.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-  - {name: 收费流量8, server: hk05.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-  - {name: 收费流量9, server: sg05.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-  - {name: 收费流量10, server: hk06.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
-  - {name: 收费流量11, server: sg06.ptrecord.com, port: 33449, type: ss, cipher: rc4-md5, password: qcpyzb7dpy}
+  - {name: 美国 - IEPL - Trojan - 01, server: tjus.hutaonode3.top, port: 12271, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjus.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 美国 - IEPL - Trojan - 02, server: tjus.hutaonode3.top, port: 12272, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjus.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 美国 - IEPL - Trojan - 03, server: tjus.hutaonode3.top, port: 12273, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjus.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 美国 - IEPL - Trojan - 04, server: tjus.hutaonode3.top, port: 12274, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjus.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 日本 - IEPL - Trojan - 01, server: tjjp.hutaonode3.top, port: 12071, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjjp.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 日本 - IEPL - Trojan - 02, server: tjjp.hutaonode3.top, port: 12072, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjjp.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 日本 - IEPL - Trojan - 03, server: tjjp.hutaonode3.top, port: 12073, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjjp.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 日本 - IEPL - Trojan - 04, server: tjjp.hutaonode3.top, port: 12074, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjjp.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾 - IEPL - Trojan - 01, server: tjtw.hutaonode3.top, port: 12571, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjtw.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾 - IEPL - Trojan - 02, server: tjtw.hutaonode3.top, port: 12572, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjtw.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾 - IEPL - Trojan - 03, server: tjtw.hutaonode3.top, port: 12573, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjtw.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾 - IEPL - Trojan - 04, server: tjtw.hutaonode3.top, port: 12574, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjtw.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 香港 - IEPL - Trojan - 01, server: tjhk.hutaonode3.top, port: 12471, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjhk.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 香港 - IEPL - Trojan - 02, server: tjhk.hutaonode3.top, port: 12472, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjhk.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 香港 - IEPL - Trojan - 03, server: tjhk.hutaonode3.top, port: 12473, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjhk.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 香港 - IEPL - Trojan - 04, server: tjhk.hutaonode3.top, port: 12474, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjhk.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 - IEPL - Trojan - 01, server: tjsg.hutaonode3.top, port: 12371, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjsg.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 - IEPL - Trojan - 02, server: tjsg.hutaonode3.top, port: 12372, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjsg.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 - IEPL - Trojan - 03, server: tjsg.hutaonode3.top, port: 12373, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjsg.hutaonode3.top, skip-cert-verify: true, udp: true}
+  - {name: 新加坡 - IEPL - Trojan - 04, server: tjsg.hutaonode3.top, port: 12374, type: trojan, password: 924d5208-fc39-34b0-945a-be29123ff3d6, sni: tjsg.hutaonode3.top, skip-cert-verify: true, udp: true}
