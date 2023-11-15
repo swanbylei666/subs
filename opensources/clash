@@ -1,91 +1,16 @@
-mode: rule   #global
+mode: rule
 port: 7890
 socks-port: 7891
 allow-lan: true
 log-level: silent
-external-controller: 0.0.0.0:9090
-dns:
-  enabled: true
-  ipv6: true
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
-  nameserver:
-    - https://dns.alidns.com/dns-query
-    - https://doh.pub/dns-query
 
 proxies:
-
-proxy-groups:
-  - name: 全部代理
-    type: select
-    proxies:
-      - 🚩 付费｜机选
-      - 🚩 付费｜手选
-      - 📡 yml｜机选
-      - 📡 yml｜手选
-      - 🐐 薅毛圈｜机选
-      - 🐐 薅毛圈｜手选
-      - DIRECT
-
-  - name: 🚩 付费｜手选
-    type: select
-    proxies:
-      - DIRECT
-    use:
-      - nekobox
-
-  - name: 🚩 付费｜机选
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    use:
-      - hutao
-
-  - name: 📡 yml｜手选
-    type: select
-    use:
-      - ymlshare
-      - yml000
-      - yml001
-      - yml002
-
-  - name: 📡 yml｜机选
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    use:
-      - ymlshare
-      - yml000
-      - yml001
-      - yml002
-
-  - name: 🐐 薅毛圈｜手选
-    type: select
-    use:
-      - github000
-      - github001
-      - github002
-      - github003
-
-  - name: 🐐 薅毛圈｜机选
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    use:
-      - github000
-      - github001
-      - github002
-      - github003
 
 proxy-providers:
   nekobox:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
-    filter: "香港|台湾|美国"
+    filter: "香港|台湾|新加坡|美国"
     interval: 3600
     path: ./nekobox
     health-check:
@@ -96,6 +21,7 @@ proxy-providers:
   hutao:
     type: http
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
+    filter: "香港|美国"
     interval: 3600
     path: ./hutao.yaml
     health-check:
@@ -103,96 +29,29 @@ proxy-providers:
       interval: 300
       url: http://www.gstatic.com/generate_204
 
-  ymlshare:
-    type: http
-    url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
-    interval: 3600
-    path: ./ymlshare
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
+proxy-groups:
+  - name: allin1
+    type: select
+    proxies:
+      - 🚩 自家｜机选
+      - 🚩 自家｜手选
 
-  github000:
-    type: http
-    url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash"
-    interval: 3600
-    path: ./clash
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
+  - name: 🚩 自家｜机选
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    use:
+      - hutao
 
-  github001:
-    type: http
-    url: "https://raw.gitmirror.com/vveg26/chromego_merge/main/sub/merged_warp_proxies_new.yaml"
-    interval: 3600
-    path: ./merged_warp_proxies_new.yaml
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-
-  github002:
-    type: http
-    url: "https://raw.gitmirror.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
-    interval: 3600
-    path: ./speednodes.yaml
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-
-  github003:
-    type: http
-    url: "https://raw.gitmirror.com/allenapllo/private-node/main/clash/hebei.yaml"
-    interval: 3600
-    path: ./hebei.yaml
-    health-check:
-      enable: true
-      interval: 300
-      url: http://www.gstatic.com/generate_204
-
-  yml000:
-    type: http
-    url: "https://xn--4gq62f52g.com/api/v1/client/subscribe?token=cd1306394fdac2502bcade3ee0e52ccc"
-    interval: 3600
-    path: ./一元场.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-
-  yml001:
-    type: http
-    url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
-    interval: 3600
-    path: ./冲浪云.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-
-  yml002:
-    type: http
-    url: "https://www.szcloud.xyz/api/v1/client/subscribe?token=5e1e0174287d114fbed053da6aea2a7c"
-    interval: 3600
-    path: ./三藏云.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: http://www.gstatic.com/generate_204
-
-rule-providers:
-  stop:
-    type: http
-    behavior: domain
-    url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/clash-rule"
-    path: ./clash-rule
-    interval: 3600
+  - name: 🚩 自家｜手选
+    type: select
+    proxies:
+      - DIRECT
+    use:
+      - nekobox
 
 rules:
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,全部代理
-  - RULE-SET,stop,REJECT
+  - MATCH,allin1
