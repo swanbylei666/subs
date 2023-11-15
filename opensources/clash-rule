@@ -1,3 +1,4 @@
 rules:
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
+  - DOMAIN,qq.com,禁止上网
