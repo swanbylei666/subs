@@ -34,6 +34,8 @@ viuTV,https://pull-f5-spe.ixigua.com/yeslivetv.com/410380836-75009177/index.m3u8
 央视16台,http://mqiptv.com:8014/ch/cctv16/mqlive.m3u8
 央视17台,http://mqiptv.com:8014/ch/cctv17/mqlive.m3u8
 
-欧美频道,#genre#
-TVBAnywhere - J1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/profile_0/94b0b6ed329d445babb191fefc8893ce/chunklist_ssaiV.m3u8
-TVBAnywhere - 新闻,https://bcovlive-a.akamaihd.net/351d13124e724e2f8c62833bfe3d98c2/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
+影视频道,#genre#
+001,https://404.com/index.m3u8
+
+特色频道_0520,#genre#
+https://404.com/index.com
