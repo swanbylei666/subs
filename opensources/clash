@@ -26,7 +26,6 @@ proxy-groups:
       - 📡 yml｜手选
       - 🐐 薅毛圈｜机选
       - 🐐 薅毛圈｜手选
-      - 禁止上网
       - DIRECT
 
   - name: 🚩 付费｜手选
@@ -81,14 +80,6 @@ proxy-groups:
       - github001
       - github002
       - github003
-
-  - name: 禁止上网
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - REJECT
 
 proxy-providers:
   nekobox:
@@ -204,4 +195,4 @@ rules:
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,全部代理
-  - RULE-SET,stop,禁止上网
+  - RULE-SET,stop,REJECT
