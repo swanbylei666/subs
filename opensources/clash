@@ -184,5 +184,6 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 
 rules:
+  - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,全局代理
