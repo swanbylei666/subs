@@ -177,8 +177,17 @@ proxy-groups:
       - 三喜机场
       - EMO
 
+rule-providers:
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash-rule"
+    path: "./clash-rule"
+    interval: "500"
+
 rules:
 
   - 'GEOIP,LAN,DIRECT'
   - 'GEOIP,CN,DIRECT'
   - 'MATCH,😀 allin1'
+  - 'RULE-SET,gfw,REJECT'
