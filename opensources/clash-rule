@@ -1,2 +1,2 @@
-rules:
-  - DOMAIN,pornhub.com,REJECT
+payload:
+  - '+.qq.com'
