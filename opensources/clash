@@ -18,6 +18,16 @@ proxy-providers:
       interval: 500
       url: http://www.gstatic.com/generate_204
 
+  ymlshare:
+    type: http
+    url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
+    interval: 3600
+    path: ./ymlshare
+    health-check:
+      enable: true
+      interval: 500
+      url: http://www.gstatic.com/generate_204
+
   hutao:
     type: http
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
@@ -29,14 +39,26 @@ proxy-providers:
       interval: 500
       url: http://www.gstatic.com/generate_204
 
+  github-000:
+    type: http
+    url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash"
+    interval: 3600
+    path: ./clash
+    health-check:
+      enable: true
+      interval: 500
+      url: http://www.gstatic.com/generate_204
+
 proxy-groups:
   - name: allin1
     type: select
     proxies:
-      - 🚩 自家｜机选
-      - 🚩 自家｜手选
+      - 🚩 自家鸡场｜xxx
+      - 🚩 自家鸡场｜auto
+      - 📡 人家鸡场｜xxx
+      - 📡 人家鸡场｜auto
 
-  - name: 🚩 自家｜机选
+  - name: 🚩 自家鸡场｜auto
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 500
@@ -44,12 +66,26 @@ proxy-groups:
     use:
       - hutao
 
-  - name: 🚩 自家｜手选
+  - name: 🚩 自家鸡场｜xxx
     type: select
     proxies:
       - DIRECT
     use:
       - nekobox
+
+  -name: 📡 人家鸡场｜auto
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 500
+    tolerance: 50
+    use:
+      - github-000
+
+  -name: 📡 人家鸡场｜xxx
+    type: select
+    use:
+      - ymlshare
+      - github-000
 
 rules:
   - GEOIP,LAN,DIRECT
