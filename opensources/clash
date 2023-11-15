@@ -12,7 +12,7 @@ proxy-providers:
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
     filter: "香港|台湾|新加坡|美国"
     interval: 3600
-    path: ./nekobox
+    path: ./nekobox.yaml
     health-check:
       enable: true
       interval: 500
@@ -22,7 +22,7 @@ proxy-providers:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
     interval: 3600
-    path: ./ymlshare
+    path: ./ymlshare.yaml
     health-check:
       enable: true
       interval: 500
@@ -43,7 +43,7 @@ proxy-providers:
     type: http
     url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash"
     interval: 3600
-    path: ./clash
+    path: ./clash.yaml
     health-check:
       enable: true
       interval: 500
