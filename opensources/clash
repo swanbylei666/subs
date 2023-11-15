@@ -97,7 +97,7 @@ proxy-groups:
     use:
       - nekobox
 
-  -name: 📡 人家鸡场｜auto
+  - name: 📡 人家鸡场｜auto
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: 500
@@ -107,7 +107,7 @@ proxy-groups:
       - github｜001
       - github｜002
 
-  -name: 📡 人家鸡场｜xxx
+  - name: 📡 人家鸡场｜xxx
     type: select
     use:
       - ymlshare
