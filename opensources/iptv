@@ -19,15 +19,6 @@ https://tvp22.sky4k.top/index2.php
 #EXTINF:-1 tvg-logo="" group-title="∅",▲ 【电视】星空频道
 https://pi.0472.org/tv/startv.php?auth=202311030915
 
-#EXTINF:-1 tvg-logo="" group-title="广东地区组",广州综合
-https://justsometime.gztv.com/sec/zhonghe.m3u8
-#EXTINF:-1 tvg-logo="" group-title="广东地区组",广州新闻
-https://justsometime.gztv.com/sec/xinwen.m3u8
-#EXTINF:-1 tvg-logo="" group-title="广东地区组",广州竞赛
-https://justsometime.gztv.com/sec/jingsai.m3u8
-#EXTINF:-1 tvg-logo="" group-title="广东地区组",广州影视
-https://justsometime.gztv.com/sec/yingshi.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-1
 http://mqiptv.com:8014/ch/cctv1/mqlive.m3u8
 #EXTINF:-1 tvg-logo="" group-title="北京地区组",CCTV-2
