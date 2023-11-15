@@ -14,13 +14,25 @@ viuTV,http://r.jdshipin.com/vSJvl
 viuTV,https://pull-f5-spe.ixigua.com/yeslivetv.com/410380836-75009177/index.m3u8
 星河台,http://r.jdshipin.com/sXuuD
 
-卫视频道,#genre#
-北京卫视,http://125.210.152.19:9120/live/hzgq-bjgqws-h264.m3u8
-东方卫视,http://125.210.152.19:9120/live/hzgq-dftvgq-h264.m3u8
-广东卫视,http://125.210.152.19:9120/live/hzgq-gdwsgq-h264.m3u8
-浙江卫视,http://125.210.152.19:9120/live/hzgq-zjwsgq-h264.m3u8
-湖南卫视,http://125.210.152.19:9120/live/hzgq-hnwsgq-h264.m3u8
-江苏卫视,http://125.210.152.19:9120/live/hzgq-jswsgq-h264.m3u8
+央视台,#genre#
+央视1台,http://mqiptv.com:8014/ch/cctv1/mqlive.m3u8
+央视2台,http://mqiptv.com:8014/ch/cctv2/mqlive.m3u8
+央视3台,http://mqiptv.com:8014/ch/cctv3/mqlive.m3u8
+央视4台,http://mqiptv.com:8014/ch/cctv4/mqlive.m3u8
+央视5台,http://mqiptv.com:8014/ch/cctv5/mqlive.m3u8
+央视5+台,http://mqiptv.com:8014/ch/cctv5p/mqlive.m3u8
+央视6台,http://mqiptv.com:8014/ch/cctv6/mqlive.m3u8
+央视7台,http://mqiptv.com:8014/ch/cctv7/mqlive.m3u8
+央视8台,http://mqiptv.com:8014/ch/cctv8/mqlive.m3u8
+央视9台,http://mqiptv.com:8014/ch/cctv9/mqlive.m3u8
+央视10台,http://mqiptv.com:8014/ch/cctv10/mqlive.m3u8
+央视11台,http://mqiptv.com:8014/ch/cctv11/mqlive.m3u8
+央视12台,http://mqiptv.com:8014/ch/cctv12/mqlive.m3u8
+央视13台,http://mqiptv.com:8014/ch/cctv13/mqlive.m3u8
+央视14台,http://mqiptv.com:8014/ch/cctv14/mqlive.m3u8
+央视15台,http://mqiptv.com:8014/ch/cctv15/mqlive.m3u8
+央视16台,http://mqiptv.com:8014/ch/cctv16/mqlive.m3u8
+央视17台,http://mqiptv.com:8014/ch/cctv17/mqlive.m3u8
 
 欧美频道,#genre#
 TVBAnywhere - J1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/profile_0/94b0b6ed329d445babb191fefc8893ce/chunklist_ssaiV.m3u8
