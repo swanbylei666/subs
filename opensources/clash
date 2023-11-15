@@ -103,6 +103,16 @@ proxy-providers:
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
+  EMO:
+    type: http
+    url: "https://002.8698681.xyz/api/v1/client/subscribe?token=f1e99f84b49b1ab8a2640ef9d5020680"
+    interval: "3600"
+    path: "./EMO.yaml"
+    health-check:
+      enable: true
+      interval: "500"
+      url: "http://www.gstatic.com/generate_204"
+
 proxy-groups:
 
   - name: 😀 allin1
@@ -140,6 +150,7 @@ proxy-groups:
       - github｜003
       - 超级机场
       - 爱快加速
+      - EMO
 
   - name: 📡 人家鸡场｜xxx
     type: select
@@ -151,6 +162,7 @@ proxy-groups:
       - github｜003
       - 超级机场
       - 爱快加速
+      - EMO
 
 rules:
 
