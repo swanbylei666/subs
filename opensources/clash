@@ -199,8 +199,8 @@ rules:
 
 rule-providers:
   clash-rule:  # 规则集名称
-    type: http # 规则集文件类型：http(在线规则集) | file(本地文件)
-    behavior: classical # 规则集类型classical/ipcidr/domain 
+    type: http  # 规则集文件类型：http(在线规则集) | file(本地文件)
+    behavior: classical  # 规则集类型classical/ipcidr/domain 
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/clash-rule"  # 规则集链接（若 type 为 http）
     interval: 3600  # 规则集更新间隔（若 type 为 http）
     path: ./clash-rule  # 规则集存放路径
