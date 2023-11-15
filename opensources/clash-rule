@@ -1,1 +1,4 @@
-#
+payload:
+  - '+.www.googleadadpis.com'
+  - '+.wear.googleadadpis.com'
+  - '+.update.googleadadpis.com'
