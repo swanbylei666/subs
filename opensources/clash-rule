@@ -1,2 +1,2 @@
 rules:
-  - DOMAIN,qq.com,禁止上网
+  - DOMAIN,qq.com,REJECT
