@@ -85,7 +85,8 @@ proxy-providers:
   nekobox:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
-    filter: 香港|台湾|美国
+    filter:
+      香港|台湾|美国
     interval: 3600
     path: ./nekobox
     health-check:
