@@ -18,7 +18,7 @@ proxies:
   - {name: 自家の鸡场, type: ss, server: 0.0.0.0, port: 80, cipher: none, password: 00000000}
 
 proxy-groups:
-  - name: 全局代理
+  - name: 全部代理
     type: select
     proxies:
       - 🚩 付费｜机选
@@ -42,6 +42,8 @@ proxy-groups:
     tolerance: 50
     use:
       - hutao
+    proxies:
+      - DIRECT
 
   - name: 📡 yml｜手选
     type: select
@@ -80,6 +82,14 @@ proxy-groups:
       - github001
       - github002
       - github003
+
+  - name: 禁止上网
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - REJECT
 
 proxy-providers:
   nekobox:
@@ -184,6 +194,13 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 
 rules:
-  - GEOIP,LAN,DIRECT
-  - GEOIP,CN,DIRECT
-  - MATCH,全局代理
+  - RULE-SET,clash-rule,全部代理
+  - MATCH,全部代理
+
+rule-providers:
+  clash-rule:  # 规则集名称
+    type: http # 规则集文件类型：http(在线规则集) | file(本地文件)
+    behavior:classical # 规则集类型classical/ipcidr/domain 
+    url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/clash-rule"  # 规则集链接（若 type 为 http）
+    interval: 3600  # 规则集更新间隔（若 type 为 http）
+    path: ./clash-rule  # 规则集存放路径
