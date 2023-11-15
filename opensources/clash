@@ -178,11 +178,11 @@ proxy-groups:
       - EMO
 
 rule-providers:
-  gfw:
+  myrouter:
     type: http
     behavior: domain
-    url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash-rule"
-    path: "./clash-rule"
+    url: "https://raw.githubusercontent.com/kwaan-y1kx7im/subscription/main/opensources/clash-rule"
+    path: "./clash-rule.yaml"
     interval: "500"
 
 rules:
@@ -190,4 +190,4 @@ rules:
   - 'GEOIP,LAN,DIRECT'
   - 'GEOIP,CN,DIRECT'
   - 'MATCH,😀 allin1'
-  - 'RULE-SET,gfw,REJECT'
+  - 'RULE-SET,myrouter,REJECT'
