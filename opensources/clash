@@ -193,7 +193,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
 
 rule-providers:
-  reject:
+  stop:
     type: http
     behavior: domain
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/clash-rule"
@@ -204,4 +204,4 @@ rules:
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,全部代理
-  - RULE-SET,reject,禁止上网
+  - RULE-SET,stop,禁止上网
