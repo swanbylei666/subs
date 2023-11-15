@@ -32,10 +32,10 @@ proxy-groups:
 
   - name: 🚩 付费｜手选
     type: select
-    use:
-      - nekobox
     proxies:
       - DIRECT
+    use:
+      - nekobox
 
   - name: 🚩 付费｜机选
     type: url-test
