@@ -188,4 +188,4 @@ rules:
   - 'GEOIP,CN,DIRECT'
   - 'MATCH,😀 allin1'
   - 'DOMAIN-KEYWORD,googleadadpis.com,📵 广告拦截'
-  - 'DOMAIN-KEYWORD,iqiyi.com,📵 广告拦截'
+
