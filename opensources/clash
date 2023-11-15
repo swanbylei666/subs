@@ -187,5 +187,6 @@ rules:
   - 'GEOIP,LAN,DIRECT'
   - 'GEOIP,CN,DIRECT'
   - 'MATCH,😀 allin1'
+  - 'DOMAIN-KEYWORD,githubusercontent.com,😀 allin1'
   - 'DOMAIN-KEYWORD,googleadadpis.com,📵 广告拦截'
 
