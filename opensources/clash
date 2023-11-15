@@ -71,7 +71,7 @@ proxy-providers:
 
 proxy-groups:
 
-  - name: allin1
+  - name: 😀 allin1
     type: select
     proxies:
       - 🚩 自家鸡场｜xxx
@@ -115,4 +115,4 @@ proxy-groups:
 rules:
   - GEOIP,LAN,DIRECT
   - GEOIP,CN,DIRECT
-  - MATCH,allin1
+  - MATCH,😀 allin1
