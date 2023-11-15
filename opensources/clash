@@ -103,6 +103,17 @@ proxy-providers:
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
+  三喜机场:
+    type: http
+    url: "http://dy007.sanxi.cyou/api/v1/client/subscribe?token=d3cead081c4d4e1e5a73c707448a21dd"
+    filter: "新加坡|日本|美国"
+    interval: "3600"
+    path: ./三喜机场.yaml
+    health-check:
+      enable: true
+      interval: "500"
+      url: "http://www.gstatic.com/generate_204"
+
   EMO:
     type: http
     url: "https://002.8698681.xyz/api/v1/client/subscribe?token=f1e99f84b49b1ab8a2640ef9d5020680"
@@ -150,6 +161,7 @@ proxy-groups:
       - github｜003
       - 超级机场
       - 爱快加速
+      - 三喜机场
       - EMO
 
   - name: 📡 人家鸡场｜xxx
@@ -162,6 +174,7 @@ proxy-groups:
       - github｜003
       - 超级机场
       - 爱快加速
+      - 三喜机场
       - EMO
 
 rules:
