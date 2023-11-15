@@ -39,7 +39,7 @@ proxy-providers:
       interval: 500
       url: http://www.gstatic.com/generate_204
 
-  github-000:
+  github｜000:
     type: http
     url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash"
     interval: 3600
@@ -79,13 +79,13 @@ proxy-groups:
     interval: 500
     tolerance: 50
     use:
-      - github-000
+      - github｜000
 
   -name: 📡 人家鸡场｜xxx
     type: select
     use:
       - ymlshare
-      - github-000
+      - github｜000
 
 rules:
   - GEOIP,LAN,DIRECT
