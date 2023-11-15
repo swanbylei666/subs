@@ -182,18 +182,8 @@ proxy-groups:
     proxies:
       - REJECT
 
-rule-providers:
-
-  stopin:
-    type: http
-    behavior: classical
-    url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/clash-rule"
-    path: "./clash-rule.yaml"
-    interval: "3600"
-
 rules:
 
   - 'GEOIP,LAN,DIRECT'
   - 'GEOIP,CN,DIRECT'
   - 'MATCH,😀 allin1'
-  - 'RULE-SET,stopin,📵 广告拦截'
