@@ -177,17 +177,9 @@ proxy-groups:
       - 三喜机场
       - EMO
 
-rule-providers:
-  myrouter:
-    type: http
-    behavior: classical
-    url: "https://raw.githubusercontent.com/kwaan-y1kx7im/subscription/main/opensources/clash-rule"
-    path: "./clash-rule.yaml"
-    interval: "500"
-
 rules:
 
   - 'GEOIP,LAN,DIRECT'
   - 'GEOIP,CN,DIRECT'
   - 'MATCH,😀 allin1'
-  - 'RULE-SET,myrouter,REJECT'
+
