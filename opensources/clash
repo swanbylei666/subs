@@ -15,7 +15,6 @@ dns:
     - https://doh.pub/dns-query
 
 proxies:
-  - {name: 自家の鸡场, type: ss, server: 0.0.0.0, port: 80, cipher: none, password: 00000000}
 
 proxy-groups:
   - name: 全部代理
@@ -27,7 +26,7 @@ proxy-groups:
       - 📡 yml｜手选
       - 🐐 薅毛圈｜机选
       - 🐐 薅毛圈｜手选
-      - 自家の鸡场
+      - 禁止上网
       - DIRECT
 
   - name: 🚩 付费｜手选
