@@ -180,7 +180,7 @@ proxy-groups:
 rule-providers:
   myrouter:
     type: http
-    behavior: domain
+    behavior: classical
     url: "https://raw.githubusercontent.com/kwaan-y1kx7im/subscription/main/opensources/clash-rule"
     path: "./clash-rule.yaml"
     interval: "500"
