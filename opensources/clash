@@ -185,7 +185,7 @@ proxy-groups:
 rule-providers:
   stopin: 
     type: http
-    behavior: classical
+    behavior: domain
     url: "https://raw.githubusercontent.com/kwaan-y1kx7im/subscription/main/opensources/clash-rule"
     path: "./clash-rule.yaml"
     interval: "3600"
