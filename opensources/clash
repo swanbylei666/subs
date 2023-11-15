@@ -65,6 +65,7 @@ proxy-providers:
   github｜002:
     type: http
     url: "https://raw.gitmirror.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
+    filter: "HK|TW|SG|JP|US"
     interval: 3600
     path: ./speednodes.yaml
     health-check:
