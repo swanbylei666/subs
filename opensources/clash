@@ -34,6 +34,8 @@ proxy-groups:
     type: select
     use:
       - nekobox
+    proxies:
+      - DIRECT
 
   - name: 🚩 付费｜机选
     type: url-test
@@ -42,8 +44,6 @@ proxy-groups:
     tolerance: 50
     use:
       - hutao
-    proxies:
-      - DIRECT
 
   - name: 📡 yml｜手选
     type: select
