@@ -49,6 +49,26 @@ proxy-providers:
       interval: 500
       url: http://www.gstatic.com/generate_204
 
+  github｜001:
+    type: http
+    url: "https://raw.gitmirror.com/vveg26/chromego_merge/main/sub/merged_warp_proxies_new.yaml"
+    interval: 3600
+    path: ./merged_warp_proxies_new.yaml
+    health-check:
+      enable: true
+      interval: 500
+      url: http://www.gstatic.com/generate_204
+
+  github｜002:
+    type: http
+    url: "https://raw.gitmirror.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
+    interval: 3600
+    path: ./speednodes.yaml
+    health-check:
+      enable: true
+      interval: 500
+      url: http://www.gstatic.com/generate_204
+
 proxy-groups:
   - name: allin1
     type: select
@@ -80,12 +100,16 @@ proxy-groups:
     tolerance: 50
     use:
       - github｜000
+      - github｜001
+      - github｜002
 
   -name: 📡 人家鸡场｜xxx
     type: select
     use:
       - ymlshare
       - github｜000
+      - github｜001
+      - github｜002
 
 rules:
   - GEOIP,LAN,DIRECT
