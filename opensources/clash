@@ -14,74 +14,74 @@ proxy-providers:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
     filter: "香港|台湾|新加坡|美国"
-    interval: 3600
-    path: ./nekobox.yaml
+    interval: "3600"
+    path: "./nekobox.yaml"
     health-check:
       enable: true
-      interval: 500
+      interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
   ymlshare:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
-    interval: 3600
-    path: ./ymlshare.yaml
+    interval: "3600"
+    path: "./ymlshare.yaml"
     health-check:
       enable: true
-      interval: 500
+      interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
   hutao:
     type: http
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
     filter: "香港|美国"
-    interval: 3600
-    path: ./hutao.yaml
+    interval: "3600"
+    path: "./hutao.yaml"
     health-check:
       enable: true
-      interval: 500
+      interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
   github｜000:
     type: http
     url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash"
-    interval: 3600
-    path: ./clash.yaml
+    interval: "3600"
+    path: "./clash.yaml"
     health-check:
       enable: true
-      interval: 500
+      interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
   github｜001:
     type: http
     url: "https://raw.gitmirror.com/vveg26/chromego_merge/main/sub/merged_warp_proxies_new.yaml"
-    interval: 3600
-    path: ./merged_warp_proxies_new.yaml
+    interval: "3600"
+    path: "./merged_warp_proxies_new.yaml"
     health-check:
       enable: true
-      interval: 500
+      interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
   github｜002:
     type: http
     url: "https://raw.gitmirror.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
     filter: "HK|TW|SG|JP|US"
-    interval: 3600
-    path: ./speednodes.yaml
+    interval: "3600"
+    path: "./speednodes.yaml"
     health-check:
       enable: true
-      interval: 500
+      interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
   github｜003:
     type: http
     url: "https://raw.gitmirror.com/allenapllo/private-node/main/clash/hebei.yaml"
-    interval: 3600
-    path: ./hebei.yaml
+    interval: "3600"
+    path: "./hebei.yaml"
     health-check:
       enable: true
-      interval: 500
-      url: http://www.gstatic.com/generate_204
+      interval: "500"
+      url: "http://www.gstatic.com/generate_204"
 
 proxy-groups:
 
@@ -96,8 +96,8 @@ proxy-groups:
   - name: 🚩 自家鸡场｜auto
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: 500
-    tolerance: 50
+    interval: "500"
+    tolerance: "50"
     use:
       - hutao
 
@@ -111,8 +111,8 @@ proxy-groups:
   - name: 📡 人家鸡场｜auto
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: 500
-    tolerance: 50
+    interval: "500"
+    tolerance: "50"
     use:
       - github｜000
       - github｜001
@@ -130,6 +130,6 @@ proxy-groups:
 
 rules:
 
-  - GEOIP,LAN,DIRECT
-  - GEOIP,CN,DIRECT
-  - MATCH,😀 allin1
+  - 'GEOIP,LAN,DIRECT'
+  - 'GEOIP,CN,DIRECT'
+  - 'MATCH,😀 allin1'
