@@ -195,6 +195,8 @@ proxy-providers:
 
 rules:
   - RULE-SET,clash-rule,禁止上网
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
   - MATCH,全部代理
 
 rule-providers:
