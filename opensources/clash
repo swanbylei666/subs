@@ -83,6 +83,16 @@ proxy-providers:
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
+  超级机场:
+    type: http
+    url: "https://v1.chaojiji.one/api/v1/client/subscribe?token=aa17feffffcf03771a0ee2056f61430e"
+    interval: "3600"
+    path: ./超级机场.yaml
+    health-check:
+      enable: true
+      interval: "500"
+      url: "http://www.gstatic.com/generate_204"
+
 proxy-groups:
 
   - name: 😀 allin1
@@ -118,6 +128,7 @@ proxy-groups:
       - github｜001
       - github｜002
       - github｜003
+      - 超级机场
 
   - name: 📡 人家鸡场｜xxx
     type: select
@@ -127,6 +138,7 @@ proxy-groups:
       - github｜001
       - github｜002
       - github｜003
+      - 超级机场
 
 rules:
 
