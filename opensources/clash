@@ -177,6 +177,11 @@ proxy-groups:
       - 三喜机场
       - EMO
 
+  - name: 📵 广告拦截
+    type: select
+    proxies:
+      - REJECT
+
 rule-providers:
 
   stopin:
@@ -191,4 +196,4 @@ rules:
   - 'GEOIP,LAN,DIRECT'
   - 'GEOIP,CN,DIRECT'
   - 'MATCH,😀 allin1'
-  - 'RULE-SET,stopin,REJECT'
+  - 'RULE-SET,stopin,📵 广告拦截'
