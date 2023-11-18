@@ -12,8 +12,19 @@ viuTV,http://r.jdshipin.com/vSJvl
 星河台,http://113.117.74.28:8081/hls/135/index.m3u8
 星空台,https://pi.0472.org/tv/startv.php?auth=231110
 
-测试频道,#genre#
-华丽台,http://r.jdshipin.com/thuYX
+热剧追捧,#genre#
+新闻女王01,https://vip.ffzyread1.com/20231117/20992_2a48613e/index.m3u8
+新闻女王01,https://vip.ffzyread1.com/20231117/20992_2a48613e/2000k/hls/mixed.m3u8
+新闻女王02,https://vip.ffzyread1.com/20231117/20993_9ade56f8/index.m3u8
+新闻女王02,https://vip.ffzyread1.com/20231117/20993_9ade56f8/2000k/hls/mixed.m3u8
+新闻女王03,https://vip.ffzyread1.com/20231117/20994_9e8a8267/index.m3u8
+新闻女王03,https://vip.ffzyread1.com/20231117/20994_9e8a8267/2000k/hls/mixed.m3u8
+新闻女王04,https://vip.ffzyread1.com/20231117/20995_e01e43d7/index.m3u8
+新闻女王04,https://vip.ffzyread1.com/20231117/20995_e01e43d7/2000k/hls/mixed.m3u8
+新闻女王05,https://vip.ffzyread1.com/20231117/20996_08faa436/index.m3u8
+新闻女王05,https://vip.ffzyread1.com/20231117/20996_08faa436/2000k/hls/mixed.m3u8
+新闻女王06,https://vip.ffzyread1.com/20231118/21054_a41fc5a8/index.m3u8
+新闻女王06,https://vip.ffzyread1.com/20231118/21054_a41fc5a8/2000k/hls/mixed.m3u8
 
 央视台,#genre#
 央视1台,http://mqiptv.com:8014/ch/cctv1/mqlive.m3u8
