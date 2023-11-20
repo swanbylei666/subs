@@ -189,4 +189,6 @@ rules:
   - 'MATCH,😀 allin1'
   - 'DOMAIN-KEYWORD,githubusercontent.com,😀 allin1'
   - 'DOMAIN-KEYWORD,googleadadpis.com,📵 广告拦截'
+  - 'DOMAIN-KEYWORD,googletagmanager.com,📵 广告拦截'
+  - 'DOMAIN-KEYWORD,google-analytics.com,📵 广告拦截'
 
