@@ -38,7 +38,7 @@ ViuTV,http://r.jdshipin.com/vSJvl
 
 央视台,#genre#
 【硬解码】,https://404.com/index.m3u8
-央视1台,http://mqiptv.com:8014/ch/cctv1/mqlive.m3u8
+央视1台,https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
 央视2台,http://mqiptv.com:8014/ch/cctv2/mqlive.m3u8
 央视3台,http://mqiptv.com:8014/ch/cctv3/mqlive.m3u8
 央视4台,http://mqiptv.com:8014/ch/cctv4/mqlive.m3u8
