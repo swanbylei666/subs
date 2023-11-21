@@ -56,6 +56,24 @@ ViuTV,http://r.jdshipin.com/vSJvl
 央视15台,https://node1.olelive.com:6443/live/cctv15HD/hls.m3u8
 央视16台,https://node1.olelive.com:6443/live/cctv16HD/hls.m3u8
 央视17台,https://node1.olelive.com:6443/live/cctv17HD/hls.m3u8
+央视1台,http://angtv.cc/test/lngd.php?id=488
+央视2台,http://angtv.cc/test/lngd.php?id=061
+央视3台,http://angtv.cc/test/lngd.php?id=062
+央视4台,http://angtv.cc/test/lngd.php?id=063
+央视5台,http://angtv.cc/test/lngd.php?id=064
+央视5+台,http://angtv.cc/test/lngd.php?id=246
+央视6台,http://angtv.cc/test/lngd.php?id=065
+央视7台,http://angtv.cc/test/lngd.php?id=127
+央视8台,http://angtv.cc/test/lngd.php?id=066
+央视9台,http://angtv.cc/test/lngd.php?id=128
+央视10台,http://angtv.cc/test/lngd.php?id=129
+央视11台,http://angtv.cc/test/lngd.php?id=130
+央视12台,http://angtv.cc/test/lngd.php?id=131
+央视13台,http://angtv.cc/test/lngd.php?id=067
+央视14台,http://angtv.cc/test/lngd.php?id=132
+央视15台,http://angtv.cc/test/lngd.php?id=133
+央视16台,https://node1.olelive.com:6443/live/cctv16HD/hls.m3u8
+央视17台,http://angtv.cc/test/lngd.php?id=204
 
 影视频道,#genre#
 【硬解码】,https://404.com/index.m3u8
