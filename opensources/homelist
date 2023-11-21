@@ -22,38 +22,38 @@ http://nas.jdshipin.com:8801/iptv.php?id=mzt
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视1台
 https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视2台
-http://mqiptv.com:8014/ch/cctv2/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv2HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视3台
-http://mqiptv.com:8014/ch/cctv3/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv3HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视4台
-http://mqiptv.com:8014/ch/cctv4/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv4HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视5台
-http://mqiptv.com:8014/ch/cctv5/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv5HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视5+台
 https://node1.olelive.com:6443/live/CCTV5PHD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视6台
-http://mqiptv.com:8014/ch/cctv6/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv6HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视7台
-http://mqiptv.com:8014/ch/cctv7/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv7HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视8台
-http://mqiptv.com:8014/ch/cctv8/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv8HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视9台
-http://mqiptv.com:8014/ch/cctv9/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv9HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视10台
 https://node1.olelive.com:6443/live/CCTV10HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视11台
-http://mqiptv.com:8014/ch/cctv11/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv11HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视12台
-http://mqiptv.com:8014/ch/cctv12/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv12HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视13台
-http://mqiptv.com:8014/ch/cctv13/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv13HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视14台
-http://mqiptv.com:8014/ch/cctv14/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv14HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视15台
-http://mqiptv.com:8014/ch/cctv15/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv15HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视16台
-http://mqiptv.com:8014/ch/cctv16/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv16HD/hls.m3u8
 #EXTINF:-1 tvg-logo="" group-title="∅ 央视台 ∅",央视17台
-http://mqiptv.com:8014/ch/cctv17/mqlive.m3u8
+https://node1.olelive.com:6443/live/cctv17HD/hls.m3u8
 
 ### https://guihet.com/tvlistconvert.html
