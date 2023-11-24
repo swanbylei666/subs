@@ -43,7 +43,7 @@ ViuTV,http://r.jdshipin.com/vSJvl
 12新闻女王,https://vip.ffzyread1.com/20231124/21271_d94b07cd/2000k/hls/mixed.m3u8
 
 央视台,#genre#
-【硬解码】,https://404.com/index.m3u8
+【软/硬解码】,https://404.com/index.m3u8
 央视1台,https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
 央视2台,https://node1.olelive.com:6443/live/cctv2HD/hls.m3u8
 央视3台,https://node1.olelive.com:6443/live/cctv3HD/hls.m3u8
@@ -81,7 +81,7 @@ ViuTV,http://r.jdshipin.com/vSJvl
 央视17台,http://angtv.cc/test/lngd.php?id=204
 
 广东地区,#genre#
-【硬解码】,https://404.com/index.m3u8
+【软/硬解码】,https://404.com/index.m3u8
 广东卫视,https://php.17186.eu.org/gdtv/web/gdws.m3u8
 广东珠江,https://php.17186.eu.org/gdtv/web/gdzj.m3u8
 广东新闻,https://php.17186.eu.org/gdtv/web/xwpd.m3u8
@@ -105,12 +105,12 @@ GRTN文化频道,https://php.17186.eu.org/gdtv/web/wenhua.m3u8
 GRTN生活频道,https://php.17186.eu.org/gdtv/web/life.m3u8
 
 影视频道,#genre#
-【硬解码】,https://404.com/index.m3u8
+【软/硬解码】,https://404.com/index.m3u8
 CHC 高清电影,http://hls.live.cqccn.com/__cl/cg:live/__c/chcgqdyHD/__op/default/__f/index.m3u8
 CHC 动作电影,http://hls.live.cqccn.com/__cl/cg:live/__c/chcdzdyHD/__op/default/__f/index.m3u8
 CHC 家庭影院,http://hls.live.cqccn.com/__cl/cg:live/__c/chcjtyyHD/__op/default/__f/index.m3u8
 
 特别频道_0520,#genre#
-【硬解码】,https://404.com/index.m3u8
-1,https://angtv.cc/test/lngd.php?id=488
+【软/硬解码】,https://404.com/index.m3u8
+0520,https://angtv.cc/test/lngd.php?id=488
 
