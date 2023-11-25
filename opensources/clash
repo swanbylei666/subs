@@ -98,7 +98,7 @@ proxy-providers:
     url: "https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml"
     filter: "HK|TW|CN|SG|VN|JP|US"
     interval: "3600"
-    path: "./clash.yaml"
+    path: "./Clash.yaml"
     health-check:
       enable: true
       interval: "500"
