@@ -95,8 +95,8 @@ proxy-providers:
 
   flik6:
     type: http
-    url: "https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml"
-    filter: "Relay|🇺🇸"
+    url: "https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml"
+    filter: "HK|TW|CN|SG|VN|JP|US"
     interval: "3600"
     path: "./clash.yaml"
     health-check:
