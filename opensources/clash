@@ -94,11 +94,11 @@ proxy-providers:
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
-  超级机场:
+  养老机场:
     type: http
-    url: "https://v1.chaojiji.one/api/v1/client/subscribe?token=aa17feffffcf03771a0ee2056f61430e"
+    url: "https://sub2.yljc.online/api/v1/client/subscribe?token=ab4497cb97b6008a2c4fbd0627a50670"
     interval: "3600"
-    path: "./超级机场.yaml"
+    path: "./养老机场.yaml"
     health-check:
       enable: true
       interval: "500"
@@ -160,7 +160,7 @@ proxy-groups:
       - github｜002
       - github｜003
       - NiceVPN
-      - 超级机场
+      - 养老机场
       - antu
       - 麻雀加速器
 
@@ -173,7 +173,7 @@ proxy-groups:
       - github｜002
       - github｜003
       - NiceVPN
-      - 超级机场
+      - 养老机场
       - antu
       - 麻雀加速器
 
