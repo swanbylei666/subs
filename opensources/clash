@@ -96,7 +96,7 @@ proxy-providers:
   flik6:
     type: http
     url: "https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml"
-    filter: "Relay"
+    filter: "Relay|🇺🇸"
     interval: "3600"
     path: "./clash.yaml"
     health-check:
