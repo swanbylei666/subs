@@ -88,7 +88,17 @@ proxy-providers:
     url: "https://raw.gitmirror.com/NiceVPN123/NiceVPN/main/Clash.yaml"
     filter: "HK|TW|CN|SG|VN|JP|US"
     interval: "3600"
-    path: "./Clash.yaml"
+    path: "./NiceVPN.yaml"
+    health-check:
+      enable: true
+      interval: "500"
+      url: "http://www.gstatic.com/generate_204"
+
+  冲浪云:
+    type: http
+    url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
+    interval: "3600"
+    path: "./冲浪云.yaml"
     health-check:
       enable: true
       interval: "500"
@@ -160,6 +170,7 @@ proxy-groups:
       - github｜002
       - github｜003
       - NiceVPN
+      - 冲浪云
       - 养老机场
       - antu
       - 麻雀加速器
@@ -173,6 +184,7 @@ proxy-groups:
       - github｜002
       - github｜003
       - NiceVPN
+      - 冲浪云
       - 养老机场
       - antu
       - 麻雀加速器
