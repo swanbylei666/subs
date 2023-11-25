@@ -94,6 +94,16 @@ proxy-providers:
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
+  一方加速器:
+    type: http
+    url: "https://yifang.win/link/JxsFjOgd7yEijHGL?clash=1"
+    interval: "3600"
+    path: "./一方加速器.yaml"
+    health-check:
+      enable: true
+      interval: "500"
+      url: "http://www.gstatic.com/generate_204"
+
   冲浪云:
     type: http
     url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
@@ -170,6 +180,7 @@ proxy-groups:
       - github｜002
       - github｜003
       - NiceVPN
+      - 一方加速器
       - 冲浪云
       - 养老机场
       - antu
@@ -184,6 +195,7 @@ proxy-groups:
       - github｜002
       - github｜003
       - NiceVPN
+      - 一方加速器
       - 冲浪云
       - 养老机场
       - antu
