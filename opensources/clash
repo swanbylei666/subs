@@ -93,11 +93,12 @@ proxy-providers:
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
-  爱快加速:
+  flik6:
     type: http
-    url: "https://dy.ikuai66.xyz/api/v1/client/subscribe?token=a5d533b8ad2ade232b004eb73df0eae7"
+    url: "https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml"
+    filter: "relay"
     interval: "3600"
-    path: "./爱快加速.yaml"
+    path: "./clash.yaml"
     health-check:
       enable: true
       interval: "500"
@@ -160,7 +161,7 @@ proxy-groups:
       - github｜002
       - github｜003
       - 超级机场
-      - 爱快加速
+      - flik6
       - 三喜机场
       - EMO
 
@@ -173,7 +174,7 @@ proxy-groups:
       - github｜002
       - github｜003
       - 超级机场
-      - 爱快加速
+      - flik6
       - 三喜机场
       - EMO
 
