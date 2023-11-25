@@ -34,7 +34,7 @@ proxy-providers:
   hutao:
     type: http
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
-    filter: "香港|美国"
+    filter: "香港|台湾|新加坡|美国"
     interval: "3600"
     path: "./hutao.yaml"
     health-check:
@@ -83,22 +83,22 @@ proxy-providers:
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
-  超级机场:
+  NiceVPN:
     type: http
-    url: "https://v1.chaojiji.one/api/v1/client/subscribe?token=aa17feffffcf03771a0ee2056f61430e"
+    url: "https://raw.gitmirror.com/NiceVPN123/NiceVPN/main/Clash.yaml"
+    filter: "HK|TW|CN|SG|VN|JP|US"
     interval: "3600"
-    path: "./超级机场.yaml"
+    path: "./Clash.yaml"
     health-check:
       enable: true
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
-  NiceVPN:
+  超级机场:
     type: http
-    url: "https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml"
-    filter: "HK|TW|CN|SG|VN|JP|US"
+    url: "https://v1.chaojiji.one/api/v1/client/subscribe?token=aa17feffffcf03771a0ee2056f61430e"
     interval: "3600"
-    path: "./Clash.yaml"
+    path: "./超级机场.yaml"
     health-check:
       enable: true
       interval: "500"
@@ -160,8 +160,8 @@ proxy-groups:
       - github｜001
       - github｜002
       - github｜003
-      - 超级机场
       - NiceVPN
+      - 超级机场
       - 三喜机场
       - EMO
 
@@ -173,8 +173,8 @@ proxy-groups:
       - github｜001
       - github｜002
       - github｜003
-      - 超级机场
       - NiceVPN
+      - 超级机场
       - 三喜机场
       - EMO
 
