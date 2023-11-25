@@ -93,7 +93,7 @@ proxy-providers:
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
-  flik6:
+  NiceVPN:
     type: http
     url: "https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml"
     filter: "HK|TW|CN|SG|VN|JP|US"
@@ -161,7 +161,7 @@ proxy-groups:
       - github｜002
       - github｜003
       - 超级机场
-      - flik6
+      - NiceVPN
       - 三喜机场
       - EMO
 
@@ -174,7 +174,7 @@ proxy-groups:
       - github｜002
       - github｜003
       - 超级机场
-      - flik6
+      - NiceVPN
       - 三喜机场
       - EMO
 
