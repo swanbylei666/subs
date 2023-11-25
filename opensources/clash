@@ -115,11 +115,11 @@ proxy-providers:
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
-  EMO:
+  麻雀加速器:
     type: http
-    url: "https://002.8698681.xyz/api/v1/client/subscribe?token=f1e99f84b49b1ab8a2640ef9d5020680"
+    url: "https://v.spwvpn.com/api/v1/client/subscribe?token=b0e4f5530b1f5fecac509b1c846176c9"
     interval: "3600"
-    path: "./EMO.yaml"
+    path: "./麻雀加速器.yaml"
     health-check:
       enable: true
       interval: "500"
@@ -163,7 +163,7 @@ proxy-groups:
       - NiceVPN
       - 超级机场
       - 三喜机场
-      - EMO
+      - 麻雀加速器
 
   - name: 📡 人家鸡场｜xxx
     type: select
@@ -176,7 +176,7 @@ proxy-groups:
       - NiceVPN
       - 超级机场
       - 三喜机场
-      - EMO
+      - 麻雀加速器
 
   - name: 📵 广告拦截
     type: select
