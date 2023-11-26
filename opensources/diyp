@@ -48,6 +48,8 @@ GRTN生活,https://php.17186.eu.org/gdtv/web/life.m3u8
 央视LIVES,#genre#
 CCTV01,http://cfss.cc/api/ysp/cctv1.m3u8
 CCTV01,http://cfss.cc/ds/ysp/qp.php?id=cctv1&Cf.m3u8
+CCTV02,http://cfss.cc/api/ysp/cctv2.m3u8
+CCTV03,http://cfss.cc/api/ysp/cctv3.m3u8
 CCTV05,http://cfss.cc/api/ysp/cctv5.m3u8
 CCTV05+,http://cfss.cc/api/ysp/cctv5p.m3u8
 
