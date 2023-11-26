@@ -76,7 +76,7 @@ proxy-groups:
     interval: "500"
     tolerance: "50"
     use:
-      - hutao
+      - hutaocloud
 
   - name: 📡 人家鸡场｜随机
     type: url-test
