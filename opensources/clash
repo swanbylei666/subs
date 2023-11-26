@@ -1,15 +1,11 @@
 mode: global  #rule
-
 port: 7890
 socks-port: 7891
-
 allow-lan: true
 log-level: silent  #info
 
 proxies:
-
 proxy-providers:
-
   nekobox:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
@@ -20,7 +16,6 @@ proxy-providers:
       enable: true
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
-
   ymlshare:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
@@ -31,115 +26,23 @@ proxy-providers:
       enable: true
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
-
-  hutao:
+  hutaocloud:
     type: http
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
     filter: "新加坡|美国"
     interval: "3600"
-    path: "./hutao.yaml"
+    path: "./hutaocloud.yaml"
     health-check:
       enable: true
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
-  github｜000:
-    type: http
-    url: "https://raw.gitmirror.com/ripaojiedian/freenode/main/clash"
-    interval: "3600"
-    path: "./clash.yaml"
-    health-check:
-      enable: true
-      interval: "500"
-      url: "http://www.gstatic.com/generate_204"
-
-  github｜001:
+  配置文件:
     type: http
     url: "https://raw.gitmirror.com/vveg26/chromego_merge/main/sub/merged_warp_proxies_new.yaml"
+    filter: ""
     interval: "3600"
-    path: "./merged_warp_proxies_new.yaml"
-    health-check:
-      enable: true
-      interval: "500"
-      url: "http://www.gstatic.com/generate_204"
-
-  github｜002:
-    type: http
-    url: "https://raw.gitmirror.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
-    filter: "HK|TW|SG|JP|US"
-    interval: "3600"
-    path: "./speednodes.yaml"
-    health-check:
-      enable: true
-      interval: "500"
-      url: "http://www.gstatic.com/generate_204"
-
-  github｜003:
-    type: http
-    url: "https://raw.gitmirror.com/allenapllo/private-node/main/clash/hebei.yaml"
-    interval: "3600"
-    path: "./hebei.yaml"
-    health-check:
-      enable: true
-      interval: "500"
-      url: "http://www.gstatic.com/generate_204"
-
-  NiceVPN:
-    type: http
-    url: "https://raw.gitmirror.com/NiceVPN123/NiceVPN/main/Clash.yaml"
-    filter: "HK|TW|CN|SG|VN|JP|US"
-    interval: "3600"
-    path: "./NiceVPN.yaml"
-    health-check:
-      enable: true
-      interval: "500"
-      url: "http://www.gstatic.com/generate_204"
-
-  一方加速器:
-    type: http
-    url: "https://yifang.win/link/JxsFjOgd7yEijHGL?clash=1"
-    interval: "3600"
-    path: "./一方加速器.yaml"
-    health-check:
-      enable: true
-      interval: "500"
-      url: "http://www.gstatic.com/generate_204"
-
-  冲浪云:
-    type: http
-    url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
-    interval: "3600"
-    path: "./冲浪云.yaml"
-    health-check:
-      enable: true
-      interval: "500"
-      url: "http://www.gstatic.com/generate_204"
-
-  养老机场:
-    type: http
-    url: "https://sub2.yljc.online/api/v1/client/subscribe?token=ab4497cb97b6008a2c4fbd0627a50670"
-    interval: "3600"
-    path: "./养老机场.yaml"
-    health-check:
-      enable: true
-      interval: "500"
-      url: "http://www.gstatic.com/generate_204"
-
-  antu:
-    type: http
-    url: "https://xxxu.xyz/api/v1/client/subscribe?token=97eaec7662e14b228353c3794da1df19"
-    interval: "3600"
-    path: ./antu.yaml
-    health-check:
-      enable: true
-      interval: "500"
-      url: "http://www.gstatic.com/generate_204"
-
-  麻雀加速器:
-    type: http
-    url: "https://v.spwvpn.com/api/v1/client/subscribe?token=b0e4f5530b1f5fecac509b1c846176c9"
-    interval: "3600"
-    path: "./麻雀加速器.yaml"
+    path: "./配置文件.yaml"
     health-check:
       enable: true
       interval: "500"
@@ -150,12 +53,24 @@ proxy-groups:
   - name: 😀 allin1
     type: select
     proxies:
-      - 🚩 自家鸡场｜xxx
-      - 🚩 自家鸡场｜auto
-      - 📡 人家鸡场｜xxx
-      - 📡 人家鸡场｜auto
+      - 🚩 自家鸡场｜单选
+      - 📡 人家鸡场｜单选
+      - 🚩 自家鸡场｜随机
+      - 📡 人家鸡场｜随机
 
-  - name: 🚩 自家鸡场｜auto
+  - name: 🚩 自家鸡场｜单选
+    type: select
+    proxies:
+      - DIRECT
+    use:
+      - nekobox
+
+  - name: 📡 人家鸡场｜单选
+    type: select
+    use:
+      - ymlshare
+
+  - name: 🚩 自家鸡场｜随机
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: "500"
@@ -163,44 +78,13 @@ proxy-groups:
     use:
       - hutao
 
-  - name: 🚩 自家鸡场｜xxx
-    type: select
-    proxies:
-      - DIRECT
-    use:
-      - nekobox
-
-  - name: 📡 人家鸡场｜auto
+  - name: 📡 人家鸡场｜随机
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: "500"
     tolerance: "50"
     use:
-      - github｜000
-      - github｜001
-      - github｜002
-      - github｜003
-      - NiceVPN
-      - 一方加速器
-      - 冲浪云
-      - 养老机场
-      - antu
-      - 麻雀加速器
-
-  - name: 📡 人家鸡场｜xxx
-    type: select
-    use:
-      - ymlshare
-      - github｜000
-      - github｜001
-      - github｜002
-      - github｜003
-      - NiceVPN
-      - 一方加速器
-      - 冲浪云
-      - 养老机场
-      - antu
-      - 麻雀加速器
+      - 配置文件
 
   - name: 📵 广告拦截
     type: select
