@@ -69,6 +69,7 @@ proxy-groups:
     type: select
     use:
       - ymlshare
+      - 配置文件
 
   - name: 🚩 自家鸡场｜随机
     type: url-test
