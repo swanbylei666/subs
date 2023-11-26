@@ -4,7 +4,7 @@ port: 7890
 socks-port: 7891
 
 allow-lan: true
-log-level: silent
+log-level: silent  #info
 
 proxies:
 
@@ -13,7 +13,7 @@ proxy-providers:
   nekobox:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
-    filter: "香港|台湾|新加坡|美国"
+    filter: "香港|美国"
     interval: "3600"
     path: "./nekobox.yaml"
     health-check:
@@ -24,6 +24,7 @@ proxy-providers:
   ymlshare:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
+    filter: ""
     interval: "3600"
     path: "./ymlshare.yaml"
     health-check:
@@ -34,7 +35,7 @@ proxy-providers:
   hutao:
     type: http
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
-    filter: "香港|台湾|新加坡|美国"
+    filter: "新加坡|美国"
     interval: "3600"
     path: "./hutao.yaml"
     health-check:
