@@ -1,18 +1,11 @@
 HOT地区,#genre#
-【软/硬解码】,https://404.com/index.m3u8
-翡翠【原始】,https://t17.iptv200.com/live/tvbfc/index.m3u8?session=tufzvssss6d49uk9am5mqhxifdrl32kg
-J2【原版】,http://r.jdshipin.com/Nr5jq
-翡翠【广电】,http://27.36.62.162:9090/live/1350_1500.m3u8?t=8S6lHDnZOXb8fZ91xEBYwg==&u=freeuser&p=1&pid=&cid=860&d=004bfc8f56cd2797&sid=nc8SOje/1JeUfF/w3ziSvQ==&r=20231125143634&e=20231125203639&nc=5KNFcP3CPNO9&a=7&v=2&isSuma=1&hlsSessionID=1429613102072326721&srchost=172.16.149.181:8060&gid=t4azewBhL34RUXMSh/jl/w==
 翡翠【广电】,http://r.jdshipin.com/n90gt
 翡翠【广电】,https://pi.0472.org/tv/fct.php?auth=231122
 明珠【广电】,https://pi.0472.org/tv/mzt.php?auth=231122
 明珠【广电】,http://nas.jdshipin.com:8801/iptv.php?id=mzt
-翡翠【大马】,https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
-TVB J1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
-ViuTV,http://r.jdshipin.com/vSJvl
-星河台,http://r.jdshipin.com/sXuuD
+J2【原版】,http://r.jdshipin.com/Nr5jq
+TVB-J1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
 星河台,http://113.117.74.28:8081/hls/135/index.m3u8
-凤凰香港,http://php.17186.eu.org/phtv/fhhk.m3u8
 星空台,https://pi.0472.org/tv/startv.php?auth=231110
 
 【剧】新闻女王,#genre#
