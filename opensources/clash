@@ -76,7 +76,7 @@ proxy-groups:
   - name: 🚩 自家鸡场｜随机
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: "500"
+    interval: "600"
     tolerance: "50"
     use:
       - hutaocloud
@@ -84,7 +84,7 @@ proxy-groups:
   - name: 📡 人家鸡场｜随机
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: "500"
+    interval: "600"
     tolerance: "50"
     use:
       - 配置文件
