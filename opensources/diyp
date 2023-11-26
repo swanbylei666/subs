@@ -54,6 +54,7 @@ GRTN生活,https://php.17186.eu.org/gdtv/web/life.m3u8
 电视剧08,http://cfss.cc/api/ysp/cctv8.m3u8
 记录09,http://cfss.cc/api/ysp/cctv9.m3u8
 科教10,http://cfss.cc/api/ysp/cctv10.m3u8
+少儿,http://cfss.cc/api/ysp/cctv14.m3u8
 音乐15,http://cfss.cc/api/ysp/cctv15.m3u8
 
 卫视LIVES,#genre#
