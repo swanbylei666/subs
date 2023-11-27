@@ -53,7 +53,7 @@ proxy-providers:
   配置文件0:
     type: http
     url: "https://raw.gitmirror.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
-    filter: ""
+    filter: "CN|HK|SG|JP|US"
     interval: "3600"
     path: "./配置文件0.yaml"
     health-check:
