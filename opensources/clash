@@ -83,7 +83,6 @@ proxy-groups:
     use:
       - ymlshare
       - 配置文件
-      - 配置文件0
 
   - name: 🚩 自家鸡场｜随机
     type: url-test
@@ -99,7 +98,7 @@ proxy-groups:
     interval: "600"
     tolerance: "50"
     use:
-      - 配置文件
+      - 配置文件0
 
   - name: 📵 广告拦截
     type: select
