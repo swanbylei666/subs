@@ -66,6 +66,7 @@ proxy-groups:
   - name: 😀 allin1
     type: select
     proxies:
+      - DIRECT
       - 🚩 自家鸡场｜单选
       - 📡 人家鸡场｜单选
       - 🚩 自家鸡场｜随机
@@ -74,7 +75,6 @@ proxy-groups:
   - name: 🚩 自家鸡场｜单选
     type: select
     proxies:
-      - DIRECT
     use:
       - nekobox
 
