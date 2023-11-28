@@ -61,6 +61,17 @@ proxy-providers:
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
+  配置文件1:
+    type: http
+    url: "https://v.spwvpn.com/api/v1/client/subscribe?token=b0e4f5530b1f5fecac509b1c846176c9"
+    filter: ""
+    interval: "3600"
+    path: "./配置文件1.yaml"
+    health-check:
+      enable: true
+      interval: "500"
+      url: "http://www.gstatic.com/generate_204"
+
 proxy-groups:
 
   - name: 😀 allin1
@@ -83,6 +94,8 @@ proxy-groups:
     use:
       - ymlshare
       - 配置文件
+      - 配置文件0
+      - 配置文件1
 
   - name: 🚩 自家鸡场｜随机
     type: url-test
@@ -99,6 +112,7 @@ proxy-groups:
     tolerance: "50"
     use:
       - 配置文件0
+      - 配置文件1
 
   - name: 📵 广告拦截
     type: select
