@@ -45,7 +45,18 @@ proxy-providers:
     url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
     filter: "SG|US|JP"
     interval: "60"
-    path: "./hutaocloud.yaml"
+    path: "./x.yaml"
+    health-check:
+      enable: true
+      interval: "100"
+      url: "http://www.gstatic.com/generate_204"
+
+  clash-yaml:
+    type: http
+    url: "https://sub1.timeneverchanges.com/api/v1/client/subscribe?token=5989520ca601a3caff2715e87a88f82d"
+    filter: ""
+    interval: "60"
+    path: "./x.yaml"
     health-check:
       enable: true
       interval: "100"
@@ -72,6 +83,8 @@ proxy-groups:
     type: select
     use:
       - ymlshare
+      - clash-yml
+      - clash-yaml
 
   - name: ♻️ 花錢の｜随机
     type: url-test
@@ -86,6 +99,8 @@ proxy-groups:
     interval: "100"
     use:
       - ymlshare
+      - clash-yml
+      - clash-yaml
 
   - name: 📵 广告拦截
     type: select
