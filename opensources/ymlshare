@@ -1,6 +1,6 @@
 proxies:
 
-  - {name: 人家の机场, type: ss, server: 0.0.0.0, port: 80, cipher: none, password: 00000000}
+  - {name: 別人家の机场, type: ss, server: 0.0.0.0, port: 80, cipher: none, password: 00000000}
 
 
   - {name: 🇨🇦 CA, server: 15.156.197.141, port: 13129, type: trojan, password: s1UJ6mBi6yuW, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
