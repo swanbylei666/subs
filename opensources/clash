@@ -10,44 +10,44 @@ proxy-providers:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
     filter: ""
-    interval: "3600"
+    interval: "60"
     path: "./nekobox.yaml"
     health-check:
       enable: true
-      interval: "500"
+      interval: "100"
       url: "http://www.gstatic.com/generate_204"
 
   ymlshare:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
     filter: ""
-    interval: "3600"
+    interval: "60"
     path: "./ymlshare.yaml"
     health-check:
       enable: true
-      interval: "500"
+      interval: "100"
       url: "http://www.gstatic.com/generate_204"
 
   hutaocloud:
     type: http
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
     filter: "新加坡|美国"
-    interval: "3600"
+    interval: "60"
     path: "./hutaocloud.yaml"
     health-check:
       enable: true
-      interval: "500"
+      interval: "100"
       url: "http://www.gstatic.com/generate_204"
 
   配置文件:
     type: http
     url: "https://v.spwvpn.com/api/v1/client/subscribe?token=b0e4f5530b1f5fecac509b1c846176c9"
     filter: ""
-    interval: "3600"
+    interval: "60"
     path: "./配置文件.yaml"
     health-check:
       enable: true
-      interval: "500"
+      interval: "100"
       url: "http://www.gstatic.com/generate_204"
 
 proxy-groups:
@@ -76,7 +76,7 @@ proxy-groups:
   - name: ♻️ 花錢の｜随机
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: "600"
+    interval: "100"
     tolerance: "50"
     use:
       - hutaocloud
@@ -84,7 +84,7 @@ proxy-groups:
   - name: ♻️ 免費の｜随机
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: "600"
+    interval: "100"
     tolerance: "50"
     use:
       - ymlshare
