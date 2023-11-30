@@ -40,6 +40,17 @@ proxy-providers:
       interval: "100"
       url: "http://www.gstatic.com/generate_204"
 
+  clash-yml:
+    type: http
+    url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
+    filter: "SG|US|JP"
+    interval: "60"
+    path: "./hutaocloud.yaml"
+    health-check:
+      enable: true
+      interval: "100"
+      url: "http://www.gstatic.com/generate_204"
+
 proxy-groups:
 
   - name: 😀 allin1
