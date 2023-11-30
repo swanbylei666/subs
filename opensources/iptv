@@ -1,6 +1,9 @@
 #EXTM3U x-tvg-url=""
 
 #EXTINF:-1 group-title="Tag↘電視機" tvg-logo="",翡翠
+http://85.92.112.51:8080/live/play/Wldkb1IyZHhRbnAyVWpGd05ubHJVblptV0daMGVXNU1XVTFvUWxOTVowVllhVVEyTDNwdk9FSmlSVDA9/571187
+
+#EXTINF:-1 group-title="Tag↘電視機" tvg-logo="",翡翠台【马来西亚】
 https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
 
 #EXTINF:-1 group-title="Tag↘音樂" tvg-logo="",台湾MTV live
