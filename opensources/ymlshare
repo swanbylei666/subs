@@ -1,6 +1,10 @@
 proxies:
 
   - {name: 別人家の机场, type: ss, server: 0.0.0.0, port: 80, cipher: none, password: 00000000}
+  - {name: 🇭🇰 Test🇬🇧英国01丨广港, server: ukf01.sanzangyun.xyz, port: 24786, type: vmess, uuid: da227ae8-cb1d-42e9-8537-090636b571eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv5/hd.m3u8, headers: {Host: ukf01.sanzangyun.xyz}}, udp: true}
+  - {name: 🇭🇰 Test🇬🇧英国02丨广港, server: ukf02.sanzangyun.xyz, port: 40959, type: trojan, password: da227ae8-cb1d-42e9-8537-090636b571eb, sni: uk02.sanzangyun.xyz, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 Test🇸🇬新加坡01丨广港, server: yzz01.sanzangyun.xyz, port: 25836, type: vmess, uuid: da227ae8-cb1d-42e9-8537-090636b571eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /cctv5/hd.m3u8, headers: {Host: yzz01.sanzangyun.xyz}}, udp: true}
+  - {name: 🇭🇰 Test🇸🇬新加坡02丨广港, server: yzz02.sanzangyun.xyz, port: 36925, type: trojan, password: da227ae8-cb1d-42e9-8537-090636b571eb, sni: yz02.sanzangyun.xyz, skip-cert-verify: true, udp: true}
 
 
   - {name: 🇨🇦 CA, server: 15.156.197.141, port: 13129, type: trojan, password: s1UJ6mBi6yuW, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
