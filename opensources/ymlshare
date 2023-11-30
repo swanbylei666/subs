@@ -2,34 +2,35 @@ proxies:
 
   - {name: 人家の机场, type: ss, server: 0.0.0.0, port: 80, cipher: none, password: 00000000}
 
-  - {name: CA, server: 3.99.182.131, port: 12989, type: trojan, password: Sv8nr)SZ5nkx, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: DE, server: 18.197.247.140, port: 12990, type: trojan, password: ejkWrDFPk)Jo, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: CA (1), server: 35.183.109.234, port: 12992, type: trojan, password: )TqpP5GzhAWX, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: DE (1), server: 3.68.167.160, port: 12995, type: trojan, password: 4r3n)TF)RnNy, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: DE (2), server: 3.64.8.232, port: 12989, type: trojan, password: XI8AcuZbYThK, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: GB, server: 35.178.169.17, port: 12982, type: trojan, password: sEuVtPSqG(kN, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: SG, server: 13.212.143.49, port: 12971, type: trojan, password: e08Ufx2Ry2Bb, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: GB (1), server: 18.130.225.110, port: 12980, type: trojan, password: vIX)GE1QaW26, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: US, server: 18.191.62.66, port: 12980, type: trojan, password: RWbweI56I6ik, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: US (1), server: 34.205.93.247, port: 12981, type: trojan, password: T6aHDbrqMN3w, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: JP, server: 3.112.207.99, port: 12965, type: trojan, password: bY7aA57Z4ghk, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: JP (1), server: 13.114.31.67, port: 12964, type: trojan, password: vOsNduBReDly, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: KR, server: 43.201.250.193, port: 12997, type: trojan, password: r8cge3hiw5j1, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: JP (2), server: 57.180.47.245, port: 12985, type: trojan, password: RexnhIBOEarr, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: KR (1), server: 3.38.179.44, port: 12980, type: trojan, password: JnIK9iswUSHq, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: JP (3), server: 54.238.224.188, port: 12959, type: trojan, password: yinHYs71iMnn, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: JP (4), server: 3.112.22.241, port: 12993, type: trojan, password: 4jg6TfJMpdvB, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: JP (5), server: 35.77.85.170, port: 12990, type: trojan, password: q3TVYJnGgnMq, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: JP (6), server: 3.112.196.74, port: 12961, type: trojan, password: L6R5RbjSRHWE, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: SG (1), server: 54.169.59.88, port: 12999, type: trojan, password: U6Zr)VOV86Kv, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: SG (2), server: 13.212.113.97, port: 12980, type: trojan, password: UYoXDW2L2Vzh, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: SG (3), server: 13.212.143.126, port: 12965, type: trojan, password: szN0u(pEsnIm, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: SG (4), server: 47.128.77.121, port: 12979, type: trojan, password: s)upVYX2ZIws, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: SG (5), server: 54.179.13.116, port: 12981, type: trojan, password: YhPx9gmB1t5F, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: US (2), server: 3.135.201.61, port: 12983, type: trojan, password: WIzCKOwbP2Vq, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: US (3), server: 3.236.168.67, port: 12985, type: trojan, password: DtDwFWZUu(HO, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: US (4), server: 52.42.51.250, port: 12972, type: trojan, password: h7ytorQqMT(S, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: US (5), server: 18.117.99.213, port: 12974, type: trojan, password: rN8bE6WKuI6S, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: US (6), server: 35.89.8.53, port: 13001, type: trojan, password: SZj8pWbThIcl, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: US (8), server: 34.219.65.224, port: 12979, type: trojan, password: ZX35M3PtON8H, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
-  - {name: US (7), server: 54.157.116.205, port: 12969, type: trojan, password: YFGYo1DE9U5b, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+
+  - {name: 🇨🇦 CA, server: 15.156.197.141, port: 13129, type: trojan, password: s1UJ6mBi6yuW, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇦 CA (1), server: 3.96.137.249, port: 13124, type: trojan, password: xTCYJNFL5sy5, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE, server: 35.156.83.251, port: 13129, type: trojan, password: iPFlTCqLCh(P, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE (1), server: 52.59.197.118, port: 13131, type: trojan, password: 5aouGGSKE6th, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB, server: 18.134.244.242, port: 13096, type: trojan, password: VPvLIN6aIfVt, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB (1), server: 18.169.157.176, port: 13118, type: trojan, password: i)8NVrIV0D7j, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP, server: 18.181.167.23, port: 13133, type: trojan, password: 8o9rrBqyxjmU, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP (1), server: 3.112.22.241, port: 13133, type: trojan, password: egZrD2Ly6Sp6, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP (2), server: 52.194.226.118, port: 13125, type: trojan, password: cywNoKKw4sXl, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP (3), server: 54.238.224.188, port: 13097, type: trojan, password: xjRm1OH9fHxc, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP (4), server: 54.95.127.94, port: 13090, type: trojan, password: kG7cFy7cmDiO, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP (5), server: 13.231.154.196, port: 13122, type: trojan, password: YYumyVzci6ZY, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP (6), server: 57.180.47.245, port: 13121, type: trojan, password: SOYC9SHuCOtA, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 KR, server: 13.124.237.47, port: 13127, type: trojan, password: 0)O0)LZ7Nr3g, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 KR (1), server: 43.201.250.193, port: 13091, type: trojan, password: 0Aycq4rrcH6z, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 KR (2), server: 3.38.179.44, port: 13121, type: trojan, password: Z0Ba70mU3hYx, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG, server: 13.250.16.236, port: 13106, type: trojan, password: XzB9LEPOSV8B, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG (1), server: 13.229.184.21, port: 13111, type: trojan, password: seQaiOVVhD3Q, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG (2), server: 54.179.13.116, port: 13118, type: trojan, password: n((mlctaH0nP, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG (3), server: 18.143.101.175, port: 13120, type: trojan, password: 24wQS9Ud9bds, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG (4), server: 13.212.143.126, port: 13099, type: trojan, password: 0l3lhDt93ANt, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG (5), server: 13.228.170.16, port: 13107, type: trojan, password: HluqfZEETUCP, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US, server: 3.236.168.67, port: 13121, type: trojan, password: )ZhwMk0gAj)8, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US (1), server: 44.211.185.206, port: 13110, type: trojan, password: zQPvxX00(vL1, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US (2), server: 18.117.183.181, port: 13115, type: trojan, password: TIlfhyadXrKs, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US (3), server: 34.205.93.247, port: 13120, type: trojan, password: JVy2WVVubuij, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US (4), server: 34.219.65.224, port: 13114, type: trojan, password: vLJD)HA7FpgT, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US (5), server: 34.234.211.134, port: 13124, type: trojan, password: bOO8brRgmUeB, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US (6), server: 34.219.237.98, port: 13093, type: trojan, password: OBSLnW3oXGQe, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US (7), server: 54.149.170.72, port: 13131, type: trojan, password: tcz(cqhkm2o6, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US (8), server: 54.157.116.205, port: 13105, type: trojan, password: HkMU5WqVnJLT, sni: www.myethblog.com, skip-cert-verify: true, udp: true}
