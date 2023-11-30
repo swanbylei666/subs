@@ -111,6 +111,7 @@ proxy-groups:
     interval: "600"
     tolerance: "50"
     use:
+      - ymlshare
       - 配置文件0
       - 配置文件1
 
