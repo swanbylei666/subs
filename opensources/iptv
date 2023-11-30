@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url=""
 
-#EXTINF:-1 group-title="Tag↘電視機" tvg-logo="",翡翠
-http://tvdrs.wsrtv.com.cn:8100/channellive/ch1.flv
+#EXTINF:-1 group-title="Tag↘電視機" tvg-logo="",翡翠直播臺
+https://edge6a.v2h-cdn.com/liveshow/liveshow.stream/chunklist.m3u8
 
 #EXTINF:-1 group-title="Tag↘電視機" tvg-logo="",翡翠台【马来西亚】
 https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
