@@ -9,7 +9,7 @@ proxy-providers:
   nekobox:
     type: http
     url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
-    filter: "香港|新加坡|美国"
+    filter: ""
     interval: "3600"
     path: "./nekobox.yaml"
     health-check:
@@ -50,17 +50,6 @@ proxy-providers:
       interval: "500"
       url: "http://www.gstatic.com/generate_204"
 
-  配置文件000:
-    type: http
-    url: "https://raw.gitmirror.com/a2470982985/getNode/main/clash.yaml"
-    filter: "Relay_"
-    interval: "3600"
-    path: "./配置文件000.yaml"
-    health-check:
-      enable: true
-      interval: "500"
-      url: "http://www.gstatic.com/generate_204"
-
 proxy-groups:
 
   - name: 😀 allin1
@@ -83,7 +72,6 @@ proxy-groups:
     use:
       - ymlshare
       - 配置文件
-      - 配置文件000
 
   - name: ♻️ 花錢の｜随机
     type: url-test
@@ -100,7 +88,7 @@ proxy-groups:
     tolerance: "50"
     use:
       - ymlshare
-      - 配置文件000
+      - 配置文件
 
   - name: 📵 广告拦截
     type: select
