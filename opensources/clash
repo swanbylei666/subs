@@ -77,7 +77,6 @@ proxy-groups:
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: "100"
-    tolerance: "50"
     use:
       - hutaocloud
 
@@ -85,7 +84,6 @@ proxy-groups:
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: "100"
-    tolerance: "50"
     use:
       - ymlshare
       - 配置文件
