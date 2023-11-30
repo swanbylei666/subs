@@ -39,17 +39,6 @@ proxy-providers:
       interval: "100"
       url: "http://www.gstatic.com/generate_204"
 
-  配置文件:
-    type: http
-    url: "https://v.spwvpn.com/api/v1/client/subscribe?token=b0e4f5530b1f5fecac509b1c846176c9"
-    filter: ""
-    interval: "60"
-    path: "./配置文件.yaml"
-    health-check:
-      enable: true
-      interval: "100"
-      url: "http://www.gstatic.com/generate_204"
-
 proxy-groups:
 
   - name: 😀 allin1
