@@ -5,6 +5,7 @@ allow-lan: true
 log-level: silent  #info
 
 proxies:
+
 proxy-providers:
   nekobox:
     type: http
@@ -81,7 +82,6 @@ proxy-groups:
       - REJECT
 
 rules:
-
   - 'GEOIP,LAN,DIRECT'
   - 'GEOIP,CN,DIRECT'
   - 'MATCH,😀 allin1'
