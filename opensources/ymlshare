@@ -1,2 +1,15 @@
 proxies:
   - {name: 人家の机场, type: ss, server: 0.0.0.0, port: 80, cipher: none, password: 00000000}
+  - {name: 【专线】, server: 5m4h0k01.6vczxw.xyz, port: 31016, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
+  - {name: 【专线】 2, server: 5m4h0k02.6vczxw.xyz, port: 31017, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
+  - {name: 【专线】 3, server: 5m4h0k03.6vczxw.xyz, port: 31018, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
+  - {name: 【专线】 4, server: 2d1t5w01.6vczxw.xyz, port: 31026, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
+  - {name: 【专线】 5, server: 2d1t5w02.6vczxw.xyz, port: 31027, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
+  - {name: 【专线】 6, server: 2d1t5w03.6vczxw.xyz, port: 31028, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
+  - {name: 【专线】 7, server: 6w7j3p01.6vczxw.xyz, port: 31010, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
+  - {name: 【专线】 8, server: 6w7j3p02.6vczxw.xyz, port: 31011, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
+  - {name: 【专线】 9, server: 6w7j3p03.6vczxw.xyz, port: 31012, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
+  - {name: 【专线】 10, server: 1c7s2g01.6vczxw.xyz, port: 31020, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
+  - {name: 【专线】 11, server: 1c7s2g02.6vczxw.xyz, port: 31021, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
+  - {name: 【专线】 12, server: 1c7s2g03.6vczxw.xyz, port: 31022, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
+  - {name: 【专线】 13, server: 4a2u0a01.6vczxw.xyz, port: 31030, type: ss, cipher: chacha20-ietf-poly1305, password: c5e065ea-02a5-4b23-88f7-d179a9e23ba1}
