@@ -56,24 +56,24 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚩 自家鸡场｜单选
-      - 📡 人家鸡场｜单选
-      - ♻️ 自家鸡场｜随机
-      - ♻️ 人家鸡场｜随机
+      - 🚩 花錢の｜单选
+      - 📡 免費の｜单选
+      - ♻️ 花錢の｜随机
+      - ♻️ 免費の｜随机
 
-  - name: 🚩 自家鸡场｜单选
+  - name: 🚩 花錢の｜单选
     type: select
     proxies:
     use:
       - nekobox
 
-  - name: 📡 人家鸡场｜单选
+  - name: 📡 免費の｜单选
     type: select
     use:
       - ymlshare
       - 配置文件
 
-  - name: ♻️ 自家鸡场｜随机
+  - name: ♻️ 花錢の｜随机
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: "600"
@@ -81,7 +81,7 @@ proxy-groups:
     use:
       - hutaocloud
 
-  - name: ♻️ 人家鸡场｜随机
+  - name: ♻️ 免費の｜随机
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: "600"
