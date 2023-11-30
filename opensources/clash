@@ -52,7 +52,7 @@ proxy-providers:
 
   配置文件000:
     type: http
-    url: "https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/Clash.yaml"
+    url: "https://raw.gitmirror.com/NiceVPN123/NiceVPN/main/Clash.yaml"
     filter: ""
     interval: "3600"
     path: "./配置文件000.yaml"
