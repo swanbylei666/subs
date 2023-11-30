@@ -100,7 +100,6 @@ proxy-groups:
     tolerance: "50"
     use:
       - ymlshare
-      - 配置文件
       - 配置文件000
 
   - name: 📵 广告拦截
