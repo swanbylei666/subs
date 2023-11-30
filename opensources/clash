@@ -71,7 +71,6 @@ proxy-groups:
     type: select
     use:
       - ymlshare
-      - 配置文件
 
   - name: ♻️ 花錢の｜随机
     type: url-test
@@ -86,7 +85,6 @@ proxy-groups:
     interval: "100"
     use:
       - ymlshare
-      - 配置文件
 
   - name: 📵 广告拦截
     type: select
