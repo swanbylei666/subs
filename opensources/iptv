@@ -1,26 +1,10 @@
 #EXTM3U x-tvg-url=""
 
-#EXTINF:-1 group-title="Tag↘電視機" tvg-logo="",翡翠直播臺
-https://edge6a.v2h-cdn.com/liveshow/liveshow.stream/chunklist.m3u8
+#EXTINF:-1 group-title="↘電視機" tvg-logo="",無線 翡翠
+http://www.namewee.xyz/gudou.php?id=1350
 
-#EXTINF:-1 group-title="Tag↘電視機" tvg-logo="",翡翠台
-https://bstvcdn.ballbar.net/jade_twn/playlist-15.m3u8a?t=1701373090&token=3d00a0eec044d0510035a3f4a0116e56
-
-#EXTINF:-1 group-title="Tag↘電視機" tvg-logo="",翡翠台 多线路
-https://ushls.ballbar.net/jade_twn/playlist-15.m3u8a?t=1701373197&token=2fc9f3f303caba405025cf4866febda1
-
-#EXTINF:-1 group-title="Tag↘電視機" tvg-logo="",無線 J2
-https://bstvcdn.ballbar.net/j2_twn/playlist-12.m3u8a?t=1701374011&token=5854c27ca76a19f808a4f7e8de3516d4
-
-#EXTINF:-1 group-title="Tag↘電視機" tvg-logo="",翡翠台【马来西亚】
+#EXTINF:-1 group-title="↘電視機" tvg-logo="",馬來 翡翠
 https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
 
-#EXTINF:-1 group-title="Tag↘電視機" tvg-logo="",Astro 華麗台
-https://pull-l3-cny.douyincdn.com/live/1eefa5638a9e571eb10121fa72931857.flv
-
-#EXTINF:-1 group-title="Tag↘電視機" tvg-logo="",無線新聞台 网页版
+#EXTINF:-1 group-title="↘電視機" tvg-logo="",無線新聞
 https://prd-vcache.edge-global.akamai.tvb.com/__cl/slocalr2526/__c/ott_I-NEWS_h264/__op/bks/__f/index.m3u8?hdnea=ip=0.0.0.0~st=1701363307~exp=1701449707~acl=/__cl/slocalr2526/__c/ott_I-NEWS_h264/__op/bks/__f/*~hmac=27a61bcd2bd5dafa8193abca5d8d05cfa9266adba12a19630a799b6ed7dfe38b&p=3139
-
-#EXTINF:-1 group-title="Tag↘音樂" tvg-logo="",MOMO 亲子台
-https://cdn5.woniuzfb.com/live/momoqz/lUphyvot.m3u8
-
