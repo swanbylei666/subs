@@ -9,5 +9,10 @@ https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
 #EXTINF:-1 user-agent="MXPlayer/1.68.4 (Linux; Android 14; zh-CN; PJJ110 Build/PJJ110_14.0.0.208(CN01)) group-title="↘電視機" tvg-logo="",無線新聞
 https://prd-vcache.edge-global.akamai.tvb.com/__cl/slocalr2526/__c/ott_I-NEWS_h264/__op/bks/__f/index.m3u8?hdnea=ip=0.0.0.0~st=1701363307~exp=1701449707~acl=/__cl/slocalr2526/__c/ott_I-NEWS_h264/__op/bks/__f/*~hmac=27a61bcd2bd5dafa8193abca5d8d05cfa9266adba12a19630a799b6ed7dfe38b&p=3139
 
+#EXTINF:-1 user-agent="MXPlayer/1.68.4 (Linux; Android 14; zh-CN; PJJ110 Build/PJJ110_14.0.0.208(CN01)) group-title="↘電視機" tvg-logo="",ViuTv電視
+https://t2.iptv200.com/live/viutv/index.m3u8?session=l0py7h0mhza9ig7gsv9bqs8wvhunvjwc
+
+
+
 #EXTINF:-1 user-agent="MXPlayer/1.68.4 (Linux; Android 14; zh-CN; PJJ110 Build/PJJ110_14.0.0.208(CN01))" group-title="↘央視頻道" tvg-logo="",央視1台，綜合
 http://cfss.cc/api/ysp/cctv1.m3u8
