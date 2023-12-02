@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url=""
 
 #EXTINF:-1 user-agent="MXPlayer/1.68.4 (Linux; Android 14; zh-CN; PJJ110 Build/PJJ110_14.0.0.208(CN01)) group-title="↘電視機" tvg-logo="",廣電 翡翠
-https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
+https://t47.iptv200.com/live/tvbfc/index.m3u8?session=sbfuluasd1s6q0s8ony2pondzod8vcjx
 
 #EXTINF:-1 user-agent="MXPlayer/1.68.4 (Linux; Android 14; zh-CN; PJJ110 Build/PJJ110_14.0.0.208(CN01)) group-title="↘電視機" tvg-logo="",馬來 翡翠
 https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
