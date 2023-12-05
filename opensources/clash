@@ -99,7 +99,7 @@ proxy-groups:
       - clash-yaml
 
   - name: ♻️ gitcloud🆓
-    type: url-test
+    type: fallback
     url: "http://www.gstatic.com/generate_204"
     interval: "100"
     use:
