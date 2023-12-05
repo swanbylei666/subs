@@ -80,10 +80,10 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚩 花錢の｜单选
-      - 📡 免費の｜单选
+      - 📡 免費🆓の｜单选
       - ♻️ gitcloud🆓
       - ♻️ 花錢の｜随机
-      - ♻️ 免費の｜随机
+      - ♻️ 免費🆓の｜随机
 
   - name: 🚩 花錢の｜单选
     type: select
@@ -91,24 +91,8 @@ proxy-groups:
     use:
       - nekobox
 
-  - name: 📡 免費の｜单选
+  - name: 📡 免費🆓の｜单选
     type: select
-    use:
-      - ymlshare
-      - clash-yml
-      - clash-yaml
-
-  - name: ♻️ 花錢の｜随机
-    type: url-test
-    url: "http://www.gstatic.com/generate_204"
-    interval: "100"
-    use:
-      - hutaocloud
-
-  - name: ♻️ 免費の｜随机
-    type: url-test
-    url: "http://www.gstatic.com/generate_204"
-    interval: "100"
     use:
       - ymlshare
       - clash-yml
@@ -120,6 +104,22 @@ proxy-groups:
     interval: "100"
     use:
       - gitcloud
+
+  - name: ♻️ 花錢の｜随机
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: "100"
+    use:
+      - hutaocloud
+
+  - name: ♻️ 免費🆓の｜随机
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: "100"
+    use:
+      - ymlshare
+      - clash-yml
+      - clash-yaml
 
   - name: 📵 广告拦截
     type: select
