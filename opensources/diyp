@@ -1,7 +1,6 @@
 [¡],#genre#
-404[¡],https://404.com/chunklist.m3u8
-翡翠 臨時,https://euorigin.scdn.pp.ua/live/tvb_jade.m3u8?token=6K8oYHEhaMsGOEPdHHrYmQ&expires=1701786688
-
+n/a,https://www.404.com/404.m3u8
+無線財經,https://cdn5.woniuzfb.com/live/tvbhk_tvbfinanceinformationchannel/ElwkwFtB.m3u8
 
 [剧]原生解,#genre#
 001news女王,https://v.cdnlz1.com/20231117/23905_376b806f/2000k/hls/mixed.m3u8
@@ -24,20 +23,10 @@
 018news女王,
 019news女王,https://vip.ffzyread1.com/20231205/21683_de758b2e/index.m3u8
 
-
-[影]原神解码,#genre#
+電影VOD,#genre#
 劫数难逃,https://v8.suonizy-youku.com/202311/18/ka1HJAKuPh1/video/2000k_0X1080_64k_25/hls/index.m3u8
 
-精选LIVES,#genre#
-J1[\],https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
-翡翠[软硬解],http://r.jdshipin.com/CkuBd
-明珠[软硬解],http://nas.jdshipin.com:8801/iptv.php?id=mzt
-明珠[软硬解],https://cdn4.woniuzfb.com/live/tvbhk_pearl/yamgjVgO.m3u8
-無線J2,https://bstvcdn.ballbar.net/j2_twn/playlist-12.m3u8a?t=1701568222&token=38d163096e9329c6691b347a26129385
-财经资讯,https://cdn5.woniuzfb.com/live/tvbhk_tvbfinanceinformationchannel/ElwkwFtB.m3u8
-星河[软硬解],http://113.117.74.28:8081/hls/135/index.m3u8
-
-广东LIVES,#genre#
+廣東電視,#genre#
 卫视,https://php.17186.eu.org/gdtv/web/gdws.m3u8
 珠江,https://php.17186.eu.org/gdtv/web/gdzj.m3u8
 珠江,http://r.jdshipin.com/qrfbg
@@ -61,7 +50,7 @@ GRTN健康,https://php.17186.eu.org/gdtv/web/health.m3u8
 GRTN文化,https://php.17186.eu.org/gdtv/web/wenhua.m3u8
 GRTN生活,https://php.17186.eu.org/gdtv/web/life.m3u8
 
-央视LIVES,#genre#
+中央電視,#genre#
 综合01,http://cfss.cc/api/ysp/cctv1.m3u8
 财经02,http://cfss.cc/api/ysp/cctv2.m3u8
 综艺03,http://cfss.cc/api/ysp/cctv3.m3u8
@@ -74,7 +63,7 @@ GRTN生活,https://php.17186.eu.org/gdtv/web/life.m3u8
 少儿14,http://cfss.cc/api/ysp/cctv14.m3u8
 音乐15,http://cfss.cc/api/ysp/cctv15.m3u8
 
-卫视LIVES,#genre#
+區域衛視,#genre#
 北京卫视,http://cfss.cc/api/ysp/bjws.m3u8
 浙江卫视,http://cfss.cc/api/ysp/zjws.m3u8
 东方卫视,http://cfss.cc/api/ysp/dfws.m3u8
