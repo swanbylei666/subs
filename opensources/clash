@@ -40,6 +40,17 @@ proxy-providers:
       interval: "100"
       url: "http://www.gstatic.com/generate_204"
 
+  gitcloud:
+    type: http
+    url: "https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fraw.gitmirror.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_AdblockPlus.ini&interval=1296000&sort=true&emoji=true&list=true&udp=true&tfo=false&expand=true&scv=true&fdn=true&surge.doh=true&clash.doh=true&new_name=true"
+    filter: ""
+    interval: "60"
+    path: "./gitcloud.yaml"
+    health-check:
+      enable: true
+      interval: "100"
+      url: "http://www.gstatic.com/generate_204"
+
   clash-yml:
     type: http
     url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
@@ -70,6 +81,7 @@ proxy-groups:
       - DIRECT
       - 🚩 花錢の｜单选
       - 📡 免費の｜单选
+      - ♻️ gitcloud🆓
       - ♻️ 花錢の｜随机
       - ♻️ 免費の｜随机
 
@@ -101,6 +113,13 @@ proxy-groups:
       - ymlshare
       - clash-yml
       - clash-yaml
+
+  - name: ♻️ gitcloud🆓
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: "100"
+    use:
+      - gitcloud
 
   - name: 📵 广告拦截
     type: select
