@@ -7,67 +7,45 @@ log-level: silent  #info
 proxies:
 
 proxy-providers:
-  nekobox:
-    type: http
-    url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/nekobox"
-    filter: ""
-    interval: "60"
-    path: "./nekobox.yaml"
-    health-check:
-      enable: true
-      interval: "100"
-      url: "http://www.gstatic.com/generate_204"
-
-  ymlshare:
-    type: http
-    url: "https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/ymlshare"
-    filter: ""
-    interval: "60"
-    path: "./ymlshare.yaml"
-    health-check:
-      enable: true
-      interval: "100"
-      url: "http://www.gstatic.com/generate_204"
-
-  hutaocloud:
+  hutao-cloud:
     type: http
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
     filter: "新加坡|美国|日本"
-    interval: "60"
-    path: "./hutaocloud.yaml"
+    interval: "100"
+    path: "./hutao-cloud.yaml"
     health-check:
       enable: true
       interval: "100"
       url: "http://www.gstatic.com/generate_204"
 
-  gitcloud:
+  git-cloud:
     type: http
     url: "https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fraw.gitmirror.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_AdblockPlus.ini&interval=1296000&sort=true&emoji=true&list=true&udp=true&tfo=false&expand=true&scv=true&fdn=true&surge.doh=true&clash.doh=true&new_name=true"
     filter: "SG|JP|US"
-    interval: "60"
-    path: "./gitcloud.yaml"
+    interval: "100"
+    path: "./git-cloud.yaml"
     health-check:
       enable: true
       interval: "100"
       url: "http://www.gstatic.com/generate_204"
 
-  clash-yml:
+  白嫖雞場I:
     type: http
     url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
     filter: "SG|US|JP"
-    interval: "60"
-    path: "./x.yaml"
+    interval: "100"
+    path: "./白嫖雞場I.yaml"
     health-check:
       enable: true
       interval: "100"
       url: "http://www.gstatic.com/generate_204"
 
-  clash-yaml:
+  白嫖雞場II:
     type: http
     url: "https://sub1.timeneverchanges.com/api/v1/client/subscribe?token=5989520ca601a3caff2715e87a88f82d"
     filter: ""
-    interval: "60"
-    path: "./x.yaml"
+    interval: "100"
+    path: "./白嫖雞場II.yaml"
     health-check:
       enable: true
       interval: "100"
@@ -79,50 +57,60 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 🚩 花錢の｜单选
-      - 📡 免費🆓の｜单选
-      - ♻️ gitcloud🆓
-      - ♻️ 花錢の｜随机
+      - ♻️ 付費💰の｜随机
+      - ♻️ gitcloud｜随机
       - ♻️ 免費🆓の｜随机
+      - 🔑 付費💰の｜随机
+      - 🔑 gitcloud｜随机
+      - 🔑 免費🆓の｜随机
 
-  - name: 🚩 花錢の｜单选
-    type: select
-    proxies:
-    use:
-      - nekobox
-
-  - name: 📡 免費🆓の｜单选
-    type: select
-    use:
-      - ymlshare
-      - clash-yml
-      - clash-yaml
-
-  - name: ♻️ gitcloud🆓
+  - name: ♻️ 付費💰の｜随机
     type: fallback
     url: "http://www.gstatic.com/generate_204"
     interval: "100"
     use:
-      - gitcloud
+      - hutao-cloud
 
-  - name: ♻️ 花錢の｜随机
-    type: url-test
+  - name: ♻️ gitcloud｜随机
+    type: fallback
     url: "http://www.gstatic.com/generate_204"
     interval: "100"
     use:
-      - hutaocloud
+      - git-cloud
 
   - name: ♻️ 免費🆓の｜随机
+    type: fallback
+    url: "http://www.gstatic.com/generate_204"
+    interval: "100"
+    use:
+      - 白嫖雞場I
+      - 白嫖雞場II
+
+  - name: 🔑 付費💰の｜随机
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: "100"
     use:
-      - ymlshare
-      - clash-yml
-      - clash-yaml
+      - hutao-cloud
+
+  - name: 🔑 gitcloud｜随机
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: "100"
+    use:
+      - git-cloud
+
+  - name: 🔑 免費🆓の｜随机
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: "100"
+    use:
+      - 白嫖雞場I
+      - 白嫖雞場II
+
 
   - name: 📵 广告拦截
-    type: select
+    type: url-test
     proxies:
       - REJECT
 
