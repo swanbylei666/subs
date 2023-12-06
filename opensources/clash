@@ -31,8 +31,8 @@ proxy-providers:
 
   白嫖雞場I:
     type: http
-    url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
-    filter: "香港|HK|新加坡|SG|美国|US|日本|JP"
+    url: "https://v.spwvpn.com/api/v1/client/subscribe?token=b0e4f5530b1f5fecac509b1c846176c9"
+    filter: "TW"
     interval: "100"
     path: "./白嫖雞場I.yaml"
     health-check:
