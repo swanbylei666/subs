@@ -1,21 +1,69 @@
 #EXTM3U x-tvg-url=""
 
-#EXTINF:-1 user-agent="MXPlayer/1.68.4 (Linux; Android 14; zh-CN; PJJ110 Build/PJJ110_14.0.0.208(CN01)) group-title="↘電視機" tvg-logo="",廣電 翡翠
-https://euorigin.scdn.pp.ua/live/tvb_jade.m3u8?token=6K8oYHEhaMsGOEPdHHrYmQ&expires=1701786688
-
-#EXTINF:-1 user-agent="MXPlayer/1.68.4 (Linux; Android 14; zh-CN; PJJ110 Build/PJJ110_14.0.0.208(CN01)) group-title="↘電視機" tvg-logo="",馬來 翡翠
-https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
-
-#EXTINF:-1 user-agent="MXPlayer/1.68.4 (Linux; Android 14; zh-CN; PJJ110 Build/PJJ110_14.0.0.208(CN01)) group-title="↘電視機" tvg-logo="",無線新聞
-https://prd-vcache.edge-global.akamai.tvb.com/__cl/slocalr2526/__c/ott_I-NEWS_h264/__op/bks/__f/index.m3u8?hdnea=ip=0.0.0.0~st=1701363307~exp=1701449707~acl=/__cl/slocalr2526/__c/ott_I-NEWS_h264/__op/bks/__f/*~hmac=27a61bcd2bd5dafa8193abca5d8d05cfa9266adba12a19630a799b6ed7dfe38b&p=3139
-
-#EXTINF:-1 user-agent="MXPlayer/1.68.4 (Linux; Android 14; zh-CN; PJJ110 Build/PJJ110_14.0.0.208(CN01)) group-title="↘電視機" tvg-logo="",ViuTv電視
-https://t2.iptv200.com/live/viutv/index.m3u8?session=l0py7h0mhza9ig7gsv9bqs8wvhunvjwc
-
-
-
-#EXTINF:-1 user-agent="MXPlayer/1.68.4 (Linux; Android 14; zh-CN; PJJ110 Build/PJJ110_14.0.0.208(CN01))" group-title="↘央視頻道" tvg-logo="",央視1台，綜合
+#EXTINF:-1 user-agent="" group-title="中央電視",综合01
 http://cfss.cc/api/ysp/cctv1.m3u8
+#EXTINF:-1 user-agent="" group-title="中央電視",财经02
+http://cfss.cc/api/ysp/cctv2.m3u8
+#EXTINF:-1 user-agent="" group-title="中央電視",综艺03
+http://cfss.cc/api/ysp/cctv3.m3u8
+#EXTINF:-1 user-agent="" group-title="中央電視",体育05
+http://cfss.cc/api/ysp/cctv5.m3u8
+#EXTINF:-1 user-agent="" group-title="中央電視",赛事05+
+http://cfss.cc/api/ysp/cctv5p.m3u8
+#EXTINF:-1 user-agent="" group-title="中央電視",电影06
+http://cfss.cc/api/ysp/cctv6.m3u8
+#EXTINF:-1 user-agent="" group-title="中央電視",电视剧08
+http://cfss.cc/api/ysp/cctv8.m3u8
+#EXTINF:-1 user-agent="" group-title="中央電視",记录09
+http://cfss.cc/api/ysp/cctv9.m3u8
+#EXTINF:-1 user-agent="" group-title="中央電視",科教10
+http://cfss.cc/api/ysp/cctv10.m3u8
+#EXTINF:-1 user-agent="" group-title="中央電視",少儿14
+http://cfss.cc/api/ysp/cctv14.m3u8
+#EXTINF:-1 user-agent="" group-title="中央電視",音乐15
+http://cfss.cc/api/ysp/cctv15.m3u8
 
-#EXTINF:-1 user-agent="MXPlayer/1.68.4 (Linux; Android 14; zh-CN; PJJ110 Build/PJJ110_14.0.0.208(CN01))" group-title="↘央視頻道" tvg-logo="",央視13台，新聞x澎湃
-https://play-a2.quklive.com/live/1701409356299238.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",卫视
+https://php.17186.eu.org/gdtv/web/gdws.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",珠江
+https://php.17186.eu.org/gdtv/web/gdzj.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",珠江
+http://r.jdshipin.com/qrfbg
+#EXTINF:-1 user-agent="" group-title="廣東電視",新闻
+https://php.17186.eu.org/gdtv/web/xwpd.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",湾区卫视
+https://php.17186.eu.org/gdtv/web/nfws.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",荔枝台
+https://php.17186.eu.org/gdtv/web/lizhi.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",民生
+https://php.17186.eu.org/gdtv/web/gdgg.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",体育
+https://php.17186.eu.org/gdtv/web/gdty.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",经济科教
+https://php.17186.eu.org/gdtv/web/jjkj.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",影视
+https://php.17186.eu.org/gdtv/web/gdys.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",4K超高清
+https://php.17186.eu.org/gdtv/web/gdzy.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",国际
+https://php.17186.eu.org/gdtv/web/gdgj.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",少儿
+https://php.17186.eu.org/gdtv/web/gdse.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",嘉佳卡通
+https://php.17186.eu.org/gdtv/web/jjkt.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",购物
+https://php.17186.eu.org/gdtv/web/nfgw.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",戏曲
+https://php.17186.eu.org/gdtv/web/lnxq.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",现代教育
+https://php.17186.eu.org/gdtv/web/xdjy.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",移动
+https://php.17186.eu.org/gdtv/web/ydpd.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",纪录片
+https://php.17186.eu.org/gdtv/web/jilupian.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",GRTN健康
+https://php.17186.eu.org/gdtv/web/health.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",GRTN文化
+https://php.17186.eu.org/gdtv/web/wenhua.m3u8
+#EXTINF:-1 user-agent="" group-title="廣東電視",GRTN生活
+https://php.17186.eu.org/gdtv/web/life.m3u8
