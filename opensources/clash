@@ -10,7 +10,7 @@ proxy-providers:
   hutao-cloud:
     type: http
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
-    filter: "新加坡|美国|日本"
+    filter: "香港|新加坡"
     interval: "100"
     path: "./hutao-cloud.yaml"
     health-check:
