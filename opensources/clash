@@ -32,7 +32,7 @@ proxy-providers:
   白嫖雞場I:
     type: http
     url: "https://dingyue.cloudaccess.icu/api/v1/client/subscribe?token=354b9a500c4424b2651f8593e39d3de6&flag=clash"
-    filter: "SG|US|JP"
+    filter: "香港|新加坡|美国|Japan"
     interval: "100"
     path: "./白嫖雞場I.yaml"
     health-check:
