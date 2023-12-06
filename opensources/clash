@@ -57,34 +57,12 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - ♻️ 付費💰の｜随机
-      - ♻️ gitcloud｜随机
-      - ♻️ 免費🆓の｜随机
       - 🔑 付費💰の｜随机
       - 🔑 gitcloud｜随机
       - 🔑 免費🆓の｜随机
-
-  - name: ♻️ 付費💰の｜随机
-    type: fallback
-    url: "http://www.gstatic.com/generate_204"
-    interval: "100"
-    use:
-      - hutao-cloud
-
-  - name: ♻️ gitcloud｜随机
-    type: fallback
-    url: "http://www.gstatic.com/generate_204"
-    interval: "100"
-    use:
-      - git-cloud
-
-  - name: ♻️ 免費🆓の｜随机
-    type: fallback
-    url: "http://www.gstatic.com/generate_204"
-    interval: "100"
-    use:
-      - 白嫖雞場I
-      - 白嫖雞場II
+      - ♻️ 付費💰の｜随机
+      - ♻️ gitcloud｜随机
+      - ♻️ 免費🆓の｜随机
 
   - name: 🔑 付費💰の｜随机
     type: url-test
@@ -108,6 +86,27 @@ proxy-groups:
       - 白嫖雞場I
       - 白嫖雞場II
 
+  - name: ♻️ 付費💰の｜随机
+    type: fallback
+    url: "http://www.gstatic.com/generate_204"
+    interval: "100"
+    use:
+      - hutao-cloud
+
+  - name: ♻️ gitcloud｜随机
+    type: fallback
+    url: "http://www.gstatic.com/generate_204"
+    interval: "100"
+    use:
+      - git-cloud
+
+  - name: ♻️ 免費🆓の｜随机
+    type: fallback
+    url: "http://www.gstatic.com/generate_204"
+    interval: "100"
+    use:
+      - 白嫖雞場I
+      - 白嫖雞場II
 
   - name: 📵 广告拦截
     type: url-test
