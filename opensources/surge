@@ -1,18 +1,20 @@
 #!MANAGED-CONFIG https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surge interval=60 strict=true
 
-[Host]
+[General]
 doh-server = https://8.8.8.8/dns-query
-dns-server = 223.5.5.5
+dns-server = 223.5.5.5, 119.29.29.29, 114.114.114.114, system
 example.com = server:https://cloudflare-dns.com/dns-query
+use-local-host-item-for-proxy = true
 
 [Proxy]
-Direct = direct
+cnDirect = direct
+📵 广告拦截 = reject
 
 [Proxy Group]
 😀 allin1 = select, Direct, 延迟【Huibq】, 均衡【Huibq】
 延迟【Huibq】 = url-test, policy-path = https://raw.gitmirror.com/Huibq/TrojanLinks/master/links/trjan, url = http://www.gstatic.com/generate_204, update-interval = 60, interval = 60, tolerance = 100, timeout = 5, evaluate-before-use = true 
 均衡【Huibq】 = fallback, policy-path = https://raw.gitmirror.com/Huibq/TrojanLinks/master/links/trjan, url = http://www.gstatic.com/generate_204, update-interval = 60, interval = 60, tolerance = 100, timeout = 5, evaluate-before-use = true
-📵 广告拦截 = REJECT
+
 
 [Rule]
 GEOIP,LAN,DIRECT
