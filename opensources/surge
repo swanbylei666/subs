@@ -5,6 +5,7 @@ doh-server = https://8.8.8.8/dns-query
 dns-server = 223.5.5.5, 119.29.29.29, 114.114.114.114, system
 example.com = server:https://cloudflare-dns.com/dns-query
 use-local-host-item-for-proxy = true
+ipv6 = false
 
 [Proxy]
 cnDirect = direct
