@@ -6,3 +6,8 @@ example.com = server:https://cloudflare-dns.com/dns-query
 
 [General]
 doh-follow-outbound-mode=true
+
+[Rule]
+DOMAIN-KEYWORD,xxx,REJECT
+GEOIP,CN,DIRECT
+FINAL,allin1
