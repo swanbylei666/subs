@@ -20,11 +20,11 @@ test-timeout = 5
 
 [Proxy Group]
 😃 allin1 = select, ♻️ 自动选择
-♻️ 自动选择 = url-test, 延迟篩選, 負載均衡 url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+♻️ 自动选择 = url-test, 延迟篩選, 負載均衡, url=http://www.gstatic.com/generate_204,interval=300
 
-延迟篩選 = url-test, policy-path=https://clashapi.rokeyyan.com/sub?target=surge&ver=4&url=https%3A%2F%2Fgithub.com%2FHuibq%2FTrojanLinks%2Fraw%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=Huibq&interval=86400&sort=true&emoji=true&list=true&udp=true&tfo=false&expand=true&scv=true&fdn=true, url=http://www.qualcomm.cn/generate_204, update-interval=600, interval = 600s, tolerance = 100ms, timeout = 5s
+延迟篩選 = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/inishare, url=http://www.qualcomm.cn/generate_204, update-interval=600, interval=600
 
-負載均衡 = fallback, policy-path=https://clashapi.rokeyyan.com/sub?target=surge&ver=4&url=https%3A%2F%2Fgithub.com%2FHuibq%2FTrojanLinks%2Fraw%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=Huibq&interval=86400&sort=true&emoji=true&list=true&udp=true&tfo=false&expand=true&scv=true&fdn=true, url=http://www.qualcomm.cn/generate_204, update-interval=600, interval = 600s, tolerance = 100ms, timeout = 5s
+負載均衡 = fallback, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/inishare, url=http://www.qualcomm.cn/generate_204, update-interval=600, interval=600
 
 [Rule]
 GEOIP,CN,DIRECT
