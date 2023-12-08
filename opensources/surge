@@ -1,22 +1,28 @@
-#!MANAGED-CONFIG https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surge interval=100 strict=true
+#!MANAGED-CONFIG http://test.com/surfboard.conf interval=60 strict=true
 
 [General]
+dns-server = system, 8.8.8.8, 1.1.1.1
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
-dns-server = 119.29.29.29, 223.5.5.5, system
-doh-server = https://doh.pub/dns-query
+proxy-test-url = http://www.gstatic.com/generate_204
+
+[Host]
+google.com = server:8.8.8.8
 
 [Proxy]
-國內通車 = direct
-ads攔截 = reject
+On = direct
+Off = reject
 
 [Proxy Group]
-😀 allin1 = select, 國內通車, 國際通車【】
-國際通車【】 = url-test, policy-path = https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surge
+SelectGroup = select,DIRECT, REJECT
 
-ads攔截 = select,REJECT
+AutoTestGroup = url-test, ProxySOCKS5, ProxySOCKS5TLS, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5, hidden=true
+
+ExternalGroup = select, policy-path=https://test.com/nodes.txt, policy-regex-filter=HK-.*
+
+AutoExternalGroup = url-test, policy-path=https://test.com/nodes.txt
 
 [Rule]
-DOMAIN-SUFFIX,local,DIRECT
 GEOIP,CN,DIRECT
-FINAL,😀 allin1
-
+PROCESS-NAME,com.android.vending,Proxy  # android package name
+RULE-SET,https://ruleset.com/cn,DIRECT
+FINAL,Proxy
