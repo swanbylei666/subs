@@ -22,9 +22,9 @@ test-timeout = 5
 😃 allin1 = select, ♻️ 自动选择
 ♻️ 自动选择 = url-test, 延迟篩選, 負載均衡, url=http://www.gstatic.com/generate_204,interval=300
 
-延迟篩選 = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/inishare, url=http://www.qualcomm.cn/generate_204, update-interval=600, interval=600
+延迟篩選 = url-test, policy-path=https://hutaod.com/link/QBrmvCnuY4zWJlis?sub=3, url=http://www.qualcomm.cn/generate_204, update-interval=600, interval=600
 
-負載均衡 = fallback, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/inishare, url=http://www.qualcomm.cn/generate_204, update-interval=600, interval=600
+負載均衡 = fallback, policy-path=https://hutaod.com/link/QBrmvCnuY4zWJlis?sub=3, url=http://www.qualcomm.cn/generate_204, update-interval=600, interval=600
 
 [Rule]
 GEOIP,CN,DIRECT
