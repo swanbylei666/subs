@@ -5,6 +5,16 @@ skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10
 bypass-system = true
 dns-server = 119.29.29.29, 223.5.5.5, system
 doh-server = https://8.8.8.8/dns-query
+allow-wifi-access = true
+ipv6 = true
+replica = false
+http-listen = 0.0.0.0:8234
+socks5-listen = 0.0.0.0:8235
+wifi-access-http-port = 7890
+wifi-access-socks5-port = 7891
+internet-test-url = http://www.gstatic.com/generate_204
+proxy-test-url = http://www.gstatic.com/generate_204
+test-timeout = 5
 
 [Proxy]
 SG = trojan, 13.250.1.11, 16635, password=Mtt72tdNH92s, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=www.myethblog.com
@@ -12,3 +22,8 @@ SG = trojan, 13.250.1.11, 16635, password=Mtt72tdNH92s, ws=false, ws-path=/, ski
 [Proxy Group]
 😃 allin1 = select, ♻️ 自动选择
 ♻️ 自动选择 = url-test, SG,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+
+
+[Rule]
+GEOIP,CN,DIRECT
+FINAL,😃 allin1
