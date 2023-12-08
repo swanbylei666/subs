@@ -1,5 +1,3 @@
-#!MANAGED-CONFIG http://127.0.0.1:25500/sub?config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&emoji=true&expand=true&fdn=true&filename=Huibq&insert=true&interval=86400&list=true&scv=true&target=surfboard&tfo=false&udp=true&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan interval=86400 strict=false
-
 🇨🇦 CA|Github搜索TrojanLinks = trojan, 3.96.204.134, 16766, password=V10ubFdIFiCG, sni=www.myethblog.com, skip-cert-verify=true, tfo=false, udp-relay=true
 🇨🇦 CA|Github搜索TrojanLinks 2 = trojan, 3.96.214.214, 16768, password=9vs46QwVnau4, sni=www.myethblog.com, skip-cert-verify=true, tfo=false, udp-relay=true
 🇩🇪 DE|Github搜索TrojanLinks = trojan, 3.71.78.172, 16756, password=L2ejjJVeic0d, sni=www.myethblog.com, skip-cert-verify=true, tfo=false, udp-relay=true
