@@ -1,1 +1,13 @@
-###
+#!MANAGED-CONFIG https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surge interval=500 strict=true
+
+[General]
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+bypass-system = true
+dns-server = 119.29.29.29, 223.5.5.5, system
+doh-server = https://8.8.8.8/dns-query
+
+[Proxy]
+SG = trojan, 13.250.1.11, 16635, password=Mtt72tdNH92s, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=www.myethblog.com
+
+[Proxy Group]
+😃 allin1 = select, 
