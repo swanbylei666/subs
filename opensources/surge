@@ -23,7 +23,6 @@ SG = trojan, 13.250.1.11, 16635, password=Mtt72tdNH92s, ws=false, ws-path=/, ski
 😃 allin1 = select, ♻️ 自动选择
 ♻️ 自动选择 = url-test, SG,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
 
-
 [Rule]
 GEOIP,CN,DIRECT
 FINAL,😃 allin1
