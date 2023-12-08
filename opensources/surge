@@ -14,7 +14,7 @@ On = direct
 Off = reject
 
 [Proxy Group]
-😃 allin1 = select,DIRECT, 最低延遲, 【Huibq】, 精選
+😃 allin1 = select, DIRECT, 最低延遲, 【Huibq】, 精選
 
 最低延遲 = url-test, 【Huibq】, 精選, url=http://www.gstatic.com/generate_204, interval=100, tolerance=100, timeout=5, hidden=true
 
