@@ -18,9 +18,9 @@ Off = reject
 
 最低延遲 = url-test, 【Huibq】, 精選, url=http://www.gstatic.com/generate_204, interval=100, tolerance=100, timeout=5, hidden=true
 
-精選 = select, policy-path=https://clashapi.rokeyyan.com/sub?target=surge&ver=4&url=https://raw.gitmirror.com/Huibq/TrojanLinks/master/links/trojan&insert=false&config=https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/Area_Media_NoAuto.ini&interval=86400&append_type=true&sort=true&emoji=true&list=true&udp=true&tfo=false&expand=true&scv=true&fdn=true, policy-regex-filter=US-.*,SG-.*,
+精選 = select, policy-path=https://clashapi.rokeyyan.com/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.gitmirror.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&interval=86400&append_type=true&sort=true&emoji=true&list=true&udp=true&tfo=false&expand=true&scv=true&fdn=true, policy-regex-filter=US-.*,SG-.*,
 
-【Huibq】 = url-test, policy-path=https://clashapi.rokeyyan.com/sub?target=surge&ver=4&url=https://raw.gitmirror.com/Huibq/TrojanLinks/master/links/trojan&insert=false&config=https://raw.githubusercontent.com/Meilieage/webcdn/main/rule/Area_Media_NoAuto.ini&interval=86400&append_type=true&sort=true&emoji=true&list=true&udp=true&tfo=false&expand=true&scv=true&fdn=true
+【Huibq】 = url-test, policy-path=https://clashapi.rokeyyan.com/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.gitmirror.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&interval=86400&append_type=true&sort=true&emoji=true&list=true&udp=true&tfo=false&expand=true&scv=true&fdn=true
 
 [Rule]
 GEOIP,CN,DIRECT
