@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surge interval=50 strict=true
+#!MANAGED-CONFIG https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surge interval=600 strict=false
 
 [General]
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
@@ -7,7 +7,6 @@ dns-server = 119.29.29.29, 223.5.5.5, system
 doh-server = https://8.8.8.8/dns-query
 allow-wifi-access = true
 ipv6 = true
-replica = false
 http-listen = 0.0.0.0:8234
 socks5-listen = 0.0.0.0:8235
 wifi-access-http-port = 7890
@@ -17,11 +16,13 @@ proxy-test-url = http://www.gstatic.com/generate_204
 test-timeout = 5
 
 [Proxy]
-SG = trojan, 13.250.1.11, 16635, password=Mtt72tdNH92s, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=www.myethblog.com
+大陸游 = direct
 
 [Proxy Group]
 😃 allin1 = select, ♻️ 自动选择
-♻️ 自动选择 = url-test, SG,url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+♻️ 自动选择 = url-test, 延迟篩選, url=http://www.gstatic.com/generate_204,interval=300,tolerance=50
+
+延迟篩選 = url-test, policy-path=https://clashapi.rokeyyan.com/sub?target=surge&ver=4&url=https%3A%2F%2Fgithub.com%2FHuibq%2FTrojanLinks%2Fraw%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=Huibq&interval=86400&sort=true&emoji=true&list=true&udp=true&tfo=false&expand=true&scv=true&fdn=true, url=http://www.qualcomm.cn/generate_204, update-interval=600, interval = 600s, tolerance = 100ms, timeout = 5s
 
 [Rule]
 GEOIP,CN,DIRECT
