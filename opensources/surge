@@ -2,18 +2,6 @@
 
 [General]
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
-bypass-system = true
-dns-server = 119.29.29.29, 223.5.5.5, system
-doh-server = https://8.8.8.8/dns-query
-allow-wifi-access = true
-ipv6 = true
-http-listen = 0.0.0.0:8234
-socks5-listen = 0.0.0.0:8235
-wifi-access-http-port = 7890
-wifi-access-socks5-port = 7891
-internet-test-url = http://www.gstatic.com/generate_204
-proxy-test-url = http://www.gstatic.com/generate_204
-test-timeout = 5
 
 [Proxy]
 大陸游 = direct
@@ -22,9 +10,9 @@ test-timeout = 5
 😃 allin1 = select, ♻️ 自动选择
 ♻️ 自动选择 = url-test, 延迟篩選, 負載均衡, url=http://www.gstatic.com/generate_204,interval=300
 
-延迟篩選 = url-test, policy-path=https://hutaod.com/link/QBrmvCnuY4zWJlis?sub=3, url=http://www.qualcomm.cn/generate_204, update-interval=600, interval=600
+延迟篩選 = url-test, policy-path=https://hutaod.com/link/QBrmvCnuY4zWJlis?sub=3, url=http://www.qualcomm.cn/generate_204
 
-負載均衡 = fallback, policy-path=https://hutaod.com/link/QBrmvCnuY4zWJlis?sub=3, url=http://www.qualcomm.cn/generate_204, update-interval=600, interval=600
+負載均衡 = fallback, policy-path=https://hutaod.com/link/QBrmvCnuY4zWJlis?sub=3, url=http://www.qualcomm.cn/generate_204
 
 [Rule]
 GEOIP,CN,DIRECT
