@@ -14,9 +14,9 @@ On = direct
 Off = reject
 
 [Proxy Group]
-😃 allin1 = select,DIRECT, 最低延遲
+😃 allin1 = select,DIRECT, 最低延遲, 【Huibq】, 精選
 
-最低延遲 = url-test, 【Huibq】, 精選url=http://www.gstatic.com/generate_204, interval=100, tolerance=100, timeout=5, hidden=true
+最低延遲 = url-test, 【Huibq】, 精選, url=http://www.gstatic.com/generate_204, interval=100, tolerance=100, timeout=5, hidden=true
 
 精選 = select, policy-path=https://raw.gitmirror.com/Huibq/TrojanLinks/master/links/trojan, policy-regex-filter=US-.*,JP-.*,
 
