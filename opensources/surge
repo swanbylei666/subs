@@ -8,7 +8,7 @@ skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10
 
 [Proxy Group]
 😃 allin1 = select, ♻️ 延迟篩選
-♻️ 延迟篩選 = url-test, policy-path=https://hutaod.com/link/QBrmvCnuY4zWJlis?sub=3, interval=900, strict=true, url=http://www.qualcomm.cn/generate_204
+♻️ 延迟篩選 = select, policy-path=https://hutaod.com/link/QBrmvCnuY4zWJlis?sub=3, interval=900, strict=true, url=http://www.qualcomm.cn/generate_204
 
 [Rule]
 GEOIP,CN,DIRECT
