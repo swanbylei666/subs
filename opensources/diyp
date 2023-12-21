@@ -61,12 +61,12 @@ GRTN生活,https://php.17186.eu.org/gdtv/web/life.m3u8
 
 中央電視,#genre#
 中央1台-综合,https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
-财经02,http://cfss.cc/api/ysp/cctv2.m3u8
-综艺03,http://cfss.cc/api/ysp/cctv3.m3u8
+中央2台-财经,https://node1.olelive.com:6443/live/CCTV2HD/hls.m3u8
+中央3台-综艺,https://node1.olelive.com:6443/live/CCTV3HD/hls.m3u8
 体育05,http://cfss.cc/api/ysp/cctv5.m3u8
 赛事05+,http://cfss.cc/api/ysp/cctv5p.m3u8
-电影06,http://cfss.cc/api/ysp/cctv6.m3u8
-电视剧08,http://cfss.cc/api/ysp/cctv8.m3u8
+中央6台-电影,https://node1.olelive.com:6443/live/CCTV6HD/hls.m3u8
+中央8台-电视剧,https://node1.olelive.com:6443/live/CCTV8HD/hls.m3u8
 记录09,http://cfss.cc/api/ysp/cctv9.m3u8
 科教10,http://cfss.cc/api/ysp/cctv10.m3u8
 少儿14,http://cfss.cc/api/ysp/cctv14.m3u8
