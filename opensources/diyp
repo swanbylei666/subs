@@ -60,7 +60,7 @@ GRTN文化,https://php.17186.eu.org/gdtv/web/wenhua.m3u8
 GRTN生活,https://php.17186.eu.org/gdtv/web/life.m3u8
 
 中央電視,#genre#
-综合01,http://cfss.cc/api/ysp/cctv1.m3u8
+中央1台-综合,https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
 财经02,http://cfss.cc/api/ysp/cctv2.m3u8
 综艺03,http://cfss.cc/api/ysp/cctv3.m3u8
 体育05,http://cfss.cc/api/ysp/cctv5.m3u8
@@ -70,7 +70,7 @@ GRTN生活,https://php.17186.eu.org/gdtv/web/life.m3u8
 记录09,http://cfss.cc/api/ysp/cctv9.m3u8
 科教10,http://cfss.cc/api/ysp/cctv10.m3u8
 少儿14,http://cfss.cc/api/ysp/cctv14.m3u8
-中央13台,https://0472.org/hls/cctv13.m3u8
+中央13台-新闻,https://0472.org/hls/cctv13.m3u8
 音乐15,http://cfss.cc/api/ysp/cctv15.m3u8
 
 區域衛視,#genre#
