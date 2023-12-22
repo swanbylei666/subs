@@ -4,12 +4,12 @@
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 
 [Proxy]
-订阅路线 = trojan, 112.16.244.58, 12471, password=924d5208-fc39-34b0-945a-be29123ff3d6, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=tjhk.hutaonode3.top
+订阅线路 = trojan, 112.16.244.58, 12471, password=924d5208-fc39-34b0-945a-be29123ff3d6, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=tjhk.hutaonode3.top
 
 线路1 = vmess, t.cnmjcn.cyou, 16616, username=c2c76420-257f-492a-b20f-6560f3bfa78d, ws=true, tls=false, ws-path=/, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
 
 [Proxy Group]
-SelectGroup = select, DIRECT, 订阅路线, AutoTestGroup, FallbackGroup, 线路1
+SelectGroup = select, DIRECT, 订阅线路, AutoTestGroup, FallbackGroup, 线路1
 
 AutoTestGroup = url-test, 线路1, url=http://www.gstatic.com/generate_204
 
