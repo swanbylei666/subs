@@ -11,6 +11,9 @@ skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10
 [Proxy Group]
 SelectGroup = select, 付费  订阅航线, 台北  免费
 
+
+FallbackGroup = fallback, 台北  免费, url=http://www.gstatic.com/generate_204
+
 [Rule]
 GEOIP,CN,DIRECT
 FINAL,SelectGroup
