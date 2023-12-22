@@ -20,7 +20,6 @@ ExternalGroups = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/sub
 AutoExternalGroups = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards
 
 [Rule]
-GEOIP,CN,DIRECT
 FINAL,SelectGroup
 DOMAIN-KEYWORD,githubusercontent.com,SelectGroup
 DOMAIN-KEYWORD,googleadadpis.com,REJECT
