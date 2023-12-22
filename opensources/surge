@@ -1,5 +1,4 @@
 #SubscribeInfo = title = surfboard加速器 更新时间：2023-12-22
-
 #!MANAGED-CONFIG https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surge interval=100 strict=false
 
 [General]
