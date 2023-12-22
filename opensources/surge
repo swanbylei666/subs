@@ -28,3 +28,7 @@ AutoExternalGroups = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7
 [Rule]
 GEOIP,CN,DIRECT
 FINAL,SelectGroup
+DOMAIN-KEYWORD,githubusercontent.com,SelectGroup
+DOMAIN-KEYWORD,googleadadpis.com,REJECT
+DOMAIN-KEYWORD,googletagmanager.com,REJECT
+DOMAIN-KEYWORD,google-analytics.com,REJECT
