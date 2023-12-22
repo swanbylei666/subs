@@ -16,7 +16,7 @@ AutoTestGroup = url-test, ExternalGroups, url=http://www.gstatic.com/generate_20
 
 AutoFallbackGroup = fallback, ExternalGroups, url=http://www.gstatic.com/generate_204, interval=50
 
-#【付费线路 筛选】, policy-regex-filter=HK-.*
+#【付费线路 筛选】", policy-regex-filter=HK-.*"
 ExternalGroup = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
 
 AutoExternalGroup = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
