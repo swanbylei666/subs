@@ -13,9 +13,9 @@ skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10
 [Proxy Group]
 SelectGroup = select, DIRECT, 订阅线路, AutoTestGroup, FallbackGroup,
 
-AutoTestGroup = url-test, 线路1, 线路2 url=http://www.gstatic.com/generate_204
+AutoTestGroup = url-test, 线路1, 线路2, url=http://www.gstatic.com/generate_204, interval=50
 
-FallbackGroup = fallback, 线路1, 线路2 url=http://www.gstatic.com/generate_204
+FallbackGroup = fallback, 线路1, 线路2, url=http://www.gstatic.com/generate_204, interval=50
 
 [Rule]
 GEOIP,CN,DIRECT
