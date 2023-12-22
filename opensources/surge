@@ -7,13 +7,13 @@ skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10
 
 [Proxy Group]
 SelectGroup = select, DIRECT, 订阅线路, AutoTestGroup, AutoFallbackGroup, ExternalGroup, AutoExternalGroup
+AutoTestGroup = url-test, ExternalGroup, url=http://www.gstatic.com/generate_204, interval=50
+AutoFallbackGroup = fallback, ExternalGroup, url=http://www.gstatic.com/generate_204, interval=50
 
 #【付费线路 筛选】, policy-regex-filter=HK-.*
 ExternalGroup = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
 AutoExternalGroup = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
 
-AutoTestGroup = url-test, ExternalGroup, url=http://www.gstatic.com/generate_204, interval=50
-AutoFallbackGroup = fallback, ExternalGroup, url=http://www.gstatic.com/generate_204, interval=50
 
 
 [Rule]
