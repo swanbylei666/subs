@@ -1,1 +1,2 @@
-！
+[Proxy]
+HONGKONG free = trojan, 112.16.244.58, 12471, password=924d5208-fc39-34b0-945a-be29123ff3d6, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=tjhk.hutaonode3.top
