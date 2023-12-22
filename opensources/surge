@@ -4,22 +4,17 @@
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 
 [Proxy]
-订阅线路 = trojan, 112.16.244.58, 12471, password=924d5208-fc39-34b0-945a-be29123ff3d6, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=tjhk.hutaonode3.top
-
-线路1 = vmess, t.cnmjcn.cyou, 16616, username=c2c76420-257f-492a-b20f-6560f3bfa78d, ws=true, tls=false, ws-path=/, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
-
-线路2 = vmess, 120.233.43.37, 52629, username=418048af-a293-4b99-9b0c-98ca3580dd24, ws=false, tls=false, ws-path=/, skip-cert-verify=false, udp-relay=false, vmess-aead=false
 
 [Proxy Group]
-SelectGroup = select, DIRECT, 订阅线路, ExternalGroup, AutoExternalGroup, AutoTestGroup, FallbackGroup,
+SelectGroup = select, DIRECT, 订阅线路, AutoTestGroup, AutoFallbackGroup, ExternalGroup, AutoExternalGroup
 
-AutoTestGroup = url-test, 线路1, 线路2, url=http://www.gstatic.com/generate_204, interval=50
-
-FallbackGroup = fallback, 线路1, 线路2, url=http://www.gstatic.com/generate_204, interval=50
-
-#筛选：policy-regex-filter=HK-.*
+#【付费线路 筛选】, policy-regex-filter=HK-.*
 ExternalGroup = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
 AutoExternalGroup = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
+
+AutoTestGroup = url-test, ExternalGroup, url=http://www.gstatic.com/generate_204, interval=50
+AutoFallbackGroup = fallback, ExternalGroup, url=http://www.gstatic.com/generate_204, interval=50
+
 
 [Rule]
 GEOIP,CN,DIRECT
