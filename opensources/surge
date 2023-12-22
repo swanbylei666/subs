@@ -8,12 +8,14 @@ skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10
 
 线路1 = vmess, t.cnmjcn.cyou, 16616, username=c2c76420-257f-492a-b20f-6560f3bfa78d, ws=true, tls=false, ws-path=/, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
 
+线路2 = vmess, 120.233.43.37, 52629, username=418048af-a293-4b99-9b0c-98ca3580dd24, ws=false, tls=false, ws-path=/, skip-cert-verify=false, udp-relay=false, vmess-aead=false
+
 [Proxy Group]
-SelectGroup = select, DIRECT, 订阅线路, AutoTestGroup, FallbackGroup, 线路1
+SelectGroup = select, DIRECT, 订阅线路, AutoTestGroup, FallbackGroup,
 
-AutoTestGroup = url-test, 线路1, url=http://www.gstatic.com/generate_204
+AutoTestGroup = url-test, 线路1, 线路2 url=http://www.gstatic.com/generate_204
 
-FallbackGroup = fallback, 线路1, url=http://www.gstatic.com/generate_204
+FallbackGroup = fallback, 线路1, 线路2 url=http://www.gstatic.com/generate_204
 
 [Rule]
 GEOIP,CN,DIRECT
