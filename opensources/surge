@@ -12,9 +12,9 @@ always-real-ip = *.com
 [Proxy Group]
 SelectGroup = select, DIRECT, REJECT, AutoTestGroup, AutoFallbackGroup, ExternalGroup, AutoExternalGroup, ExternalGroups, AutoExternalGroups
 
-AutoTestGroup = url-test, ExternalGroups, url=http://www.gstatic.com/generate_204, interval=50
+AutoTestGroup = url-test, ExternalGroups, url=http://www.gstatic.com/generate_204, interval=100
 
-AutoFallbackGroup = fallback, ExternalGroups, url=http://www.gstatic.com/generate_204, interval=50
+AutoFallbackGroup = fallback, ExternalGroups, url=http://www.gstatic.com/generate_204, interval=100
 
 #【付费线路 筛选】", policy-regex-filter=HK-.*"
 ExternalGroup = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
