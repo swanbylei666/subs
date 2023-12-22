@@ -21,9 +21,9 @@ ExternalGroup = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subs
 
 AutoExternalGroup = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
 
-ExternalGroups = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards, policy-regex-filter=香港, JAPAN
+ExternalGroups = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards, policy-regex-filter=香港, Japan
 
-AutoExternalGroups = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards, policy-regex-filter=香港, JAPAN
+AutoExternalGroups = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards, policy-regex-filter=香港, Japan
 
 [Rule]
 GEOIP,CN,DIRECT
