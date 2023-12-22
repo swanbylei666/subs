@@ -14,8 +14,6 @@ AutoFallbackGroup = fallback, ExternalGroup, url=http://www.gstatic.com/generate
 ExternalGroup = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
 AutoExternalGroup = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
 
-
-
 [Rule]
 GEOIP,CN,DIRECT
 FINAL,SelectGroup
