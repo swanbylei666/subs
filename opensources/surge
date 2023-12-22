@@ -4,10 +4,8 @@
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
 dns-server = system, 223.5.5.5, 119.29.29.29
 doh-server = https://8.8.8.8/dns-query
-test-timeout = 5
 proxy-test-url = https://www.google.com/
 internet-test-url = https://www.bing.com/
-always-real-ip = *.com
 
 [Proxy Group]
 SelectGroup = select, DIRECT, REJECT, AutoTestGroup, AutoFallbackGroup, ExternalGroup, AutoExternalGroup, ExternalGroups, AutoExternalGroups
