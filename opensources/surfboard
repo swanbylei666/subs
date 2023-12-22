@@ -1,4 +1,4 @@
 [Proxy]
 HONGKONG = trojan, 112.16.244.58, 12471, password=924d5208-fc39-34b0-945a-be29123ff3d6, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=tjhk.hutaonode3.top
 
-SINGAPORE = vmess, vws-sg.hutaonode3.top, 12331, username=924d5208-fc39-34b0-945a-be29123ff3d6, ws=true, tls=false, ws-path=/aHV0YW8, skip-cert-verify=false, udp-relay=false, vmess-aead=true
+TAIWAN = vmess, vws-tw.hutaonode3.top, 12531, username=924d5208-fc39-34b0-945a-be29123ff3d6, ws=true, tls=false, ws-path=/aHV0YW8, skip-cert-verify=false, udp-relay=false, vmess-aead=true
