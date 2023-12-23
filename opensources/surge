@@ -18,6 +18,7 @@ AutoExternalGroup = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7i
 ExternalGroups = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards
 
 AutoExternalGroups = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards
+FallbackExternalGroups = fallback, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards
 
 [Rule]
 FINAL,SelectGroup
