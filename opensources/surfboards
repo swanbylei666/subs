@@ -1,14 +1,28 @@
 [Proxy]
+台湾(mibei77.com 米贝节点分享) = vmess, m.cnmjcn.com, 16616, username=c2c76420-257f-492a-b20f-6560f3bfa78d, ws=true, tls=false, ws-path=/, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com
+
 KR韩国(mibei77.com 米贝节点分享) = vmess, 92.46.108.106, 443, username=9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f, ws=true, tls=true, ws-path=/@FORWARDV2RAY, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:m3hdio1.zapto.org
+
 俄罗斯联邦(mibei77.com 米贝节点分享) = vmess, 171.234.242.197, 443, username=9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f, ws=true, tls=true, ws-path=/@FORWARDV2RAY, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:m3hdio1.zapto.org
+
 NL荷兰(mibei77.com 米贝节点分享) = vmess, 213.156.151.6, 443, username=56bb54b0-5cfc-4b35-bc81-0b300a08b46b, ws=true, tls=true, ws-path=/@FORWARDV2RAY, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:m3hdio1.servehalflife.com
+
 HK香港(mibei77.com 米贝节点分享) = ss, nc.cn1.go002.xyz, 19561, encrypt-method=chacha20-ietf-poly1305, password=dcbc1c7f-c323-4365-bd48-cf767f9081ce, udp-relay=false
+
 US美国(mibei77.com 米贝节点分享) = vmess, 92.38.168.6, 443, username=9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f, ws=true, tls=true, ws-path=/@FORWARDV2RAY, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:m3hdio1.zapto.org
+
 澳大利亚(mibei77.com 米贝节点分享) = vmess, 170.238.234.217, 443, username=9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f, ws=true, tls=true, ws-path=/@FORWARDV2RAY, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:m3hdio1.zapto.org
+
 GB英国(mibei77.com 米贝节点分享) = vmess, 195.14.146.81, 443, username=9a3a0dcb-a64c-490d-947b-3f4efeb8dc0f, ws=true, tls=true, ws-path=/@FORWARDV2RAY, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:m3hdio1.zapto.org
+
 JP日本(mibei77.com 米贝节点分享) = trojan, octopus.koreanbbq.link, 443, password=8wOSlN5I8uAFRe3ZjZE3AyFBaD23yYCCCX0DaSO67aT4zpc39YlpexSDRqnKxg, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false
+
 sg新加坡(mibei77.com 米贝节点分享) = vmess, 92.223.116.222, 443, username=56bb54b0-5cfc-4b35-bc81-0b300a08b46b, ws=true, tls=true, ws-path=/@FORWARDV2RAY, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:m3hdio1.servehalflife.com
+
 SG新加坡(mibei77.com 米贝节点分享) = vmess, 92.223.116.207, 443, username=56bb54b0-5cfc-4b35-bc81-0b300a08b46b, ws=true, tls=true, ws-path=/@FORWARDV2RAY, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:m3hdio1.servehalflife.com
+
 CA加拿大(mibei77.com 米贝节点分享) = vmess, 95.85.92.8, 443, username=56bb54b0-5cfc-4b35-bc81-0b300a08b46b, ws=true, tls=true, ws-path=/@FORWARDV2RAY, skip-cert-verify=false, udp-relay=false, vmess-aead=true, ws-headers=Host:m3hdio1.servehalflife.com
+
 FR法国(mibei77.com 米贝节点分享) = ss, 51.142.106.171, 13506, encrypt-method=chacha20-ietf-poly1305, password=YDSrXzv55YtU9EBtggpxV9, udp-relay=false
+
 TW台湾(mibei77.com 米贝节点分享) = trojan, download1tw.windowsupdatea.com, 443, password=29ea82cf-f956-42b2-a5dc-35feea39e7ff, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=glc-tw1.windowsupdatea.com
