@@ -1,7 +1,5 @@
 mode: rule
 
-proxies:
-
 proxy-providers:
   hutao-cloud:
     type: http
