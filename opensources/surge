@@ -5,7 +5,7 @@ skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10
 dns-server = system, 223.5.5.5, 119.29.29.29, 8.8.8.8, 1.1.1.1
 
 [Proxy Group]
-SelectGroup = select, DIRECT, REJECT, 特殊渠道订阅Groups, AutoTestGroup, AutoFallbackGroup, ExternalGroup, AutoExternalGroup, ExternalGroups, AutoExternalGroups
+SelectGroup = select, DIRECT, REJECT, AutoTestGroup, AutoFallbackGroup, ExternalGroup, AutoExternalGroup, ExternalGroups, AutoExternalGroups
 
 AutoTestGroup = url-test, ExternalGroups, url=http://www.gstatic.com/generate_204, interval=100
 
@@ -19,8 +19,6 @@ AutoExternalGroup = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7i
 ExternalGroups = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards
 
 AutoExternalGroups = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards
-
-特殊渠道订阅Groups = select, policy-path=https://raw.gitmirror.com/Huibq/TrojanLinks/master/links/trojan
 
 [Rule]
 FINAL,SelectGroup
