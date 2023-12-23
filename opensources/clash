@@ -11,44 +11,44 @@ proxy-providers:
     type: http
     url: "https://hutaod.com/link/QBrmvCnuY4zWJlis?clash=1"
     filter: "香港|新加坡|美国"
-    interval: "100"
+    interval: "10"
     path: "./hutao-cloud.yaml"
     health-check:
       enable: true
-      interval: "100"
+      interval: "10"
       url: "http://www.gstatic.com/generate_204"
 
   git-cloud:
     type: http
     url: "https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fraw.gitmirror.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_AdblockPlus.ini&interval=1296000&sort=true&emoji=true&list=true&udp=true&tfo=false&expand=true&scv=true&fdn=true&surge.doh=true&clash.doh=true&new_name=true"
     filter: ""
-    interval: "100"
+    interval: "10"
     path: "./git-cloud.yaml"
     health-check:
       enable: true
-      interval: "100"
+      interval: "10"
       url: "http://www.gstatic.com/generate_204"
 
   白嫖雞場I:
     type: http
     url: "https://v.spwvpn.com/api/v1/client/subscribe?token=b0e4f5530b1f5fecac509b1c846176c9"
     filter: ""
-    interval: "100"
+    interval: "10"
     path: "./白嫖雞場I.yaml"
     health-check:
       enable: true
-      interval: "100"
+      interval: "10"
       url: "http://www.gstatic.com/generate_204"
 
   白嫖雞場II:
     type: http
     url: "https://sub1.timeneverchanges.com/api/v1/client/subscribe?token=5989520ca601a3caff2715e87a88f82d"
     filter: ""
-    interval: "100"
+    interval: "10"
     path: "./白嫖雞場II.yaml"
     health-check:
       enable: true
-      interval: "100"
+      interval: "10"
       url: "http://www.gstatic.com/generate_204"
 
 proxy-groups:
@@ -67,21 +67,21 @@ proxy-groups:
   - name: 🔑 付費💰の｜随机
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: "100"
+    interval: "10"
     use:
       - hutao-cloud
 
   - name: 🔑 gitcloud｜随机
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: "100"
+    interval: "10"
     use:
       - git-cloud
 
   - name: 🔑 免費🆓の｜随机
     type: url-test
     url: "http://www.gstatic.com/generate_204"
-    interval: "100"
+    interval: "10"
     use:
       - 白嫖雞場I
       - 白嫖雞場II
@@ -89,21 +89,21 @@ proxy-groups:
   - name: ♻️ 付費💰の｜随机
     type: fallback
     url: "http://www.gstatic.com/generate_204"
-    interval: "100"
+    interval: "10"
     use:
       - hutao-cloud
 
   - name: ♻️ gitcloud｜随机
     type: fallback
     url: "http://www.gstatic.com/generate_204"
-    interval: "100"
+    interval: "10"
     use:
       - git-cloud
 
   - name: ♻️ 免費🆓の｜随机
     type: fallback
     url: "http://www.gstatic.com/generate_204"
-    interval: "100"
+    interval: "10"
     use:
       - 白嫖雞場I
       - 白嫖雞場II
