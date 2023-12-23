@@ -4,7 +4,7 @@
 skip-proxy = localhost, *.local
 
 [Proxy Group]
-SelectGroup = select, DIRECT, REJECT, 自动测速Group, 故障转移Group, ExternalGroup, AutoExternalGroup, ExternalGroups, AutoExternalGroups
+SelectGroup = select, DIRECT, REJECT, 自动测速Group, 故障转移Group, ExternalGroup, AutoExternalGroup, ExternalGroups, AutoExternalGroups, FallbackExternalGroups
 
 自动测速Group = url-test, ExternalGroups, url=http://www.gstatic.com/generate_204, interval=100
 
