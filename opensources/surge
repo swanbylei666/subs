@@ -20,7 +20,7 @@ ExternalGroups = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/sub
 
 AutoExternalGroups = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards
 
-特殊渠道订阅Groups = select, policy-path=https://clashapi.rokeyyan.com/sub?target=surfboard&url=https%3A%2F%2Fraw.gitmirror.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FSleepyHeeead%2Fsubconverter-config%2Fmaster%2Fremote-config%2Fspecial%2Fbasic.ini&append_type=true&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=false&expand=true&scv=true&fdn=false
+特殊渠道订阅Groups = select, policy-path=https://raw.gitmirror.com/Huibq/TrojanLinks/master/links/trojan
 
 [Rule]
 FINAL,SelectGroup
