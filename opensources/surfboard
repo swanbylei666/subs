@@ -1,4 +1,8 @@
 [Proxy]
 HONGKONG = trojan, 112.16.244.58, 12471, password=924d5208-fc39-34b0-945a-be29123ff3d6, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=tjhk.hutaonode3.top
 
-TAIWAN = vmess, vws-tw.hutaonode3.top, 12531, username=924d5208-fc39-34b0-945a-be29123ff3d6, ws=true, tls=false, ws-path=/aHV0YW8, skip-cert-verify=false, udp-relay=false, vmess-aead=true
+SINGAPORE 01 = ss, cm1-sg.hutaonode3.top, 12351, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
+SINGAPORE 02 = ss, cm1-sg.hutaonode3.top, 12352, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
+SINGAPORE 03 = ss, cm1-sg.hutaonode3.top, 12353, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
+SINGAPORE 04 = ss, cm1-sg.hutaonode3.top, 12354, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
+SINGAPORE 05 = ss, cm1-sg.hutaonode3.top, 12355, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
