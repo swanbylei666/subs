@@ -20,7 +20,7 @@ ExternalGroups = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/sub
 
 AutoExternalGroups = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards
 
-特殊渠道订阅Groups = url-test, policy-path=http://mm.mibei77.com/202312/12.2264basxz.txt
+特殊渠道订阅Groups = url-test, policy-path=https://sub.maoxiongnet.com/sub?target=surfboard&url=https://shadowshare.v2cross.com/servers/temp/lCKXAEq0Qdg7RON8&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_NoReject.ini
 
 [Rule]
 FINAL,SelectGroup
