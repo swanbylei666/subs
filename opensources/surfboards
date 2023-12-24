@@ -32,3 +32,20 @@
 🇺🇸 US|Github搜索TrojanLinks 7 = trojan, 54.189.243.114, 12270, password=vKYSJGB6vsgJ, sni=www.myethblog.com, skip-cert-verify=true, tfo=true, udp-relay=true
 🇺🇸 US|Github搜索TrojanLinks 8 = trojan, 54.245.4.191, 12264, password=q0Nvqu6ZD6OY, sni=www.myethblog.com, skip-cert-verify=true, tfo=true, udp-relay=true
 🇺🇸 US|Github搜索TrojanLinks 9 = trojan, 3.85.6.30, 12227, password=QVzxfE1jokd), sni=www.myethblog.com, skip-cert-verify=true, tfo=true, udp-relay=true
+
+🇨🇳_CN_中国 = vmess, 159.75.178.50, 47551, username=2500a228-8c00-4934-81e0-22281c015a33, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=159.75.178.50, skip-cert-verify=true, tfo=true, udp-relay=true
+🇨🇦 _CN_中国->🇨🇦_CA_加拿大 = vmess, m.cnmjcn.com, 16648, username=c2c76420-257f-492a-b20f-6560f3bfa78d, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=m.cnmjcn.com, ws-headers=Host:d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com, skip-cert-verify=true, tfo=true, udp-relay=true
+🇨🇦 _CN_中国->🇨🇦_CA_加拿大 2 = vmess, t.cnmjcn.cyou, 16648, username=c2c76420-257f-492a-b20f-6560f3bfa78d, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=t.cnmjcn.cyou, ws-headers=Host:d4d028243c73047d9171bacb9b0439e8.mobgslb.tbcache.com, skip-cert-verify=true, tfo=true, udp-relay=true
+🇬🇧 _CN_中国->🇬🇧_GB_英国 = trojan, gbs.pptv-tv.store, 17728, password=299a6171-b4ce-403a-8157-c3dad55ef3a2, skip-cert-verify=true, tfo=true, udp-relay=true
+🇷🇺 _RU_俄罗斯联邦 = ss, 91.194.161.7, 8388, encrypt-method=chacha20-ietf-poly1305, password=OWJlYjYy, tfo=true, udp-relay=true
+🇺🇦 _UA_乌克兰 = vmess, 193.238.153.14, 8443, username=159693e0-5146-482d-9e46-8c4f2fc865b1, tls=true, vmess-aead=true, tls13=true, skip-cert-verify=true, tfo=true, udp-relay=true
+🇺🇸 _CN_中国->🇺🇸_US_美国 = ss, service.ouluyun9803.com, 50003, encrypt-method=chacha20-ietf-poly1305, password=057bf3ac-fda1-44c3-aa8e-07eed7ddc5b6, tfo=true, udp-relay=true
+🇺🇸 _US_美国 = ss, 35.90.10.174, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=true, udp-relay=true
+🇺🇸 _US_美国 2 = ss, 35.87.39.181, 443, encrypt-method=aes-256-cfb, password=amazonskr05, tfo=true, udp-relay=true
+🇺🇸 _US_美国 3 = vmess, 45.58.153.25, 30000, username=4242f9e0-6b7e-4257-9e93-7ad38015c46a, tls=true, vmess-aead=false, tls13=true, ws=true, ws-path=/path/1702961716738, sni=45.58.153.25, skip-cert-verify=true, tfo=true, udp-relay=true
+🇺🇸 _US_美国 4 = vmess, singapore.com, 80, username=b1e30339-a603-47d1-b31c-1d0ceb59952e, tls=false, vmess-aead=true, ws=true, ws-path=/api/v3/download.getFile, sni=singapore.com, ws-headers=Host:ssrsub.v03.ssrsub.com, skip-cert-verify=true, tfo=true, udp-relay=true
+🇺🇸 _US_美国 5 = trojan, hk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, 443, password=cc287f24-c5a5-4ebc-a77a-bb95ff902445, sni=13-231-155-134.nhost.00cdn.com, skip-cert-verify=true, tfo=true, udp-relay=true
+🇺🇸 _US_美国 6 = trojan, jp2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, 443, password=682ac5bf-c171-4c8b-a896-a9a6ac327a53, sni=13-231-155-134.nhost.00cdn.com, skip-cert-verify=true, tfo=true, udp-relay=true
+🇺🇸 _US_美国 7 = vmess, cf-lt.sharecentre.online, 80, username=b1e30339-a603-47d1-b31c-1d0ceb59952e, tls=false, vmess-aead=true, ws=true, ws-path=/api/v3/download.getFile, sni=cf-lt.sharecentre.online, ws-headers=Host:ssrsub.v004.ssrsub.com, skip-cert-verify=true, tfo=true, udp-relay=true
+🇺🇸 _US_美国 8 = vmess, 104.21.75.246, 80, username=c458695d-6908-45c3-9512-e0c46418454c, tls=false, vmess-aead=true, ws=true, ws-path=/, sni=104.21.75.246, ws-headers=Host:sbl2.shabijichang.com, skip-cert-verify=true, tfo=true, udp-relay=true
+🇺🇸 _US_美国->🇩🇪_DE_德国 = trojan, skk.moe, 8443, password=41aa073b-68fa-40c0-9b1c-9dc42c0b312c, sni=vps.restia.love, skip-cert-verify=true, tfo=true, udp-relay=true
