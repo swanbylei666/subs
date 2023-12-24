@@ -4,17 +4,17 @@
 skip-proxy = localhost, *.local
 
 [Proxy Group]
-SelectGroup = select, DIRECT, REJECT, 自动测速Group, 故障转移Group, ExternalGroup, AutoExternalGroup, FallbackExternalGroup, ExternalGroups, AutoExternalGroups, FallbackExternalGroups
+SelectGroup = select, DIRECT, REJECT, 自动测速Group, 故障转移Group, 消费节点Group, Auto消费节点Group, Fallback消费节点Group, ExternalGroups, AutoExternalGroups, FallbackExternalGroups
 
 自动测速Group = url-test, ExternalGroups, url=http://www.gstatic.com/generate_204, interval=100
 
 故障转移Group = fallback, ExternalGroups, url=http://www.gstatic.com/generate_204, interval=100
 
 #【付费线路 筛选】", policy-regex-filter=HK-.*"
-ExternalGroup = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
+消费节点Group = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
 
-AutoExternalGroup = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
-FallbackExternalGroup = fallback, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
+Auto消费节点Group = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
+Fallback消费节点Group = fallback, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
 
 ExternalGroups = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboards
 
