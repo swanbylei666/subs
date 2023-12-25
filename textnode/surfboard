@@ -1,10 +1,13 @@
 #!MANAGED-CONFIG https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/textnode/surfboard interval=10
 
+[Proxy]
+On = Direct
+
 [General]
 skip-proxy = localhost, *.local
 
 [Proxy Group]
-SelectGroup = select, DIRECT, 免费节点Groups, Auto免费节点Groups, Fallback免费节点Groups
+SelectGroup = select, On, 免费节点Groups, Auto免费节点Groups, Fallback免费节点Groups
 
 免费节点Groups = select, policy-path=https://api.v1.mk/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FSleepyHeeead%2Fsubconverter-config%2Fmaster%2Fremote-config%2Fspecial%2Fbasic.ini&interval=86400&tls13=true&sort=true&emoji=true&list=true&xudp=true&udp=true&tfo=true&expand=true&scv=true&fdn=false
 Auto免费节点Groups = url-test, policy-path=https://api.v1.mk/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FSleepyHeeead%2Fsubconverter-config%2Fmaster%2Fremote-config%2Fspecial%2Fbasic.ini&interval=86400&tls13=true&sort=true&emoji=true&list=true&xudp=true&udp=true&tfo=true&expand=true&scv=true&fdn=false
