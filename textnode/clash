@@ -15,7 +15,7 @@ proxy-providers:
 
   免费云ssr:
     type: http
-    url: "https://api.tsutsu.one/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Fssr&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true&new_name=true"
+    url: "https://api.tsutsu.one/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Fssr&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=huibq&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true&new_name=true"
     filter: ""
     interval: "10"
     path: "./config.yaml"
