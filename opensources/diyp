@@ -1,5 +1,7 @@
 [H5流媒體],#genre#
 🎞,https://www.404.com/404.m3u8
+海王2,https://top.1080pzy.co/202312/25/GkkmWynFc93/video/index.m3u8
+
 
 此時此刻,#genre#
 01集,https://v8.suonizy-youku.com/202311/10/TsuzAL0zMX1/video/index.m3u8
@@ -12,6 +14,7 @@
 08集,https://v8.suonizy-youku.com/202311/10/c8FL1KuX8E1/video/index.m3u8
 09集,https://v8.suonizy-youku.com/202311/10/PLDnLefeHh1/video/index.m3u8
 10集,https://v8.suonizy-youku.com/202311/10/ZCdcPNFzYk1/video/index.m3u8
+
 
 社内相亲 港版,#genre#
 01集,https://cdn1.vip-vip-yzzy.com/20231127/6770_2392d830/index.m3u8
@@ -30,10 +33,12 @@
 14集,https://cdn1.vip-vip-yzzy.com/20231214/9333_6dca192e/index.m3u8
 15集,https://cdn19.vip-vip-yzzy.com/20231216/10607_e2841322/index.m3u8
 
+
 特區頻道,#genre#
 翡翠[大马],https://edge6a.v2h-cdn.com/jade/jade.stream/chunklist.m3u8
 翡翠[大马],https://edge6a.v2h-cdn.com/jade/jade.stream/playlist.m3u8
 開電視,http://media.fantv.hk/m3u8/archive/channel2_stream1.m3u8
+
 
 廣東電視,#genre#
 卫视,https://php.17186.eu.org/gdtv/web/gdws.m3u8
@@ -59,6 +64,7 @@ GRTN健康,https://php.17186.eu.org/gdtv/web/health.m3u8
 GRTN文化,https://php.17186.eu.org/gdtv/web/wenhua.m3u8
 GRTN生活,https://php.17186.eu.org/gdtv/web/life.m3u8
 
+
 中央電視,#genre#
 中央1台-综合,https://node1.olelive.com:6443/live/CCTV1HD/hls.m3u8
 中央2台-财经,https://node1.olelive.com:6443/live/CCTV2HD/hls.m3u8
@@ -72,6 +78,7 @@ GRTN生活,https://php.17186.eu.org/gdtv/web/life.m3u8
 少儿14,http://cfss.cc/api/ysp/cctv14.m3u8
 中央13台-新闻,https://0472.org/hls/cctv13.m3u8
 中央15台-音乐,https://node1.olelive.com:6443/live/CCTV15HD/hls.m3u8
+
 
 區域衛視,#genre#
 北京卫视,http://cfss.cc/api/ysp/bjws.m3u8
