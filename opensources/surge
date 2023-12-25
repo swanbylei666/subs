@@ -16,6 +16,7 @@ ExternalGroups = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/sub
 
 AutoExternalGroups = url-test, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https://shadowshare.v2cross.com/servers/temp/g7NEa8n45MhCctiO&insert=true&config=https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/basic.ini&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
 FallbackExternalGroups = fallback, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https://shadowshare.v2cross.com/servers/temp/g7NEa8n45MhCctiO&insert=true&config=https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/basic.ini&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
+
 [Rule]
 FINAL,SelectGroup
 DOMAIN-KEYWORD,githubusercontent.com,SelectGroup
