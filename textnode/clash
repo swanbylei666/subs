@@ -58,8 +58,8 @@ proxy-groups:
 
 
 rules:
-  - 'MATCH,SelectGroup
-  - 'DOMAIN-KEYWORD,githubusercontent.com,SelectGroup
-  - 'DOMAIN-KEYWORD,googleadadpis.com,REJECT
-  - 'DOMAIN-KEYWORD,googletagmanager.com,REJECT
-  - 'DOMAIN-KEYWORD,google-analytics.com,REJECT
+  - MATCH,SelectGroup
+  - DOMAIN-KEYWORD,githubusercontent.com,SelectGroup
+  - DOMAIN-KEYWORD,googleadadpis.com,REJECT
+  - DOMAIN-KEYWORD,googletagmanager.com,REJECT
+  - DOMAIN-KEYWORD,google-analytics.com,REJECT
