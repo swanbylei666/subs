@@ -1,1 +1,51 @@
-＃
+mode: rule
+
+
+proxy-providers:
+  免费云trojan:
+    type: http
+    url: "https://api.tsutsu.one/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FSleepyHeeead%2Fsubconverter-config%2Fmaster%2Fremote-config%2Fspecial%2Fbasic.ini&filename=huibq&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true&new_name=true"
+    filter: ""
+    interval: "10"
+    path: "./config.yaml"
+    health-check:
+      enable: true
+      interval: "10"
+      url: "http://www.gstatic.com/generate_204"
+
+
+proxy-groups:
+  - name: SelectGroup
+    type: select
+    proxies:
+      - DIRECT
+      - 免费节点Groups
+      - Auto免费节点Groups
+      - Fallback免费节点Groups
+
+  - name: 免费节点Groups
+    type: select
+    use:
+      - 免费云trojan
+
+  - name: Auto免费节点Groups
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: "10"
+    use:
+      - 免费云trojan
+
+  - name: Fallback免费节点Groups
+    type: fallback
+    url: "http://www.gstatic.com/generate_204"
+    interval: "10"
+    use:
+      - 免费云trojan
+
+
+rules:
+  - 'MATCH,SelectGroup
+  - 'DOMAIN-KEYWORD,githubusercontent.com,SelectGroup
+  - 'DOMAIN-KEYWORD,googleadadpis.com,REJECT
+  - 'DOMAIN-KEYWORD,googletagmanager.com,REJECT
+  - 'DOMAIN-KEYWORD,google-analytics.com,REJECT
