@@ -1,6 +1,6 @@
 [Proxy]
-美国+V2CROSS.COM = trojan, UNLK1.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN, 20152, password=cc287f24-c5a5-4ebc-a77a-bb95ff902445, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=13-231-155-134.nhost.00cdn.com
+美国+V2CROSS.COM 00 = trojan, UNLK1.LVWF8N-HH8E-2300-NMOO-D2E9NAOBEACN.9D8F269F96B25232-759CBB36D6548597.KAUFEN, 20152, password=cc287f24-c5a5-4ebc-a77a-bb95ff902445, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=13-231-155-134.nhost.00cdn.com
 
-美国+V2CROSS.COM = trojan, unlk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, 20152, password=682ac5bf-c171-4c8b-a896-a9a6ac327a53, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=13-231-155-134.nhost.00cdn.com
+美国+V2CROSS.COM 01 = trojan, unlk1.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, 20152, password=682ac5bf-c171-4c8b-a896-a9a6ac327a53, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=13-231-155-134.nhost.00cdn.com
 
-美国+V2CROSS.COM = trojan, unlk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, 20802, password=6ca647f5-91c2-4bf6-b444-762f171ad696, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=unlk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
+美国+V2CROSS.COM 02 = trojan, unlk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, 20802, password=6ca647f5-91c2-4bf6-b444-762f171ad696, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=unlk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen
