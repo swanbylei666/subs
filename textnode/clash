@@ -40,7 +40,6 @@ proxy-groups:
       - 免费云trojan
       - 免费云ssr
 
-
   - name: Auto免费节点Groups
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -48,7 +47,6 @@ proxy-groups:
     use:
       - 免费云trojan
       - 免费云ssr
-
 
   - name: Fallback免费节点Groups
     type: fallback
