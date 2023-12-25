@@ -1,21 +1,19 @@
 #!MANAGED-CONFIG https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surge interval=10
 
+
 [General]
 skip-proxy = localhost, *.local
 
 [Proxy Group]
-SelectGroup = select, DIRECT, 消费节点Group, Auto消费节点Group, Fallback消费节点Group, ExternalGroups, AutoExternalGroups, FallbackExternalGroups
+SelectGroup = select, DIRECT, 消费节点Group, Auto消费节点Group, Fallback消费节点Group
 
-#【付费线路 筛选】", policy-regex-filter=HK-.*"
+#解释：【付费线路 筛选】", policy-regex-filter=HK-.*"
 消费节点Group = select, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
 
 Auto消费节点Group = url-test, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
+
 Fallback消费节点Group = fallback, policy-path=https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/opensources/surfboard
 
-ExternalGroups = select, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https://shadowshare.v2cross.com/servers/temp/g7NEa8n45MhCctiO&insert=true&config=https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/basic.ini&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
-
-AutoExternalGroups = url-test, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https://shadowshare.v2cross.com/servers/temp/g7NEa8n45MhCctiO&insert=true&config=https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/basic.ini&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
-FallbackExternalGroups = fallback, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https://shadowshare.v2cross.com/servers/temp/g7NEa8n45MhCctiO&insert=true&config=https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/basic.ini&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
 
 [Rule]
 FINAL,SelectGroup
