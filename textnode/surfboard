@@ -1,13 +1,10 @@
 #!MANAGED-CONFIG https://raw.gitmirror.com/kwaan-y1kx7im/subscription/main/textnode/surfboard interval=10
 
-[Proxy]
-On = Direct
-
 [General]
 skip-proxy = localhost, *.local
 
 [Proxy Group]
-SelectGroup = select, On, 免费节点Groups, Auto免费节点Groups, Fallback免费节点Groups
+SelectGroup = select, DIRECT, 免费节点Groups, Auto免费节点Groups, Fallback免费节点Groups
 
 免费节点Groups = select, policy-path=https://clashapi.rokeyyan.com/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_AdblockPlus.ini&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
 Auto免费节点Groups = url-test, policy-path=https://clashapi.rokeyyan.com/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_AdblockPlus.ini&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
