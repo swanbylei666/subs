@@ -31,13 +31,20 @@ proxy-groups:
     proxies:
       - DIRECT
       - 免费节点Groups
+      - 免费节点-1Groups
       - Auto免费节点Groups
+      - Auto免费节点-1Groups
       - Fallback免费节点Groups
+      - Fallback免费节点-1Groups
 
   - name: 免费节点Groups
     type: select
     use:
       - 免费云huibq
+
+  - name: 免费节点-1Groups
+    type: select
+    use:
       - 免费云neocities
 
   - name: Auto免费节点Groups
@@ -46,6 +53,12 @@ proxy-groups:
     interval: "10"
     use:
       - 免费云huibq
+
+  - name: Auto免费节点-1Groups
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: "10"
+    use:
       - 免费云neocities
 
   - name: Fallback免费节点Groups
@@ -54,6 +67,12 @@ proxy-groups:
     interval: "10"
     use:
       - 免费云huibq
+
+  - name: Fallback免费节点-1Groups
+    type: fallback
+    url: "http://www.gstatic.com/generate_204"
+    interval: "10"
+    use:
       - 免费云neocities
 
 
