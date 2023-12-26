@@ -15,7 +15,7 @@ proxy-providers:
 
   免费云mix:
     type: http
-    url:"https://tt.vg/freeclash"
+    url:"https://sub.maoxiongnet.com/sub?target=clash&new_name=true&url=https://v2ray.neocities.org/v2ray.txt&insert=false&config=https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini.ini"
     filter: ""
     interval: "10"
     path: "./免费云mix.yaml"
