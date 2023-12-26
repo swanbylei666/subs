@@ -10,13 +10,13 @@ SelectGroup = select, DIRECT, 免费节点Groups, Auto免费节点Groups, Fallba
 
 免费节点Groups = select, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FSleepyHeeead%2Fsubconverter-config%2Fmaster%2Fremote-config%2Fspecial%2Fbasic.ini&filename=huibq&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
 
-Auto免费节点Groups = url-test, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FSleepyHeeead%2Fsubconverter-config%2Fmaster%2Fremote-config%2Fspecial%2Fbasic.ini&filename=huibq&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
-
-Fallback免费节点Groups = fallback, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FSleepyHeeead%2Fsubconverter-config%2Fmaster%2Fremote-config%2Fspecial%2Fbasic.ini&filename=huibq&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
-
 免费节点-1Groups = select, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https%3A%2F%2Fv2ray.neocities.org%2Fv2ray.txt&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=neocities&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
 
+Auto免费节点Groups = url-test, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FSleepyHeeead%2Fsubconverter-config%2Fmaster%2Fremote-config%2Fspecial%2Fbasic.ini&filename=huibq&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
+
 Auto免费节点-1Groups = url-test, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https%3A%2F%2Fv2ray.neocities.org%2Fv2ray.txt&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=neocities&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
+
+Fallback免费节点Groups = fallback, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FSleepyHeeead%2Fsubconverter-config%2Fmaster%2Fremote-config%2Fspecial%2Fbasic.ini&filename=huibq&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
 
 Fallback免费节点-1Groups = fallback, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https%3A%2F%2Fv2ray.neocities.org%2Fv2ray.txt&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=neocities&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
 
