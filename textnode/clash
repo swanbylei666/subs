@@ -15,7 +15,7 @@ proxy-providers:
 
   免费云nekowarp:
     type: http
-    url: "https://raw.githubusercontent.com/Endlesswx/VPNFree/main/NekoWarpMerged.yaml"
+    url: "https://raw.gitmirror.com/Endlesswx/VPNFree/main/NekoWarpMerged.yaml"
     filter: ""
     interval: "10"
     path: "./免费云nekowarp.yaml"
