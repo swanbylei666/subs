@@ -15,7 +15,7 @@ proxy-providers:
 
   免费云neocities:
     type: http
-    url:"https://api.tsutsu.one/sub?target=clash&url=https%3A%2F%2Fv2ray.neocities.org%2Fv2ray.txt&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=neocities&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true&new_name=true"
+    url: "https://api.tsutsu.one/sub?target=clash&url=https%3A%2F%2Fv2ray.neocities.org%2Fv2ray.txt&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=neocities&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true&new_name=true"
     filter: ""
     interval: "10"
     path: "./免费云trojan.yaml"
