@@ -13,12 +13,12 @@ proxy-providers:
       interval: "10"
       url: "http://www.gstatic.com/generate_204"
 
-  免费云nekowarp:
+  免费云freenodes:
     type: http
-    url: "https://raw.gitmirror.com/Endlesswx/VPNFree/main/NekoWarpMerged.yaml"
+    url: "https://raw.gitmirror.com/freenodes/freenodes/main/clash.yaml"
     filter: ""
     interval: "10"
-    path: "./免费云nekowarp.yaml"
+    path: "./免费云freenodes.yaml"
     health-check:
       enable: true
       interval: "10"
@@ -59,7 +59,7 @@ proxy-groups:
   - name: 免费节点-1Groups
     type: select
     use:
-      - 免费云nekowarp
+      - 免费云freenodes
 
   - name: 免费节点-2Groups
     type: select
@@ -78,7 +78,7 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: "10"
     use:
-      - 免费云nekowarp
+      - 免费云freenodes
 
   - name: Auto免费节点-2Groups
     type: url-test
@@ -99,7 +99,7 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: "10"
     use:
-      - 免费云nekowarp
+      - 免费云freenodes
 
   - name: Fallback免费节点-2Groups
     type: fallback
