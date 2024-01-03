@@ -1,117 +1,43 @@
 mode: rule
-
-
+proxies:
 proxy-providers:
-  免费云huibq:
+  huibq-cloud:
     type: http
     url: "https://api.tsutsu.one/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FSleepyHeeead%2Fsubconverter-config%2Fmaster%2Fremote-config%2Fspecial%2Fbasic.ini&filename=huibq&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true&new_name=true"
     filter: "CA|US"
     interval: "10"
-    path: "./免费云trojan.yaml"
+    path: "./huibq-cloud.yaml"
     health-check:
       enable: true
       interval: "10"
       url: "http://www.gstatic.com/generate_204"
-
-  免费云freenodes:
-    type: http
-    url: "https://raw.gitmirror.com/freenodes/freenodes/main/clash.yaml"
-    filter: ""
-    interval: "10"
-    path: "./免费云freenodes.yaml"
-    health-check:
-      enable: true
-      interval: "10"
-      url: "http://www.gstatic.com/generate_204"
-
-  免费云neocities:
-    type: http
-    url: "https://api.tsutsu.one/sub?target=clash&url=https%3A%2F%2Fv2ray.neocities.org%2Fv2ray.txt&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=neocities&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true&new_name=true"
-    filter: ""
-    interval: "10"
-    path: "./免费云trojan.yaml"
-    health-check:
-      enable: true
-      interval: "10"
-      url: "http://www.gstatic.com/generate_204"
-
-
 proxy-groups:
-  - name: SelectGroup
+  - name: Select-Group
     type: select
     proxies:
       - DIRECT
-      - 免费节点Groups
-      - 免费节点-1Groups
-      - 免费节点-2Groups
-      - Auto免费节点Groups
-      - Auto免费节点-1Groups
-      - Auto免费节点-2Groups
-      - Fallback免费节点Groups
-      - Fallback免费节点-1Groups
-      - Fallback免费节点-2Groups
-
-  - name: 免费节点Groups
+      - 節點選擇-Groups
+      - 自動選擇-Groups
+      - 故障轉移-Groups
+  - name: 節點選擇-Groups
     type: select
     use:
-      - 免费云huibq
-
-  - name: 免费节点-1Groups
-    type: select
-    use:
-      - 免费云freenodes
-
-  - name: 免费节点-2Groups
-    type: select
-    use:
-      - 免费云neocities
-
-  - name: Auto免费节点Groups
+      - huibq-cloud
+  - name: 自動選擇-Groups
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: "10"
     use:
-      - 免费云huibq
-
-  - name: Auto免费节点-1Groups
-    type: url-test
-    url: "http://www.gstatic.com/generate_204"
-    interval: "10"
-    use:
-      - 免费云freenodes
-
-  - name: Auto免费节点-2Groups
-    type: url-test
-    url: "http://www.gstatic.com/generate_204"
-    interval: "10"
-    use:
-      - 免费云neocities
-
-  - name: Fallback免费节点Groups
+      - huibq-cloud
+  - name: 故障轉移-Groups
     type: fallback
     url: "http://www.gstatic.com/generate_204"
     interval: "10"
     use:
-      - 免费云huibq
-
-  - name: Fallback免费节点-1Groups
-    type: fallback
-    url: "http://www.gstatic.com/generate_204"
-    interval: "10"
-    use:
-      - 免费云freenodes
-
-  - name: Fallback免费节点-2Groups
-    type: fallback
-    url: "http://www.gstatic.com/generate_204"
-    interval: "10"
-    use:
-      - 免费云neocities
-
-
+      - huibq-cloud
 rules:
-  - MATCH,SelectGroup
-  - DOMAIN-KEYWORD,githubusercontent.com,SelectGroup
+  - MATCH,Select-Group
+  - DOMAIN-KEYWORD,githubusercontent.com,Select-Group
   - DOMAIN-KEYWORD,googleadadpis.com,REJECT
   - DOMAIN-KEYWORD,googletagmanager.com,REJECT
   - DOMAIN-KEYWORD,google-analytics.com,REJECT
