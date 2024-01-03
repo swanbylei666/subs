@@ -4,7 +4,7 @@ proxy-providers:
   huibq-cloud:
     type: http
     url: "https://api.tsutsu.one/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FSleepyHeeead%2Fsubconverter-config%2Fmaster%2Fremote-config%2Fspecial%2Fbasic.ini&filename=huibq&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true&new_name=true"
-    filter: "SG|CA|US"
+    filter: ""
     interval: "10"
     path: "./huibq-cloud.yaml"
     health-check:
