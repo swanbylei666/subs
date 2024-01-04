@@ -1,12 +1,1 @@
-[Proxy]
-HONGKONG 01 = ss, cm1-hk.hutaonode3.top, 12451, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
-HONGKONG 02 = ss, cm1-hk.hutaonode3.top, 12452, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
-HONGKONG 03 = ss, cm1-hk.hutaonode3.top, 12453, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
-HONGKONG 04 = ss, cm1-hk.hutaonode3.top, 12454, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
-HONGKONG 05 = ss, cm1-hk.hutaonode3.top, 12455, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
-
-SINGAPORE 01 = ss, cm1-sg.hutaonode3.top, 12351, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
-SINGAPORE 02 = ss, cm1-sg.hutaonode3.top, 12352, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
-SINGAPORE 03 = ss, cm1-sg.hutaonode3.top, 12353, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
-SINGAPORE 04 = ss, cm1-sg.hutaonode3.top, 12354, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
-SINGAPORE 05 = ss, cm1-sg.hutaonode3.top, 12355, encrypt-method=chacha20-ietf, password=HuTaoCloud, obfs=http, obfs-host=731a714878.microsoft.com:, udp-relay=true
+#
