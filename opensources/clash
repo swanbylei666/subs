@@ -41,7 +41,7 @@ proxy-groups:
       - huibq_vmess
 
   - name: 关闭网路
-    type: url-test
+    type: select
     proxies:
       - REJECT
 
