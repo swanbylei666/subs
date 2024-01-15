@@ -16,10 +16,10 @@ proxy-groups:
   - name: Select_group
     type: select
     proxies:
-      - DIRECT
       - 节点选择
       - 自动检测
       - 故障转移
+      - DIRECT
 
   - name: 节点选择
     type: select
