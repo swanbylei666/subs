@@ -7,9 +7,9 @@ skip-proxy = localhost, *.local
 SelectGroup = select, DIRECT, 节点Group, 测速Group, 故障转移Group
 
 #解释：【付费线路 筛选】", policy-regex-filter=HK-.*"
-节点Group = select, policy-path=https://v2ray.neocities.org/v2ray.txt
-测速Group = url-test, policy-path=https://v2ray.neocities.org/v2ray.txt
-故障转移Group = fallback, policy-path=https://v2ray.neocities.org/v2ray.txt
+节点Group = select, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https%3A%2F%2Fv2ray.neocities.org%2Fv2ray.txt&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=neocities.org&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
+测速Group = url-test, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https%3A%2F%2Fv2ray.neocities.org%2Fv2ray.txt&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=neocities.org&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
+故障转移Group = fallback, policy-path=https://api.tsutsu.one/sub?target=surge&ver=4&url=https%3A%2F%2Fv2ray.neocities.org%2Fv2ray.txt&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=neocities.org&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true
 [Rule]
 FINAL,SelectGroup
 DOMAIN-KEYWORD,githubusercontent.com,SelectGroup
