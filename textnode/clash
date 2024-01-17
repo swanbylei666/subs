@@ -26,7 +26,7 @@ proxy-providers:
     url: "https://api.tsutsu.one/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FDaphnemgt%2Fjiedian%2Fmain%2Fv2ray&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=Daphnemgt&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true&new_name=true"
     filter: ""
     interval: "10"
-    path: "./huibq_trojan.yml"
+    path: "./daphnemgt.yml"
     health-check:
       enable: true
       interval: "10"
