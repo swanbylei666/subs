@@ -21,6 +21,16 @@ proxy-providers:
       enable: true
       interval: "10"
       url: "http://www.gstatic.com/generate_204"
+  daphnemgt:
+    type: http
+    url: "https://api.tsutsu.one/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FDaphnemgt%2Fjiedian%2Fmain%2Fv2ray&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=Daphnemgt&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true&new_name=true"
+    filter: ""
+    interval: "10"
+    path: "./huibq_trojan.yml"
+    health-check:
+      enable: true
+      interval: "10"
+      url: "http://www.gstatic.com/generate_204"
 proxy-groups:
   - name: Select_group
     type: select
@@ -34,6 +44,7 @@ proxy-groups:
     use:
       - huibq_vmess
       - huibq_trojan
+      - daphnemgt
   - name: 自动检测
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -41,6 +52,7 @@ proxy-groups:
     use:
       - huibq_vmess
       - huibq_trojan
+      - daphnemgt
   - name: 故障转移
     type: fallback
     url: "http://www.gstatic.com/generate_204"
@@ -48,6 +60,7 @@ proxy-groups:
     use:
       - huibq_vmess
       - huibq_trojan
+      - daphnemgt
   - name: 关闭网路
     type: select
     proxies:
