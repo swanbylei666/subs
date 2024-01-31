@@ -1,32 +1,12 @@
 mode: rule
 proxies:
 proxy-providers:
-  huibq_vmess:
-    type: http
-    url: "https://api.tsutsu.one/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Fvmess&insert=true&config=https%3A%2F%2Fraw.githubusercontent.com%2FMeilieage%2Fwebcdn%2Fmain%2Frule%2FArea_Media_NoAuto.ini&filename=huibq_vmess&interval=86400&tls13=true&sort=true&emoji=true&list=true&udp=true&tfo=true&expand=true&scv=true&fdn=true&new_name=true"
-    filter: ""
-    interval: "10"
-    path: "./huibq_vmess.yml"
-    health-check:
-      enable: true
-      interval: "10"
-      url: "http://www.gstatic.com/generate_204"
   huibq_trojan:
     type: http
     url: "https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fraw.gitmirror.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&filename=trojan_huibq&interval=86400&tls13=true&emoji=true&list=true&xudp=true&udp=true&tfo=true&expand=true&scv=true&fdn=false&new_name=true"
     filter: "CA|US"
     interval: "10"
     path: "./huibq_trojan.yml"
-    health-check:
-      enable: true
-      interval: "10"
-      url: "http://www.gstatic.com/generate_204"
-  aiboboxx:
-    type: http
-    url: "https://raw.gitmirror.com/aiboboxx/clashfree/main/clash.yml"
-    filter: ""
-    interval: "10"
-    path: "./daphnemgt.yml"
     health-check:
       enable: true
       interval: "10"
@@ -42,25 +22,19 @@ proxy-groups:
   - name: 节点选择
     type: select
     use:
-      - huibq_vmess
       - huibq_trojan
-      - aiboboxx
   - name: 自动检测
     type: url-test
     url: "http://www.gstatic.com/generate_204"
     interval: "10"
     use:
-      - huibq_vmess
       - huibq_trojan
-      - aiboboxx
   - name: 故障转移
     type: fallback
     url: "http://www.gstatic.com/generate_204"
     interval: "10"
     use:
-      - huibq_vmess
       - huibq_trojan
-      - aiboboxx
   - name: 关闭网路
     type: select
     proxies:
