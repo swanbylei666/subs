@@ -3,7 +3,7 @@ proxies:
 proxy-providers:
   huibq-ssr:
     type: http
-    url: "https://api.sublink.dev/sub?target=clash&url=https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/ssr&insert=false"
+    url: "https://api.sublink.dev/sub?target=clash&url=https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/ssr&insert=true"
     filter: ""
     interval: "100"
     path: "./huibq-ssr.yml"
@@ -11,7 +11,6 @@ proxy-providers:
       enable: true
       interval: "10"
       url: "http://www.gstatic.com/generate_204"
-
 proxy-groups:
   - name: 航空公司
     type: select
@@ -21,6 +20,3 @@ proxy-groups:
     type: select
     use:
       - huibq-ssr
-
-rules:
-  - MATCH,航空公司
