@@ -1,49 +1,26 @@
 mode: global
 proxies:
 proxy-providers:
-  huibq_trojan:
+  huibq-ssr:
     type: http
-    url: "https://api.v1.mk/sub?target=clash&url=https%3A%2F%2Fraw.gitmirror.com%2FHuibq%2FTrojanLinks%2Fmaster%2Flinks%2Ftrojan&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online_Full_NoAuto.ini&filename=trojan_huibq&interval=86400&tls13=true&emoji=true&list=true&xudp=true&udp=true&tfo=true&expand=true&scv=true&fdn=false&new_name=true"
-    filter: "CA|US"
+    url: "https://api.sublink.dev/sub?target=clash&url=https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/ssr&insert=false"
+    filter: ""
     interval: "10"
-    path: "./huibq_trojan.yml"
+    path: "./huibq-ssr.yml"
     health-check:
       enable: true
       interval: "10"
       url: "http://www.gstatic.com/generate_204"
 
 proxy-groups:
-  - name: Select_group
+  - name: 航空公司
     type: select
     proxies:
-      - 节点选择
-      - 自动检测
-      - 故障转移
-      - DIRECT
-  - name: 节点选择
+      - 国际线SSR
+  - name: 国际线SSR
     type: select
     use:
-      - huibq_trojan
-  - name: 自动检测
-    type: url-test
-    url: "http://www.gstatic.com/generate_204"
-    interval: "10"
-    use:
-      - huibq_trojan
-  - name: 故障转移
-    type: fallback
-    url: "http://www.gstatic.com/generate_204"
-    interval: "10"
-    use:
-      - huibq_trojan
-  - name: 关闭网路
-    type: select
-    proxies:
-      - REJECT
+      - huibq-ssr
 
 rules:
-  - MATCH,Select_group
-  - DOMAIN-KEYWORD,githubusercontent.com,Select_group
-  - DOMAIN-KEYWORD,googleadadpis.com,关闭网路
-  - DOMAIN-KEYWORD,googletagmanager.com,关闭网路
-  - DOMAIN-KEYWORD,google-analytics.com,关闭网路
+  - MATCH,航空公司
