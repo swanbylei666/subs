@@ -20,3 +20,6 @@ proxy-groups:
     type: select
     use:
       - huibq-ssr
+rules:
+  - GEOIP,CN,航空公司
+  - MATCH,航空公司
