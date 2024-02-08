@@ -1,4 +1,4 @@
-mode: global
+mode: rule
 proxies:
 proxy-providers:
   huibq-ssr:
