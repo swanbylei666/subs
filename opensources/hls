@@ -1,3 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",1
-https://m3u.haiwaikan.com/xm3u8/2110a9471278608b668ee55917569ea2825336f8b1c8ff68e4314cbd670698889921f11e97d0da21.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",云线路
+https://v.cdnlz12.com/20240213/11556_3642faee/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分组",云线路
+https://top.1080pzy.co/202402/13/7mS8npuNHp3/video/index.m3u8
