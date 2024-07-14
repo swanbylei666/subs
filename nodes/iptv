@@ -1,6 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="" group-title="网路TV",翡翠台
-http://60.208.140.180:5544/tvb翡翠2/香蕉哥专用-易發TV.live.flv
+
 #EXTINF:-1 tvg-logo="" group-title="网路TV",tvb星河
 http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="网路TV",娱乐新闻
