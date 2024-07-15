@@ -8,3 +8,8 @@ http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 https://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="网路TV",RTHK-33
 https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="体验TV",翡翠台
+http://60.208.140.180%3A5544%2F%E7%BF%A1%E7%BF%A01%2F%E9%A6%99%E8%95%89%E5%93%A5%E4%B8%93%E7%94%A8-%E6%98%93%E7%99%BCTV.live.flv
+#EXTINF:-1 tvg-logo="" group-title="体验TV",翡翠台
+http://60.208.140.180%3A5544%2Ftvb%E7%BF%A1%E7%BF%A02%2F%E9%A6%99%E8%95%89%E5%93%A5%E4%B8%93%E7%94%A8-%E6%98%93%E7%99%BCTV.live.flv
