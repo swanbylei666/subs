@@ -1,12 +1,28 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="" group-title="网络FM",88.0-广州MYFM
+https://lhttp.qingting.fm/live/20194/64k.mp3
 #EXTINF:-1 tvg-logo="" group-title="网络FM",106.1-广州交通
 https://lhttp.qingting.fm/live/4955/64k.mp3
+#EXTINF:-1 tvg-logo="" group-title="网络FM",深圳交通
+https://lhttp.qingting.fm/live/1272/64k.mp3
+#EXTINF:-1 tvg-logo="" group-title="网络FM",105.2-羊城交通
+https://lhttp.qingting.fm/live/1262/64k.mp3
+#EXTINF:-1 tvg-logo="" group-title="网络FM",广东新闻
+https://lhttp.qingting.fm/live/1254/64k.mp3
+#EXTINF:-1 tvg-logo="" group-title="网络FM",广东南方生活
+https://lhttp.qingting.fm/live/468/64k.mp3
+#EXTINF:-1 tvg-logo="" group-title="网络FM",95.3-广东股市
+https://lhttp.qingting.fm/live/4847/64k.mp3
 #EXTINF:-1 tvg-logo="" group-title="网络FM",96.2-广州新闻资讯
 https://lhttp.qingting.fm/live/4848/64k.mp3
+#EXTINF:-1 tvg-logo="" group-title="网络FM",97.4-广东珠江经济
+https://lhttp.qingting.fm/live/1259/64k.mp3
 
 #EXTINF:-1 tvg-logo="" group-title="网络音乐FM",99.3-广东音乐
 https://lhttp.qingting.fm/live/1260/64k.mp3
+#EXTINF:-1 tvg-logo="" group-title="网络音乐FM",102.7-广东汽车音乐
+https://lhttp.qingting.fm/live/20192/64k.mp3
 #EXTINF:-1 tvg-logo="" group-title="网络音乐FM",97.4-北京音乐
 https://lhttp.qingting.fm/live/332/64k.mp3
 #EXTINF:-1 tvg-logo="" group-title="网络音乐FM",CityFM城市音乐
@@ -15,7 +31,7 @@ https://lhttp.qingting.fm/live/20500153/64k.mp3
 https://lhttp.qingting.fm/live/20500163/64k.mp3
 #EXTINF:-1 tvg-logo="" group-title="网络音乐FM",星河音乐
 https://lhttp.qingting.fm/live/20210755/64k.mp3
-#EXTINF:-1 tvg-logo="" group-title="网络音乐FM",89.1线上音乐
+#EXTINF:-1 tvg-logo="" group-title="网络音乐FM",89.1-线上音乐
 https://lhttp.qingting.fm/live/20500215/64k.mp3
 #EXTINF:-1 tvg-logo="" group-title="网络音乐FM",80后潮流音悦台
 https://lhttp.qingting.fm/live/20207761/64k.mp3
