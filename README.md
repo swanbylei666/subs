@@ -4,6 +4,8 @@
 
 ### 座右铭: 文明分享！
 
+### ↓↓加速器↓↓
+
 ### https://mirror.ghproxy.com/https://raw.githubusercontent.com/...
 
 ### RESPECT...
