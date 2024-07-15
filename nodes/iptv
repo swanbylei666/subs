@@ -1,6 +1,8 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-logo="" group-title="港澳台TV",TVB翡翠台
+https://ali.hlspull.yximgs.com/live/da349e04130b6c9f5be0284957a22767.flv
+#EXTINF:-1 tvg-logo="" group-title="港澳台TV",TVB翡翠台
 http://60.208.140.180:5544/%E7%BF%A1%E7%BF%A01/%E9%A6%99%E8%95%89%E5%93%A5%E4%B8%93%E7%94%A8-%E6%98%93%E7%99%BCTV.live.flv
 #EXTINF:-1 tvg-logo="" group-title="港澳台TV",TVB翡翠台
 http://60.208.140.180:5544/tvb%E7%BF%A1%E7%BF%A02/%E9%A6%99%E8%95%89%E5%93%A5%E4%B8%93%E7%94%A8-%E6%98%93%E7%99%BCTV.live.flv
