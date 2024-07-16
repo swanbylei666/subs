@@ -1,6 +1,19 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="" group-title="港澳台TV",TVB翡翠台
+#EXTINF:-1 tvg-logo="" group-title="广东TV",广州综合
+http://php.jdshipin.com:8880/gztv.php?id=zhonghe
+#EXTINF:-1 tvg-logo="" group-title="广东TV",广州新闻
+http://php.jdshipin.com:8880/gztv.php?id=xinwen
+#EXTINF:-1 tvg-logo="" group-title="广东TV",广州竞赛
+http://php.jdshipin.com:8880/gztv.php?id=jingsai
+#EXTINF:-1 tvg-logo="" group-title="广东TV",广州影视
+http://php.jdshipin.com:8880/gztv.php?id=yingshi
+#EXTINF:-1 tvg-logo="" group-title="广东TV",广州法治
+http://php.jdshipin.com:8880/gztv.php?id=fazhi
+#EXTINF:-1 tvg-logo="" group-title="广东TV",广州南国都市
+http://php.jdshipin.com:8880/gztv.php?id=shenghuo
+
+#EXTINF:group-title="港澳台TV",TVB翡翠台
 https://ali.hlspull.yximgs.com/live/da349e04130b6c9f5be0284957a22767.flv
 #EXTINF:-1 tvg-logo="" group-title="港澳台TV",翡翠台
 http://bziyunshao.synology.me:8889/bysid/1
