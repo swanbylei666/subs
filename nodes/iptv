@@ -21,7 +21,7 @@ http://bziyunshao.synology.me:8889/bysid/1
 http://110.185.171.226:96/yximgs.php?id=2
 #EXTINF:-1 tvg-logo="" group-title="港澳台TV",TVB明珠台
 http://110.185.171.226:96/yximgs.php?id=3
-#EXTINF:-1 tvg-logo="" group-title="港澳台TV",TVB J2
+#EXTINF:-1 tvg-logo="" group-title="港澳台TV",TVB-Plus
 http://110.185.171.226:96/yximgs.php?id=5
 #EXTINF:-1 tvg-logo="" group-title="港澳台TV",无线新闻台
 http://110.185.171.226:96/yximgs.php?id=13
