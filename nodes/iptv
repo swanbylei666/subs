@@ -28,9 +28,9 @@ https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPla
 https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
 
 #EXTINF:-1 tvg-logo="" group-title="体验TV",xxx
-http:/
+http://
 #EXTINF:-1 tvg-logo="" group-title="体验TV",xxx
-http:/
+http://
 
 #EXTINF:-1 tvg-logo="" group-title="测试TV台",TVB翡翠台
 http://60.208.140.180:5544/%E7%BF%A1%E7%BF%A01/%E9%A6%99%E8%95%89%E5%93%A5%E4%B8%93%E7%94%A8-%E6%98%93%E7%99%BCTV.live.flv
