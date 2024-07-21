@@ -8,12 +8,10 @@
 广州南国都市,http://php.jdshipin.com:8880/gztv.php?id=shenghuo
 
 港澳台TV,#genre#
-TVB翡翠台,https://ali.hlspull.yximgs.com/live/da349e04130b6c9f5be0284957a22767.flv
-TVB+,http://ha.jmied.com/aa/aa.m3u8?auth_key=1661958232-0-0-114df08fce17ecb21f6bf42de85e7600
+翡翠台,https://ali.hlspull.yximgs.com/live/da349e04130b6c9f5be0284957a22767.flv
 明珠台,https://ali.hlspull.yximgs.com/live/ac1e1dbc703726aa82d493b765642ed6.flv
-有线新闻,https://prd-vcache.edge-global.akamai.tvb.com/__cl/slocalr2526/__c/ott_C_h264/__op/bks/__f/index.m3u8?hdnea=ip=183.9.206.237~st=1721518028~exp=1721604428~acl=/__cl/slocalr2526/__c/ott_C_h264/__op/bks/__f/*~hmac=a04bdd7e8bbec5af37f1f9d8a92bcf4b43e18d270c1d0ed92e57f1433a928d93
+TVB+,http://ha.jmied.com/aa/aa.m3u8?auth_key=1661958232-0-0-114df08fce17ecb21f6bf42de85e7600
 ViuTV,https://ali.hlspull.yximgs.com/live/ddaac3eef2246c546de444174c7282f2.flv
-ViuTV6,https://ali.hlspull.yximgs.com/live/50081feff87d734cf6d340939fbbb778.flv
 TVB星河台,http://v2h.jdshipin.com/xinghe/xinghe.stream/chunklist.m3u8
 TVB娱乐新闻,https://v2h.jdshipin.com/enew/enew.stream/chunklist.m3u8
 TVB-J1,https://bcovlive-a.akamaihd.net/e360e3f9895c4fae99b133ec8dc20f01/us-west-2/5324042807001/4a3bca5b047b4564b18bb12dfa26ba62/playlist_ssaiM.m3u8
