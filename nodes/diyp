@@ -26,8 +26,9 @@ HOYTV-78,https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
 凤凰香港,http://116.162.6.192/1.v.smtcdns.net/qctv.fengshows.cn/live/0701phk72.m3u8
 面包台,https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 
-影音酷,#genre#
-勿信视频广告,http://
+央视频,#genre#
+央视1,https://wfrtv-live-tz.wfcmw.cn:5443/live/cctv.m3u8
+央视2,
 
 体育区,#genre#
 广州竞赛,https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee48e70fb0&txTime=18d048582e3
