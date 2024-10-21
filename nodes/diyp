@@ -2,53 +2,33 @@
 # utf-8 
 
 广东TV,#genre#
-广州综合①,https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
-广州新闻①,https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
-广州影视①,https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
-广州法治①,https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
-广州南国都市①,https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
+广州综合[¡1],https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
+广州新闻[¡1],https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
+广州影视[¡1],https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
+广州竞赛[¡1],https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee48e70fb0&txTime=18d048582e3
+广州法治[¡1],https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
+广州南国都市[¡1],https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
 极速港台,#genre#
-翡翠①,http://php.jdshipin.com:8880/smt.php?id=jade_twn
-翡翠②,http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
-翡翠③,http://223.244.26.190:8082/tvb翡翠.盗源者死全家/易發TV//hls.m3u8
+翡翠[¡1],http://php.jdshipin.com:8880/smt.php?id=jade_twn
+翡翠[¡2],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
+翡翠[¡3],http://223.244.26.190:8082/tvb翡翠.盗源者死全家/易發TV//hls.m3u8
 
-翡翠台[¡1],https://stream1.freetv.fun/aab1e3c651061ddc2ce266030239f13d8d808461e910a16ce9d60cf803082470.ctv
-翡翠台[¡2],https://stream1.freetv.fun/44bd1ba645adb14b4f6ea64c0fd9764c02a373898e39bff7c06dc9afe931053d.ctv
-翡翠台[¡3],https://stream1.freetv.fun/6a73a96c43beae5c85f0bad922a12a1fc672891891d5e8125d84fecf248436e0.ctv
+华丽台[¡1],http://php.jdshipin.com:8880/TVOD/iptv.php?id=huali
 
-明珠台,https://stream1.freetv.fun/7904fb8d43b605bd9fc4c14e29f4fb263b17e8d8bb35364871ec25d2814e594f.ctv
-
-华丽台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=huali
-
-J2,http://php.jdshipin.com:8880/TVOD/iptv.php?id=j2
-J2[¡],https://stream1.freetv.fun/0588a4627434f713ed54f5f3c49d0b4820136436b66cda56f8238b06306a20e6.ctv
-
-星河台,http://php.jdshipin.com:8880/TVOD/iptv.php?id=xinghe
+J2[¡1],http://php.jdshipin.com:8880/TVOD/iptv.php?id=j2
 
 港台TV,#genre#
-RTHK-31,https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
-RTHK-32①,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
-RTHK-32②,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
-RTHK-33,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
-RTHK-34,https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
-RTHK-35,https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
+RTHK-31[¡1],https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
+RTHK-32[¡1],https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
+RTHK-32[¡2],https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8
+RTHK-33[¡1],https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
+RTHK-34[¡1],https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
+RTHK-35[¡1],https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
 
-HOYTV-78,https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
-
-CCTV电视,#genre#
-CCTV-1,
+HOYTV-78[¡1],https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
 
 其它地区TV,#genre#
-TVBs新聞[¡台],https://stream1.freetv.fun/45b72acdc2cd146b4f103a6728efe468f65c59b65c48f13b61b36fb150ea79af.ctv
-
-浙江卫视,https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-浙江新闻,https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-
-电影频道,#genre#
-
-体育区,#genre#
-广州竞赛①,https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee48e70fb0&txTime=18d048582e3
-
-少儿,#genre#
-浙江少儿,https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+浙江卫视[¡1],https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+浙江新闻[¡1],https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+浙江少儿[¡1],https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
