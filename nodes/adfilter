@@ -4,9 +4,13 @@ bear.jehndp.com##.popup-container
 
 achieve.jehndp.com##.popup-container
 
+bomb.jehndp.com##.popup-container
+
 bear.jehndp.com##div[style="margin-bottom: .5rem;width: 100%"]
 
 achieve.jehndp.com##div[style="margin-bottom: .5rem;width: 100%"]
+
+bomb.jehndp.com##div[style="margin-bottom: .5rem;width: 100%"]
 
 ----- ----- ----- ----- ----- 
 
