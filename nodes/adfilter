@@ -1,9 +1,11 @@
 # google 
-*.google.com/
+*.google.com/*
 
-# others
-*.youtube.com/
-*.pornhub.com/
+# others 
+*.youtube.com/*
+
+*.pornhub.com/*
+
 *.com/*
 
 ----- ----- ----- ----- ----- 
