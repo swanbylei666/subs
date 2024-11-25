@@ -12,12 +12,14 @@
 极速港台,#genre#
 翡翠[¡1],http://php.jdshipin.com:8880/smt.php?id=jade_twn
 翡翠[¡2],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
-翡翠[¡3],http://223.244.26.190:8082/tvb翡翠.盗源者死全家/易發TV//hls.m3u8
+翡翠[¡3],http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
 
 华丽台[¡1],http://php.jdshipin.com:8880/TVOD/iptv.php?id=huali
 
 J2[¡1],http://php.jdshipin.com:8880/TVOD/iptv.php?id=j2
 J2[¡2],https://stream1.freetv.fun/0588a4627434f713ed54f5f3c49d0b4820136436b66cda56f8238b06306a20e6.ctv
+
+美亚电影台,http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
 
 港台TV,#genre#
 RTHK-31[¡1],https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
