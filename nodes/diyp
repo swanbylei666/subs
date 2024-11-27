@@ -54,20 +54,6 @@ VIUTV-6,https://stream1.freetv.fun/cb6936a6a03e9cdba87f09f8c97ccae50a0011906decd
 VIUTV-6,https://stream1.freetv.fun/45b27a70bdfeddd4dc4563c9dd5afd63cc16e148e44295432841f43f24209e62.ctv
 VIUTV-6,https://stream1.freetv.fun/viutv-six-2.ctv
 
-#AKTV.TOP
-翡翠台,http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
-翡翠剧集台,http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
-翡翠综合台,http://aktv.top/AKTV/live/aktv/null-17/AKTV.m3u8
-TVB Plus,http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
-明珠台,http://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8
-明珠剧集台,http://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
-無線新聞台,http://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
-無線新聞台,http://aktv.top/AKTV/live/aktv2/null-1/AKTV.m3u8
-娛樂新聞台,http://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
-myTV SUPER 18,http://aktv.top/AKTV/live/aktv/mytvsuper18/AKTV.m3u8
-viutv 99,http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
-viutv6 96,http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
-
 电影专区,#genre#
 美亚电影,https://stream1.freetv.fun/364ab897bc6f681e9a63a87348e5234e25e3582b43777c2f449bd4081b94f578.m3u8
 美亚电影,https://stream1.freetv.fun/2cb279c9a42cd826e8afb1da83ad153bc8e4dfdef7ac294f7f521f6f8f116c1b.ctv
@@ -84,8 +70,22 @@ viutv6 96,http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
 浙江少儿[¡稳定],https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 
 测试专区,#genre#
-翡翠[¡稳定],http://php.jdshipin.com:8880/smt.php?id=jade_twn
-翡翠[¡稳定],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
-J2[¡],http://50.7.234.10:8278/j2_twn/playlist.m3u8?tid=MFCF3274854132748541&ct=19254&tsum=699466c18aac56202ad1d2843fd21032
+翡翠台[¡稳定],http://php.jdshipin.com:8880/smt.php?id=jade_twn
+翡翠台[¡稳定],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
+TVB Plus[¡],http://50.7.234.10:8278/j2_twn/playlist.m3u8?tid=MFCF3274854132748541&ct=19254&tsum=699466c18aac56202ad1d2843fd21032
+
+#AKTV.TOP
+翡翠台,http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
+翡翠剧集台,http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
+翡翠综合台,http://aktv.top/AKTV/live/aktv/null-17/AKTV.m3u8
+TVB Plus,http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
+明珠台,http://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8
+明珠剧集台,http://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
+無線新聞台,http://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
+無線新聞台,http://aktv.top/AKTV/live/aktv2/null-1/AKTV.m3u8
+娛樂新聞台,http://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
+myTV SUPER 18,http://aktv.top/AKTV/live/aktv/mytvsuper18/AKTV.m3u8
+viutv 99,http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
+viutv6 96,http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
 
 # END 结束编辑
