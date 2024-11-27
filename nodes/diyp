@@ -5,7 +5,6 @@
 广州综合[¡1],https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 广州新闻[¡1],https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
 广州影视[¡1],https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
-广州竞赛[¡1],https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee48e70fb0&txTime=18d048582e3
 广州法治[¡1],https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
 广州南国都市[¡1],https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
@@ -13,8 +12,6 @@
 广东新闻,http://113.102.83.24:4022/udp/239.77.0.4:5146
 广东珠江,http://113.102.83.24:4022/udp/239.77.0.1:5146
 广东珠江,http://113.102.83.24:4022/udp/239.77.0.3:5146
-广东体育,http://113.102.83.24:4022/udp/239.77.0.112:5146
-广东体育,http://113.102.83.24:4022/udp/239.77.0.6:5146
 广东影视,http://113.102.83.24:4022/udp/239.77.0.11:5146
 广东民生,http://113.102.83.24:4022/udp/239.77.0.5:5146
 广东少儿,http://113.102.83.24:4022/udp/239.77.0.12:5146
@@ -50,9 +47,15 @@ RTHK-35[¡1],https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/strea
 
 HOYTV-78[¡1],https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
 
-电影地区,#genre
+电影专区,#genre#
 CHC影迷电影,http://113.102.83.24:4022/udp/239.77.0.27:5146
 美亚电影台,http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
+
+体育专区,#genre#
+CCTV5,http://113.102.83.24:4022/udp/239.77.0.34:5146
+广东体育,http://113.102.83.24:4022/udp/239.77.0.112:5146
+广东体育,http://113.102.83.24:4022/udp/239.77.0.6:5146
+广州竞赛[¡1],https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee48e70fb0&txTime=18d048582e3
 
 其它地区TV,#genre#
 浙江卫视[¡1],https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
