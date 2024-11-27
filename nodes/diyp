@@ -40,8 +40,6 @@
 J2[¡1],http://50.7.234.10:8278/j2_twn/playlist.m3u8?tid=MFCF3274854132748541&ct=19254&tsum=699466c18aac56202ad1d2843fd21032
 J2[¡AKTV],http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
 
-美亚电影台,http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
-
 港台TV,#genre#
 RTHK-31[¡1],https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 RTHK-32[¡1],https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
@@ -51,6 +49,10 @@ RTHK-34[¡1],https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/strea
 RTHK-35[¡1],https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
 
 HOYTV-78[¡1],https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
+
+电影地区,#genre
+CHC影迷电影,http://113.102.83.24:4022/udp/239.77.0.27:5146
+美亚电影台,http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
 
 其它地区TV,#genre#
 浙江卫视[¡1],https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
