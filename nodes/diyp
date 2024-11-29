@@ -57,6 +57,13 @@ TVB星河,#genre#
 [¡2],https://stream1.freetv.fun/tvbxing-he--ch305-1.m3u8
 [¡3],http://cdn9.1689.us.kg/smt1.1.php?id=Xinhe
 
+ViuTV,#genre#
+[¡1],http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
+
+ViuTV6,#genre#
+[¡1],http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
+
+
 HK-IPTV专区,#genre#
 #epg.pw
 TVB PLUS,https://stream1.freetv.fun/cf771efb6d9315d9de352eec32c8d4e1c6b2fad52898c1ce092977aefd0de807.ctv
@@ -116,7 +123,5 @@ TVB Plus,http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
 無線新聞台,http://aktv.top/AKTV/live/aktv2/null-1/AKTV.m3u8
 娛樂新聞台,http://aktv.top/AKTV/live/aktv/hk/AKTV.m3u8
 myTV SUPER 18,http://aktv.top/AKTV/live/aktv/mytvsuper18/AKTV.m3u8
-viutv 99,http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
-viutv6 96,http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
 
 # END 结束编辑
