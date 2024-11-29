@@ -1,12 +1,26 @@
 # https://mirror.ghproxy.com/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/diyp
 # utf-8 
 
-广东TV,#genre#
-广州综合[¡稳定],https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
-广州新闻[¡稳定],https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
-广州影视[¡稳定],https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
-广州法治[¡稳定],https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
-广州南国都市[¡稳定],https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
+广州综合,#genre#
+[¡稳定],https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
+
+广州新闻,#genre#
+[¡稳定],https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
+
+广州影视,#genre#
+[¡稳定],https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
+
+广州法治,#genre#
+[¡稳定],https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
+
+广州南国都市,#genre#
+[¡稳定],https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
+
+JADE,#genre#
+[¡1],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476929.ts
+[¡2],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476927.ts
+[¡3],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476930.ts
+[¡4],http://cdn9.1689.us.kg/smt1.1.php?id=jade_twn
 
 HK-IPTV专区,#genre#
 #epg.pw
@@ -18,10 +32,7 @@ HK-IPTV专区,#genre#
 翡翠台,https://stream1.freetv.fun/fei-cui-4.ctv
 翡翠台,https://stream1.freetv.fun/tvb-fei-cui-1.ctv
 翡翠台,https://stream1.freetv.fun/fei-cui-8.ctv
-翡翠台,http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476929.ts
-翡翠台,http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476927.ts
-翡翠台,http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476930.ts
-翡翠台,http://cdn9.1689.us.kg/smt1.1.php?id=jade_twn
+
 华丽台,http://cdn9.1689.us.kg/smt1.1.php?id=Tvbjade
 TVB PLUS,https://stream1.freetv.fun/cf771efb6d9315d9de352eec32c8d4e1c6b2fad52898c1ce092977aefd0de807.ctv
 TVB PLUS,https://stream1.freetv.fun/tvb-plus-5.ctv
