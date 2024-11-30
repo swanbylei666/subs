@@ -70,37 +70,10 @@ ViuTV6,#genre#
 [¡1],https://stream1.freetv.fun/ff7a4a0baec4ff9d816d4e5c866feeffc1762f2de79d2c4a18fb3565c80c0531.m3u8
 [¡2],http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
 
-HK-IPTV专区,#genre#
-#epg.pw
-TVB PLUS,https://stream1.freetv.fun/cf771efb6d9315d9de352eec32c8d4e1c6b2fad52898c1ce092977aefd0de807.ctv
-TVB PLUS,https://stream1.freetv.fun/tvb-plus-5.ctv
-無線新聞台,https://stream1.freetv.fun/df472e3703ebbf5e36e3075c5e29c1a3ae08429534a7b1d32e0a8b29b1b56c47.m3u8
-無線新聞台,http://cdn9.1689.us.kg/smt1.1.php?id=inews_twn
-無線新聞台,http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476926.ts
-無線新聞台,http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476925.ts
-明珠剧集台,https://stream1.freetv.fun/0e9345ff17258af1994eaf5f3b167535ab749b2939f81cca6fef95ac617f9406.m3u8
-明珠剧集台,https://stream1.freetv.fun/a99630f3d7a8e5f26a3474d36dcf27ec8d588bfd7b7b73f8dccad2f20885334c.m3u8
-明珠台,https://stream1.freetv.fun/e0e9c83781646e284d1f94adc6b4638e2d7313b458f9e117609e5c2f889b8b20.ctv
-明珠台,https://stream1.freetv.fun/7904fb8d43b605bd9fc4c14e29f4fb263b17e8d8bb35364871ec25d2814e594f.ctv
-明珠台,https://stream1.freetv.fun/b805be4ead12b9db51ac0233d7fde0367602cd05ef2257a4d5700a47fd4338a4.m3u8
-明珠台,https://stream1.freetv.fun/94d30760be1ed3b51cad3621fd2ac3d619fc2814fc9b90d29c64401f128aa640.m3u8
-明珠台,https://stream1.freetv.fun/e56abfec74a8d135ddfc2c074a81751b6fc41d0272d5f5519c218b2e56d3265f.m3u8
-明珠台,https://stream1.freetv.fun/ming-zhu-4.ctv
-明珠台,https://stream1.freetv.fun/pearl-ming-zhu-1.ctv
-明珠台,https://stream1.freetv.fun/pearl-ming-zhu-2.ctv
-明珠台,https://stream1.freetv.fun/ming-zhu-2.m3u8
-明珠台,https://stream1.freetv.fun/ming-zhu-6.m3u8
-明珠台,https://stream1.freetv.fun/ming-zhu-5.m3u8
-
 浙江-TV,#genre#
 浙江卫视[¡稳定],https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 浙江新闻[¡稳定],https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 浙江少儿[¡稳定],https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
-
-测试专区,#genre#
-翡翠台[¡稳定],http://php.jdshipin.com:8880/smt.php?id=jade_twn
-翡翠台[¡稳定],http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
-TVB Plus[¡],http://50.7.234.10:8278/j2_twn/playlist.m3u8?tid=MFCF3274854132748541&ct=19254&tsum=699466c18aac56202ad1d2843fd21032
 
 #
 #
