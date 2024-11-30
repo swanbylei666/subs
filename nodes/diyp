@@ -4,75 +4,75 @@
 #
 
 广州综合,#genre#
-[¡稳定],https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
+[¡playit],https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 
 广州新闻,#genre#
-[¡稳定],https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
+[¡playit],https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
 
 广州影视,#genre#
-[¡稳定],https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
+[¡playit],https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
 
 广州法治,#genre#
-[¡稳定],https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
+[¡playit],https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
 
 广州竞赛,#genre#
-[¡稳定],https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee48e70fb0&txTime=18d048582e3
+[¡playit],https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee48e70fb0&txTime=18d048582e3
 
 广州南国都市,#genre#
-[¡稳定],https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
+[¡playit],https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
 翡翠台,#genre#
-[¡1],https://stream1.freetv.fun/ad698c68f995a760534e836438ea8e8bc65abf16cd0ed1d6b8e005cd9b90913c.ctv
-[¡2],https://stream1.freetv.fun/6a73a96c43beae5c85f0bad922a12a1fc672891891d5e8125d84fecf248436e0.ctv
-[¡3],https://stream1.freetv.fun/fei-cui-4.ctv
-[¡4],https://stream1.freetv.fun/tvb-fei-cui-1.ctv
-[¡5],https://stream1.freetv.fun/fei-cui-8.ctv
-[¡6],http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
+[¡playit],https://stream1.freetv.fun/ad698c68f995a760534e836438ea8e8bc65abf16cd0ed1d6b8e005cd9b90913c.ctv
+[¡playit],https://stream1.freetv.fun/6a73a96c43beae5c85f0bad922a12a1fc672891891d5e8125d84fecf248436e0.ctv
+[¡playit],https://stream1.freetv.fun/fei-cui-4.ctv
+[¡playit],https://stream1.freetv.fun/tvb-fei-cui-1.ctv
+[¡playit],https://stream1.freetv.fun/fei-cui-8.ctv
+[¡playit],http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
 
 JADE,#genre#
-[¡1],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476929.ts
-[¡2],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476927.ts
-[¡3],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476930.ts
-[¡4],http://cdn9.1689.us.kg/smt1.1.php?id=jade_twn
+[¡playit],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476929.ts
+[¡playit],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476927.ts
+[¡playit],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476930.ts
+[¡playit],http://cdn9.1689.us.kg/smt1.1.php?id=jade_twn
 
 TVB-DRAMA,#genre#
-[¡1],https://stream1.freetv.fun/ca05cd0d7499ea121604396f953f613cf4d5a91e1cbd0705a87abf290ddf08e5.m3u8
-[¡2],https://stream1.freetv.fun/885a9bb121429f984d6ba92441b1fb8a957cd96e246363961092c83038d1a42f.m3u8
-[¡3],http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
+[¡playit],https://stream1.freetv.fun/ca05cd0d7499ea121604396f953f613cf4d5a91e1cbd0705a87abf290ddf08e5.m3u8
+[¡playit],https://stream1.freetv.fun/885a9bb121429f984d6ba92441b1fb8a957cd96e246363961092c83038d1a42f.m3u8
+[¡playit],http://aktv.top/AKTV/live/aktv/null-18/AKTV.m3u8
 
 华丽台,#gnere#
-[¡1],http://cdn9.1689.us.kg/smt1.1.php?id=Tvbjade
+[¡playit],http://cdn9.1689.us.kg/smt1.1.php?id=Tvbjade
 
 明珠台,#genre#
-[¡1],http://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8
+[¡playit],http://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8
 
 PEARL,#genre#
-[¡1],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476935.ts
-[¡2],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476936.ts
+[¡playit],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476935.ts
+[¡playit],http://hotelplay.net/live/wLmJEuYw32hs/75X2WAcaeJexPFiZ/476936.ts
 
 明珠-DRAMA,#genre#
-[¡1],https://stream1.freetv.fun/0e9345ff17258af1994eaf5f3b167535ab749b2939f81cca6fef95ac617f9406.m3u8
-[¡2],http://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
+[¡playit],https://stream1.freetv.fun/0e9345ff17258af1994eaf5f3b167535ab749b2939f81cca6fef95ac617f9406.m3u8
+[¡playit],http://aktv.top/AKTV/live/aktv/null-19/AKTV.m3u8
 
 TVB星河,#genre#
-[¡1],https://stream1.freetv.fun/c1207259af9bb9d243db7da133f62fc1c4920bf00f1d23840dfd583d7817ea5b.m3u8
-[¡2],https://stream1.freetv.fun/tvbxing-he--ch305-1.m3u8
-[¡3],http://cdn9.1689.us.kg/smt1.1.php?id=Xinhe
+[¡playit],https://stream1.freetv.fun/c1207259af9bb9d243db7da133f62fc1c4920bf00f1d23840dfd583d7817ea5b.m3u8
+[¡playit],https://stream1.freetv.fun/tvbxing-he--ch305-1.m3u8
+[¡playit],http://cdn9.1689.us.kg/smt1.1.php?id=Xinhe
 
 美亚电影,#genre#
-[¡粤],http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
+[¡playit],http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
 
 ViuTV,#genre#
-[¡1],http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
+[¡playit],http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
 
 ViuTV6,#genre#
-[¡1],https://stream1.freetv.fun/ff7a4a0baec4ff9d816d4e5c866feeffc1762f2de79d2c4a18fb3565c80c0531.m3u8
-[¡2],http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
+[¡playit],https://stream1.freetv.fun/ff7a4a0baec4ff9d816d4e5c866feeffc1762f2de79d2c4a18fb3565c80c0531.m3u8
+[¡playit],http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
 
 浙江-TV,#genre#
-浙江卫视[¡稳定],https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-浙江新闻[¡稳定],https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-浙江少儿[¡稳定],https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+浙江卫视[¡playit],https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+浙江新闻[¡playit],https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+浙江少儿[¡playit],https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 
 #
 #
