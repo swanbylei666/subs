@@ -62,7 +62,9 @@ https://tv.doube.eu.org/tv?pid=4
 https://tv.doube.eu.org/tv?pid=5
 
 # 新聞頻道
-#EXTINF:-1 group-title="新聞頻道",TVBS新聞台
+#EXTINF:-1 group-title="新聞頻道",TVBS新聞台HD 1
 https://stream1.freetv.fun/tvbsxin-wen-1.ctv
+#EXTINF:-1 group-title="新聞頻道",TVBS新聞台HD 2
+https://stream1.freetv.fun/tvbsxin-wen-3.ctv
 
 # END 结束编辑
