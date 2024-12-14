@@ -41,7 +41,7 @@ http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
 #EXTINF:-1 group-title="ViuTV",ViuTV6 正在播放1
 http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
 
-# 電影播放
+# 電影頻道
 #EXTINF:-1 group-title="電影頻道",美亞電影 【港】
 http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
 #EXTINF:-1 group-title="電影頻道",美亞電影 1
@@ -60,5 +60,9 @@ https://tv.doube.eu.org/tv?pid=2
 https://tv.doube.eu.org/tv?pid=4
 #EXTINF:-1 group-title="電影頻道",東森洋片 【台】
 https://tv.doube.eu.org/tv?pid=5
+
+# 新聞頻道
+#EXTINF:-1 group-title="新聞頻道",TVBS新聞台
+https://stream1.freetv.fun/tvbsxin-wen-1.ctv
 
 # END 结束编辑
