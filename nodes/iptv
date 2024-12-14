@@ -44,11 +44,13 @@ http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
 # 電影播放
 #EXTINF:-1 group-title="電影頻道",美亞電影 【港】
 http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
+#EXTINF:-1 group-title="電影頻道",美亞電影 1
+https://stream1.freetv.fun/mei-ya-dian-ying-3.m3u8
 #EXTINF:-1 group-title="電影頻道",美亞電影 【台】
 https://tv.doube.eu.org/tv?pid=1
-#EXTINF:-1 group-title="電影頻道",NOW星影台
+#EXTINF:-1 group-title="電影頻道",NOW星影台 【港】
 https://stream1.freetv.fun/nowbao-gu-1.m3u8
-#EXTINF:-1 group-title="電影頻道",NOW星影台 正在播放1
+#EXTINF:-1 group-title="電影頻道",NOW星影台 1
 https://stream1.freetv.fun/nowbao-gu-2.m3u8
 #EXTINF:-1 group-title="電影頻道",緯來電影 【台】
 https://tv.doube.eu.org/tv?pid=3
