@@ -16,4 +16,16 @@ https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee
 #EXTINF:-1 group-title="广州南国都市",广州南国都市 正在播放1
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
+#EXTM3U
+#EXTINF:-1 group-title="電影頻道",美亞電影 【台】
+https://tv.doube.eu.org/tv?pid=1
+#EXTINF:-1 group-title="電影頻道",緯來電影 【台】
+https://tv.doube.eu.org/tv?pid=3
+#EXTINF:-1 group-title="電影頻道",天映頻道 【台】
+https://tv.doube.eu.org/tv?pid=2
+#EXTINF:-1 group-title="電影頻道",東森電影 【台】
+https://tv.doube.eu.org/tv?pid=4
+#EXTINF:-1 group-title="電影頻道",東森洋片 【台】
+https://tv.doube.eu.org/tv?pid=5
+
 #END 结束编辑
