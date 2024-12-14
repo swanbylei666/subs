@@ -24,6 +24,8 @@ http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
 http://aktv.top/AKTV/live/aktv3/4k/AKTV.m3u8
 #EXTINF:-1 group-title="TVB+",TVB+ 正在播放1
 http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
+#EXTINF:-1 group-title="TVB+",TVB+ 正在播放2
+https://stream1.freetv.fun/tvb-plus-3.m3u8
 #EXTINF:-1 group-title="明珠台",TVB明珠 正在播放1
 http://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8
 #EXTINF:-1 group-title="TVB新聞",無線新聞 正在播放1
