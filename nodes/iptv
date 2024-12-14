@@ -46,6 +46,8 @@ http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
 http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
 #EXTINF:-1 group-title="電影頻道",美亞電影 【台】
 https://tv.doube.eu.org/tv?pid=1
+#EXTINF:-1 group-title="電影頻道",NOW爆谷台 【港】
+https://stream1.freetv.fun/nowbao-gu-2.m3u8
 #EXTINF:-1 group-title="電影頻道",緯來電影 【台】
 https://tv.doube.eu.org/tv?pid=3
 #EXTINF:-1 group-title="電影頻道",天映頻道 【台】
