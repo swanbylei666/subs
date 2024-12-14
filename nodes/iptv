@@ -24,9 +24,9 @@ http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
 https://stream1.freetv.fun/fei-cui-7.m3u8
 #EXTINF:-1 group-title="翡翠台",TVB翡翠 正在播放3
 https://stream1.freetv.fun/fei-cui-9.ctv
-#EXTINF:-1 group-title="翡翠台",TVB翡翠 4K
-http://aktv.top/AKTV/live/aktv3/4k/AKTV.m3u8
 #EXTINF:-1 group-title="翡翠台",TVB翡翠 4K 1
+http://aktv.top/AKTV/live/aktv3/4k/AKTV.m3u8
+#EXTINF:-1 group-title="翡翠台",TVB翡翠 4K 2
 https://stream1.freetv.fun/fei-cui-9.ctv
 #EXTINF:-1 group-title="翡翠台",TVB翡翠 【華麗】
 https://stream1.freetv.fun/fei-cui-6.ctv
