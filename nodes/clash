@@ -1,4 +1,1 @@
-proxies:
-  - {name: 01, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: skywalker.mankah.us.kg, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: skywalker.mankah.us.kg}}}
-  - {name: 02, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: b.khordadmah.us.kg, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: b.khordadmah.us.kg}}}
-  - {name: 03, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: fortune8989.us.kg, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: fortune8989.us.kg}}}
+# N/A
