@@ -1,1 +1,16 @@
-# N/A
+[Proxy]
+
+Trojan.104.28.154.96 = trojan, www.vpslook.com, 443, password=bpb-trojan, ws=true, ws-path=/tr?ed=2560, skip-cert-verify=false, udp-relay=false, ws-headers=Host:bf.lovetoday.us.kg, sni=bf.lovetoday.us.kg
+
+Trojan.104.28.154.112 = trojan, www.vpslook.com, 443, password=bpb-trojan, ws=true, ws-path=/tr?ed=2560, skip-cert-verify=false, udp-relay=false, ws-headers=Host:cdn.nyxclothing.ir, sni=cdn.nyxclothing.ir
+
+Trojan.3.78.187.212 = trojan, www.vpslook.com, 443, password=bpb-trojan, ws=true, ws-path=/tr?ed=2560, skip-cert-verify=false, udp-relay=false, ws-headers=Host:gb.woodthomas94095.us.kg, sni=gb.woodthomas94095.us.kg
+
+Trojan.104.28.159.177 = trojan, www.vpslook.com, 443, password=bpb-trojan, ws=true, ws-path=/tr?ed=2560, skip-cert-verify=false, udp-relay=false, ws-headers=Host:bpbcn.ktlhk.xyz, sni=bpbcn.ktlhk.xyz
+
+Trojan.104.28.154.82 = trojan, www.vpslook.com, 443, password=bpb-trojan, ws=true, ws-path=/tr?ed=2560, skip-cert-verify=false, udp-relay=false, ws-headers=Host:fuxiaoxin.sbs, sni=fuxiaoxin.sbs
+
+Trojan.104.28.160.255 = trojan, www.vpslook.com, 443, password=bpb-trojan, ws=true, ws-path=/tr?ed=2560, skip-cert-verify=false, udp-relay=false, ws-headers=Host:vpn.183618.xyz, sni=vpn.183618.xyz
+
+Trojan.18.192.62.218 = trojan, www.vpslook.com, 443, password=bpb-trojan, ws=true, ws-path=/tr?ed=2560, skip-cert-verify=false, udp-relay=false, ws-headers=Host:ss1.inshuey.com, sni=ss1.inshuey.com
+
