@@ -6,6 +6,8 @@
 
 ##### ↓↓加速器↓↓
 
-##### https://ghp.ci/https://raw.githubusercontent.com/swanbylei666/subs/...
+##### https://github.akams.cn/
+
+https://raw.githubusercontent.com/swanbylei666/subs/...
 
 ##### RESPECT...
