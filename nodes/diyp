@@ -3,6 +3,11 @@
 #...utf-8... 
 #
 
+HONGKONG地区电视,#genre#
+翡翠台电视,https://stream1.freetv.fun/fei-cui-9.m3u8
+马来翡翠台电视,https://stream1.freetv.fun/fei-cui-6.ctv
+美亚电影电视,https://stream1.freetv.fun/mei-ya-dian-ying-1.m3u8
+
 广东省地区电视,#genre#
 广州综合电视,https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 广州新闻电视,https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
