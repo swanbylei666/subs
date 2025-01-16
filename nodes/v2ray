@@ -6,3 +6,5 @@ trojan://bpb-trojan@www.vpslook.com:443/?type=ws&host=bpbcn.ktlhk.xyz&path=%2Ftr
 trojan://bpb-trojan@www.vpslook.com:443/?type=ws&host=fuxiaoxin.sbs&path=%2Ftr%3Fed%3D2560&security=tls&sni=fuxiaoxin.sbs&alpn=h3&fp=randomized#Trojan.104.28.154.82
 trojan://bpb-trojan@www.vpslook.com:443/?type=ws&host=vpn.183618.xyz&path=%2Ftr%3Fed%3D2560&security=tls&sni=vpn.183618.xyz&alpn=h3&fp=randomized#Trojan.104.28.160.255
 trojan://bpb-trojan@www.vpslook.com:443/?type=ws&host=ss1.inshuey.com&path=%2Ftr%3Fed%3D2560&security=tls&sni=ss1.inshuey.com&alpn=h3&fp=randomized#Trojan.18.192.62.218
+trojan://bpb-trojan@www.vpslook.com:443?path=%2Ftr%3Fed%3D2560&security=tls&alpn=h3&host=yufour.top&fp=randomized&type=ws&sni=yufour.top#Trojan.104.28.154.81
+
