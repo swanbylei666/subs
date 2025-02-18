@@ -33,6 +33,29 @@ https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee
 #EXTINF:-1 group-title="广州电视",正在播放 南国都市
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
+#EXTINF:-1 group-title="香港电视",正在播放 翡翠4k
+https://stream1.freetv.fun/fei-cui-9.m3u8
+#EXTINF:-1 group-title="香港电视",正在播放 翡翠
+https://stream1.freetv.fun/tvbfei-cui-3.ctv
+#EXTINF:-1 group-title="香港电视",正在播放 J2台
+https://stream1.freetv.fun/tvb-plus-3.ctv
+#EXTINF:-1 group-title="香港电视",正在播放 马来翡翠
+http://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
+#EXTINF:-1 group-title="香港电视",正在播放 TVBplus
+http://cdn.132.us.kg/live/tvbp/stream.m3u8
+#EXTINF:-1 group-title="香港电视",明珠电视台
+https://stream1.freetv.fun/4bd0ec25b2cc36739d625ad4442e93c5b0f015a912a7f3e33b4e48fd638de3d3.ctv
+#EXTINF:-1 group-title="香港电视",正在播放 无线新
+https://stream1.freetv.fun/wu-xian-xin-wen-4.ctv
+#EXTINF:-1 group-title="香港电视",正在播放 TVB星河
+https://stream1.freetv.fun/tvbxing-he-7.ctv
+#EXTINF:-1 group-title="香港电视",正在播放 ViuTV99
+https://stream1.freetv.fun/viutv-4.ctv
+#EXTINF:-1 group-title="香港电视",正在播放 ViiTV96
+https://stream1.freetv.fun/viutvsix-2.ctv
+#EXTINF:-1 group-title="香港电视",正在播放 美亚电影
+https://stream1.freetv.fun/mei-ya-dian-ying-1.m3u8
+
 #
 #
 # END 结束编辑
