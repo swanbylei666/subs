@@ -2,23 +2,23 @@
 #...https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/diyp...
 #...utf-8... 
 #
-
-HONGKONG地区电视,#genre#
-翡翠台4K电视,https://stream1.freetv.fun/fei-cui-9.m3u8
-翡翠台720P电视,https://stream1.freetv.fun/tvbfei-cui-3.ctv
-TVB J2电视,https://stream1.freetv.fun/tvb-plus-3.ctv
-马来翡翠台,http://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
-TVBplus电视,http://cdn.132.us.kg/live/tvbp/stream.m3u8
-TVB剧集电视,https://stream1.freetv.fun/tvbfei-cui-5.m3u8
+#
+#
+香港电视,#genre#
+正在播放 翡翠4k,https://stream1.freetv.fun/fei-cui-9.m3u8
+正在播放 翡翠,https://stream1.freetv.fun/tvbfei-cui-3.ctv
+正在播放 J2台,https://stream1.freetv.fun/tvb-plus-3.ctv
+正在播放 马来翡翠,http://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
+正在播放 TVBplus,http://cdn.132.us.kg/live/tvbp/stream.m3u8
 明珠电视台,https://stream1.freetv.fun/4bd0ec25b2cc36739d625ad4442e93c5b0f015a912a7f3e33b4e48fd638de3d3.ctv
-无线新闻电视,https://stream1.freetv.fun/wu-xian-xin-wen-4.ctv
-TVB星河电视,https://stream1.freetv.fun/tvbxing-he-7.ctv
-ViuTV电视,https://stream1.freetv.fun/viutv-4.ctv
-ViiTV6电视,https://stream1.freetv.fun/viutvsix-2.ctv
-爆谷台电视,https://stream1.freetv.fun/nowbao-gu-2.m3u8
-美亚电影电视,https://stream1.freetv.fun/mei-ya-dian-ying-1.m3u8
-星空卫视SD电视,https://stream1.freetv.fun/xing-kong-wei-shi-6.m3u8
-
+正在播放 无线新,https://stream1.freetv.fun/wu-xian-xin-wen-4.ctv
+正在播放 TVB星河,https://stream1.freetv.fun/tvbxing-he-7.ctv
+正在播放 ViuTV99,https://stream1.freetv.fun/viutv-4.ctv
+正在播放 ViiTV96,https://stream1.freetv.fun/viutvsix-2.ctv
+正在播放 美亚电影,https://stream1.freetv.fun/mei-ya-dian-ying-1.m3u8
+#
+#
+#
 广东省地区电视,#genre#
 广州综合电视,https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 广州新闻电视,https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
