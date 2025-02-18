@@ -7,15 +7,15 @@
 #
 
 # 北京电视
-#EXTINF:-1 group-title="北京电视",cctv1电视
+#EXTINF:-1 group-title="北京电视",正在播放 cctv1电视
 http://58.62.82.117:4111/udp/239.77.1.17:5146
-#EXTINF:-1 group-title="北京电视",cctv2电视
+#EXTINF:-1 group-title="北京电视",正在播放 cctv2电视
 http://58.62.82.117:4111/udp/239.77.1.158:5146
-#EXTINF:-1 group-title="北京电视",cctv3电视
+#EXTINF:-1 group-title="北京电视",正在播放 cctv3电视
 http://58.62.82.117:4111/udp/239.77.0.169:5146
-#EXTINF:-1 group-title="北京电视",cctv5电视
+#EXTINF:-1 group-title="北京电视",正在播放 cctv5电视
 http://58.62.82.117:4111/udp/239.77.0.170:5146
-#EXTINF:-1 group-title="北京电视",cctv5+电视
+#EXTINF:-1 group-title="北京电视",正在播放 cctv5+电视
 http://58.62.82.117:4111/udp/239.77.0.87:5146
 
 
