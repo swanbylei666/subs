@@ -43,8 +43,6 @@ https://stream1.freetv.fun/tvb-plus-3.ctv
 http://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
 #EXTINF:-1 group-title="香港电视",正在播放 TVBplus
 http://cdn.132.us.kg/live/tvbp/stream.m3u8
-#EXTINF:-1 group-title="香港电视",明珠电视台
-https://stream1.freetv.fun/4bd0ec25b2cc36739d625ad4442e93c5b0f015a912a7f3e33b4e48fd638de3d3.ctv
 #EXTINF:-1 group-title="香港电视",正在播放 无线新
 https://stream1.freetv.fun/wu-xian-xin-wen-4.ctv
 #EXTINF:-1 group-title="香港电视",正在播放 TVB星河
