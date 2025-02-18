@@ -2,8 +2,10 @@
 #EXTM3U x-tvg-url="https://www..com/epg.xml"
 #EXT-X-APTV-TYPE remote
 #EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
-
-#EXTINF:-1 group-title="", X台
+#
+#
+#
+#EXTINF:-1 group-title="", cctv5+
 http://58.62.82.117:4111/udp/239.77.0.87:5146
 
 # 熱門電視
@@ -20,59 +22,9 @@ https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee
 #EXTINF:-1 group-title="廣州頻道",广州南国都市 正在播放1
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
-# 港澳台區
-#EXTINF:-1 group-title="翡翠台",TVB翡翠 正在播放1
-http://aktv.top/AKTV/live/aktv/null/AKTV.m3u8
-#EXTINF:-1 group-title="翡翠台",TVB翡翠 正在播放2
-https://stream1.freetv.fun/fei-cui-7.m3u8
-#EXTINF:-1 group-title="翡翠台",TVB翡翠 正在播放3
-https://stream1.freetv.fun/fei-cui-9.ctv
-#EXTINF:-1 group-title="翡翠台",TVB翡翠 正在播放4
-https://cdn.132.us.kg/live/fct4k/stream.m3u8
-#EXTINF:-1 group-title="翡翠台",TVB翡翠 4K 1
-http://aktv.top/AKTV/live/aktv3/4k/AKTV.m3u8
-#EXTINF:-1 group-title="翡翠台",TVB翡翠 4K 2
-https://stream1.freetv.fun/fei-cui-9.ctv
-#EXTINF:-1 group-title="翡翠台",TVB翡翠 【華麗】
-https://stream1.freetv.fun/fei-cui-6.ctv
-#EXTINF:-1 group-title="TVB+",TVB+ 正在播放1
-http://aktv.top/AKTV/live/aktv/tvbplus/AKTV.m3u8
-#EXTINF:-1 group-title="TVB+",TVB+ 正在播放2
-https://stream1.freetv.fun/tvb-plus-3.m3u8
-#EXTINF:-1 group-title="明珠台",TVB明珠 正在播放1
-http://aktv.top/AKTV/live/aktv/null-2/AKTV.m3u8
-#EXTINF:-1 group-title="TVB新聞",無線新聞 正在播放1
-http://aktv.top/AKTV/live/aktv/null-1/AKTV.m3u8
-#EXTINF:-1 group-title="ViuTV",ViuTV 正在播放1
-http://aktv.top/AKTV/live/aktv2/viutv99/AKTV.m3u8
-#EXTINF:-1 group-title="ViuTV",ViuTV6 正在播放1
-http://aktv.top/AKTV/live/aktv2/viutv696/AKTV.m3u8
-
-# 電影頻道
-#EXTINF:-1 group-title="電影頻道",美亞電影 【港】
-http://aktv.top/AKTV/live/aktv/hk-1/AKTV.m3u8
-#EXTINF:-1 group-title="電影頻道",美亞電影 1
-https://stream1.freetv.fun/mei-ya-dian-ying-3.m3u8
-#EXTINF:-1 group-title="電影頻道",美亞電影 【台】
-https://tv.doube.eu.org/tv?pid=1
-#EXTINF:-1 group-title="電影頻道",NOW星影台 【港】
-http://aktv.top/AKTV/live/aktv2/now-1/AKTV.m3u8
-#EXTINF:-1 group-title="電影頻道",NOW星影台 1
-https://stream1.freetv.fun/nowbao-gu-2.m3u8
-#EXTINF:-1 group-title="電影頻道",緯來電影 【台】
-https://tv.doube.eu.org/tv?pid=3
-#EXTINF:-1 group-title="電影頻道",天映頻道 【台】
-https://tv.doube.eu.org/tv?pid=2
-#EXTINF:-1 group-title="電影頻道",東森電影 【台】
-https://tv.doube.eu.org/tv?pid=4
-#EXTINF:-1 group-title="電影頻道",東森洋片 【台】
-https://tv.doube.eu.org/tv?pid=5
-
-# 新聞頻道
-#EXTINF:-1 group-title="新聞頻道",TVBS新聞台HD 1
-https://stream1.freetv.fun/tvbsxin-wen-1.ctv
-#EXTINF:-1 group-title="新聞頻道",TVBS新聞台HD 2
-https://stream1.freetv.fun/tvbsxin-wen-3.ctv
-#EXTINF:-1 group-title="新聞頻道",TVBS新聞
-https://stream1.freetv.fun/tvbsxin-wen-4.m3u8
+#
+#
 # END 结束编辑
+#
+#
+#
