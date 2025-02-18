@@ -5,21 +5,32 @@
 #
 #
 #
-#EXTINF:-1 group-title="", cctv5+
+
+# 北京电视
+#EXTINF:-1 group-title="北京电视",cctv1电视
+http://58.62.82.117:4111/udp/239.77.1.17:5146
+#EXTINF:-1 group-title="北京电视",cctv2电视
+http://58.62.82.117:4111/udp/239.77.1.158:5146
+#EXTINF:-1 group-title="北京电视",cctv3电视
+http://58.62.82.117:4111/udp/239.77.0.169:5146
+#EXTINF:-1 group-title="北京电视",cctv5电视
+http://58.62.82.117:4111/udp/239.77.0.170:5146
+#EXTINF:-1 group-title="北京电视",cctv5+电视
 http://58.62.82.117:4111/udp/239.77.0.87:5146
 
+
 # 本地电视
-#EXTINF:-1 group-title="廣州頻道",正在播放 广州综合
+#EXTINF:-1 group-title="广州电视",正在播放 广州综合
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
-#EXTINF:-1 group-title="廣州頻道",正在播放 广州新闻
+#EXTINF:-1 group-title="广州电视",正在播放 广州新闻
 https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
-#EXTINF:-1 group-title="廣州頻道",正在播放 广州影视
+#EXTINF:-1 group-title="广州电视",正在播放 广州影视
 https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
-#EXTINF:-1 group-title="廣州頻道",正在播放 广州法治
+#EXTINF:-1 group-title="广州电视",正在播放 广州法治
 https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
-#EXTINF:-1 group-title="廣州頻道",正在播放 广州竞赛
+#EXTINF:-1 group-title="广州电视",正在播放 广州竞赛
 https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee48e70fb0&txTime=18d048582e3
-#EXTINF:-1 group-title="廣州頻道",正在播放 南国都市
+#EXTINF:-1 group-title="广州电视",正在播放 南国都市
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
 #
