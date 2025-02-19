@@ -8,7 +8,7 @@
 
 # 北京电视
 #EXTINF:-1 group-title="北京电视",正在播放 cctv1电视
-http://58.62.82.117:4111/udp/239.77.1.17:5146
+https://stream1.freetv.fun/96897899a4d48e204bd9033ea6a454d24798bb63aa3179e88f943899e604bdf8.m3u8
 #EXTINF:-1 group-title="北京电视",正在播放 cctv2电视
 http://58.62.82.117:4111/udp/239.77.1.158:5146
 #EXTINF:-1 group-title="北京电视",正在播放 cctv3电视
