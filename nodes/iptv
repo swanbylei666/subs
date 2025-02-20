@@ -1,63 +1,51 @@
 #EXTM3U
-#EXTM3U x-tvg-url="https://www..com/epg.xml"
+#EXTM3U x-tvg-url="https://..."
 #EXT-X-APTV-TYPE remote
 #EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
 #
 #
 #
 
-# 北京电视
-#EXTINF:-1 group-title="北京电视",正在播放 cctv1电视
-https://stream1.freetv.fun/96897899a4d48e204bd9033ea6a454d24798bb63aa3179e88f943899e604bdf8.m3u8
-#EXTINF:-1 group-title="北京电视",正在播放 cctv2电视
-http://58.62.82.117:4111/udp/239.77.1.158:5146
-#EXTINF:-1 group-title="北京电视",正在播放 cctv3电视
-http://58.62.82.117:4111/udp/239.77.0.169:5146
-#EXTINF:-1 group-title="北京电视",正在播放 cctv5电视
-http://58.62.82.117:4111/udp/239.77.0.170:5146
-#EXTINF:-1 group-title="北京电视",正在播放 cctv5+电视
-http://58.62.82.117:4111/udp/239.77.0.87:5146
-
-
 # 本地电视
-#EXTINF:-1 group-title="广州电视",正在播放 广州综合
+#EXTINF:-1 ,正在播放 广州综合
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
-#EXTINF:-1 group-title="广州电视",正在播放 广州新闻
+#EXTINF:-1 ,正在播放 广州新闻
 https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
-#EXTINF:-1 group-title="广州电视",正在播放 广州影视
+#EXTINF:-1 ,正在播放 广州影视
 https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
-#EXTINF:-1 group-title="广州电视",正在播放 广州法治
+#EXTINF:-1 ,正在播放 广州法治
 https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
-#EXTINF:-1 group-title="广州电视",正在播放 广州竞赛
+#EXTINF:-1 ,正在播放 广州竞赛
 https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee48e70fb0&txTime=18d048582e3
-#EXTINF:-1 group-title="广州电视",正在播放 南国都市
+#EXTINF:-1 ,正在播放 南国都市
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
-#EXTINF:-1 group-title="广州电视",正在播放 广东影视
+#EXTINF:-1 ,正在播放 广东影视
 https://stream1.freetv.fun/yan-dong-ying-shi-4.m3u8
-#EXTINF:-1 group-title="广州电视",正在播放 广东珠江
+#EXTINF:-1 ,正在播放 广东珠江
 http://cdn2.132.us.kg/live/gdzj/stream.m3u8
-#EXTINF:-1 group-title="广州电视",正式播放 广东体育
+#EXTINF:-1 ,正式播放 广东体育
 http://cdn2.132.us.kg/live/gdty/stream.m3u8
 
-#EXTINF:-1 group-title="香港电视",正在播放 翡翠4k
+# hongkong电视
+#EXTINF:-1 ,正在播放 翡翠4k
 https://stream1.freetv.fun/fei-cui-9.m3u8
-#EXTINF:-1 group-title="香港电视",正在播放 翡翠
+#EXTINF:-1 ,正在播放 翡翠
 https://stream1.freetv.fun/tvbfei-cui-3.ctv
-#EXTINF:-1 group-title="香港电视",正在播放 J2台
+#EXTINF:-1 ,正在播放 J2台
 https://stream1.freetv.fun/tvb-plus-3.ctv
-#EXTINF:-1 group-title="香港电视",正在播放 马来翡翠
+#EXTINF:-1 ,正在播放 马来翡翠
 http://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
-#EXTINF:-1 group-title="香港电视",正在播放 TVBplus
+#EXTINF:-1 ,正在播放 TVBplus
 http://cdn.132.us.kg/live/tvbp/stream.m3u8
-#EXTINF:-1 group-title="香港电视",正在播放 无线新闻
+#EXTINF:-1 ,正在播放 无线新闻
 https://stream1.freetv.fun/wu-xian-xin-wen-4.ctv
-#EXTINF:-1 group-title="香港电视",正在播放 TVB星河
+#EXTINF:-1 ,正在播放 TVB星河
 https://stream1.freetv.fun/tvbxing-he-7.ctv
-#EXTINF:-1 group-title="香港电视",正在播放 ViuTV99
+#EXTINF:-1 ,正在播放 ViuTV99
 https://stream1.freetv.fun/viutv-4.ctv
-#EXTINF:-1 group-title="香港电视",正在播放 ViiTV96
+#EXTINF:-1 ,正在播放 ViiTV96
 https://stream1.freetv.fun/viutvsix-2.ctv
-#EXTINF:-1 group-title="香港电视",正在播放 美亚电影
+#EXTINF:-1 ,正在播放 美亚电影
 https://stream1.freetv.fun/mei-ya-dian-ying-4.ctv
 #
 #
