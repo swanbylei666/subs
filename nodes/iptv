@@ -47,6 +47,15 @@ https://stream1.freetv.fun/viutv-4.ctv
 https://stream1.freetv.fun/viutvsix-2.ctv
 #EXTINF:-1 ,正在播放 美亚电影
 https://stream1.freetv.fun/mei-ya-dian-ying-4.ctv
+
+# 浙江地区
+#EXTINF:-1 ,正在播放 浙江卫视
+https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
+#EXTINF:-1 ,正在播放 浙江新闻
+https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+#EXTINF:-1 ,正在播放 浙江经济
+https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+
 #
 #
 # END 结束编辑
