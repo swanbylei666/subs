@@ -36,3 +36,6 @@ proxy-groups:
     proxies:
     url: "https://cp.cloudflare.com/generate_204"
     interval: "100"
+#
+rules:
+  - MATCH,YYDS
