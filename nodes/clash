@@ -4,7 +4,7 @@ proxies:
 proxy-providers:
   x:
     type: http
-    url: "https://api.dler.io/sub?target=clash&filename=list&emoji=true&list=true&url=https%3A%2F%2Fktmcloud.cool%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D82719ebe7863fcae1460816c2311ce98&exclude=优化&include="
+    url: "https://hongxingdl.love/hxyunvip?token=1a7f631264559897da5d0188859ac57e"
     filter: ""
     interval: "86400"
     path: "./x.yml"
