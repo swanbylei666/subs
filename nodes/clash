@@ -1,5 +1,5 @@
+#
 proxies:
-
   - {name: Trojan.443.不能上网, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: "%E8%BF%99%E9%87%8C%E5%A1%AB%E5%9F%9F%E5%90%8D", network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: "%E8%BF%99%E9%87%8C%E5%A1%AB%E5%9F%9F%E5%90%8D"}}}
   - {name: Trojan.104.28.154.96, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: bf.lovetoday.us.kg, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: bf.lovetoday.us.kg}}}
   - {name: Trojan.104.28.154.112, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: cdn.nyxclothing.ir, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: cdn.nyxclothing.ir}}}
@@ -9,3 +9,30 @@ proxies:
   - {name: Trojan.104.28.160.255, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: vpn.183618.xyz, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: vpn.183618.xyz}}}
   - {name: Trojan.18.192.62.218, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: ss1.inshuey.com, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: ss1.inshuey.com}}}
   - {name: Trojan.104.28.154.81, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: yufour.top, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: yufour.top}}}
+#
+proxy-providers:
+  x:
+    type: http
+    url: "https://api.dler.io/sub?target=clash&filename=list&emoji=true&list=true&url=https%3A%2F%2Fktmcloud.cool%2Fapi%2Fv1%2Fclient%2Fsubscribe%3Ftoken%3D82719ebe7863fcae1460816c2311ce98&exclude=优化&include="
+    filter: ""
+    interval: "86400"
+    path: "./x.yml"
+    health-check:
+      enable: true
+      interval: "86400"
+      url: "http://www.gstatic.com/generate_204"
+#
+proxy-groups:
+  - name: YYDS
+    type: select
+    proxies:
+      - DIRECT
+      - 加速池-1
+      - REJECT
+  - name: 加速池-1
+    type: select
+    use:
+      - x
+    proxies:
+    url: "https://cp.cloudflare.com/generate_204"
+    interval: "100"
