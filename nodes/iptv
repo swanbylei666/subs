@@ -9,8 +9,7 @@
 
 # 广东地区
 #EXTINF:-1 ,正在播放 广州综合
-#EXTVLCOPT:http-user-agent= "User-Agent : com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
-https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
+
 #EXTINF:-1 ,正在播放 广州新闻
 #EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
@@ -41,9 +40,13 @@ http://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
 #EXTINF:-1 ,正在播放 TVBplus
 http://cdn.132.us.kg/live/tvbp/stream.m3u8
 #EXTINF:-1 ,正在播放 无线新闻
+#EXTVLCOPT:http-user-agent= "User-Agent : com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
+https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 https://stream1.freetv.fun/wu-xian-xin-wen-4.ctv
 #EXTINF:-1 ,正在播放 TVB星河
-https://stream1.freetv.fun/tvbxing-he-7.ctv
+#EXTVLCOPT:http-user-agent= "User-Agent : com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
+https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
+http://cdn9.163189.xyz/smt1.1.php?id=Xinhe
 #EXTINF:-1 ,正在播放 ViuTV99
 https://stream1.freetv.fun/viutv-4.ctv
 #EXTINF:-1 ,正在播放 ViiTV96
