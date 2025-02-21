@@ -37,9 +37,10 @@ http://cdn2.132.us.kg/live/gdzj/stream.m3u8
 http://cdn2.132.us.kg/live/gdty/stream.m3u8
 
 # hongkong电视
-#EXTINF:-1 ,正在播放 翡翠4k
-https://stream1.freetv.fun/fei-cui-9.m3u8
 #EXTINF:-1 ,正在播放 翡翠
+#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+http://m.osvs.asia:8000/bysid/1
+#EXTINF:-1 ,正在播放 翡翠台 备用
 #EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 http://119.32.12.32:2901/udp/224.1.100.121:11111
 #EXTINF:-1 ,正在播放 J2台
