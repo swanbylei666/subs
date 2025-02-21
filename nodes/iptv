@@ -68,12 +68,17 @@ https://stream1.freetv.fun/mei-ya-dian-ying-4.ctv
 
 # 浙江地区
 #EXTINF:-1 ,正在播放 浙江卫视
+#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
 #EXTINF:-1 ,正在播放 浙江新闻
+#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
 #EXTINF:-1 ,正在播放 浙江经济
+#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-
+#EXTINF:-1 ,正在播放 浙江少儿
+#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+https://qiniup-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 #
 #
 # END 结束编辑
