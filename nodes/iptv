@@ -84,6 +84,9 @@ https://qiniup-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
 #EXTINF:-1 ,正在播放 卡酷少儿
 #EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1740142982&sign=cd9b5f2faf3de2fa53904c94123efd98
+#EXTINF:-1 ,正在播放 哈哈炫动
+#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+https://ws-channels.kksmg.com/live/hhxd/playlist.m3u8?wsSecret=81eaca6ce43372e528dd1e46f89da98d&wsTime=1740164782&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHAiOiJsaXZlIiwiZG9tYWluIjoid3MtY2hhbm5lbHMua2tzbWcuY29tIiwiZXhwIjoxNzQwMTY0NzgxLCJpYXQiOjE3NDAxNDMxODEsIm5vbmNlIjoiaGVxNnBvcTciLCJzdHJlYW1fbmFtZSI6ImhoeGQiLCJ1c2VyX2lkIjowLCJ1c2VyX2lwIjoiMTQuMTQ1LjI1LjI0MyIsInV1aWQiOiJoRFlPNzZJNU1oWjlRdHU0b18zUmsifQ.m8nmzfqKSry98IXkSQ8FrpvbiktWsJBVg7Bu5mpsEwU
 #
 #
 # END 结束编辑
