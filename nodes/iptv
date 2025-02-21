@@ -35,7 +35,7 @@ http://cdn2.132.us.kg/live/gdzj/stream.m3u8
 #EXTINF:-1 ,正式播放 广东体育
 #EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 http://cdn2.132.us.kg/live/gdty/stream.m3u8
-#EXTINF:-1 ,正式播放 广东体育
+#EXTINF:-1 ,正式播放 广东少儿
 #EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 https://stream1.freetv.fun/758f11dbad48fa3d0d1368bd43d0f3cae9ae07f037f891a5260416e9314558fc.m3u8
 
