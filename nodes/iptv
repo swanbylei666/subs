@@ -54,7 +54,6 @@ http://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
 http://cdn.132.us.kg/live/tvbp/stream.m3u8
 #EXTINF:-1 ,正在播放 无线新闻
 #EXTVLCOPT:http-user-agent= "User-Agent : com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
-https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 https://stream1.freetv.fun/wu-xian-xin-wen-4.ctv
 #EXTINF:-1 ,正在播放 TVB星河
 #EXTVLCOPT:http-user-agent= "User-Agent : com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
