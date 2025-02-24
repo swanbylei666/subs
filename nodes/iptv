@@ -44,7 +44,7 @@ https://stream1.freetv.fun/758f11dbad48fa3d0d1368bd43d0f3cae9ae07f037f891a526041
 http://m.osvs.asia:8000/bysid/1
 #EXTINF:-1 ,正在播放 翡翠台 备用
 #EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-http://119.32.12.32:2901/udp/224.1.100.121:11111
+http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
 #EXTINF:-1 ,正在播放 J2台
 https://stream1.freetv.fun/tvb-plus-3.ctv
 #EXTINF:-1 ,正在播放 马来翡翠
