@@ -39,18 +39,16 @@ http://cdn2.132.us.kg/live/gdty/stream.m3u8
 https://stream1.freetv.fun/758f11dbad48fa3d0d1368bd43d0f3cae9ae07f037f891a5260416e9314558fc.m3u8
 
 # hongkong电视
-#EXTINF:-1 ,正在播放 翡翠
-#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-http://m.osvs.asia:8000/bysid/1
-#EXTINF:-1 ,正在播放 翡翠台 备用
+#EXTINF:-1 ,正在播放 翡翠台720P
 #EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
+#EXTINF:-1 ,正在播放 TVB-plus
+#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
+http://cdn.132.us.kg/live/tvbp/stream.m3u8
 #EXTINF:-1 ,正在播放 J2台
 https://stream1.freetv.fun/tvb-plus-3.ctv
 #EXTINF:-1 ,正在播放 马来翡翠
 http://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
-#EXTINF:-1 ,正在播放 TVBplus
-http://cdn.132.us.kg/live/tvbp/stream.m3u8
 #EXTINF:-1 ,正在播放 无线新闻
 #EXTVLCOPT:http-user-agent= "User-Agent : com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
 https://stream1.freetv.fun/wu-xian-xin-wen-4.ctv
