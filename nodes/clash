@@ -1,3 +1,4 @@
+# 纯节点！
 proxies:
   - {name: Trojan.443.不能上网, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: "%E8%BF%99%E9%87%8C%E5%A1%AB%E5%9F%9F%E5%90%8D", skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: "%E8%BF%99%E9%87%8C%E5%A1%AB%E5%9F%9F%E5%90%8D"}}, tfo: false}
   - {name: Trojan.104.28.154.96, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: bf.lovetoday.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: bf.lovetoday.us.kg}}, tfo: false}
