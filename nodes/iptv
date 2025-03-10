@@ -46,7 +46,7 @@ https://stream1.freetv.fun/fei-cui-17.ctv
 #EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 http://cdn.132.us.kg/live/tvbp/stream.m3u8
 #EXTINF:-1 ,正在播放 J2台
-https://stream1.freetv.fun/tvb-plus-3.ctv
+https://stream1.freetv.fun/tvb-plus-5.m3u8
 #EXTINF:-1 ,正在播放 马来翡翠
 http://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
 #EXTINF:-1 ,正在播放 明珠台
