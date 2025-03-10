@@ -41,7 +41,7 @@ https://stream1.freetv.fun/758f11dbad48fa3d0d1368bd43d0f3cae9ae07f037f891a526041
 # hongkong电视
 #EXTINF:-1 ,正在播放 翡翠台720P
 #EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-http://aktv_stream1.m16tv.cfd/stream/aktv/null/AKTV.m3u8
+https://stream1.freetv.fun/fei-cui-17.ctv
 #EXTINF:-1 ,正在播放 TVB-plus
 #EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 http://cdn.132.us.kg/live/tvbp/stream.m3u8
