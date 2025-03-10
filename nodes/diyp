@@ -16,9 +16,7 @@
 正在播放 ViuTV,https://stream1.freetv.fun/viutvsix-2.ctv
 正在播放 美亚电影,http://aktv_stream1.m16tv.cfd/stream/aktv/hk-1/AKTV.m3u8
 正在播放 星空卫视,http://wouu.net:9977/udp/239.93.0.156:2193
-#
-#
-#
+
 广东省地区电视,#genre#
 广州综合电视,https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 广州新闻电视,https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
