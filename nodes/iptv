@@ -88,33 +88,7 @@ https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee
 #EXTINF:-1 tvg-country="" tvg-id="" tvg-name="" tvg-logo="" group-title="广州电视", 南国都市
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
-
-
-
-
-
-# 浙江地区
-#EXTINF:-1 ,正在播放 浙江卫视
-#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-#EXTINF:-1 ,正在播放 浙江新闻
-#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
-#EXTINF:-1 ,正在播放 浙江经济
-#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
-
-# 湖南地区
-#EXTINF:-1 ,正在播放 湖南卫视
-#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-https://www.insurancegogogo.com/4987/hunan_twn/playlist.m3u8?md5=PFpe0PgSHATdLpiJy1ZeOg&expires=1740205578
-
-# 马来地区
-#EXTINF:-1 ,正在播放 astro爱奇艺
-#EXTVLCOPT:http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-https://www.insurancegogogo.com/4987/Qiyi/playlist.m3u8?md5=jf7rPDYYi69n1Z623BDQtA&expires=1740205666
 #
 #
-# END 结束编辑
 #
-#
+# the end...
