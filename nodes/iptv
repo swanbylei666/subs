@@ -56,6 +56,21 @@ https://stream1.freetv.fun/fei-cui-19.m3u8
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-2/AKTV.m3u8
 #EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 明珠剧集台(北美)
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-19/AKTV.m3u8
+# ---- 分隔符 ----
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]明珠
+https://stream1.freetv.fun/ming-zhu-3.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]明珠
+https://stream1.freetv.fun/ming-zhu-7.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]明珠
+https://stream1.freetv.fun/ming-zhu-4.m3u8
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]明珠
+https://stream1.freetv.fun/ming-zhu-5.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]明珠
+https://stream1.freetv.fun/ming-zhu-6.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]明珠
+https://stream1.freetv.fun/ming-zhu-8.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]明珠[geo-blocked]
+https://stream1.freetv.fun/ming-zhu-2.ctv
 
 #
 #
@@ -72,13 +87,41 @@ http://aktv_stream1.m16tv.cfd/stream/aktv/tvbplus/AKTV.m3u8
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-1/AKTV.m3u8
 #EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 无线新闻台(北美)
 http://aktv_stream1.m16tv.cfd/stream/aktv2/null-1/AKTV.m3u8
+# ---- 分隔符 ----
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]无线新闻台
+https://stream1.freetv.fun/wu-xian-xin-wen-11.m3u8
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+https://stream1.freetv.fun/wu-xian-xin-wen-1.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+https://stream1.freetv.fun/wu-xian-xin-wen-3.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+https://stream1.freetv.fun/wu-xian-xin-wen-4.m3u8
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+https://stream1.freetv.fun/wu-xian-xin-wen-7.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+https://stream1.freetv.fun/wu-xian-xin-wen-8.m3u8
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+https://stream1.freetv.fun/wu-xian-xin-wen-10.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+https://stream1.freetv.fun/wu-xian-xin-wen-13.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台[geo-blocked]
+https://stream1.freetv.fun/wu-xian-xin-wen-12.ctv
 
 #
 #
 #
-# "VIUTV"
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", VIUTV
+# "VIU TV"
+#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", VIU TV
 http://aktv_stream1.m16tv.cfd/stream/useradd1/viutv/AKTV.m3u8
+# ---- 分隔符 ----
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]VIU TV
+https://stream1.freetv.fun/viutv-2.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]VIU TV
+https://stream1.freetv.fun/viutv-3.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]VIU TV
+https://stream1.freetv.fun/viu-tv-1.ctv
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]VIU TV
+https://stream1.freetv.fun/viutv-8.ctv
 
 #
 #
@@ -89,9 +132,9 @@ http://aktv_stream1.m16tv.cfd/stream/aktv/hk-1/AKTV.m3u8
 #EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 美亚电影(TW)
 http://
 # ---- 分隔符 ----
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[SD]美亚电影[geo-blocked]
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[SD]美亚电影(HK)[geo-blocked]
 https://stream1.freetv.fun/mei-ya-dian-ying-3.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]美亞電影
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]美亞電影(HK)
 https://stream1.freetv.fun/mei-ya-dian-ying-2.m3u8
 
 #
