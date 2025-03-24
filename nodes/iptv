@@ -12,168 +12,168 @@
 #
 #
 # "翡翠台"
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 翡翠台－4K
+#EXTINF:-1 group-title="aktv", 翡翠台－4K
 http://aktv_stream1.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 翡翠台
+#EXTINF:-1 group-title="aktv", 翡翠台
 http://aktv_stream1.m16tv.cfd/stream/aktv/null/AKTV.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 翡翠台综合台(北美)
+#EXTINF:-1 group-title="aktv", 翡翠台综合台(北美)
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-17/AKTV.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 翡翠台剧集台(北美)
+#EXTINF:-1 group-title="aktv", 翡翠台剧集台(北美)
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-18/AKTV.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 翡翠台(马来)
+#EXTINF:-1 group-title="aktv", 翡翠台(马来)
 http://aktv_stream1.m16tv.cfd/stream/astro_a1/tvbjade/AKTV.m3u8
 # ---- 分隔符 ----
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg", [HD]翡翠台－4K
+#EXTINF:-1 group-title="epg", [HD]翡翠台－4K
 https://stream1.freetv.fun/14dd4824a739bea77e4552acc8014b7b5ee449afe6689c75cbc2293c34b51516.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]翡翠台
+#EXTINF:-1 group-title="epg",[HD]翡翠台
 https://stream1.freetv.fun/tvbfei-cui-3.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]翡翠台
+#EXTINF:-1 group-title="epg",[HD]翡翠台
 https://stream1.freetv.fun/fei-cui-5.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]翡翠台
+#EXTINF:-1 group-title="epg",[HD]翡翠台
 https://stream1.freetv.fun/fei-cui-18.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]翡翠台
+#EXTINF:-1 group-title="epg",[BD]翡翠台
 https://stream1.freetv.fun/fei-cui-1.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]翡翠台
+#EXTINF:-1 group-title="epg",[BD]翡翠台
 https://stream1.freetv.fun/fei-cui-13.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]翡翠台
+#EXTINF:-1 group-title="epg",[BD]翡翠台
 https://stream1.freetv.fun/fei-cui-16.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]翡翠台
+#EXTINF:-1 group-title="epg",[BD]翡翠台
 https://stream1.freetv.fun/fei-cui-17.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]翡翠台[geo-blocked]
+#EXTINF:-1 group-title="epg",[BD]翡翠台[geo-blocked]
 https://stream1.freetv.fun/fei-cui-6.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]翡翠[geo-blocked]
+#EXTINF:-1 group-title="epg",[BD]翡翠[geo-blocked]
 https://stream1.freetv.fun/fei-cui-8.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]翡翠[geo-blocked]
+#EXTINF:-1 group-title="epg",[BD]翡翠[geo-blocked]
 https://stream1.freetv.fun/fei-cui-11.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]翡翠[geo-blocked]
+#EXTINF:-1 group-title="epg",[BD]翡翠[geo-blocked]
 https://stream1.freetv.fun/fei-cui-19.m3u8
 
 #
 #
 #
 # "明珠台"
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 明珠台
+#EXTINF:-1 group-title="aktv", 明珠台
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-2/AKTV.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 明珠剧集台(北美)
+#EXTINF:-1 group-title="aktv", 明珠剧集台(北美)
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-19/AKTV.m3u8
 # ---- 分隔符 ----
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]明珠
+#EXTINF:-1 group-title="epg",[HD]明珠
 https://stream1.freetv.fun/ming-zhu-3.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]明珠
+#EXTINF:-1 group-title="epg",[HD]明珠
 https://stream1.freetv.fun/ming-zhu-7.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]明珠
+#EXTINF:-1 group-title="epg",[BD]明珠
 https://stream1.freetv.fun/ming-zhu-4.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]明珠
+#EXTINF:-1 group-title="epg",[BD]明珠
 https://stream1.freetv.fun/ming-zhu-5.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]明珠
+#EXTINF:-1 group-title="epg",[BD]明珠
 https://stream1.freetv.fun/ming-zhu-6.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]明珠
+#EXTINF:-1 group-title="epg",[BD]明珠
 https://stream1.freetv.fun/ming-zhu-8.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]明珠[geo-blocked]
+#EXTINF:-1 group-title="epg",[BD]明珠[geo-blocked]
 https://stream1.freetv.fun/ming-zhu-2.ctv
 
 #
 #
 #
 # "TVB+"
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", TVB+
+#EXTINF:-1 group-title="aktv", TVB+
 http://aktv_stream1.m16tv.cfd/stream/aktv/tvbplus/AKTV.m3u8
 # ---- 分隔符 ----
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg", [BD]TVB+
+#EXTINF:-1 group-title="epg", [BD]TVB+
 https://stream1.freetv.fun/tvb-j2-1.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg", [BD]TVB+
+#EXTINF:-1 group-title="epg", [BD]TVB+
 https://stream1.freetv.fun/tvb-j2-2.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg", [HD]TVB+
+#EXTINF:-1 group-title="epg", [HD]TVB+
 https://stream1.freetv.fun/tv-puls-1.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg", [BD]TVB+
+#EXTINF:-1 group-title="epg", [BD]TVB+
 https://stream1.freetv.fun/tvb-plus-5.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg", [BD]TVB+
+#EXTINF:-1 group-title="epg", [BD]TVB+
 https://stream1.freetv.fun/tvb-plus-6.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg", [BD]TVB+
+#EXTINF:-1 group-title="epg", [BD]TVB+
 https://stream1.freetv.fun/tvb-plus-7.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg", [BD]TVB+[geo-blocked]
+#EXTINF:-1 group-title="epg", [BD]TVB+[geo-blocked]
 https://stream1.freetv.fun/tvb-plus-3.ctv
 
 #
 #
 #
 # "无线新闻台"
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 无线新闻台
+#EXTINF:-1 group-title="aktv", 无线新闻台
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-1/AKTV.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 无线新闻台(北美)
+#EXTINF:-1 group-title="aktv", 无线新闻台(北美)
 http://aktv_stream1.m16tv.cfd/stream/aktv2/null-1/AKTV.m3u8
 # ---- 分隔符 ----
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]无线新闻台
+#EXTINF:-1 group-title="epg",[HD]无线新闻台
 https://stream1.freetv.fun/wu-xian-xin-wen-11.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+#EXTINF:-1 group-title="epg",[BD]无线新闻台
 https://stream1.freetv.fun/wu-xian-xin-wen-1.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+#EXTINF:-1 group-title="epg",[BD]无线新闻台
 https://stream1.freetv.fun/wu-xian-xin-wen-3.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+#EXTINF:-1 group-title="epg",[BD]无线新闻台
 https://stream1.freetv.fun/wu-xian-xin-wen-4.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+#EXTINF:-1 group-title="epg",[BD]无线新闻台
 https://stream1.freetv.fun/wu-xian-xin-wen-7.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+#EXTINF:-1 group-title="epg",[BD]无线新闻台
 https://stream1.freetv.fun/wu-xian-xin-wen-8.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+#EXTINF:-1 group-title="epg",[BD]无线新闻台
 https://stream1.freetv.fun/wu-xian-xin-wen-10.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台
+#EXTINF:-1 group-title="epg",[BD]无线新闻台
 https://stream1.freetv.fun/wu-xian-xin-wen-13.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]无线新闻台[geo-blocked]
+#EXTINF:-1 group-title="epg",[BD]无线新闻台[geo-blocked]
 https://stream1.freetv.fun/wu-xian-xin-wen-12.ctv
 
 #
 #
 #
 # "VIU TV"
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", VIU TV
+#EXTINF:-1 group-title="aktv", VIU TV
 http://aktv_stream1.m16tv.cfd/stream/useradd1/viutv/AKTV.m3u8
 # ---- 分隔符 ----
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]VIU TV
+#EXTINF:-1 group-title="epg",[HD]VIU TV
 https://stream1.freetv.fun/viutv-2.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]VIU TV
+#EXTINF:-1 group-title="epg",[HD]VIU TV
 https://stream1.freetv.fun/viutv-3.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]VIU TV
+#EXTINF:-1 group-title="epg",[BD]VIU TV
 https://stream1.freetv.fun/viu-tv-1.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[BD]VIU TV
+#EXTINF:-1 group-title="epg",[BD]VIU TV
 https://stream1.freetv.fun/viutv-8.ctv
 
 #
 #
 #
 # "美亚电影"
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 美亚电影(HK)
+#EXTINF:-1 group-title="aktv", 美亚电影(HK)
 http://aktv_stream1.m16tv.cfd/stream/aktv/hk-1/AKTV.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 美亚电影(TW)
+#EXTINF:-1 group-title="aktv", 美亚电影(TW)
 http://
 # ---- 分隔符 ----
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[SD]美亚电影(HK)[geo-blocked]
+#EXTINF:-1 group-title="epg",[SD]美亚电影(HK)[geo-blocked]
 https://stream1.freetv.fun/mei-ya-dian-ying-3.ctv
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg",[HD]美亞電影(HK)
+#EXTINF:-1 group-title="epg",[HD]美亞電影(HK)
 https://stream1.freetv.fun/mei-ya-dian-ying-2.m3u8
 
 #
 #
 #
 # "星空台"
-#EXTINF:-1 tvg-country="" tvg-id="" tvg-name="" tvg-logo="" group-title="其它",正在播放 星空卫视
+#EXTINF:-1 group-title="其它",正在播放 星空卫视
 http://wouu.net:9977/udp/239.93.0.156:2193
 
 #
 #
 #
 # "广州电视"
-#EXTINF:-1 tvg-country="" tvg-id="" tvg-name="" tvg-logo="" group-title="广州电视", 广州综合
+#EXTINF:-1 group-title="广州电视", 广州综合
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
-#EXTINF:-1 tvg-country="" tvg-id="" tvg-name="" tvg-logo="" group-title="广州电视", 广州新闻
+#EXTINF:-1 group-title="广州电视", 广州新闻
 https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
-#EXTINF:-1 tvg-country="" tvg-id="" tvg-name="" tvg-logo="" group-title="广州电视", 广州影视
+#EXTINF:-1 group-title="广州电视", 广州影视
 https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
-#EXTINF:-1 tvg-country="" tvg-id="" tvg-name="" tvg-logo="" group-title="广州电视", 广州法治
+#EXTINF:-1 group-title="广州电视", 广州法治
 https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
-#EXTINF:-1 tvg-country="" tvg-id="" tvg-name="" tvg-logo="" group-title="广州电视", 广州竞赛
+#EXTINF:-1 group-title="广州电视", 广州竞赛
 https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee48e70fb0&txTime=18d048582e3
-#EXTINF:-1 tvg-country="" tvg-id="" tvg-name="" tvg-logo="" group-title="广州电视", 南国都市
+#EXTINF:-1 group-title="广州电视", 南国都市
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
 #
