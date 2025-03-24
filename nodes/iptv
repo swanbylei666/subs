@@ -12,10 +12,10 @@
 #
 #
 # "翡翠台"
+#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 翡翠台－4K
+http://aktv_stream1.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
 #EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 翡翠台
 http://aktv_stream1.m16tv.cfd/stream/aktv/null/AKTV.m3u8
-#EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 翡翠台-4K
-http://aktv_stream1.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
 #EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 翡翠台综合台(北美)
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-17/AKTV.m3u8
 #EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 翡翠台剧集台(北美)
@@ -23,7 +23,7 @@ http://aktv_stream1.m16tv.cfd/stream/aktv/null-18/AKTV.m3u8
 #EXTINF:-1 tvg-country="" tvg-id="aktv" tvg-name="" tvg-logo="" group-title="aktv", 翡翠台(马来)
 http://aktv_stream1.m16tv.cfd/stream/astro_a1/tvbjade/AKTV.m3u8
 # --- 分隔符 ---
-#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg", [HD]翡翠台-4K
+#EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg", [HD]翡翠台－4K
 https://stream1.freetv.fun/14dd4824a739bea77e4552acc8014b7b5ee449afe6689c75cbc2293c34b51516.ctv
 #EXTINF:-1 tvg-country="" tvg-id="epg" tvg-name="" tvg-logo="" group-title="epg", [BD]翡翠台
 https://stream1.freetv.fun/a72081106d30e39c00e3a194f915610929efac5afde0a72d2cbc6d1f23e0809f.ctv
