@@ -43,8 +43,10 @@ http://aktv_stream1.m16tv.cfd/stream/aktv/tvbplus/AKTV.m3u8
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB Plus.2[BD]
 http://php.jdshipin.com/TVOD/iptv.php?id=j2
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB Plus.3[BD]
-https://stream1.freetv.fun/tvb-j2-2.ctv
+http://php.jdshipin.com:8880/smt.php?id=j2_twn
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB Plus.4[BD]
+https://stream1.freetv.fun/tvb-j2-2.ctv
+#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB Plus.5[BD]
 https://stream1.freetv.fun/tvb-plus-5.m3u8
 
 #
@@ -57,6 +59,8 @@ http://aktv_stream1.m16tv.cfd/stream/aktv/null-2/AKTV.m3u8
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 明珠台.3[BD]
 https://stream1.freetv.fun/ming-zhu-4.m3u8
+#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 明珠台.4[BD]
+http://php.jdshipin.com:8880/smt.php?id=pearl_twn
 
 #
 #
@@ -67,6 +71,8 @@ http://aktv_stream1.m16tv.cfd/stream/aktv/null-1/AKTV.m3u8
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 无线新闻台.2[BD]
 https://edge2a.v2h-cdn.com/news/news.stream/chunklist.m3u8
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 无线新闻台.3[BD]
+http://php.jdshipin.com:8880/smt.php?id=inews_twn
+#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 无线新闻台.4[BD]
 http://beishan008.asuscomm.com:8890/bysid/83.m3u8
 
 #
