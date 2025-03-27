@@ -102,7 +102,7 @@ https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=4400d75d2114b2db07d86eda8f
 #EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州电视台法治频道.3[BD]
 http://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=3e84cd8eba844b5dc2150612295c7a52&txTime=18d578f4493
 #EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州竞赛频道[BD]
-https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=a4d04c27d0d1d8b7efef2ed7ff1c3eae&txTime=191b60cc9ca
+http://[]
 #EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 4K南国都市频道.1[HD]
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 #EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 4K南国都市频道.2[BD]
