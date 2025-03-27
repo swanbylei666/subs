@@ -17,11 +17,7 @@ http://php.jdshipin.com:8880/smt.php?id=jade_twn
 #EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠[HD]
 http://php.jdshipin.com/TVOD/iptv.php?id=fct
 #EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠[HD]
-http://php.jdshipin.com/TVOD/iptv.php?id=fct2
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠[HD]
 http://php.jdshipin.com/TVOD/iptv.php?id=fct3
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠[HD]
-http://php.jdshipin.com/TVOD/iptv.php?id=fct4
 #EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠[BD]
 http://aktv_stream1.m16tv.cfd/stream/aktv/null/AKTV.m3u8
 #EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠[4K]
