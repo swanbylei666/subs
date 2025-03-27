@@ -37,91 +37,78 @@ https://stream1.freetv.fun/tvb-plus-5.m3u8
 #
 #
 #
-# "明珠台"
-#EXTINF:-1 group-title="明珠" tvg-name="" tvg-id="" tvg-logo="", 明珠台[BD]
+# "明珠台" "pearl"
+#EXTINF:-1 group-title="明珠" tvg-name="" tvg-id="" tvg-logo="", 明珠台.1[BD]
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-2/AKTV.m3u8
+#EXTINF:-1 group-title="明珠" tvg-name="" tvg-id="" tvg-logo="", 明珠台.2[BD]
+https://stream1.freetv.fun/ming-zhu-4.m3u8
 
 #
 #
 #
 # "无线新闻台"
-#EXTINF:-1 group-title="aktv", 无线新闻台
+#EXTINF:-1 group-title="无线新闻" tvg-name="" tvg-id="" tvg-logo="", 无线新闻台[BD]
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-1/AKTV.m3u8
-#EXTINF:-1 group-title="aktv", 无线新闻台(北美)
-http://aktv_stream1.m16tv.cfd/stream/aktv2/null-1/AKTV.m3u8
-# ---- 分隔符 ----
-#EXTINF:-1 group-title="epg",[HD]无线新闻台
-https://stream1.freetv.fun/wu-xian-xin-wen-11.m3u8
-#EXTINF:-1 group-title="epg",[BD]无线新闻台
-https://stream1.freetv.fun/wu-xian-xin-wen-1.ctv
-#EXTINF:-1 group-title="epg",[BD]无线新闻台
-https://stream1.freetv.fun/wu-xian-xin-wen-3.ctv
-#EXTINF:-1 group-title="epg",[BD]无线新闻台
-https://stream1.freetv.fun/wu-xian-xin-wen-4.m3u8
-#EXTINF:-1 group-title="epg",[BD]无线新闻台
-https://stream1.freetv.fun/wu-xian-xin-wen-7.ctv
-#EXTINF:-1 group-title="epg",[BD]无线新闻台
-https://stream1.freetv.fun/wu-xian-xin-wen-8.m3u8
-#EXTINF:-1 group-title="epg",[BD]无线新闻台
-https://stream1.freetv.fun/wu-xian-xin-wen-10.ctv
-#EXTINF:-1 group-title="epg",[BD]无线新闻台
-https://stream1.freetv.fun/wu-xian-xin-wen-13.ctv
-#EXTINF:-1 group-title="epg",[BD]无线新闻台[geo-blocked]
-https://stream1.freetv.fun/wu-xian-xin-wen-12.ctv
 
 #
 #
 #
 # "VIU TV"
-#EXTINF:-1 group-title="aktv", VIU TV
+#EXTINF:-1 group-title="VIU TV" tvg-name="" tvg-id="" tvg-logo="", VIU TV[BD]
 http://aktv_stream1.m16tv.cfd/stream/useradd1/viutv/AKTV.m3u8
-# ---- 分隔符 ----
-#EXTINF:-1 group-title="epg",[HD]VIU TV
-https://stream1.freetv.fun/viutv-2.ctv
-#EXTINF:-1 group-title="epg",[HD]VIU TV
-https://stream1.freetv.fun/viutv-3.ctv
-#EXTINF:-1 group-title="epg",[BD]VIU TV
-https://stream1.freetv.fun/viu-tv-1.ctv
-#EXTINF:-1 group-title="epg",[BD]VIU TV
-https://stream1.freetv.fun/viutv-8.ctv
 
 #
 #
 #
 # "美亚电影"
-#EXTINF:-1 group-title="aktv", 美亚电影(HK)
+#EXTINF:-1 group-title="美亚电影" tvg-name="" tvg-id="" tvg-logo="", 美亚电影(HK).1[BD]
 http://aktv_stream1.m16tv.cfd/stream/aktv/hk-1/AKTV.m3u8
-#EXTINF:-1 group-title="aktv", 美亚电影(TW)
-http://
-# ---- 分隔符 ----
-#EXTINF:-1 group-title="epg",[SD]美亚电影(HK)[geo-blocked]
-https://stream1.freetv.fun/mei-ya-dian-ying-3.ctv
-#EXTINF:-1 group-title="epg",[HD]美亞電影(HK)
+#EXTINF:-1 group-title="美亚电影" tvg-name="" tvg-id="" tvg-logo="", 美亚电影(HK).2[BD]
 https://stream1.freetv.fun/mei-ya-dian-ying-2.m3u8
 
 #
 #
 #
 # "星空台"
-#EXTINF:-1 group-title="其它",正在播放 星空卫视
+#EXTINF:-1 group-title="星空台" tvg-name="" tvg-id="" tvg-logo="", 星空卫视[HD]
 http://wouu.net:9977/udp/239.93.0.156:2193
 
 #
 #
 #
-# "广州电视"
-#EXTINF:-1 group-title="广州电视", 广州综合
+# "广州台"
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州电视台综合频道.1[HD]
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
-#EXTINF:-1 group-title="广州电视", 广州新闻
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州电视台综合频道.2[HD]
+https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=dce137597806f62ae6fdfc40328a336e&txTime=191b5fc1c86
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州电视台综合频道.3[HD]
+http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州电视台新闻频道.1[HD]
 https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
-#EXTINF:-1 group-title="广州电视", 广州影视
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州电视台新闻频道.2[BD]
+https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=520177bc9dd6916a7d6fa86bdb3f8830&txTime=191b5f5b230
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州电视台新闻频道.3[BD]
+http://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=d2c2db0b598c02ec1b5623728434d367&txTime=18d57929bd3
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州影视频道.1[HD]
 https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
-#EXTINF:-1 group-title="广州电视", 广州法治
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州影视频道.2[BD]
+http://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=1bd3a1082ab5b89f48c1bff9a3760da4&txTime=18d57929bd4
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州影视频道.3[BD]
+https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=2b09d952702fe2c67ddad695faa4c27c&txTime=191b5db5ed0
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州电视台法治频道.1[HD]
 https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
-#EXTINF:-1 group-title="广州电视", 广州竞赛
-https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=d295a772fb08e03b40f412ee48e70fb0&txTime=18d048582e3
-#EXTINF:-1 group-title="广州电视", 南国都市
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州电视台法治频道.2[BD]
+https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=4400d75d2114b2db07d86eda8f8218ee&txTime=191b60ce0f6
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州电视台法治频道.3[BD]
+http://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=3e84cd8eba844b5dc2150612295c7a52&txTime=18d578f4493
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州竞赛频道[BD]
+https://tencentplay.gztv.com/live/jingsai.m3u8?txSecret=a4d04c27d0d1d8b7efef2ed7ff1c3eae&txTime=191b60cc9ca
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 4K南国都市频道.1[HD]
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 4K南国都市频道.2[BD]
+https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=babbcbacdbcf13a3311a264e4dd66b8d&txTime=191b60b41a7
+#EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 4K南国都市频道.3[BD]
+http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
 
 #
 #
