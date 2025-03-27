@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTM3U x-tvg-url="https://..."
+#EXTM3U x-tvg-url="https://epg.pw/xmltv/epg_HK.xml"
 #EXT-X-APTV-TYPE remote
 #EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
 #EXTVLCOPT:http-user-agent= ""
@@ -12,15 +12,15 @@
 #
 #
 # "翡翠台"
-#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.1[HD]
+#EXTINF:-1 group-title="TVB" tvg-name="翡翠台" tvg-id="" tvg-logo="", TVB翡翠.1[HD]
 http://php.jdshipin.com:8880/smt.php?id=jade_twn
-#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.2[HD]
+#EXTINF:-1 group-title="TVB" tvg-name="翡翠台" tvg-id="" tvg-logo="", TVB翡翠.2[HD]
 https://stream1.freetv.fun/fei-cui-18.ctv
-#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.3[BD]
+#EXTINF:-1 group-title="TVB" tvg-name="翡翠台" tvg-id="" tvg-logo="", TVB翡翠.3[BD]
 http://aktv_stream1.m16tv.cfd/stream/aktv/null/AKTV.m3u8
-#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.4[BD]
+#EXTINF:-1 group-title="TVB" tvg-name="翡翠台" tvg-id="" tvg-logo="", TVB翡翠.4[BD]
 https://stream1.freetv.fun/fei-cui-1.ctv
-#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.5[BD]
+#EXTINF:-1 group-title="TVB" tvg-name="翡翠台" tvg-id="" tvg-logo="", TVB翡翠.5[BD]
 https://stream1.freetv.fun/fei-cui-17.ctv
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠-东南亚.1[BD]
 http://aktv_stream1.m16tv.cfd/stream/astro_a1/tvbjade/AKTV.m3u8
