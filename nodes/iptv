@@ -67,7 +67,7 @@ http://php.jdshipin.com:8880/smt.php?id=Xinhe
 # "VIU TV"
 #EXTINF:-1 group-title="VIU TV" tvg-name="" tvg-id="" tvg-logo="", VIU TV.1[BD]
 http://aktv_stream1.m16tv.cfd/stream/useradd1/viutv/AKTV.m3u8
-#EXTINF:-1 group-title="VIU TV" tvg-name="" tvg-id="" tvg-logo="", VIU TV.2[BD]
+#EXTINF:-1 group-title="VIU TV" tvg-name="" tvg-id="" tvg-logo="", VIU TV.2[HD]
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=viutv
 
 #
