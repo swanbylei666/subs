@@ -12,41 +12,18 @@
 #
 #
 # "翡翠台"
-#EXTINF:-1 group-title="aktv", 翡翠台－4K
-http://aktv_stream1.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
-#EXTINF:-1 group-title="aktv", 翡翠台
+#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠[HD]
+http://php.jdshipin.com:8880/smt.php?id=jade_twn
+#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠[HD]
+http://php.jdshipin.com/TVOD/iptv.php?id=fct
+#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠[HD]
+http://php.jdshipin.com/TVOD/iptv.php?id=fct3
+#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠[BD]
 http://aktv_stream1.m16tv.cfd/stream/aktv/null/AKTV.m3u8
-#EXTINF:-1 group-title="aktv", 翡翠台综合台(北美)
-http://aktv_stream1.m16tv.cfd/stream/aktv/null-17/AKTV.m3u8
-#EXTINF:-1 group-title="aktv", 翡翠台剧集台(北美)
-http://aktv_stream1.m16tv.cfd/stream/aktv/null-18/AKTV.m3u8
-#EXTINF:-1 group-title="aktv", 翡翠台(马来)
+#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠[4K]
+http://aktv_stream1.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
+#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠-东南亚[BD]
 http://aktv_stream1.m16tv.cfd/stream/astro_a1/tvbjade/AKTV.m3u8
-# ---- 分隔符 ----
-#EXTINF:-1 group-title="epg", [HD]翡翠台－4K
-https://stream1.freetv.fun/14dd4824a739bea77e4552acc8014b7b5ee449afe6689c75cbc2293c34b51516.ctv
-#EXTINF:-1 group-title="epg",[HD]翡翠台
-https://stream1.freetv.fun/tvbfei-cui-3.ctv
-#EXTINF:-1 group-title="epg",[HD]翡翠台
-https://stream1.freetv.fun/fei-cui-5.ctv
-#EXTINF:-1 group-title="epg",[HD]翡翠台
-https://stream1.freetv.fun/fei-cui-18.ctv
-#EXTINF:-1 group-title="epg",[BD]翡翠台
-https://stream1.freetv.fun/fei-cui-1.m3u8
-#EXTINF:-1 group-title="epg",[BD]翡翠台
-https://stream1.freetv.fun/fei-cui-13.m3u8
-#EXTINF:-1 group-title="epg",[BD]翡翠台
-https://stream1.freetv.fun/fei-cui-16.ctv
-#EXTINF:-1 group-title="epg",[BD]翡翠台
-https://stream1.freetv.fun/fei-cui-17.ctv
-#EXTINF:-1 group-title="epg",[BD]翡翠台[geo-blocked]
-https://stream1.freetv.fun/fei-cui-6.ctv
-#EXTINF:-1 group-title="epg",[BD]翡翠[geo-blocked]
-https://stream1.freetv.fun/fei-cui-8.m3u8
-#EXTINF:-1 group-title="epg",[BD]翡翠[geo-blocked]
-https://stream1.freetv.fun/fei-cui-11.ctv
-#EXTINF:-1 group-title="epg",[BD]翡翠[geo-blocked]
-https://stream1.freetv.fun/fei-cui-19.m3u8
 
 #
 #
