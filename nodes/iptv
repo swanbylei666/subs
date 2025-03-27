@@ -15,29 +15,9 @@
 #EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.1[HD]
 http://php.jdshipin.com:8880/smt.php?id=jade_twn
 #EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.2[BD]
-https://stream1.freetv.fun/fei-cui-1.ctv
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.3[BD]
-https://stream1.freetv.fun/fei-cui-2.ctv
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.4[BD]
-https://stream1.freetv.fun/fei-cui-3.ctv
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.5[BD]
-https://stream1.freetv.fun/fei-cui-4.ctv
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.6[BD]
-https://stream1.freetv.fun/fei-cui-5.ctv
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.7[BD]
-https://stream1.freetv.fun/fei-cui-6.ctv
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.8[BD]
-https://stream1.freetv.fun/fei-cui-7.ctv
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.9[BD]
-https://stream1.freetv.fun/fei-cui-8.ctv
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.10[BD]
-https://stream1.freetv.fun/fei-cui-9.ctv
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.11[BD]
-https://stream1.freetv.fun/fei-cui-10.ctv
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.12[BD]
-https://stream1.freetv.fun/fei-cui-11.ctv
-#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.13[BD]
 http://aktv_stream1.m16tv.cfd/stream/aktv/null/AKTV.m3u8
+#EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠.3[BD]
+https://stream1.freetv.fun/fei-cui-1.ctv
 #EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠[4K]
 http://aktv_stream1.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
 #EXTINF:-1 group-title="" tvg-name="翡翠台" tvg-id="", TVB翡翠-东南亚[BD]
