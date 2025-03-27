@@ -12,11 +12,8 @@
 #
 #
 # "测试频道"
-#EXTINF:-1 group-title="J2" tvg-name="" tvg-id="" tvg-logo="", 2j2.1[HD]
-https://stream1.freetv.fun/tvb-plus-5.m3u8
+#EXTINF:-1 group-title="J2" tvg-name="" tvg-id="" tvg-logo="", 1[HD]
 
-#EXTINF:-1 group-title="J2" tvg-name="" tvg-id="" tvg-logo="", 2j2.2[HD]
-https://stream1.freetv.fun/tvb-plus-6.ctv
+#EXTINF:-1 group-title="J2" tvg-name="" tvg-id="" tvg-logo="", 2[HD]
 
-#EXTINF:-1 group-title="J2" tvg-name="" tvg-id="" tvg-logo="", 2j2.3[HD]
-https://stream1.freetv.fun/tvb-plus-7.ctv
+#EXTINF:-1 group-title="J2" tvg-name="" tvg-id="" tvg-logo="", 3[HD]
