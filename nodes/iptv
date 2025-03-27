@@ -31,6 +31,8 @@ http://aktv_stream1.m16tv.cfd/stream/astro_a1/tvbjade/AKTV.m3u8
 http://aktv_stream1.m16tv.cfd/stream/aktv/tvbplus/AKTV.m3u8
 #EXTINF:-1 group-title="J2" tvg-name="" tvg-id="" tvg-logo="", TVB Plus.2[BD]
 https://stream1.freetv.fun/tvb-j2-2.ctv
+#EXTINF:-1 group-title="J2" tvg-name="" tvg-id="" tvg-logo="", TVB Plus.3[BD]
+https://stream1.freetv.fun/tvb-plus-5.m3u8
 
 #
 #
