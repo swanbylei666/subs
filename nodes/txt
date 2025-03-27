@@ -1,0 +1,22 @@
+#EXTM3U
+#EXTM3U x-tvg-url="https://..."
+#EXT-X-APTV-TYPE remote
+#EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/txt
+#EXTVLCOPT:http-user-agent= ""
+#EXTVLCOPT:http-referrer= ""
+#
+#
+#
+
+#
+#
+#
+# "测试频道"
+#EXTINF:-1 group-title="J2" tvg-name="" tvg-id="" tvg-logo="", j2.1[HD]
+https://stream1.freetv.fun/tvb-j2-1.ctv
+
+#EXTINF:-1 group-title="J2" tvg-name="" tvg-id="" tvg-logo="", j2.2[HD]
+https://stream1.freetv.fun/tvb-j2-2.ctv
+
+#EXTINF:-1 group-title="J2" tvg-name="" tvg-id="" tvg-logo="", j2.1[HD]
+https://stream1.freetv.fun/tv-puls-1.m3u8
