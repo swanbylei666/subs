@@ -55,8 +55,10 @@ https://stream1.freetv.fun/ming-zhu-4.m3u8
 #
 #
 # "无线新闻台"
-#EXTINF:-1 group-title="无线新闻" tvg-name="" tvg-id="" tvg-logo="", 无线新闻台[BD]
+#EXTINF:-1 group-title="无线新闻" tvg-name="" tvg-id="" tvg-logo="", 无线新闻台.1[BD]
 http://aktv_stream1.m16tv.cfd/stream/aktv/null-1/AKTV.m3u8
+#EXTINF:-1 group-title="无线新闻" tvg-name="" tvg-id="" tvg-logo="", 无线新闻台.2[BD]
+https://edge2a.v2h-cdn.com/news/news.stream/chunklist.m3u8
 
 #
 #
