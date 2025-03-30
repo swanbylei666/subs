@@ -199,11 +199,11 @@ http://z.b.bkpcp.top/m.php?id=cctv4
 http://z.b.bkpcp.top/m.php?id=cctv4o
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV4 美洲
 http://z.b.bkpcp.top/m.php?id=cctv4m
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV5 体育
+#EXTINF:-1 group-title="国内" tvg-name="CCTV5" tvg-id="" tvg-url="" tvg-logo="", CCTV5 体育
 http://z.b.bkpcp.top/m.php?id=cctv5
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV5+ 体育赛事
+#EXTINF:-1 group-title="国内" tvg-name="CCTV5+" tvg-id="" tvg-url="" tvg-logo="", CCTV5+ 体育赛事
 http://z.b.bkpcp.top/m.php?id=cctv5p
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV6 电影
+#EXTINF:-1 group-title="国内" tvg-name="CCTV6" tvg-id="" tvg-url="" tvg-logo="", CCTV6 电影
 http://z.b.bkpcp.top/m.php?id=cctv6
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV7 国防军事
 http://z.b.bkpcp.top/m.php?id=cctv7
@@ -217,13 +217,13 @@ http://z.b.bkpcp.top/m.php?id=cctv10
 http://z.b.bkpcp.top/m.php?id=cctv11
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV12 社会与法
 http://z.b.bkpcp.top/m.php?id=cctv12
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV13 新闻
+#EXTINF:-1 group-title="国内" tvg-name="CCTV13" tvg-id="" tvg-url="" tvg-logo="", CCTV13 新闻
 http://z.b.bkpcp.top/m.php?id=cctv13
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV14 少儿
 http://z.b.bkpcp.top/m.php?id=cctv14
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV15 音乐
 http://z.b.bkpcp.top/m.php?id=cctv15
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV16 奥林匹克频道
+#EXTINF:-1 group-title="国内" tvg-name="CCTV16" tvg-id="" tvg-url="" tvg-logo="", CCTV16 奥林匹克频道
 http://z.b.bkpcp.top/m.php?id=cctv16
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV17 农村农业
 http://z.b.bkpcp.top/m.php?id=cctv17
