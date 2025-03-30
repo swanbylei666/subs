@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTM3U x-tvg-url=""
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml,https://epg.pw/xmltv/epg_lite.xml"
 #EXT-X-APTV-TYPE remote
 #EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
 #EXTVLCOPT:http-user-agent= "User-Agent : com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
@@ -187,9 +187,9 @@ http://z.b.bkpcp.top/m.php?id=dnws
 http://z.b.bkpcp.top/m.php?id=jsys
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", 东方影视
 http://z.b.bkpcp.top/m.php?id=shys
-#EXTINF:-1 group-title="国内" tvg-name="CCTV1" tvg-id="" tvg-url="http://epg.51zmt.top:8000/e.xml" tvg-logo="", CCTV1 综合
+#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV1 综合
 http://z.b.bkpcp.top/m.php?id=cctv1
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="2" tvg-url="http://epg.51zmt.top:8000/e.xml" tvg-logo="", CCTV2 财经
+#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV2 财经
 http://z.b.bkpcp.top/m.php?id=cctv2
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV3 综艺
 http://z.b.bkpcp.top/m.php?id=cctv3
@@ -199,17 +199,17 @@ http://z.b.bkpcp.top/m.php?id=cctv4
 http://z.b.bkpcp.top/m.php?id=cctv4o
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV4 美洲
 http://z.b.bkpcp.top/m.php?id=cctv4m
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV5 体育
+#EXTINF:-1 group-title="国内" tvg-name="CCTV5" tvg-id="" tvg-url="" tvg-logo="", CCTV5 体育
 http://z.b.bkpcp.top/m.php?id=cctv5
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV5+ 体育赛事
+#EXTINF:-1 group-title="国内" tvg-name="CCTV5+" tvg-id="" tvg-url="" tvg-logo="", CCTV5+ 体育赛事
 http://z.b.bkpcp.top/m.php?id=cctv5p
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV6 电影
+#EXTINF:-1 group-title="国内" tvg-name="CCTV6" tvg-id="" tvg-url="" tvg-logo="", CCTV6 电影
 http://z.b.bkpcp.top/m.php?id=cctv6
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV7 国防军事
 http://z.b.bkpcp.top/m.php?id=cctv7
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV8 电视剧
+#EXTINF:-1 group-title="国内" tvg-name="CCTV8" tvg-id="" tvg-url="" tvg-logo="", CCTV8 电视剧
 http://z.b.bkpcp.top/m.php?id=cctv8
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV9 纪录
+#EXTINF:-1 group-title="国内" tvg-name="CCTV9" tvg-id="" tvg-url="" tvg-logo="", CCTV9 纪录
 http://z.b.bkpcp.top/m.php?id=cctv9
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV10 科教
 http://z.b.bkpcp.top/m.php?id=cctv10
@@ -223,7 +223,7 @@ http://z.b.bkpcp.top/m.php?id=cctv13
 http://z.b.bkpcp.top/m.php?id=cctv14
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV15 音乐
 http://z.b.bkpcp.top/m.php?id=cctv15
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV16 奥林匹克频道
+#EXTINF:-1 group-title="国内" tvg-name="CCTV16" tvg-id="" tvg-url="" tvg-logo="", CCTV16 奥林匹克频道
 http://z.b.bkpcp.top/m.php?id=cctv16
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV17 农村农业
 http://z.b.bkpcp.top/m.php?id=cctv17
