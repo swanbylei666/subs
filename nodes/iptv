@@ -163,11 +163,11 @@ http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94
 http://z.b.bkpcp.top/m.php?id=dwqws
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", 广东卫视
 http://z.b.bkpcp.top/m.php?id=gdws
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="1" tvg-url="http://epg.51zmt.top:8000/e.xml" tvg-logo="", CCTV1 综合
+#EXTINF:-1 group-title="国内" tvg-name="CCTV1" tvg-id="" tvg-url="http://epg.51zmt.top:8000/e.xml" tvg-logo="", CCTV1 综合
 http://z.b.bkpcp.top/m.php?id=cctv1
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="2" tvg-url="http://epg.51zmt.top:8000/e.xml" tvg-logo="", CCTV2 财经
+#EXTINF:-1 group-title="国内" tvg-name="CCTV2" tvg-id="" tvg-url="http://epg.51zmt.top:8000/e.xml" tvg-logo="", CCTV2 财经
 http://z.b.bkpcp.top/m.php?id=cctv2
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="3" tvg-url="http://epg.51zmt.top:8000/e.xml" tvg-logo="", CCTV3 综艺
+#EXTINF:-1 group-title="国内" tvg-name="CCTV3" tvg-id="" tvg-url="http://epg.51zmt.top:8000/e.xml" tvg-logo="", CCTV3 综艺
 http://z.b.bkpcp.top/m.php?id=cctv3
 
 #
