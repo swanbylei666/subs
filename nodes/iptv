@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml"
+#EXTM3U x-tvg-url=""
 #EXT-X-APTV-TYPE remote
 #EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
 #EXTVLCOPT:http-user-agent= "User-Agent : com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
@@ -185,9 +185,9 @@ http://z.b.bkpcp.top/m.php?id=dnws
 http://z.b.bkpcp.top/m.php?id=jsys
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", 东方影视
 http://z.b.bkpcp.top/m.php?id=shys
-#EXTINF:-1 group-title="国内" tvg-name="CCTV1" tvg-id="" tvg-url="" tvg-logo="", CCTV1 综合
+#EXTINF:-1 group-title="国内" tvg-name="CCTV1" tvg-id="" tvg-url="http://epg.51zmt.top:8000/e.xml" tvg-logo="", CCTV1 综合
 http://z.b.bkpcp.top/m.php?id=cctv1
-#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="2" tvg-url="" tvg-logo="", CCTV2 财经
+#EXTINF:-1 group-title="国内" tvg-name="" tvg-id="2" tvg-url="http://epg.51zmt.top:8000/e.xml" tvg-logo="", CCTV2 财经
 http://z.b.bkpcp.top/m.php?id=cctv2
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CCTV3 综艺
 http://z.b.bkpcp.top/m.php?id=cctv3
