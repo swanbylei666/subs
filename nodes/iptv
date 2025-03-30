@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml,https://epg.pw/xmltv/epg_lite.xml"
+#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml,https://epg.pw/xmltv/epg_lite.xml"
 #EXT-X-APTV-TYPE remote
 #EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
 #EXTVLCOPT:http-user-agent= "User-Agent : com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
