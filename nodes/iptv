@@ -29,9 +29,9 @@ http://php.jdshipin.com/TVOD/iptv.php?id=huali
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠-东南亚.3[BD]
 http://php.jdshipin.com:8880/smt.php?id=Tvbjade
 # "翡翠台" "4K"
-#EXTINF:-1 group-title="4K-LIVE" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.1[4K]
+#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.1[4K]
 http://aktv-stream.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
-#EXTINF:-1 group-title="4K-LIVE" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.2[4K]
+#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.2[4K]
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
 
 #
@@ -61,7 +61,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=mzt
 https://stream1.freetv.fun/ming-zhu-4.m3u8
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 明珠台.4[BD]
 http://php.jdshipin.com:8880/smt.php?id=pearl_twn
-#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 明珠台.5[BD]
+#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 明珠台.5[.404]
 http://
 
 #
@@ -76,7 +76,7 @@ https://edge2a.v2h-cdn.com/news/news.stream/chunklist.m3u8
 http://php.jdshipin.com:8880/smt.php?id=inews_twn
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 无线新闻台.4[BD]
 http://beishan008.asuscomm.com:8890/bysid/83.m3u8
-#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 无线新闻台.5[BD]
+#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 无线新闻台.5[.404]
 http://
 
 #
@@ -125,7 +125,7 @@ http://wouu.net:9977/udp/239.93.0.156:2193
 #
 # "擦边短剧" "大陆网剧"
 #EXTINF:-1 group-title="大陆网剧" tvg-name="" tvg-id="" tvg-logo="", 住进阿姨家后我觉醒了时间暂停
-https://180978298-proxy.hiksemi.cn:8019/rest/1.1/share?access_token=36526afc0c8b107b6cae34b6fd42f918:1743393778&action=download&share_id=YDCJ9A&link_mode=0&path=%2Fdrives%2Fdisk_b1%2F%E6%93%A6%E8%BE%B9%E7%BD%91%E5%89%A7%2F%E4%BD%8F%E8%BF%9B%E9%98%BF%E5%A7%A8%E5%AE%B6%E5%90%8E%E6%88%91%E8%A7%89%E9%86%92%E4%BA%86%E6%97%B6%E9%97%B4%E6%9A%82%E5%81%9C.mp4&PROXY_TARGET=C88120392
+https://180978298-proxy.hiksemi.cn:8019/rest/1.1/share?access_token=bcd554c1aaa1f4130a02b6068dbd9fa6:1743396556&action=download&share_id=03IOPN&link_mode=0&path=%2Fdrives%2Fdisk_b1%2F%E6%93%A6%E8%BE%B9%E7%BD%91%E5%89%A7%2F%E4%BD%8F%E8%BF%9B%E9%98%BF%E5%A7%A8%E5%AE%B6%E5%90%8E%E6%88%91%E8%A7%89%E9%86%92%E4%BA%86%E6%97%B6%E9%97%B4%E6%9A%82%E5%81%9C.mp4&PROXY_TARGET=C88120392
 
 #
 #
