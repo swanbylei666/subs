@@ -8,6 +8,8 @@ https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/ref
 
 #EXTINF:-1 group-title="香港台", 翡翠台
 http://aktv-stream.m16tv.cfd/stream/aktv/null/AKTV.m3u8
+#EXTINF:-1 group-title="香港台", 翡翠台 马来西亚
+http://aktv-stream.m16tv.cfd/stream/astro_a1/tvbjade/AKTV.m3u8
 #EXTINF:-1 group-title="香港台", 翡翠台 4K
 http://aktv-stream.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
 #EXTINF:-1 group-title="香港台", TVB Plus
@@ -29,3 +31,29 @@ https://stream1.freetv.fun/fei-cui-18.ctv
 http://zb.xmzb.xyz/888.php?id=be一翡翠台
 #EXTINF:-1 group-title="香港台[backup]", 翡翠台-5
 http://
+
+#EXTINF:-1 group-title=" 广东省" , 广州电视台综合频道.1[HD]
+https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
+#EXTINF:-1 group-title=" 广东省" , 广州电视台新闻频道.1[HD]
+https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
+#EXTINF:-1 group-title=" 广东省" , 广州影视频道.1[HD]
+https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
+#EXTINF:-1 group-title=" 广东省" , 广州电视台法治频道.1[HD]
+https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
+
+#EXTINF:-1 group-title=" 广东省[backup]" , 广州电视台综合频道-1
+https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=dce137597806f62ae6fdfc40328a336e&txTime=191b5fc1c86
+#EXTINF:-1 group-title=" 广东省[backup]" , 广州电视台综合频道-2
+http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8
+#EXTINF:-1 group-title=" 广东省[backup]" , 广州电视台新闻频道-1
+https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=520177bc9dd6916a7d6fa86bdb3f8830&txTime=191b5f5b230
+#EXTINF:-1 group-title=" 广东省[backup]" , 广州电视台新闻频道-2
+http://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=d2c2db0b598c02ec1b5623728434d367&txTime=18d57929bd3
+#EXTINF:-1 group-title=" 广东省[backup]" , 广州影视频道-1
+http://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=1bd3a1082ab5b89f48c1bff9a3760da4&txTime=18d57929bd4
+#EXTINF:-1 group-title=" 广东省[backup]" , 广州影视频道-2
+https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=2b09d952702fe2c67ddad695faa4c27c&txTime=191b5db5ed0
+#EXTINF:-1 group-title=" 广东省[backup]" , 广州电视台法治频道-1
+https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=4400d75d2114b2db07d86eda8f8218ee&txTime=191b60ce0f6
+#EXTINF:-1 group-title=" 广东省[backup]" , 广州电视台法治频道-2
+http://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=3e84cd8eba844b5dc2150612295c7a52&txTime=18d578f4493
