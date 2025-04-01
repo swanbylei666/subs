@@ -7,7 +7,7 @@
 #
 #
 #
-# ＃＃＃ "不定時 更新 / 添源" ＃＃＃
+# //["不定時 更新 / 添源"]//
 
 #
 #
@@ -21,9 +21,9 @@ https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/ref
 #
 # "翡翠台" "TVB"
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.1[HD]
-https://smt.cdn6.rr.nu/smt3.2.1.php?id=jade_twn
-#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.2[HD]
 http://aktv-stream.m16tv.cfd/stream/aktv/null/AKTV.m3u8
+#EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.2[HD]
+https://smt.cdn6.rr.nu/smt3.2.1.php?id=jade_twn
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.3[BD]
 https://stream1.freetv.fun/fei-cui-18.ctv
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.4[BD]
