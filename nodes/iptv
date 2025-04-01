@@ -3,9 +3,9 @@
 #EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
 #EXTVLCOPT:http-user-agent= "User-Agent : com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
 
-#EXTINF:-1, group-title="TOPIC", IPTV[电视频道]
+#EXTINF:-1 group-title="TOPIC", IPTV[电视频道]
 https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/webm/000.webm
-#EXTINF:-1, group-title="TOPIC", 住进阿姨家后 我觉醒了时间暂停
+#EXTINF:-1 group-title="TOPIC", 住进阿姨家后 我觉醒了时间暂停
 https://180978298-proxy.hiksemi.cn:8019/rest/1.1/share?access_token=bcd554c1aaa1f4130a02b6068dbd9fa6:1743396556&action=download&share_id=03IOPN&link_mode=0&path=%2Fdrives%2Fdisk_b1%2F%E6%93%A6%E8%BE%B9%E7%BD%91%E5%89%A7%2F%E4%BD%8F%E8%BF%9B%E9%98%BF%E5%A7%A8%E5%AE%B6%E5%90%8E%E6%88%91%E8%A7%89%E9%86%92%E4%BA%86%E6%97%B6%E9%97%B4%E6%9A%82%E5%81%9C.mp4&PROXY_TARGET=C88120392
 
 #EXTINF:-1 group-title="香港台", 翡翠台
