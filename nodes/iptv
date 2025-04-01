@@ -3,8 +3,6 @@
 #EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
 #EXTVLCOPT:http-user-agent= "User-Agent : com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
 
-### group-title="" tvg-id="" tvg-name="" tvg-url="" tvg-logo=""
-
 #EXTINF:-1, group-title="TOPIC", IPTV[电视频道]
 https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/webm/000.webm
 #EXTINF:-1, group-title="TOPIC", 住进阿姨家后 我觉醒了时间暂停
@@ -194,3 +192,8 @@ http://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=3e84cd8eba844b5dc2150612295
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=babbcbacdbcf13a3311a264e4dd66b8d&txTime=191b60b41a7
 #EXTINF:-1 group-title=" 广东省[backup]", 4K南国都市频道-2
 http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
+
+### 结束
+### [释义]
+### [group-title="" tvg-id="" tvg-name="" tvg-url="" tvg-logo=""]
+### via @网络资源
