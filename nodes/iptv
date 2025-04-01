@@ -24,6 +24,8 @@ http://aktv-stream.m16tv.cfd/stream/useradd1/viutv/AKTV.m3u8
 https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
 #EXTINF:-1 group-title="香港台", RTHK 34
 https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
+#EXTINF:-1 group-title="香港台", 美亚电影(HK)
+http://aktv-stream.m16tv.cfd/stream/aktv/hk-1/AKTV.m3u8
 
 #EXTINF:-1 group-title=" 广东省", 广州电视台综合频道
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
