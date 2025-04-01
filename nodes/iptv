@@ -31,6 +31,10 @@ https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb
 https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
 #EXTINF:-1 group-title=" 广东省", 4K南国都市频道
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
+#EXTINF:-1 group-title=" 广东省", 大湾区卫视
+http://z.b.bkpcp.top/m.php?id=dwqws
+#EXTINF:-1 group-title=" 广东省", 广东卫视
+http://z.b.bkpcp.top/m.php?id=gdws
 
 #
 #
