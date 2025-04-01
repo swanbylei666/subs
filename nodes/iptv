@@ -3,21 +3,12 @@
 #EXT-X-APTV-TYPE remote
 #EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
 #EXTVLCOPT:http-user-agent= "User-Agent : com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
-#EXTVLCOPT:http-referrer= ""
-#
-#
-#
-# //["不定時 更新 / 添源"]//
 
-#
-#
 #
 # "HOME" "TOP"
 #EXTINF:-1 group-title="TOP" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", IPTV[HD]
 https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/webm/000.webm
 
-#
-#
 #
 # "翡翠台" "TVB"
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB翡翠.1[HD]
@@ -43,8 +34,6 @@ http://aktv-stream.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
 
 #
-#
-#
 # "TVB Plus" "TVB J2"
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB Plus.1[BD]
 http://aktv-stream.m16tv.cfd/stream/aktv/tvbplus/AKTV.m3u8
@@ -57,8 +46,6 @@ https://stream1.freetv.fun/tvb-j2-2.ctv
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", TVB Plus.5[BD]
 https://stream1.freetv.fun/tvb-plus-5.m3u8
 
-#
-#
 #
 # "明珠台" "pearl"
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 明珠台.1[BD]
@@ -73,8 +60,6 @@ http://php.jdshipin.com:8880/smt.php?id=pearl_twn
 http://
 
 #
-#
-#
 # "无线新闻台" "News"
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 无线新闻台.1[BD]
 http://aktv-stream.m16tv.cfd/stream/aktv2/null-1/AKTV.m3u8
@@ -87,8 +72,6 @@ http://beishan008.asuscomm.com:8890/bysid/83.m3u8
 #EXTINF:-1 group-title="TVB" tvg-name="" tvg-id="" tvg-logo="", 无线新闻台.5[.404]
 http://
 
-#
-#
 #
 # "VIU TV"
 #EXTINF:-1 group-title="HK电视台" tvg-name="" tvg-id="" tvg-logo="", VIU TV.1[BD]
@@ -107,8 +90,6 @@ https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8
 #EXTINF:-1 group-title="HK电视台" tvg-name="" tvg-id="" tvg-logo="", RTHK 34[BD]
 https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8
 
-#
-#
 #
 # "其他频道"
 #EXTINF:-1 group-title="Others" tvg-name="" tvg-id="" tvg-logo="", TVB星河台.1[国BD]
@@ -129,14 +110,10 @@ https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 http://wouu.net:9977/udp/239.93.0.156:2193
 
 #
-#
-#
 # "擦边短剧" "大陆网剧"
 #EXTINF:-1 group-title="大陆网剧" tvg-name="" tvg-id="" tvg-logo="", 住进阿姨家后我觉醒了时间暂停
 https://180978298-proxy.hiksemi.cn:8019/rest/1.1/share?access_token=bcd554c1aaa1f4130a02b6068dbd9fa6:1743396556&action=download&share_id=03IOPN&link_mode=0&path=%2Fdrives%2Fdisk_b1%2F%E6%93%A6%E8%BE%B9%E7%BD%91%E5%89%A7%2F%E4%BD%8F%E8%BF%9B%E9%98%BF%E5%A7%A8%E5%AE%B6%E5%90%8E%E6%88%91%E8%A7%89%E9%86%92%E4%BA%86%E6%97%B6%E9%97%B4%E6%9A%82%E5%81%9C.mp4&PROXY_TARGET=C88120392
 
-#
-#
 #
 # "广州台"
 #EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 广州电视台综合频道.1[HD]
@@ -172,8 +149,6 @@ https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=babbcbacdbcf13a3311a
 #EXTINF:-1 group-title="广州台" tvg-name="" tvg-id="" tvg-logo="", 4K南国都市频道.3[BD]
 http://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=140110ae3d6c936a77f94c4f4d85b0d3&txTime=18d57929bd4
 
-#
-#
 #
 # "国内" "咪咕源"
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", 大湾区卫视
@@ -249,7 +224,5 @@ http://z.b.bkpcp.top/m.php?id=jtyy
 #EXTINF:-1 group-title="国内" tvg-name="" tvg-id="" tvg-url="" tvg-logo="", CHC 动作电影
 http://z.b.bkpcp.top/m.php?id=dzdy
 
-#
-#
 #
 # the end...
