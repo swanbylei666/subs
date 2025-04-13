@@ -1,4 +1,4 @@
-mode: rule
+mode: rule ### global
 log-level: silent
 global-client-fingerprint: chrome
 port: 7890
@@ -7,11 +7,6 @@ mixed-port: 7892
 external-controller: 0.0.0.0:9090
 allow-lan: true
 ipv6: true
-
-geodata-mode: true
-geox-url:
-  geoip: "https://github.com/v2fly/geoip/releases/latest/download/geoip.dat"
-  geosite: "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat"
 
 dns:
   enable: true
