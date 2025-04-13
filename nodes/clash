@@ -39,7 +39,7 @@ dns:
 proxy-providers:
   v2:
     type: "http"
-    url: "https://nodefree.githubrowcontent.com/2025/04/20250413.yaml"
+    url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/mihomo"
     filter: ""
     interval: "60"
     path: "./v2.yml"
