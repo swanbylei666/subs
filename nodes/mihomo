@@ -1,1 +1,2 @@
-1
+proxies:
+  - {name: 🇸🇬 新加坡, server: nbae7a7.kaiqsz.com, port: 48291, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz1.redapricotcloud.com}
