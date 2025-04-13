@@ -1,0 +1,10 @@
+[Proxy]
+Trojan.443.不能上网 = trojan, www.vpslook.com, 443, password=bpb-trojan, sni=%E8%BF%99%E9%87%8C%E5%A1%AB%E5%9F%9F%E5%90%8D, skip-cert-verify=true, tfo=false
+Trojan.104.28.154.96 = trojan, www.vpslook.com, 443, password=bpb-trojan, sni=bf.lovetoday.us.kg, skip-cert-verify=true, tfo=false
+Trojan.104.28.154.112 = trojan, www.vpslook.com, 443, password=bpb-trojan, sni=cdn.nyxclothing.ir, skip-cert-verify=true, tfo=false
+Trojan.3.78.187.212 = trojan, www.vpslook.com, 443, password=bpb-trojan, sni=gb.woodthomas94095.us.kg, skip-cert-verify=true, tfo=false
+Trojan.104.28.159.177 = trojan, www.vpslook.com, 443, password=bpb-trojan, sni=bpbcn.ktlhk.xyz, skip-cert-verify=true, tfo=false
+Trojan.104.28.154.82 = trojan, www.vpslook.com, 443, password=bpb-trojan, sni=fuxiaoxin.sbs, skip-cert-verify=true, tfo=false
+Trojan.104.28.160.255 = trojan, www.vpslook.com, 443, password=bpb-trojan, sni=vpn.183618.xyz, skip-cert-verify=true, tfo=false
+Trojan.18.192.62.218 = trojan, www.vpslook.com, 443, password=bpb-trojan, sni=ss1.inshuey.com, skip-cert-verify=true, tfo=false
+Trojan.104.28.154.81 = trojan, www.vpslook.com, 443, password=bpb-trojan, sni=yufour.top, skip-cert-verify=true, tfo=false
