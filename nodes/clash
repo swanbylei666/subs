@@ -1,10 +1,38 @@
 mode: rule
 log-level: silent
+global-client-fingerprint: chrome
 port: 7890
 socks-port: 7891
 mixed-port: 7892
+external-controller: 0.0.0.0:9090
 allow-lan: true
 ipv6: true
+
+geodata-mode: true
+geox-url:
+  geoip: "https://github.com/v2fly/geoip/releases/latest/download/geoip.dat"
+  geosite: "https://github.com/v2fly/domain-list-community/releases/latest/download/dlc.dat"
+
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
+  fake-ip-filter:
+    - '*'
+    - '+.lan'
+  default-nameserver:
+    - 223.5.5.5
+  nameserver:
+    - 'tls://8.8.4.4#dns'
+    - 'tls://1.0.0.1#dns'
+  proxy-server-nameserver:
+    - https://doh.pub/dns-query
+  nameserver-policy:
+    "geosite:cn,private":
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
 
 proxy-providers:
   "name_group":
