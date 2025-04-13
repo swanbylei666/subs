@@ -66,3 +66,8 @@ proxy-groups:
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,global0
+
+### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/nodes/clash
+### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/nodes/clash
+### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/nodes/clash
+
