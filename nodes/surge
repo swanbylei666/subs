@@ -7,6 +7,7 @@ always-real-ip = stun.l.google.com
 doh-server = https://1.1.1.1/dns-query
 internet-test-url = http://www.gstatic.cn/generate_204
 proxy-test-url = http://www.gstatic.com/generate_204
+test-timeout = 5
 http-listen = 0.0.0.0:7890
 socks5-listen = 0.0.0.0:7891
 
