@@ -1,2 +1,9 @@
 proxies:
-  - {name: 🇸🇬 新加坡, server: nbae7a7.kaiqsz.com, port: 48291, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz1.redapricotcloud.com}
+  - {name: 香港1, server: nbae7a7.kaiqsz.com, port: 17895, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz.redapricotcloud.com, skip-cert-verify: true}
+  - {name: 香港2, server: nbae7a7.kaiqsz.com, port: 12221, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz.redapricotcloud.com, skip-cert-verify: true}
+  - {name: 香港3, server: nbae7a7.kaiqsz.com, port: 12221, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz.redapricotcloud.com, skip-cert-verify: true}
+  - {name: 台湾1, server: nbae7a7.kaiqsz.com, port: 42765, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true}
+  - {name: 台湾2, server: nbae7a7.kaiqsz.com, port: 42765, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true}
+  - {name: 台湾3, server: nbae7a7.kaiqsz.com, port: 42765, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true}
+  - {name: 新加坡1, server: nbae7a7.kaiqsz.com, port: 48291, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true}
+  - {name: 新加坡2, server: nbae7a7.kaiqsz.com, port: 18489, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz1.redapricotcloud.com, skip-cert-verify: true}
