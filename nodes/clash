@@ -1,4 +1,4 @@
-mode: rule ### global
+mode: global ### rule
 log-level: silent
 global-client-fingerprint: chrome
 port: 7890
