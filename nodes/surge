@@ -17,7 +17,7 @@ chinanet0 = Direct
 internet0 = select, proxy0, chinanet0
 proxy0 = select, global0, global1, global2
 
-global0 = select, policy-path = https://sub.xeton.dev/sub?target=surge&ver=4&url=https%3A%2F%2Fproxy.v2gh.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FPawdroid%2FFree-servers%2Fmain%2Fsub&insert=false&emoji=true&list=true&tfo=false&scv=false&fdn=false&expand=false&sort=false, url = http://www.gstatic.cn/generate_204, interval = 60, updat-interval = 1440, policy-regex-filter = 
+global0 = select, policy-path = https://sub.xeton.dev/sub?target=surge&ver=4&url=https%3A%2F%2Fproxy.v2gh.com%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FPawdroid%2FFree-servers%2Fmain%2Fsub&insert=false&emoji=true&list=false&tfo=false&scv=false&fdn=false&expand=false&sort=false, url = http://www.gstatic.cn/generate_204, interval = 60, updat-interval = 1440, policy-regex-filter = 
 global1 = select, policy-path = http, url = http://www.gstatic.cn/generate_204, interval = 60, updat-interval = 1440, policy-regex-filter = 
 global2 = select, policy-path = http, url = http://www.gstatic.cn/generate_204, interval = 60, updat-interval = 1440, policy-regex-filter = 
 
