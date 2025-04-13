@@ -36,7 +36,7 @@ dns:
     - https://dns.alidns.com/dns-query
 
 proxy-providers:
-  "v2":
+  v2:
     type: "http"
     url: "https://api.nexconvert.com/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fswanbylei666%2Fsubs%2Frefs%2Fheads%2Fmain%2Fnodes%2Fv2ray&list=true&insert=true&clash.doh=true&new_name=true&emoji=true&scv=true&udp=true"
     filter: ""
@@ -55,11 +55,11 @@ proxy-groups:
     proxies:
       - global0
       - DIRECT
-- name: global0
+  - name: global0
     type: select
     proxies:
     use:
-      - "v2"
+      - v2
     url: "http://www.gstatic.com/generate_204"
     interval: "60"
 
