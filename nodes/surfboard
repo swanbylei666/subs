@@ -1,4 +1,5 @@
 [Proxy]
+test0 = trojan, nbae7a7.kaiqsz.com, 12221, password=909758b7-860a-4e4e-af43-02f515af5084, ws=false, ws-path=/, skip-cert-verify=false, udp-relay=false, sni=mmbiz.redapricotcloud.com
 Trojan.443.不能上网 = trojan, www.vpslook.com, 443, password=bpb-trojan, sni=%E8%BF%99%E9%87%8C%E5%A1%AB%E5%9F%9F%E5%90%8D, skip-cert-verify=true, tfo=false
 Trojan.104.28.154.96 = trojan, www.vpslook.com, 443, password=bpb-trojan, sni=bf.lovetoday.us.kg, skip-cert-verify=true, tfo=false
 Trojan.104.28.154.112 = trojan, www.vpslook.com, 443, password=bpb-trojan, sni=cdn.nyxclothing.ir, skip-cert-verify=true, tfo=false
