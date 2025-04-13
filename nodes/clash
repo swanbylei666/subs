@@ -7,6 +7,12 @@ mixed-port: 7892
 external-controller: 0.0.0.0:9090
 allow-lan: true
 ipv6: true
+clash-for-android:
+  append-system-dns: true
+profile:
+  tracing: true
+experimental:
+  sniff-tls-sni: true
 
 dns:
   enable: true
