@@ -57,6 +57,16 @@ proxy-providers:
       enable: true
       interval: "60"
       url: "http://www.gstatic.com/generate_204"
+  internet2:
+    type: "http"
+    url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml"
+    filter: ""
+    interval: "60"
+    path: "./internet2.yml"
+    health-check:
+      enable: true
+      interval: "60"
+      url: "http://www.gstatic.com/generate_204"
 
 proxies:
   - {name: 机场：my.club, server: nbae7a7.kaiqsz.com, port: 12221, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz.redapricotcloud.com}
@@ -70,6 +80,7 @@ proxy-groups:
     use:
       - internet0
       - internet1
+      - internet2
     url: "http://www.gstatic.com/generate_204"
     interval: "60"
 
