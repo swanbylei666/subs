@@ -29,35 +29,38 @@ dns:
     - 'tls://1.0.0.1#dns'
   proxy-server-nameserver:
     - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
   nameserver-policy:
     "geosite:cn,private":
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
 
 proxy-providers:
-  "name_group":
+  "v2":
     type: "http"
-    url: ""
+    url: "https://api.nexconvert.com/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fswanbylei666%2Fsubs%2Frefs%2Fheads%2Fmain%2Fnodes%2Fv2ray&list=true&insert=true&clash.doh=true&new_name=true&emoji=true&scv=true&udp=true"
     filter: ""
     interval: "60"
-    path: "./"name_group".yml"
+    path: "./v2.yml"
     health-check:
       enable: true
       interval: "60"
       url: "http://www.gstatic.com/generate_204"
 
+proxies:
+
 proxy-groups:
   - name: internet0
     type: select
     proxies:
-      - DIRECT
       - global0
-  - name: global0
+      - DIRECT
+- name: global0
     type: select
     proxies:
     use:
-      - "name_group"
-    url: "https://cp.cloudflare.com/generate_204"
+      - "v2"
+    url: "http://www.gstatic.com/generate_204"
     interval: "60"
 
 rules:
