@@ -1,11 +1,37 @@
-# 纯节点！
-proxies:
-  - {name: Trojan.443.不能上网, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: "%E8%BF%99%E9%87%8C%E5%A1%AB%E5%9F%9F%E5%90%8D", skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: "%E8%BF%99%E9%87%8C%E5%A1%AB%E5%9F%9F%E5%90%8D"}}, tfo: false}
-  - {name: Trojan.104.28.154.96, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: bf.lovetoday.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: bf.lovetoday.us.kg}}, tfo: false}
-  - {name: Trojan.104.28.154.112, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: cdn.nyxclothing.ir, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: cdn.nyxclothing.ir}}, tfo: false}
-  - {name: Trojan.3.78.187.212, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: gb.woodthomas94095.us.kg, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: gb.woodthomas94095.us.kg}}, tfo: false}
-  - {name: Trojan.104.28.159.177, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: bpbcn.ktlhk.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: bpbcn.ktlhk.xyz}}, tfo: false}
-  - {name: Trojan.104.28.154.82, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: fuxiaoxin.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: fuxiaoxin.sbs}}, tfo: false}
-  - {name: Trojan.104.28.160.255, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: vpn.183618.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: vpn.183618.xyz}}, tfo: false}
-  - {name: Trojan.18.192.62.218, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: ss1.inshuey.com, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: ss1.inshuey.com}}, tfo: false}
-  - {name: Trojan.104.28.154.81, server: www.vpslook.com, port: 443, type: trojan, password: bpb-trojan, sni: yufour.top, skip-cert-verify: true, network: ws, ws-opts: {path: "/tr?ed=2560", headers: {Host: yufour.top}}, tfo: false}
+mode: rule
+log-level: silent
+port: 7890
+socks-port: 7891
+mixed-port: 7892
+allow-lan: true
+ipv6: true
+
+proxy-providers:
+  "name_group":
+    type: "http"
+    url: ""
+    filter: ""
+    interval: "60"
+    path: "./"name_group".yml"
+    health-check:
+      enable: true
+      interval: "60"
+      url: "http://www.gstatic.com/generate_204"
+
+proxy-groups:
+  - name: internet0
+    type: select
+    proxies:
+      - DIRECT
+      - global0
+  - name: global0
+    type: select
+    proxies:
+    use:
+      - "name_group"
+    url: "https://cp.cloudflare.com/generate_204"
+    interval: "60"
+
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,global0
