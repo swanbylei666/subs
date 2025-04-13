@@ -25,9 +25,9 @@ dns:
   default-nameserver:
     - 223.5.5.5
   nameserver:
-    - 'tls://8.8.4.4#dns'
-    - 'tls://1.0.0.1#dns'
-  proxy-server-nameserver:
+    - 'tls://1.0.0.1'
+    - 'tls://8.8.4.4'
+proxy-server-nameserver:
     - https://doh.pub/dns-query
     - https://dns.alidns.com/dns-query
   nameserver-policy:
