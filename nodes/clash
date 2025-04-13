@@ -39,7 +39,7 @@ dns:
 proxy-providers:
   v2:
     type: "http"
-    url: "https://api.sublink.dev/sub?target=clash&url=trojan://909758b7-860a-4e4e-af43-02f515af5084@nbae7a7.kaiqsz.com:12221?security=tls&headerType=&type=tcp&sni=mmbiz.redapricotcloud.com#%F0%9F%8F%A0%20%E5%AE%98%E7%BD%91%EF%BC%9Amy.club&insert=true&list=true"
+    url: "https://nodefree.githubrowcontent.com/2025/04/20250413.yaml"
     filter: ""
     interval: "60"
     path: "./v2.yml"
