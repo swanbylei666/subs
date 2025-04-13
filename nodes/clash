@@ -66,6 +66,7 @@ rules:
   - GEOIP,CN,DIRECT
   - MATCH,global0
 
+### ''subscribe''
 ### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/clash
 ### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/clash
 ### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/clash
