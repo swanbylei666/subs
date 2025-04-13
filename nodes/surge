@@ -7,7 +7,8 @@ doh-server = https://1.1.1.1/dns-query
 always-real-ip = stun.l.google.com
 internet-test-url = http://www.gstatic.cn/generate_204
 proxy-test-url = http://www.gstatic.com/generate_204
-
+http-listen = 0.0.0.0:7890
+socks5-listen = 0.0.0.0:7891
 [Proxy]
 chinanet0 = Direct
 
@@ -15,7 +16,7 @@ chinanet0 = Direct
 internet0 = select, proxy0, chinanet0
 proxy0 = select, global0
 
-global0 = select, policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/nodes/surfboard, policy-regex-filter=
+global0 = select, policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/nodes/surfboard, policy-regex-filter=, url = http://www.gstatic.cn/generate_204, interval = 60
 
 [Rule]
 GEOIP,CN,chinanet0
