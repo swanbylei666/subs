@@ -39,7 +39,7 @@ dns:
 proxy-providers:
   v2:
     type: "http"
-    url: "https://api.nexconvert.com/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fswanbylei666%2Fsubs%2Fmain%2Fnodes%2Fv2ray&insert=true&clash.doh=true&new_name=true&emoji=true&list=true&scv=true&udp=true"
+    url: "https://api.sublink.dev/sub?target=clash&url=trojan://909758b7-860a-4e4e-af43-02f515af5084@nbae7a7.kaiqsz.com:12221?security=tls&headerType=&type=tcp&sni=mmbiz.redapricotcloud.com#%F0%9F%8F%A0%20%E5%AE%98%E7%BD%91%EF%BC%9Amy.club|trojan://909758b7-860a-4e4e-af43-02f515af5084@nbae7a7.kaiqsz.com:48291?security=tls&headerType=&type=tcp&sni=mmbiz1.redapricotcloud.com#%E6%96%B0%E5%8A%A0%E5%9D%A1&insert=true&list=true"
     filter: ""
     interval: "60"
     path: "./v2.yml"
