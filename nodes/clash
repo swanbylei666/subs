@@ -85,7 +85,6 @@ proxy-groups:
     interval: "60"
 
 rules:
-  - GEOIP,CN,DIRECT
   - MATCH,global0
 
 ### ''subscribe''
