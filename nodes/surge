@@ -15,7 +15,7 @@ socks5-listen = 0.0.0.0:7891
 本地 = Direct
 
 [Proxy Group]
-全局 = select, 本地, internet0, internet1, internet2
+全局 = select, internet0, 本地, internet1, internet2
 
 internet0 = select, policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/nodes/surfboard, policy-regex-filter=, url=http://www.gstatic.cn/generate_204, interval=60
 
