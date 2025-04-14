@@ -72,7 +72,7 @@ proxies:
   - {name: 机场：my.club, server: nbae7a7.kaiqsz.com, port: 12221, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz.redapricotcloud.com}
 
 proxy-groups:
-  - name: global0
+  - name: 全局
     type: select
     proxies:
       - 机场：my.club
@@ -85,7 +85,7 @@ proxy-groups:
     interval: "60"
 
 rules:
-  - MATCH,global0
+  - MATCH,全局
 
 ### ''subscribe''
 ### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/clash
