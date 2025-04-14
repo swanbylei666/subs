@@ -76,13 +76,18 @@ proxy-groups:
     type: select
     proxies:
       - 机场：my.club
-      - DIRECT
+      - 本地
     use:
       - internet0
       - internet1
       - internet2
     url: "http://www.gstatic.com/generate_204"
     interval: "60"
+
+  - name: 本地
+    type: select
+    proxies:
+      - DIRECT
 
 rules:
   - MATCH,全局
