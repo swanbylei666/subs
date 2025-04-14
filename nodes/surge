@@ -15,13 +15,13 @@ socks5-listen = 0.0.0.0:7891
 本地 = Direct
 
 [Proxy Group]
-全局 = select, 本地, global0, global1, global2
+全局 = select, 本地, internet0, internet1, internet2
 
-global0 = select, policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/nodes/surfboard, policy-regex-filter=, url=http://www.gstatic.cn/generate_204, interval=60
+internet0 = select, policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/nodes/surfboard, policy-regex-filter=, url=http://www.gstatic.cn/generate_204, interval=60
 
-global1 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fripaojiedian%2Ffreenode%2Fmain%2Fclash, policy-regex-filter=, url=http://www.gstatic.cn/generate_204, interval=60
+internet1 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fripaojiedian%2Ffreenode%2Fmain%2Fclash, policy-regex-filter=, url=http://www.gstatic.cn/generate_204, interval=60
 
-global2 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FPuddinCat%2FBestClash%2Frefs%2Fheads%2Fmain%2Fproxies.yaml, policy-regex-filter=, url=http://www.gstatic.cn/generate_204, interval=60
+internet2 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FPuddinCat%2FBestClash%2Frefs%2Fheads%2Fmain%2Fproxies.yaml, policy-regex-filter=, url=http://www.gstatic.cn/generate_204, interval=60
 
 [Rule]
 FINAL,全局
