@@ -16,7 +16,7 @@ chinanet0 = Direct
 
 [Proxy Group]
 internet0 = select, proxy0, chinanet0
-proxy0 = select, global0, global1, global2
+proxy0 = select, chinanet0, global0, global1, global2
 
 global0 = select, policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/nodes/surfboard, policy-regex-filter=, url=http://www.gstatic.cn/generate_204, interval=60
 
