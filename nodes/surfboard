@@ -1,5 +1,4 @@
 [Proxy]
-DIRECT = direct
 🇭🇰 香港1 = trojan, nbae7a7.kaiqsz.com, 17895, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
 🇭🇰 香港2 = trojan, nbae7a7.kaiqsz.com, 12221, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
 🇭🇰 香港3 = trojan, nbae7a7.kaiqsz.com, 12221, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
