@@ -1,1 +1,12 @@
-...
+[Proxy]
+DIRECT = direct
+🇭🇰 香港1 = trojan, nbae7a7.kaiqsz.com, 17895, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇭🇰 香港2 = trojan, nbae7a7.kaiqsz.com, 12221, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇭🇰 香港3 = trojan, nbae7a7.kaiqsz.com, 12221, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳 台湾1 = trojan, nbae7a7.kaiqsz.com, 42765, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz1.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳 台湾2 = trojan, nbae7a7.kaiqsz.com, 42765, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz1.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇳 台湾3 = trojan, nbae7a7.kaiqsz.com, 42765, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz1.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇸🇬 新加坡1 = trojan, nbae7a7.kaiqsz.com, 48291, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz1.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇸🇬 新加坡2 = trojan, nbae7a7.kaiqsz.com, 18489, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz1.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇨🇦 加拿大 = trojan, lm.kaiqsz.com, 50121, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz13.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
+🇦🇺 澳大利亚 = trojan, lm.kaiqsz.com, 50757, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz14.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
