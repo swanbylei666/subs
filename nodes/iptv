@@ -20,6 +20,8 @@ https://180978298-proxy.hiksemi.cn:8019/rest/1.1/share?access_token=602da671d431
 #EXTINF:-1 group-title="【云盘影视】", 住进阿姨家后 我觉醒了时间暂停
 https://180978298-proxy.hiksemi.cn:8019/rest/1.1/share?access_token=bcd554c1aaa1f4130a02b6068dbd9fa6:1743396556&action=download&share_id=03IOPN&link_mode=0&path=%2Fdrives%2Fdisk_b1%2F%E6%93%A6%E8%BE%B9%E7%BD%91%E5%89%A7%2F%E4%BD%8F%E8%BF%9B%E9%98%BF%E5%A7%A8%E5%AE%B6%E5%90%8E%E6%88%91%E8%A7%89%E9%86%92%E4%BA%86%E6%97%B6%E9%97%B4%E6%9A%82%E5%81%9C.mp4&PROXY_TARGET=C88120392
 
+#EXTINF:-1 group-title="香港台", 翡翠台【内地】
+https://cdn3.163189.xyz/live/fct/stream.m3u8
 #EXTINF:-1 group-title="香港台", 翡翠台
 http://aktv_stream.m16tv.cfd/stream/aktv/null/AKTV.m3u8
 #EXTINF:-1 group-title="香港台", 翡翠台 马来西亚
