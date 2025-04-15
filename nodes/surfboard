@@ -1,7 +1,1 @@
-[Proxy]
-🏠 my.club = trojan, nbae7a7.kaiqsz.com, 12221, password=909758b7-860a-4e4e-af43-02f515af5084, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=mmbiz.redapricotcloud.com
-🇭🇰 香港1 = trojan, nbae7a7.kaiqsz.com, 17895, password=909758b7-860a-4e4e-af43-02f515af5084, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=mmbiz.redapricotcloud.com
-🇭🇰 香港2 = trojan, nbae7a7.kaiqsz.com, 12221, password=909758b7-860a-4e4e-af43-02f515af5084, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=mmbiz.redapricotcloud.com
-🇭🇰 香港3 = trojan, nbae7a7.kaiqsz.com, 12221, password=909758b7-860a-4e4e-af43-02f515af5084, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=mmbiz.redapricotcloud.com
-🇸🇬 新加坡1 = trojan, nbae7a7.kaiqsz.com, 48291, password=909758b7-860a-4e4e-af43-02f515af5084, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=mmbiz1.redapricotcloud.com
-🇸🇬 新加坡2 = trojan, nbae7a7.kaiqsz.com, 18489, password=909758b7-860a-4e4e-af43-02f515af5084, ws=false, ws-path=/, skip-cert-verify=true, udp-relay=false, sni=mmbiz1.redapricotcloud.com
+...
