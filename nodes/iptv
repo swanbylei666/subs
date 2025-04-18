@@ -23,7 +23,7 @@ https://180978298-proxy.hiksemi.cn:8019/rest/1.1/share?access_token=bcd554c1aaa1
 #EXTINF:-1 group-title="香港台", 翡翠台【内地】
 https://cdn3.163189.xyz/live/fct/stream.m3u8
 #EXTINF:-1 group-title="香港台", 翡翠台
-http://aktv_stream.m16tv.cfd/stream/aktv/null/AKTV.m3u8
+http://v2h.jdshipin.com/jade2/jade.stream/chunklist_w100.m3u8
 #EXTINF:-1 group-title="香港台", 翡翠台 马来西亚
 http://aktv_stream.m16tv.cfd/stream/astro_a1/tvbjade/AKTV.m3u8
 #EXTINF:-1 group-title="香港台", 翡翠台 4K
