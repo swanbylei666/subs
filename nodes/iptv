@@ -45,22 +45,22 @@ http://aktv_stream.m16tv.cfd/stream/astro_a1/tvbxinghe/AKTV.m3u8
 #EXTINF:-1 group-title="香港台", 美亚电影
 http://aktv_stream.m16tv.cfd/stream/aktv/hk-1/AKTV.m3u8
 
-#EXTINF:-1 group-title=" 广东省", 广州电视台综合频道
+#EXTINF:-1 group-title="广东省", 广州电视台综合频道
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
-#EXTINF:-1 group-title=" 广东省", 广州电视台新闻频道
+#EXTINF:-1 group-title="广东省", 广州电视台新闻频道
 https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
-#EXTINF:-1 group-title=" 广东省", 广州电视台影视频道
+#EXTINF:-1 group-title="广东省", 广州电视台影视频道
 https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
-#EXTINF:-1 group-title=" 广东省", 广州电视台法治频道
+#EXTINF:-1 group-title="广东省", 广州电视台法治频道
 https://tencentplay.gztv.com/live/fazhi.m3u8?txSecret=fbdb25bc81891c82d029f7781d32fe5f&txTime=18d0488f889
-#EXTINF:-1 group-title=" 广东省", 4K南国都市频道
+#EXTINF:-1 group-title="广东省", 4K南国都市频道
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
-#EXTINF:-1 group-title=" 广东省", 大湾区卫视
+#EXTINF:-1 group-title="广东省", 大湾区卫视
 http://z.b.bkpcp.top/m.php?id=dwqws
-#EXTINF:-1 group-title=" 广东省", 广东卫视
+#EXTINF:-1 group-title="广东省", 广东卫视
 http://z.b.bkpcp.top/m.php?id=gdws
 
-EXTINF:-1 group-title=" 台湾", 中天娱乐
+EXTINF:-1 group-title="台湾", 中天娱乐
 http://61.221.215.25:8800/hls/47/index.m3u8
 
 #EXTINF:-1 group-title="国内", 浙江卫视
