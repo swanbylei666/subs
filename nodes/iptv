@@ -27,7 +27,7 @@ http:/
 #EXTINF:-1 group-title="香港台", 翡翠台 马来西亚
 http://v2h.jdshipin.com/jade2/jade.stream/chunklist_w100.m3u8
 #EXTINF:-1 group-title="香港台", 翡翠台 4K
-http://aktv_stream.m16tv.cfd/stream/aktv/4k/AKTV.m3u8
+https://cdn.163.dedyn.io/live/fct4k/stream.m3u8
 #EXTINF:-1 group-title="香港台", TVB Plus
 http://aktv_stream.m16tv.cfd/stream/aktv/tvbplus/AKTV.m3u8
 #EXTINF:-1 group-title="香港台", 明珠台
