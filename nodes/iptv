@@ -15,6 +15,8 @@ https://v.lzcdn25.com/20250405/266_78dd067d/index.m3u8
 ###
 #EXTINF:-1 group-title="香港台", 翡翠台
 https://cdn3.163189.xyz/live/fct/stream.m3u8
+#EXTINF:-1 group-title="香港台", 翡翠台 临时
+http://aktv_stream.m16tv.cfd/stream/aktv2/null/AKTV.m3u8
 #EXTINF:-1 group-title="香港台", 翡翠台 马来西亚
 http://v2h.jdshipin.com/jade2/jade.stream/chunklist_w100.m3u8
 #EXTINF:-1 group-title="香港台", 翡翠台 4K
