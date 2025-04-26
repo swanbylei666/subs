@@ -22,7 +22,7 @@ https://cdn.163.dedyn.io/live/fct4k/stream.m3u8
 #EXTINF:-1 group-title="香港台", TVB Plus
 http://aktv_stream.m16tv.cfd/stream/aktv/tvbplus/AKTV.m3u8
 #EXTINF:-1 group-title="香港台", 明珠台
-http://aktv_stream.m16tv.cfd/stream/aktv/null-2/AKTV.m3u8
+https://cdn6.zone.id/smt3.2.1.php?id=pearl_twn
 #EXTINF:-1 group-title="香港台", 无线新闻台
 https://cdn6.0o0.myfw.us/live/wxxw/stream.m3u8
 #EXTINF:-1 group-title="香港台", viuTV
