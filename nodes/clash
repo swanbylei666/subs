@@ -52,7 +52,7 @@ proxy-providers:
     url: "https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc"
     filter: "港|台|新"
     interval: "60"
-    path: "./internet0.yml"
+    path: "./internet00.yml"
     health-check:
       enable: true
       interval: "60"
