@@ -92,6 +92,7 @@ proxy-groups:
       - 萌☁️
       - 红杏☁️
       - 本地
+      - 测速
     use:
       - internet0
       - internet00
@@ -104,6 +105,19 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+
+  - name: 测速
+    type: url-test
+    url: https://www.google.com/generate_204
+    interval: 300
+    lazy: true
+    timeout: 5000
+    max-failed-times: 5
+    tolerance: 30
+    use:
+      - internet0
+      - internet00
+    filter: 香港
 
 rules:
   - MATCH,全局
