@@ -109,7 +109,7 @@ proxy-groups:
   - name: 测速
     type: url-test
     url: https://www.google.com/generate_204
-    interval: 300
+    interval: 60
     lazy: true
     timeout: 5000
     max-failed-times: 5
