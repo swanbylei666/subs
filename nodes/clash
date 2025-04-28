@@ -83,7 +83,6 @@ proxy-providers:
 proxies:
   - {name: 萌☁️, server: hky.cloud-services.top, port: 443, type: trojan, password: 93333895-13d6-3df1-87b1-765348305e28, sni: zs.cloud-services.top}
   - {name: 红杏☁️, server: nbae7a7.kaiqsz.com, port: 12221, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz.redapricotcloud.com, skip-cert-verify: true}
-proxy-groups:
 
 proxy-groups:
   - name: 全局
