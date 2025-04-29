@@ -15,13 +15,13 @@ socks5-listen = 0.0.0.0:7891
 本地 = Direct
 
 [Proxy Group]
-全局 = select, internet0, 本地, 测试, internet1, internet2
+全局 = select, my-0, my-00, 本地, 测试, internet1, internet2
 
 测试 = url-test, 测试0, 测试00, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
 
-internet0 = select, policy-path=https://hongxingdl.love/hxyunvip?token=df296d15405d67860367b32e4ae1f570, interval=600
+my-0 = select, policy-path=https://hongxingdl.love/hxyunvip?token=df296d15405d67860367b32e4ae1f570, interval=600
 
-internet00 = select, policy-path=https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc, interval=600
+my-00 = select, policy-path=https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc, interval=600
 
 internet1 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fripaojiedian%2Ffreenode%2Fmain%2Fclash, interval=600
 
