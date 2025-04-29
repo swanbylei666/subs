@@ -39,48 +39,48 @@ dns:
     - https://1.1.1.1/dns-query
 
 proxy-providers:
-  internet0:
+  my-0:
     type: "http"
     url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/mihomo"
     filter: ""
-    interval: "60"
-    path: "./internet0.yml"
+    interval: "600"
+    path: "./my-0.yml"
     health-check:
       enable: true
-      interval: "60"
+      interval: "600"
       url: "http://www.gstatic.com/generate_204"
-  internet00:
+  my-00:
     type: "http"
     url: "https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc"
     filter: "港|台|新"
-    interval: "60"
-    path: "./internet00.yml"
+    interval: "600"
+    path: "./my-00.yml"
     health-check:
       enable: true
-      interval: "60"
+      interval: "600"
       url: "http://www.gstatic.com/generate_204"
 
 ###
 
-  internet1:
+  int1:
     type: "http"
     url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
     filter: ""
-    interval: "60"
-    path: "./internet1.yml"
+    interval: "600"
+    path: "./int1.yml"
     health-check:
       enable: true
-      interval: "60"
+      interval: "600"
       url: "http://www.gstatic.com/generate_204"
-  internet2:
+  int2:
     type: "http"
     url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml"
     filter: ""
-    interval: "60"
-    path: "./internet2.yml"
+    interval: "600"
+    path: "./int2.yml"
     health-check:
       enable: true
-      interval: "60"
+      interval: "600"
       url: "http://www.gstatic.com/generate_204"
 
 proxies:
@@ -96,12 +96,12 @@ proxy-groups:
       - 本地
       - 测速
     use:
-      - internet0
-      - internet00
-      - internet1
-      - internet2
+      - my-0
+      - my-00
+      - int1
+      - int2
     url: "http://www.gstatic.com/generate_204"
-    interval: "60"
+    interval: "600"
 
   - name: 本地
     type: select
@@ -113,12 +113,12 @@ proxy-groups:
     url: https://www.google.com/generate_204
     interval: 60
     lazy: true
-    timeout: 5000
+    timeout: 1000
     max-failed-times: 5
-    tolerance: 30
+    tolerance: 100
     use:
-      - internet0
-      - internet00
+      - my-0
+      - my-00
     filter: 香港
 
 rules:
