@@ -103,11 +103,6 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: "600"
 
-  - name: 本地
-    type: select
-    proxies:
-      - DIRECT
-
   - name: 测速
     type: url-test
     url: https://www.google.com/generate_204
@@ -120,6 +115,20 @@ proxy-groups:
       - my-0
       - my-00
     filter: 香港
+
+###
+
+  - name: 本地
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: AD
+    type: select
+    proxies:
+      - REJECT
+
+###
 
 rules:
   - MATCH,全局
