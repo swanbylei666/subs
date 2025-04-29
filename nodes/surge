@@ -17,7 +17,7 @@ socks5-listen = 0.0.0.0:7891
 [Proxy Group]
 全局 = select, internet0, 本地, 测试, internet1, internet2
 
-internet0 = select, policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surfboard, interval=600
+internet0 = select, policy-path=https://hongxingdl.love/hxyunvip?token=df296d15405d67860367b32e4ae1f570, interval=600
 
 internet1 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fripaojiedian%2Ffreenode%2Fmain%2Fclash, interval=600
 
