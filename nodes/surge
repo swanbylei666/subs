@@ -17,13 +17,15 @@ socks5-listen = 0.0.0.0:7891
 [Proxy Group]
 全局 = select, internet0, 本地, 测试, internet1, internet2
 
-测试 = url-test, policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surfboard, policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
+internet0 = select, policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surfboard, interval=600
 
-internet0 = select, policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surfboard, policy-regex-filter=, url=http://www.gstatic.cn/generate_204, interval=60
+internet1 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fripaojiedian%2Ffreenode%2Fmain%2Fclash, interval=600
 
-internet1 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fripaojiedian%2Ffreenode%2Fmain%2Fclash, policy-regex-filter=, url=http://www.gstatic.cn/generate_204, interval=60
+internet2 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FPuddinCat%2FBestClash%2Frefs%2Fheads%2Fmain%2Fproxies.yaml, interval=600
 
-internet2 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FPuddinCat%2FBestClash%2Frefs%2Fheads%2Fmain%2Fproxies.yaml, policy-regex-filter=, url=http://www.gstatic.cn/generate_204, interval=60
+###
+
+测试 = url-test, include-other-group=internet0, policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
 
 [Rule]
 FINAL,全局
