@@ -25,7 +25,7 @@ internet2 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url
 
 ###
 
-测试 = url-test, include-other-group=internet0, policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
+测试 = url-test, include-other-group=internet0, policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5, hidden=hidden
 
 [Rule]
 FINAL,全局
