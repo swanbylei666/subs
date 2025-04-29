@@ -13,6 +13,7 @@ socks5-listen = 0.0.0.0:7891
 
 [Proxy]
 本地 = Direct
+AD = REJECT
 
 [Proxy Group]
 全局 = select, my-0, my-00, 本地, 测试, int1, int2
