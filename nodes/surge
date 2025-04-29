@@ -17,6 +17,8 @@ socks5-listen = 0.0.0.0:7891
 [Proxy Group]
 全局 = select, internet0, 本地, 测试, internet1, internet2
 
+测试 = url-test, 测试0, 测试00, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
+
 internet0 = select, policy-path=https://hongxingdl.love/hxyunvip?token=df296d15405d67860367b32e4ae1f570, interval=600
 
 internet00 = select, policy-path=https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc, interval=600
@@ -26,8 +28,6 @@ internet1 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url
 internet2 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FPuddinCat%2FBestClash%2Frefs%2Fheads%2Fmain%2Fproxies.yaml, interval=600
 
 ###
-
-测试 = url-test, 测试0, 测试00, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
 
 测试0 = url-test, include-other-group=internet0, policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5, hidden=true
 
