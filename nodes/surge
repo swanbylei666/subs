@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surge interval=60 strict=true
+#!MANAGED-CONFIG https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surge interval=600 strict=true
 
 [General]
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
@@ -17,7 +17,7 @@ socks5-listen = 0.0.0.0:7891
 [Proxy Group]
 全局 = select, internet0, 本地, 测试, internet1, internet2
 
-{测试} = url-test, {policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surfboard}, {policy-regex-filter=香港}, {url=http://www.gstatic.com/generate_204}, {interval=60}, {tolerance=100}, {timeout=5}
+测试 = url-test, policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surfboard, policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5
 
 internet0 = select, policy-path=https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surfboard, policy-regex-filter=, url=http://www.gstatic.cn/generate_204, interval=60
 
