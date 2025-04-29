@@ -27,13 +27,13 @@ internet1 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url
 
 internet2 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FPuddinCat%2FBestClash%2Frefs%2Fheads%2Fmain%2Fproxies.yaml, interval=600
 
-###
+### 不显示
 
 测试0 = url-test, include-other-group=internet0, policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5, hidden=true
 
 测试00 = url-test, include-other-group=internet00, policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5, hidden=true
 
-###
+### 不显示
 
 [Rule]
 FINAL,全局
