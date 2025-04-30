@@ -20,7 +20,7 @@ AD = REJECT
 
 ### 自动化
 
-测试 = url-test, include-other-group="测0, 测00", url=http://www.gstatic.com/generate_204, interval=60, tolerance=100, timeout=5, evaluate-before-use=true
+点测 = url-test, include-other-group="测0, 测00", url=http://www.gstatic.com/generate_204, interval=60, tolerance=100, timeout=5, evaluate-before-use=true
 
 组测 = url-test, 测0, 测00, url=http://www.gstatic.com/generate_204, interval=60, tolerance=100, timeout=5, evaluate-before-use=true
 
