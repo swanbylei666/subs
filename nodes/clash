@@ -127,7 +127,7 @@ proxy-groups:
     proxies:
       - 测0
       - 测00
-    filter: 
+    filter: ""
 
 ### 固定模块
 
