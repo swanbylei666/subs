@@ -18,21 +18,21 @@ AD = REJECT
 [Proxy Group]
 全局 = select, my-0, my-00, 本地, 测试, int1, int2
 
-测试 = url-test, 测试0, 测试00, url=http://www.gstatic.com/generate_204, interval=60, tolerance=100, timeout=5
+测试 = url-test, include-other-group="测试0, 测试00", url=http://www.gstatic.com/generate_204, interval=60, tolerance=100, timeout=5, evaluate-before-use=true
 
-my-0 = select, policy-path=https://hongxingdl.love/hxyunvip?token=df296d15405d67860367b32e4ae1f570, interval=600
+my-0 = select, policy-path=https://hongxingdl.love/hxyunvip?token=df296d15405d67860367b32e4ae1f570, update-interval=600
 
-my-00 = select, policy-path=https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc, interval=600
+my-00 = select, policy-path=https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc, update-interval=600
 
-int1 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fripaojiedian%2Ffreenode%2Fmain%2Fclash, interval=600
+int1 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2Fripaojiedian%2Ffreenode%2Fmain%2Fclash, update-interval=600
 
-int2 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FPuddinCat%2FBestClash%2Frefs%2Fheads%2Fmain%2Fproxies.yaml, interval=600
+int2 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=https%3A%2F%2Fgithub.moeyy.xyz%2Fhttps%3A%2F%2Fraw.githubusercontent.com%2FPuddinCat%2FBestClash%2Frefs%2Fheads%2Fmain%2Fproxies.yaml, update-interval=600
 
 ### 不显示
 
-测试0 = url-test, include-other-group=my-0, policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5, hidden=true
+测试0 = fallback, include-other-group=my-0, policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, update-interval=600, tolerance=100, timeout=5, hidden=true
 
-测试00 = url-test, include-other-group=my-00, policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, interval=600, tolerance=100, timeout=5, hidden=true
+测试00 = fallback, include-other-group=my-00, policy-regex-filter=香港|台湾, url=http://www.gstatic.com/generate_204, update-interval=600, tolerance=100, timeout=5, hidden=true
 
 ### 不显示
 
