@@ -42,7 +42,7 @@ proxy-providers:
   my-0:
     type: "http"
     url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/mihomo"
-    filter: ""
+    filter: "港|新"
     interval: "600"
     path: "./my-0.yml"
     health-check:
@@ -52,7 +52,7 @@ proxy-providers:
   my-00:
     type: "http"
     url: "https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc"
-    filter: "港|台|新"
+    filter: "港|新"
     interval: "600"
     path: "./my-00.yml"
     health-check:
@@ -60,7 +60,7 @@ proxy-providers:
       interval: "600"
       url: "http://www.gstatic.com/generate_204"
 
-###
+### 免费池
 
   int1:
     type: "http"
@@ -94,7 +94,8 @@ proxy-groups:
       - 萌☁️
       - 红杏☁️
       - 本地
-      - 测速
+      - 点测
+      - 组测
     use:
       - my-0
       - my-00
@@ -103,20 +104,32 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: "600"
 
-  - name: 测速
+### 测试组合
+
+  - name: 点测
     type: fallback
     url: https://www.google.com/generate_204
-    interval: 60
-    lazy: true
-    timeout: 1000
+    interval: "600"
+    timeout: 100
     max-failed-times: 5
     tolerance: 100
     use:
       - my-0
       - my-00
     filter: 香港
+  - name: 组测
+    type: fallback
+    url: https://www.google.com/generate_204
+    interval: "600"
+    timeout: 100
+    max-failed-times: 5
+    tolerance: 100
+    proxies:
+      - my-0
+      - my-00
+    filter: 香港
 
-###
+### 固定模块
 
   - name: 本地
     type: select
