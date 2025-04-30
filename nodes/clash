@@ -116,7 +116,7 @@ proxy-groups:
     use:
       - my-0
       - my-00
-    filter: 香港
+    filter: "香港"
   - name: 组测
     type: url-test
     url: https://www.google.com/generate_204
@@ -127,7 +127,7 @@ proxy-groups:
     proxies:
       - 测0
       - 测00
-    filter: 香港
+    filter: 
 
 ### 固定模块
 
