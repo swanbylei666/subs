@@ -104,7 +104,7 @@ proxy-groups:
     interval: "600"
 
   - name: 测速
-    type: url-test
+    type: fallback
     url: https://www.google.com/generate_204
     interval: 60
     lazy: true
