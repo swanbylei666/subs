@@ -118,7 +118,7 @@ proxy-groups:
       - my-00
     filter: "香港"
   - name: 组测
-    type: url-test
+    type: fallback
     url: https://www.google.com/generate_204
     interval: "600"
     timeout: 100
@@ -141,7 +141,7 @@ proxy-groups:
       - REJECT
 
   - name: 测0
-    type: fallback
+    type: url-test
     url: https://www.google.com/generate_204
     interval: "600"
     timeout: 100
@@ -151,7 +151,7 @@ proxy-groups:
       - my-0
     filter: "香港"
   - name: 测00
-    type: fallback
+    type: url-test
     url: https://www.google.com/generate_204
     interval: "600"
     timeout: 100
