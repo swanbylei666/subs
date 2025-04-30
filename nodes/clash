@@ -104,7 +104,7 @@ proxy-groups:
     url: "http://www.gstatic.com/generate_204"
     interval: "600"
 
-### 测试组合
+### 测试
 
   - name: 点测
     type: fallback
@@ -117,8 +117,9 @@ proxy-groups:
       - my-0
       - my-00
     filter: "香港"
+
   - name: 组测
-    type: fallback
+    type: select
     url: https://www.google.com/generate_204
     interval: "600"
     timeout: 100
