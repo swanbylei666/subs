@@ -22,7 +22,7 @@ AD = REJECT
 
 点测 = fallback, include-other-group="测0, 测00", url=http://www.gstatic.com/generate_204, interval=60, tolerance=100, timeout=5, evaluate-before-use=true
 
-组测 = fallback, 测0, 测00, url=http://www.gstatic.com/generate_204, interval=60, tolerance=100, timeout=5, evaluate-before-use=true
+组测 = select, 测0, 测00, url=http://www.gstatic.com/generate_204, interval=60, tolerance=100, timeout=5, evaluate-before-use=true
 
 ###
 
