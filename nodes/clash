@@ -149,7 +149,7 @@ proxy-groups:
     tolerance: 100
     use:
       - my-0
-    filter: 香港
+    filter: "香港"
   - name: 测00
     type: fallback
     url: https://www.google.com/generate_204
@@ -159,7 +159,7 @@ proxy-groups:
     tolerance: 100
     use:
       - my-00
-    filter: 香港
+    filter: "香港"
 
 ###
 
