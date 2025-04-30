@@ -133,7 +133,7 @@ proxy-groups:
 ### 固定模块
 
   - name: 测0
-    type: url-test
+    type: fallback
     url: https://www.google.com/generate_204
     interval: "600"
     timeout: 100
@@ -143,7 +143,7 @@ proxy-groups:
       - my-0
     filter: "香港"
   - name: 测00
-    type: url-test
+    type: fallback
     url: https://www.google.com/generate_204
     interval: "600"
     timeout: 100
