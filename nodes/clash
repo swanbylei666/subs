@@ -131,15 +131,6 @@ proxy-groups:
 
 ### 固定模块
 
-  - name: 本地
-    type: select
-    proxies:
-      - DIRECT
-  - name: AD
-    type: select
-    proxies:
-      - REJECT
-
   - name: 测0
     type: url-test
     url: https://www.google.com/generate_204
@@ -160,6 +151,15 @@ proxy-groups:
     use:
       - my-00
     filter: "香港"
+
+  - name: 本地
+    type: select
+    proxies:
+      - DIRECT
+  - name: AD
+    type: select
+    proxies:
+      - REJECT
 
 ###
 
