@@ -16,9 +16,15 @@ socks5-listen = 0.0.0.0:7891
 AD = REJECT
 
 [Proxy Group]
-全局 = select, my-0, my-00, 本地, 测试, int1, int2
+全局 = select, my-0, my-00, 本地, 点测, 组测, int1, int2
 
-测试 = url-test, include-other-group="测试0, 测试00", url=http://www.gstatic.com/generate_204, interval=60, tolerance=100, timeout=5, evaluate-before-use=true
+### 自动化
+
+测试 = url-test, include-other-group="测0, 测00", url=http://www.gstatic.com/generate_204, interval=60, tolerance=100, timeout=5, evaluate-before-use=true
+
+组测 = url-test, 测0, 测00, url=http://www.gstatic.com/generate_204, interval=60, tolerance=100, timeout=5, evaluate-before-use=true
+
+###
 
 my-0 = select, policy-path=https://hongxingdl.love/hxyunvip?token=df296d15405d67860367b32e4ae1f570, update-interval=600
 
@@ -30,9 +36,9 @@ int2 = select, policy-path=https://api.sublink.dev/sub?target=surfboard&url=http
 
 ### 不显示
 
-测试0 = fallback, include-other-group="my-0", policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, update-interval=600, tolerance=100, timeout=5, hidden=true
+测0 = fallback, include-other-group="my-0", policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, update-interval=600, tolerance=100, timeout=5, hidden=true
 
-测试00 = fallback, include-other-group="my-00", policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, update-interval=600, tolerance=100, timeout=5, hidden=true
+测00 = fallback, include-other-group="my-00", policy-regex-filter=香港, url=http://www.gstatic.com/generate_204, update-interval=600, tolerance=100, timeout=5, hidden=true
 
 ### 不显示
 
