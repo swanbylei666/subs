@@ -1,4 +1,4 @@
-#!MANAGED-CONFIG https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surge interval=600 strict=true
+#!MANAGED-CONFIG https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surge interval=6000 strict=true
 
 [General]
 skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
