@@ -43,7 +43,7 @@ proxy-providers:
     type: "http"
     url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/mihomo"
     filter: "港|新"
-    interval: "600"
+    interval: "6000"
     path: "./my-0.yml"
     health-check:
       enable: true
@@ -53,7 +53,7 @@ proxy-providers:
     type: "http"
     url: "https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc"
     filter: "港|新"
-    interval: "600"
+    interval: "6000"
     path: "./my-00.yml"
     health-check:
       enable: true
@@ -66,7 +66,7 @@ proxy-providers:
     type: "http"
     url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
     filter: ""
-    interval: "600"
+    interval: "6000"
     path: "./int1.yml"
     health-check:
       enable: true
@@ -76,7 +76,7 @@ proxy-providers:
     type: "http"
     url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml"
     filter: ""
-    interval: "600"
+    interval: "6000"
     path: "./int2.yml"
     health-check:
       enable: true
