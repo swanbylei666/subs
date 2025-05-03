@@ -94,8 +94,8 @@ proxy-groups:
       - 萌☁️
       - 红杏☁️
       - 本地
-      - 点测
-      - 组测
+      - ½点测
+      - ½组测
     use:
       - my-0
       - my-00
@@ -106,7 +106,7 @@ proxy-groups:
 
 ### 测试
 
-  - name: 点测
+  - name: ½点测
     type: fallback
     url: https://www.google.com/generate_204
     interval: "600"
@@ -118,7 +118,7 @@ proxy-groups:
       - my-00
     filter: "香港"
 
-  - name: 组测
+  - name: ½组测
     type: select
     url: https://www.google.com/generate_204
     interval: "600"
