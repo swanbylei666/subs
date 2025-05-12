@@ -9,7 +9,7 @@ internet-test-url = http://www.gstatic.cn/generate_204
 proxy-test-url = http://www.gstatic.com/generate_204
 test-timeout = 5
 http-listen = 0.0.0.0:7890
-socks5-listen = 0.0.0.0:7891
+socks5-listen = 0.0.0.0:7892
 
 [Proxy]
 国内通道 = Direct
