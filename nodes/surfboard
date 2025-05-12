@@ -1,11 +1,32 @@
+#!MANAGED-CONFIG https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surfboard interval=6000 strict=true
+
+[General]
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+dns-server = 1.1.1.1, 1.0.0.1, 8.8.8.8, 8.8.4.4, system
+doh-server = https://1.1.1.1/dns-query, https://8.8.8.8/dns-query
+always-real-ip = stun.l.google.com
+internet-test-url = http://www.gstatic.cn/generate_204
+proxy-test-url = http://www.gstatic.com/generate_204
+test-timeout = 5
+http-listen = 0.0.0.0:7890
+socks5-listen = 0.0.0.0:7891
+
 [Proxy]
-🇭🇰 香港1 = trojan, nbae7a7.kaiqsz.com, 17895, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇭🇰 香港2 = trojan, nbae7a7.kaiqsz.com, 12221, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇭🇰 香港3 = trojan, nbae7a7.kaiqsz.com, 12221, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳 台湾1 = trojan, nbae7a7.kaiqsz.com, 42765, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz1.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳 台湾2 = trojan, nbae7a7.kaiqsz.com, 42765, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz1.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇳 台湾3 = trojan, nbae7a7.kaiqsz.com, 42765, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz1.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇸🇬 新加坡1 = trojan, nbae7a7.kaiqsz.com, 48291, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz1.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇸🇬 新加坡2 = trojan, nbae7a7.kaiqsz.com, 18489, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz1.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇨🇦 加拿大 = trojan, lm.kaiqsz.com, 50121, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz13.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
-🇦🇺 澳大利亚 = trojan, lm.kaiqsz.com, 50757, password=909758b7-860a-4e4e-af43-02f515af5084, sni=mmbiz14.redapricotcloud.com, skip-cert-verify=true, tfo=false, udp-relay=true
+国内通道 = Direct
+禁止通行 = REJECT
+
+[Proxy Group]
+全局 = select, 国内通道, HONGKONG, ½HONGKONG, 禁止通行
+
+HONGKONG = select, A1, A2
+½HONGKONG = select, B1, B2
+
+A1 = select, policy-path=https://hongxingdl.love/hxyunvip?token=df296d15405d67860367b32e4ae1f570, update-interval=6000, policy-regex-filter=香港|新加坡
+A2 = select, policy-path=https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc, update-interval=6000, policy-regex-filter=香港|新加坡
+
+
+B1 = fallback, include-other-group="A1", policy-regex-filter=, url=http://www.gstatic.com/generate_204, update-interval=6000, tolerance=100, timeout=5, hidden=true
+B2 = fallback, include-other-group="A2", policy-regex-filter=, url=http://www.gstatic.com/generate_204, update-interval=6000, tolerance=100, timeout=5, hidden=true
+
+[Rule]
+FINAL,全局
