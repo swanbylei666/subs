@@ -24,7 +24,6 @@ HONGKONG = select, A1, A2
 A1 = select, policy-path=https://hongxingdl.love/hxyunvip?token=df296d15405d67860367b32e4ae1f570, update-interval=6000, policy-regex-filter=香港|新加坡
 A2 = select, policy-path=https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc, update-interval=6000, policy-regex-filter=香港|新加坡
 
-
 B1 = fallback, include-other-group="A1", policy-regex-filter=, url=http://www.gstatic.com/generate_204, update-interval=6000, tolerance=100, timeout=5, hidden=true
 B2 = fallback, include-other-group="A2", policy-regex-filter=, url=http://www.gstatic.com/generate_204, update-interval=6000, tolerance=100, timeout=5, hidden=true
 
