@@ -16,10 +16,10 @@ socks5-listen = 0.0.0.0:7892
 禁止通行 = REJECT
 
 [Proxy Group]
-全局 = select, 国内通道, HONGKONG, ½HONGKONG, 禁止通行
+全局 = select, 国内通道, HK×SG, ½HK×SG, 禁止通行
 
-HONGKONG = select, A1, A2
-½HONGKONG = select, B1, B2
+HK×SG = select, A1, A2
+½HK×SG = select, B1, B2
 
 A1 = select, policy-path=https://hongxingdl.love/hxyunvip?token=df296d15405d67860367b32e4ae1f570, update-interval=6000, policy-regex-filter=香港|新加坡
 A2 = select, policy-path=https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc, update-interval=6000, policy-regex-filter=香港|新加坡
