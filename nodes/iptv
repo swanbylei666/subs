@@ -5,6 +5,12 @@
 
 #EXTINF:-1 group-title="＃热门频道", 港 翡翠台 ＃1
 https://live.tvfix.org/live/jade/index.m3u8
+#EXTINF:-1 group-title="＃热门频道", 港 TVB+ ＃1
+https://live.tvfix.org/live/tvbplus/index.m3u8
+#EXTINF:-1 group-title="＃热门频道", 港 无线新闻 ＃1
+https://live.tvfix.org/live/inews/index.m3u8
+#EXTINF:-1 group-title="＃热门频道", 港 明珠台 ＃1
+https://live.tvfix.org/live/pearl/index.m3u8
 #EXTINF:-1 group-title="＃热门频道", 广 翡翠台 ＃1
 http://119.32.12.17:2901/udp/224.1.100.1:11111
 
