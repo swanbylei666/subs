@@ -4,4 +4,15 @@
 #EXTVLCOPT:http-user-agent= "com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
 
 #EXTINF:-1 group-title="＃热门频道", 港 翡翠台 ＃1
+http://119.32.12.17:2901/udp/224.1.100.1:11111
+#EXTINF:-1 group-title="＃热门频道", 港 翡翠台 ＃B
 https://cdn3.163189.xyz/live/fct/stream.m3u8
+
+#EXTINF:-1 group-title="＃热门频道", 广 综合频道 ＃1
+https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
+
+#EXTINF:-1 group-title="＃热门频道", 广 新闻频道 ＃1
+https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
+
+#EXTINF:-1 group-title="＃热门频道", 4K南国都市 ＃1
+https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
