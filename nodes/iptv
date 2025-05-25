@@ -15,7 +15,7 @@ https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96
 #EXTINF:-1 group-title="＃热门频道", 4K南国都市 ＃1
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
-
+### 备用－线路
 #EXTINF:-1 group-title="＃B热门频道", 广 综合频道 ＃B
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=dce137597806f62ae6fdfc40328a336e&txTime=191b5fc1c86
 #EXTINF:-1 group-title="＃B热门频道", 广 新闻频道 ＃B
