@@ -4,7 +4,7 @@
 #EXTVLCOPT:http-user-agent= "com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
 
 #EXTINF:-1 group-title="＃热门频道", 港 翡翠台 ＃1
-https://cdn3.163189.xyz/live/fct/stream.m3u8
+https://live.tvfix.org/live/jade/index.m3u8
 #EXTINF:-1 group-title="＃热门频道", 广 翡翠台 ＃1
 http://119.32.12.17:2901/udp/224.1.100.1:11111
 
@@ -19,6 +19,8 @@ https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ec
 https://pull-flv-f1.douyincdn.com/media/stream-117315425644839596.flv?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250525112928ED7DEB3067DF70E19BD2-rVmJF4&unique_id=stream-117315425644839596_684_flv&wsSecret=c758033a1d7adbfe408c922179854aba&wsTime=68328e98&abr_pts=-800&_session_id=037-20250525112928ED7DEB3067DF70E19BD2-rVmJF4.1748143771727.08003&rsi=1
 
 ### 备用－线路
+#EXTINF:-1 group-title="＃热门频道", 港 翡翠台 ＃B
+https://cdn3.163189.xyz/live/fct/stream.m3u8
 #EXTINF:-1 group-title="＃B热门频道", 广 综合频道 ＃B
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=dce137597806f62ae6fdfc40328a336e&txTime=191b5fc1c86
 #EXTINF:-1 group-title="＃B热门频道", 广 新闻频道 ＃B
