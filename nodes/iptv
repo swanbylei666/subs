@@ -15,6 +15,8 @@ https://live.tvfix.org/live/pearl/index.m3u8
 http://v2h.jdshipin.com/jade2/jade.stream/chunklist_w108.m3u8
 #EXTINF:-1 group-title="＃热门频道", 广 翡翠台 ＃1
 http://119.32.12.17:2901/udp/224.1.100.1:11111
+#EXTINF:-1 group-title="＃热门频道", 广 明珠台 ＃1
+http://qjrhc.jydjd.top:2911/udp/224.1.100.2:11111
 
 #EXTINF:-1 group-title="＃热门频道", 广 综合频道 ＃1
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
