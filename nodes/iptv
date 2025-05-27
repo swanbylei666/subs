@@ -4,7 +4,7 @@
 #EXTVLCOPT: http-user-agent= "com.android.chrome/131.0.6778.200 (Linux;Android 15) AndroidXMedia3/1.5.1"
 
 #EXTINF:-1 group-title="＃热门频道", 港 翡翠台 ＃1
-https://cdn3.163189.xyz/live/fct/stream.m3u8
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
 #EXTINF:-1 group-title="＃热门频道", 港 TVB+ ＃1
 https://live.tvfix.org/live/tvbplus/index.m3u8
 #EXTINF:-1 group-title="＃热门频道", 港 无线新闻 ＃1
