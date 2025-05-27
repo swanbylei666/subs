@@ -39,6 +39,8 @@ https://pull-flv-f1.douyincdn.com/media/stream-117315425644839596.flv?arch_hrchy
 ### 备用－线路
 #EXTINF:-1 group-title="＃备用_热门频道", 港 翡翠台 ＃备
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct
+#EXTINF:-1 group-title="＃备用_热门频道", 港 明珠台 ＃备
+http://php.jdshipin.com:8880/iptv.php?id=mzt
 #EXTINF:-1 group-title="＃备用_热门频道", 广州 综合 ＃备
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=dce137597806f62ae6fdfc40328a336e&txTime=191b5fc1c86
 #EXTINF:-1 group-title="＃备用_热门频道", 广州 新闻 ＃备
