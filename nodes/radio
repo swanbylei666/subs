@@ -1,6 +1,6 @@
 #EXTM3U
 #EXT-X-APTV-TYPE remote
-#EXT-X-SUB-URL https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/radio
+#EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/radio
 
 #EXTINF:-1 tvg-logo="" group-title="网络FM",88.0-广州MYFM
 https://lhttp.qingting.fm/live/20194/64k.mp3
@@ -59,3 +59,6 @@ https://lhttp.qingting.fm/live/20071/64k.mp3
 https://lhttp.qingting.fm/live/5022405/64k.mp3
 #EXTINF:-1 tvg-logo="" group-title="网络音乐FM",AsiaFM HD音乐
 https://lhttp.qingting.fm/live/15318341/64k.mp3
+
+### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/radio
+### 网络电台_订阅
