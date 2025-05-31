@@ -33,8 +33,8 @@ http://119.32.12.17:2901/udp/224.1.100.5:11111
 #EXTINF:-1 group-title="＃热门频道", 广东 民生 ＃1
 http://119.32.12.17:2901/udp/224.1.100.4:11111
 
-#EXTINF:-1 group-title="＃抖音直播", 广州ing
-https://pull-flv-f1.douyincdn.com/media/stream-117315425644839596.flv?arch_hrchy=w1&exp_hrchy=w1&keeptime=00093a80&major_anchor_level=common&t_id=037-20250525112928ED7DEB3067DF70E19BD2-rVmJF4&unique_id=stream-117315425644839596_684_flv&wsSecret=c758033a1d7adbfe408c922179854aba&wsTime=68328e98&abr_pts=-800&_session_id=037-20250525112928ED7DEB3067DF70E19BD2-rVmJF4.1748143771727.08003&rsi=1
+#EXTINF:-1 group-title="＃抖音直播", 南方都市报：龙舟赛
+https://pull-flv-f11.douyincdn.com/media/stream-7510409283264170787.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1749265817&major_anchor_level=common&sign=79d53008e8dcc66639954716313e2cf6&t_id=037-202505311110170114B817FC036C03FB71-VDU65O&unique_id=stream-7510409283264170787_684_flv&abr_pts=-800&_session_id=037-202505311110170114B817FC036C03FB71-VDU65O.1748661043071.42182&rsi=1
 
 ### 备用－线路
 #EXTINF:-1 group-title="＃备用_热门频道", 港 翡翠台 ＃备
