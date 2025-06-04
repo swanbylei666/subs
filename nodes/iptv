@@ -34,7 +34,7 @@ http://119.32.12.17:2901/udp/224.1.100.5:11111
 http://119.32.12.17:2901/udp/224.1.100.4:11111
 
 #EXTINF:-1 group-title="＃抖音直播", CCTV电影频道
-https://pull-flv-f26.douyincdn.com/media/stream-7510423361374341922_sd.flv?arch_hrchy=w1&exp_hrchy=w1&expire=6843ead8&major_anchor_level=common&sign=8b4749b8e8ff5526732f98bb079d2450&t_id=037-202505311531361AFEBEDB4F54BD005482-r4otPn&unique_id=stream-7510423361374341922_684_flv_sd&abr_pts=-800&_session_id=037-202505311531346D60C0D46BFA38143207-tudVor.1748676700781.78675&rsi=1
+https://pull-hs-f5.flive.douyincdn.com/media/stream-7511627330385644303_ld.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1749647271&major_anchor_level=common&sign=4de9df0dfc0925f71661a02bc437ae62&t_id=037-202506042107517FBF45ED29B22897BB53-8Bgzug&unique_id=stream-7511627330385644303_684_flv_ld&volcSecret=4de9df0dfc0925f71661a02bc437ae62&volcTime=1749647271
 #EXTINF:-1 group-title="＃抖音直播", 南方都市报：龙舟赛
 https://pull-flv-f11.douyincdn.com/media/stream-7510409283264170787.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1749265817&major_anchor_level=common&sign=79d53008e8dcc66639954716313e2cf6&t_id=037-202505311110170114B817FC036C03FB71-VDU65O&unique_id=stream-7510409283264170787_684_flv&abr_pts=-800&_session_id=037-202505311110170114B817FC036C03FB71-VDU65O.1748661043071.42182&rsi=1
 #EXTINF:-1 group-title="＃抖音直播", 小央视频
