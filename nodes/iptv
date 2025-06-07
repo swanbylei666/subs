@@ -38,12 +38,11 @@ http://119.32.12.17:2901/udp/224.1.100.5:11111
 #EXTINF:-1 group-title="＃热门频道", 广东 民生 ＃1
 http://119.32.12.17:2901/udp/224.1.100.4:11111
 
-#EXTINF:-1 group-title="＃抖音直播", CCTV电影频道
-https://pull-flv-f11.douyincdn.com/media/stream-7511627330385644303_ld.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1749733912&major_anchor_level=common&sign=b97bfb7ae5561932d381a8dfd5e59be0&t_id=037-20250605211152167427BB2B8FE14AFD5B-aEvMVx&unique_id=stream-7511627330385644303_684_flv_ld
-#EXTINF:-1 group-title="＃抖音直播", 南方都市报：龙舟赛
-https://pull-flv-f11.douyincdn.com/media/stream-7510409283264170787.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1749265817&major_anchor_level=common&sign=79d53008e8dcc66639954716313e2cf6&t_id=037-202505311110170114B817FC036C03FB71-VDU65O&unique_id=stream-7510409283264170787_684_flv&abr_pts=-800&_session_id=037-202505311110170114B817FC036C03FB71-VDU65O.1748661043071.42182&rsi=1
-#EXTINF:-1 group-title="＃抖音直播", 小央视频
-https://pull-flv-f26.douyincdn.com/media/stream-7510388064481512218.flv?arch_hrchy=w1&exp_hrchy=w1&expire=6843e47f&major_anchor_level=common&sign=a0784db02eed060421cf39d05a4326d3&t_id=037-20250531150431FA0F49E45FC2332E034B-nkPRmz&unique_id=stream-7510388064481512218_684_flv&abr_pts=-800&_session_id=037-20250531150431FA0F49E45FC2332E034B-nkPRmz.1748675077062.80748&rsi=1
+#EXTINF:-1 group-title="抖🎵直播", CCTV电影频道
+
+#EXTINF:-1 group-title="抖🎵直播", 广州ing 高考
+https://pull-flv-f11.douyincdn.com/media/stream-693853294826881708_ld.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1749894173&major_anchor_level=common&sign=5e18f1d78d12f765dcf213fb18d00bf2&t_id=037-20250607174253C0420DEA3DB1044C2188-LI94iE&unique_id=stream-693853294826881708_684_flv_ld
+
 
 ### 备用－线路
 #EXTINF:-1 group-title="＃备用_热门频道", 港 翡翠台 ＃备
