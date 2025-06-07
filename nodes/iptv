@@ -27,11 +27,6 @@ https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb
 #EXTINF:-1 group-title="廣東頻道", 4K南国都市 ＃1
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
-#EXTINF:-1 group-title="＃热门频道", 广东 新闻 ＃1
-http://119.32.12.17:2901/udp/224.1.100.5:11111
-#EXTINF:-1 group-title="＃热门频道", 广东 民生 ＃1
-http://119.32.12.17:2901/udp/224.1.100.4:11111
-
 #EXTINF:-1 group-title="抖🎵直播", CCTV电影频道
 https://pull-flv-f11.douyincdn.com/media/stream-693851740851143340_ld.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1749894366&major_anchor_level=common&sign=789609eb04f779e4454490767b055ce3&t_id=037-202506071746069CD6026AA23AE05ACDDA-X8bVEr&unique_id=stream-693851740851143340_684_flv_ld
 
