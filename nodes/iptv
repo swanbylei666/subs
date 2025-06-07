@@ -12,7 +12,7 @@ https://live.tvfix.org/live/inews/index.m3u8
 #EXTINF:-1 group-title="網絡📺頻道", TVB明珠台 ＃1
 https://live.tvfix.org/live/pearl/index.m3u8
 
-#EXTINF:-1 group-title="網絡📺頻道", 娛樂新聞 ＃1
+#EXTINF:-1 group-title="網絡📺頻道", TVB娛樂新聞 ＃1
 https://live.tvfix.org/live/enews/index.m3u8
 
 #EXTINF:-1 group-title="＃热门频道", 港 TVB+ ＃1
