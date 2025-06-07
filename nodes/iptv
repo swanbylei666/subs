@@ -15,6 +15,9 @@ https://live.tvfix.org/live/pearl/index.m3u8
 #EXTINF:-1 group-title="網絡📺頻道", TVB娛樂新聞 ＃1
 https://live.tvfix.org/live/enews/index.m3u8
 
+#EXTINF:-1 group-title="網絡📺頻道", 美亞電影 ＃1
+https://live.tvfix.org/live/mydy/index.m3u8
+
 #EXTINF:-1 group-title="廣東頻道", 广州 综合 ＃1
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 
