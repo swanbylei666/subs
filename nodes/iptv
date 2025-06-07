@@ -15,17 +15,18 @@ https://live.tvfix.org/live/pearl/index.m3u8
 #EXTINF:-1 group-title="網絡📺頻道", TVB娛樂新聞 ＃1
 https://live.tvfix.org/live/enews/index.m3u8
 
-#EXTINF:-1 group-title="＃热门频道", 港 TVB+ ＃1
-http://php.jdshipin.com:8880/TVOD/iptv.php?id=j2
-
-#EXTINF:-1 group-title="＃热门频道", 广州 综合 ＃1
+#EXTINF:-1 group-title="廣東頻道", 广州 综合 ＃1
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
-#EXTINF:-1 group-title="＃热门频道", 广州 新闻 ＃1
+
+#EXTINF:-1 group-title="廣東頻道", 广州 新闻 ＃1
 https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
-#EXTINF:-1 group-title="＃热门频道", 广州 影视 ＃1
+
+#EXTINF:-1 group-title="廣東頻道", 广州 影视 ＃1
 https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
-#EXTINF:-1 group-title="＃热门频道", 4K南国都市 ＃1
+
+#EXTINF:-1 group-title="廣東頻道", 4K南国都市 ＃1
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
+
 #EXTINF:-1 group-title="＃热门频道", 广东 新闻 ＃1
 http://119.32.12.17:2901/udp/224.1.100.5:11111
 #EXTINF:-1 group-title="＃热门频道", 广东 民生 ＃1
