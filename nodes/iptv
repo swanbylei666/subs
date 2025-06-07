@@ -9,13 +9,15 @@ http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
 #EXTINF:-1 group-title="網絡📺頻道", TVB無線新聞 ＃1
 https://live.tvfix.org/live/inews/index.m3u8
 
+#EXTINF:-1 group-title="網絡📺頻道", TVB明珠台 ＃1
+https://live.tvfix.org/live/pearl/index.m3u8
+
+#EXTINF:-1 group-title="網絡📺頻道", 娛樂新聞 ＃1
+https://live.tvfix.org/live/enews/index.m3u8
+
 #EXTINF:-1 group-title="＃热门频道", 港 TVB+ ＃1
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=j2
 
-#EXTINF:-1 group-title="＃热门频道", 港 明珠台 ＃1
-https://live.tvfix.org/live/pearl/index.m3u8
-#EXTINF:-1 group-title="＃热门频道", 港 娱乐新闻 ＃1
-https://live.tvfix.org/live/enews/index.m3u8
 #EXTINF:-1 group-title="＃热门频道", 马来 翡翠台 ＃1
 http://v2h.jdshipin.com/jade2/jade.stream/chunklist_w108.m3u8
 #EXTINF:-1 group-title="＃热门频道", 广 翡翠台 ＃1
