@@ -3,8 +3,9 @@
 #EXT-X-SUB-URL: https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
 #EXTVLCOPT: http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 
-#EXTINF:-1 group-title="＃热门频道", TVB翡翠台 ＃1
+#EXTINF:-1 group-title="網絡📺頻道", TVB翡翠台 ＃1
 http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
+
 #EXTINF:-1 group-title="＃热门频道", 港 TVB+ ＃1
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=j2
 #EXTINF:-1 group-title="＃热门频道", 港 无线新闻 ＃1
