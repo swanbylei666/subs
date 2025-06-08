@@ -4,7 +4,7 @@
 #EXTVLCOPT: http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 
 #EXTINF:-1 group-title="網絡📺頻道", TVB翡翠台 ＃1
-http://cdn9.163189.xyz/smt1.1.php?id=jade_twn
+https://live.tvfix.org/live/jade/index.m3u8
 
 #EXTINF:-1 group-title="網絡📺頻道", TVB無線新聞 ＃1
 https://live.tvfix.org/live/inews/index.m3u8
