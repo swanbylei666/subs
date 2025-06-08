@@ -9,6 +9,9 @@ http://mytv.101.qzz.io/hls/fct/playlist.m3u8
 #EXTINF:-1 group-title="網絡📺頻道", TVB無線新聞 ＃1
 https://live.tvfix.org/live/inews/index.m3u8
 
+#EXTINF:-1 group-title="網絡📺頻道", TVB J2 ＃1
+http://jxiptv.dpdns.org/stream/tvb/tvbplus/master.m3u8
+
 #EXTINF:-1 group-title="網絡📺頻道", TVB明珠台 ＃1
 https://live.tvfix.org/live/pearl/index.m3u8
 
