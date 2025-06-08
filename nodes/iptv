@@ -12,6 +12,9 @@ https://live.tvfix.org/live/inews/index.m3u8
 #EXTINF:-1 group-title="網絡📺頻道", TVB明珠台 ＃1
 https://live.tvfix.org/live/pearl/index.m3u8
 
+#EXTINF:-1 group-title="網絡📺頻道", 华丽台 ＃1
+https://v2h.1789.dpdns.org/live/hlfct/stream.m3u8
+
 #EXTINF:-1 group-title="網絡📺頻道", TVB娛樂新聞 ＃1
 https://live.tvfix.org/live/enews/index.m3u8
 
