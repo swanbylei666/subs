@@ -3,37 +3,37 @@
 #EXT-X-SUB-URL: https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
 #EXTVLCOPT: http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 
-#EXTINF:-1 group-title="網絡📺頻道", TVB翡翠台🌟
+#EXTINF:-1 group-title="網絡📺", TVB翡翠台🌟
 http://ali.hlspull.yximgs.com/live/198c9b22180cb5864e46c669d435e880.flv
 
-#EXTINF:-1 group-title="網絡📺頻道", TVB無線新聞🌟
+#EXTINF:-1 group-title="網絡📺", TVB無線新聞🌟
 https://live.tvfix.org/live/inews/index.m3u8
 
-#EXTINF:-1 group-title="網絡📺頻道", TVB J2🌟
+#EXTINF:-1 group-title="網絡📺", TVB J2🌟
 http://jxiptv.dpdns.org/stream/tvb/tvbplus/master.m3u8
 
-#EXTINF:-1 group-title="網絡📺頻道", TVB明珠🌟
+#EXTINF:-1 group-title="網絡📺", TVB明珠🌟
 https://live.tvfix.org/live/pearl/index.m3u8
 
-#EXTINF:-1 group-title="網絡📺頻道", 华丽台🌟
+#EXTINF:-1 group-title="網絡📺", 华丽台🌟
 https://v2h.1789.dpdns.org/live/hlfct/stream.m3u8
 
-#EXTINF:-1 group-title="網絡📺頻道", TVB娛樂新聞🌟
+#EXTINF:-1 group-title="網絡📺", TVB娛樂新聞🌟
 https://live.tvfix.org/live/enews/index.m3u8
 
-#EXTINF:-1 group-title="網絡📺頻道", 港台32🌟
+#EXTINF:-1 group-title="網絡📺", 港台32🌟
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
 
-#EXTINF:-1 group-title="網絡📺頻道", 港台33🌟
+#EXTINF:-1 group-title="網絡📺", 港台33🌟
 https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
 
-#EXTINF:-1 group-title="網絡📺頻道", 港台34🌟
+#EXTINF:-1 group-title="網絡📺", 港台34🌟
 https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
 
-#EXTINF:-1 group-title="網絡📺頻道", 港台35🌟
+#EXTINF:-1 group-title="網絡📺", 港台35🌟
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
 
-#EXTINF:-1 group-title="網絡📺頻道", 美亞電影🌟
+#EXTINF:-1 group-title="網絡📺", 美亞電影🌟
 https://live.tvfix.org/live/mydy/index.m3u8
 
 #EXTINF:-1 group-title="📍廣東頻道", 广州综合🌟
