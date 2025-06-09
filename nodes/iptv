@@ -36,16 +36,16 @@ https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPla
 #EXTINF:-1 group-title="網絡📺頻道", 美亞電影🌟
 https://live.tvfix.org/live/mydy/index.m3u8
 
-#EXTINF:-1 group-title="廣東頻道", 广州综合🌟
+#EXTINF:-1 group-title="📍廣東頻道", 广州综合🌟
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 
-#EXTINF:-1 group-title="廣東頻道", 广州新闻🌟
+#EXTINF:-1 group-title="📍廣東頻道", 广州新闻🌟
 https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
 
-#EXTINF:-1 group-title="廣東頻道", 广州影视🌟
+#EXTINF:-1 group-title="📍廣東頻道", 广州影视🌟
 https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
 
-#EXTINF:-1 group-title="廣東頻道", 南国都市🌟
+#EXTINF:-1 group-title="📍廣東頻道", 南国都市🌟
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 
 ### 全国卫视
