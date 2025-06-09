@@ -1,19 +1,4 @@
-#EXTM3U
 #EXTM3U x-tvg-url="https://..."
-#EXT-X-APTV-TYPE remote
-#EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/txt
-#EXTVLCOPT:http-user-agent= ""
-#EXTVLCOPT:http-referrer= ""
-#
-#
-#
-
-#
-#
-#
-# ".test"
-#EXTINF:-1 group-title="检测-1" tvg-name="" tvg-id="" tvg-logo="", HUB!
-https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/webm/000.webm
-#EXTINF:-1 group-title="检测-2" tvg-name="" tvg-id="" tvg-logo="", 2[HD]
-
-#EXTINF:-1 group-title="检测-3" tvg-name="" tvg-id="" tvg-logo="", 3[HD]
+#EXT-X-APTV-TYPE: remote
+#EXT-X-SUB-URL: https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
+#EXTVLCOPT: http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
