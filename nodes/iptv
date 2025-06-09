@@ -3,7 +3,7 @@
 #EXT-X-SUB-URL: https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
 #EXTVLCOPT: http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 
-#EXTINF:-1 group-title="網絡📺頻道", TVB翡翠台 ＃1
+#EXTINF:-1 group-title="網絡📺頻道", TVB翡翠台🌟
 http://ali.hlspull.yximgs.com/live/198c9b22180cb5864e46c669d435e880.flv
 
 #EXTINF:-1 group-title="網絡📺頻道", TVB無線新聞🌟
