@@ -56,7 +56,10 @@ https://ali-m-l.cztv.com/channels/lantian/channel001/540p.m3u8
 ### 📱直播
 
 #EXTINF:-1 group-title="抖🎵直播", 📱CCTV电影
-https://pull-flv-f11.douyincdn.com/media/stream-693851740851143340_ld.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1749894366&major_anchor_level=common&sign=789609eb04f779e4454490767b055ce3&t_id=037-202506071746069CD6026AA23AE05ACDDA-X8bVEr&unique_id=stream-693851740851143340_684_flv_ld
+https://pull-flv-f26.douyincdn.com/media/stream-693863125799928492_ld.flv?arch_hrchy=w1&exp_hrchy=w1&expire=68500908&major_anchor_level=common&sign=b3a55372d3e77c583079c1b084477fc3&t_id=037-20250609200736DE7414FDFA29769E0639-rh3O9E&unique_id=stream-693863125799928492_684_flv_ld
+
+#EXTINF:-1 group-title="抖🎵直播", 📱广东DV现场
+https://pull-f5.douyinliving.com/media/stream-7513901735107218202_ld.flv?expire=1750075498&major_anchor_level=vip&s_anchor=1&sign=16212352bfcca924671077da4419714a&t_id=037-20250609200458FB2F49B7B927D54566A4-0nC7lo&unique_id=stream-7513901735107218202_850_flv_ld&volcSecret=16212352bfcca924671077da4419714a&volcTime=1750075498
 
 #EXTINF:-1 group-title="抖🎵直播", 📱节目
 https://pull-flv-f11.douyincdn.com/media/stream-693853294826881708_ld.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1749894173&major_anchor_level=common&sign=5e18f1d78d12f765dcf213fb18d00bf2&t_id=037-20250607174253C0420DEA3DB1044C2188-LI94iE&unique_id=stream-693853294826881708_684_flv_ld
