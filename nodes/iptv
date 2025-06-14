@@ -75,9 +75,7 @@ http://50.7.234.10:8278/jade_twn/playlist.m3u8?tid=ME6E1330319113303191&ct=19225
 #EXTINF:-1 group-title="🌟备用线路", TVB明珠台
 http://php.jdshipin.com:8880/iptv.php?id=mzt
 #EXTINF:-1 group-title="🌟备用线路", TVB新闻
-http://v2hcdn.jdshipin.com/news/news.stream/chunklist_w1005.m3u8
-#EXTINF:-1 group-title="🌟备用线路", TVB新闻
-https://v2hcdn.jdshipin.com/news/news.stream/chunklist_w105.m3u8
+https://live.tvfix.org/live/inews/index.m3u8
 #EXTINF:-1 group-title="🌟备用线路", GZ综合
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=dce137597806f62ae6fdfc40328a336e&txTime=191b5fc1c86
 #EXTINF:-1 group-title="🌟备用线路", GZ新闻
