@@ -1,69 +1,7 @@
 #EXTM3U
-#EXTM3U x-tvg-url="https://..."
-#EXT-X-APTV-TYPE: remote
-#EXT-X-SUB-URL: https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
-#EXTVLCOPT: http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-
-#EXTINF:-1 group-title="網絡📺", TVB翡翠台🌟
+#EXT-X-APTV-TYPE: "remote"
+#EXT-X-SUB-URL: "https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv"
+#EXTINF:-1 group-title= "HK", "81 台"
 http://ali.hlspull.yximgs.com/live/7099f66df8ea9e3bb15e1423e60f9a75.flv
 
-#EXTINF:-1 group-title="網絡📺", TVB無線新聞🌟
-https://live.tvfix.org/live/inews/index.m3u8
-
-#EXTINF:-1 group-title="網絡📺", TVB J2🌟
-https://live.tvfix.org/live/tvbplus/index.m3u8
-
-#EXTINF:-1 group-title="網絡📺", TVB明珠🌟
-https://live.tvfix.org/live/pearl/index.m3u8
-
-#EXTINF:-1 group-title="網絡📺", 华丽台🌟
-https://v2h.1789.dpdns.org/live/hlfct/stream.m3u8
-
-#EXTINF:-1 group-title="網絡📺", TVB娛樂新聞🌟
-https://live.tvfix.org/live/enews/index.m3u8
-
-#EXTINF:-1 group-title="網絡📺", 港台32🌟
-https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
-
-#EXTINF:-1 group-title="網絡📺", 港台33🌟
-https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
-
-#EXTINF:-1 group-title="網絡📺", 港台34🌟
-https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
-
-#EXTINF:-1 group-title="網絡📺", 港台35🌟
-https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
-
-#EXTINF:-1 group-title="網絡📺", 美亞電影🌟
-https://live.tvfix.org/live/mydy/index.m3u8
-
-#EXTINF:-1 group-title="📍廣東頻道", 广州综合🌟
-https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
-
-#EXTINF:-1 group-title="📍廣東頻道", 广州新闻🌟
-https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
-
-#EXTINF:-1 group-title="📍廣東頻道", 广州影视🌟
-https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
-
-#EXTINF:-1 group-title="📍廣東頻道", 南国都市🌟
-https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
-
-### 全国卫视
-
-#EXTINF:-1 group-title="🇨🇳衛視", 浙江卫视🌟
-https://ali-m-l.cztv.com/channels/lantian/channel001/540p.m3u8
-
-### 📱直播
-
-#EXTINF:-1 group-title="抖🎵直播", 📱CCTV电影
-https://v23bjonx44pufu7qwqfjphc547sk3bnie.mobgslb.tbcache.com/pull-f3.douyincdn.com/media/stream-7516180696411802378.flv?rsi=1&_session_id=037-202506171427296F0C796E71C946A72C45-YkmPs8.1750141649998.43368&abr_pts=-800&unique_id=stream-7516180696411802378_684_flv&arch_hrchy=w1&t_id=037-202506171427296F0C796E71C946A72C45-YkmPs8&exp_hrchy=w1&major_anchor_level=common&auth_key=1750744649-0-0-a07a8bae29c24668fc579258d6edbdc1&ali_302c=700&ali_dispatch_cold_stream=on&ali_redirect_ex_hot=66666100&ali_stream_type=00&ali_orig_station=cn4460&ali_st=cn5079&ali_pv=1750141143&ali_ts=1750141655&ali_g=t44
-
-#EXTINF:-1 group-title="抖🎵直播", 📱湾区卫视，台风
-https://pull-f3.douyincdn.com/media/stream-7514512032650021695_ld.flv?arch_hrchy=w1&auth_key=1750319056-0-0-db965d0886b10ccb3fbdf191827b0cfd&exp_hrchy=w1&major_anchor_level=common&t_id=037-20250612161416544B506C16D0BC0E7919-pFlyMZ&unique_id=stream-7514512032650021695_684_flv_ld
-
-#EXTINF:-1 group-title="抖🎵直播", 📱节目
-https://pull-flv-f11.douyincdn.com/media/stream-693853294826881708_ld.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1749894173&major_anchor_level=common&sign=5e18f1d78d12f765dcf213fb18d00bf2&t_id=037-20250607174253C0420DEA3DB1044C2188-LI94iE&unique_id=stream-693853294826881708_684_flv_ld
-
-### 完 ###
-
+### finish. ###
