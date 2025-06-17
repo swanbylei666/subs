@@ -1,3 +1,4 @@
+#EXTM3U
 #EXTM3U x-tvg-url="https://..."
 #EXT-X-APTV-TYPE: remote
 #EXT-X-SUB-URL: https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
