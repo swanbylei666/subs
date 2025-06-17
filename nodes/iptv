@@ -4,6 +4,6 @@ http://ali.hlspull.yximgs.com/live/7099f66df8ea9e3bb15e1423e60f9a75.flv
 #EXTINF:-1 group-title="📍广东", "综合"
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 
-#EXT-X-APTV-TYPE: "remote"
-#EXT-X-SUB-URL: "https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv"
+### EXT-X-APTV-TYPE: "remote"
+### EXT-X-SUB-URL: "https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv"
 
