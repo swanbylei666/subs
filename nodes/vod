@@ -3,13 +3,16 @@
 #EXT-X-SUB-URL: https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/vod
 #EXTVLCOPT: http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 
-#EXTINF:-1 group-title="福利❤️", 
+#EXTGRP:"福利❤️"
+#EXTINF:-1, 1
 https://
+
 #EXTGRP:华语流行
-#EXTINF:-1,晴天 - 周杰伦
+#EXTINF:-1, 晴天 - 周杰伦
 https://
+
 #EXTGRP:欧美摇滚
-#EXTINF:-1,Hotel California - Eagles
+#EXTINF:-1, Hotel California - Eagles
 https://
 
 ### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/vod
