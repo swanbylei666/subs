@@ -1,14 +1,19 @@
 #EXTM3U
 #EXTINF:-1 group-title="📍香港", "81 台"
 http://ali.hlspull.yximgs.com/live/7099f66df8ea9e3bb15e1423e60f9a75.flv
+#EXTINF:-1 group-title="📍香港", "港台32"
+https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
+#EXTINF:-1 group-title="📍香港", "港台33"
+https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
+#EXTINF:-1 group-title="📍香港", "港台34"
+https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
+#EXTINF:-1 group-title="📍香港", "港台35"
+https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
 #EXTINF:-1 group-title="📍广东", "综合"
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 #EXTINF:-1 group-title="📍广东", "新闻"
 https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96b922f74&txTime=18d0548e823
 #EXTINF:-1 group-title="📍广东", "影视"
 https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
-
-###
-### EXT-X-APTV-TYPE: "remote"
-### EXT-X-SUB-URL: "https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv"
-
+#EXTINF:-1 group-title="📍广东", "南方都市"
+https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
