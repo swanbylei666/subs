@@ -17,6 +17,8 @@ https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPla
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
 #EXTINF:-1 group-title="📍香港", "港台卫视"
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 group-title="📍台湾", "tvbs新闻"
+http://61.221.215.25:8800/hls/9/index.m3u8
 #EXTINF:-1 group-title="📍台湾", "龙华电影"
 https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 #EXTINF:-1 group-title="📍广东", "综合"
