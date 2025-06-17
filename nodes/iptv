@@ -64,22 +64,5 @@ https://pull-f3.douyincdn.com/media/stream-7514512032650021695_ld.flv?arch_hrchy
 #EXTINF:-1 group-title="抖🎵直播", 📱节目
 https://pull-flv-f11.douyincdn.com/media/stream-693853294826881708_ld.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1749894173&major_anchor_level=common&sign=5e18f1d78d12f765dcf213fb18d00bf2&t_id=037-20250607174253C0420DEA3DB1044C2188-LI94iE&unique_id=stream-693853294826881708_684_flv_ld
 
-### 🌟备用－线路🌟
-
-#EXTINF:-1 group-title="🌟备用线路", TVB翡翠台
-https://live.tvfix.org/live/jade/index.m3u8
-#EXTINF:-1 group-title="🌟备用线路", TVB翡翠台
-http://mytv.101.qzz.io/hls/fct/playlist.m3u8
-#EXTINF:-1 group-title="🌟备用线路", TVB翡翠台
-http://50.7.234.10:8278/jade_twn/playlist.m3u8?tid=ME6E1330319113303191&ct=19225&tsum=d76985c4965fd63807e131035f66af09
-#EXTINF:-1 group-title="🌟备用线路", TVB明珠台
-http://php.jdshipin.com:8880/iptv.php?id=mzt
-#EXTINF:-1 group-title="🌟备用线路", TVB新闻
-https://live.tvfix.org/live/inews/index.m3u8
-#EXTINF:-1 group-title="🌟备用线路", GZ综合
-https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=dce137597806f62ae6fdfc40328a336e&txTime=191b5fc1c86
-#EXTINF:-1 group-title="🌟备用线路", GZ新闻
-https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=520177bc9dd6916a7d6fa86bdb3f8830&txTime=191b5f5b230
-#EXTINF:-1 group-title="🌟备用线路", GZ影视
-http://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=1bd3a1082ab5b89f48c1bff9a3760da4&txTime=18d57929bd4
+### 完 ###
 
