@@ -1,7 +1,9 @@
-#EXTM3U x-tvg-url="https://..."
+#EXTM3U
 #EXT-X-APTV-TYPE: remote
-#EXT-X-SUB-URL: https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/iptv
+#EXT-X-SUB-URL: https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/vod
 #EXTVLCOPT: http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
 
 #EXTINF:-1 group-title="福利❤️", 
 https://
+
+### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/vod
