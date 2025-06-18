@@ -3,6 +3,8 @@
 http://qwt.zhibotv.top:2016/全网通.php?id=翡翠台
 #EXTINF:-1 group-title="📍香港", "明珠台"
 https://s1.m16tv.cfd/aktv/CH-2/AKTV.m3u8
+#EXTINF:-1 group-title="📍香港", "明珠剧集"
+https://s1.m16tv.cfd/aktv/CH-19/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "J2"
 https://s1.m16tv.cfd/aktv/tvbplus/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "无线新闻"
