@@ -23,16 +23,18 @@ https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPla
 https://live.tvfix.org/live/fwxg/index.m3u8
 #EXTINF:-1 group-title="📍香港", "港台卫视"
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+#EXTINF:-1 group-title="📍台湾", "美亚电影"
+http://ali.hlspull.yximgs.com/live/awei_mydy.flv
 #EXTINF:-1 group-title="📍台湾", "东森电影"
 https://s1.m16tv.cfd/aktv2/CH-1/AKTV.m3u8
 #EXTINF:-1 group-title="📍台湾", "东森洋片"
 https://s1.m16tv.cfd/aktv2/CH-2/AKTV.m3u8
-#EXTINF:-1 group-title="📍台湾", "龙华日韩"
-https://cdn8.163189.xyz/live/lhrh/stream.m3u8
 #EXTINF:-1 group-title="📍台湾", "龙华电影"
 https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 #EXTINF:-1 group-title="📍台湾", "龙华洋片"
 https://cdn8.163189.xyz/live/lhyp/stream.m3u8
+#EXTINF:-1 group-title="📍台湾", "龙华日韩"
+https://cdn8.163189.xyz/live/lhrh/stream.m3u8
 #EXTINF:-1 group-title="📍广东", "综合"
 https://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=1b3fcaebe0459e7ca2876c2d5493cfac&txTime=18d047b699e
 #EXTINF:-1 group-title="📍广东", "新闻"
