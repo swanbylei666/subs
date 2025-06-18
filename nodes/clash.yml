@@ -1,48 +1,13 @@
 mode: rule   ### global
 log-level: silent
-global-client-fingerprint: chrome
-port: 7890
-socks-port: 7891
 mixed-port: 7892
-external-controller: 0.0.0.0:9090
 allow-lan: true
 ipv6: true
-clash-for-android:
-  append-system-dns: true
-profile:
-  tracing: true
-experimental:
-  sniff-tls-sni: true
-
-dns:
-  enable: true
-  listen: 0.0.0.0:1053
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 28.0.0.1/8
-  fake-ip-filter:
-    - '*'
-    - '+.lan'
-  default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.99
-    - 114.114.114.114
-  nameserver:
-    - 1.1.1.1
-    - 1.0.0.1
-    - 8.8.8.8
-    - 8.8.4.4
-  proxy-server-nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    - https://8.8.8.8/dns-query
-    - https://1.1.1.1/dns-query
-
 proxy-providers:
-  my-0:
+  代理池1:
     type: "http"
-    url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/mihomo"
-    filter: "港|新"
+    url: "https://"
+    filter: ""
     interval: "6000"
     path: "./my-0.yml"
     health-check:
@@ -97,7 +62,7 @@ proxy-groups:
       - ½点测
       - ½组测
     use:
-      - my-0
+      - 代理池1
       - my-00
       - int1
       - int2
@@ -114,7 +79,7 @@ proxy-groups:
     max-failed-times: 5
     tolerance: 100
     use:
-      - my-0
+      - 代理池1
       - my-00
     filter: "香港"
 
@@ -161,14 +126,5 @@ proxy-groups:
     type: select
     proxies:
       - REJECT
-
-###
-
 rules:
   - MATCH,全局
-
-### ''subscribe''
-### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/clash
-### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/clash
-### https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/clash
-
