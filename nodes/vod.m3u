@@ -1,16 +1,3 @@
 #EXTM3U
-#EXT-X-APTV-TYPE: remote
-#EXT-X-SUB-URL: https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/vod
-#EXTVLCOPT: http-user-agent= "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36"
-
-#EXTGRP:"福利❤️"
-#EXTINF:-1, 1
-https://live.tvfix.org/live/pearl/index.m3u8
-
-#EXTGRP:华语流行
-#EXTINF:-1, 晴天 - 周杰伦
-https://live.tvfix.org/live/pearl/index.m3u8
-
-#EXTGRP:欧美摇滚
-#EXTINF:-1, Hotel California - Eagles
-https://live.tvfix.org/live/pearl/index.m3u8
+#EXTINF:-1, 未知
+http://
