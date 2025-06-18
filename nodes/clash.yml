@@ -1,4 +1,4 @@
-mode: rule   ### global
+mode: rule          #### global[全局]
 log-level: silent
 mixed-port: 7892
 allow-lan: true
@@ -8,46 +8,12 @@ proxy-providers:
     type: "http"
     url: "https://"
     filter: ""
-    interval: "6000"
-    path: "./my-0.yml"
+    interval: "2880"
+    path: "./代理池1.yml"
     health-check:
       enable: true
-      interval: "600"
+      interval: "2880"
       url: "http://www.gstatic.com/generate_204"
-  my-00:
-    type: "http"
-    url: "https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc"
-    filter: "港|新"
-    interval: "6000"
-    path: "./my-00.yml"
-    health-check:
-      enable: true
-      interval: "600"
-      url: "http://www.gstatic.com/generate_204"
-
-### 免费池
-
-  int1:
-    type: "http"
-    url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
-    filter: ""
-    interval: "6000"
-    path: "./int1.yml"
-    health-check:
-      enable: true
-      interval: "600"
-      url: "http://www.gstatic.com/generate_204"
-  int2:
-    type: "http"
-    url: "https://github.moeyy.xyz/https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml"
-    filter: ""
-    interval: "6000"
-    path: "./int2.yml"
-    health-check:
-      enable: true
-      interval: "600"
-      url: "http://www.gstatic.com/generate_204"
-
 proxies:
   - {name: 萌☁️, server: hky.cloud-services.top, port: 443, type: trojan, password: 93333895-13d6-3df1-87b1-765348305e28, sni: zs.cloud-services.top}
   - {name: 红杏☁️, server: nbae7a7.kaiqsz.com, port: 12221, type: trojan, password: 909758b7-860a-4e4e-af43-02f515af5084, sni: mmbiz.redapricotcloud.com, skip-cert-verify: true}
@@ -64,17 +30,15 @@ proxy-groups:
     use:
       - 代理池1
       - my-00
-      - int1
-      - int2
     url: "http://www.gstatic.com/generate_204"
-    interval: "600"
+    interval: "2880"
 
 ### 测试
 
   - name: ½点测
     type: fallback
     url: https://www.google.com/generate_204
-    interval: "600"
+    interval: "2880"
     timeout: 100
     max-failed-times: 5
     tolerance: 100
