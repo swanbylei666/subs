@@ -43,3 +43,5 @@ https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96
 https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
 #EXTINF:-1 group-title="📍广东", "南方都市"
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
+#EXTINF:-1 group-title="📍小影院", "死神来了－6"
+https://miaoparty-svip-qq-1032285.deepsook.xyz/Miaoparty-1032285/Miaoparty-qq-1032285/8fc1d4247358fce3bea1d323cc73b4e4.m3u8
