@@ -13,6 +13,8 @@ http://ali.hlspull.yximgs.com/live/awei_j2.flv
 https://s1.m16tv.cfd/aktv/tvbplus/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "无线新闻"
 http://qwt.zhibotv.top:2016/全网通.php?id=无线新闻台
+#EXTINF:-1 group-title="📍香港", "TVB新闻"
+https://s1.m16tv.cfd/aktv/CH-1/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "VIU96"
 https://s1.m16tv.cfd/aktv2/viutv/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "港台32"
