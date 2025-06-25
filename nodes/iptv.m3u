@@ -29,6 +29,8 @@ https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPla
 https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
 #EXTINF:-1 group-title="📍香港", "港台35"
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
+#EXTINF:-1 group-title="📍香港", "ViuTV"
+https://iptv.korice.eu.org/live/29f86183a6450c615a3bdad160825b524c49ad0f28865b4b8311bf68c33971c7.php?token=807893327663754
 #EXTINF:-1 group-title="📍香港", "凤凰香港"
 https://live.tvfix.org/live/fwxg/index.m3u8
 #EXTINF:-1 group-title="📍香港", "港台卫视"
