@@ -20,7 +20,7 @@ http://qwt.zhibotv.top:2016/全网通.php?id=无线新闻台
 #EXTINF:-1 group-title="📍香港", "TVB新闻"
 https://s1.m16tv.cfd/aktv/CH-1/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "TVB星河"
-https://s2.m16tv.cfd/taiwan2/tvb/AKTV.m3u8
+http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
 #EXTINF:-1 group-title="📍香港", "港台32"
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
 #EXTINF:-1 group-title="📍香港", "港台33"
