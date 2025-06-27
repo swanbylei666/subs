@@ -57,6 +57,8 @@ https://tencentplay.gztv.com/live/xinwen.m3u8?txSecret=e2dc470aa40798640857deb96
 https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb8d86fe26&txTime=18d048b41b2
 #EXTINF:-1 group-title="📍广东", "南方都市"
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
+#EXTINF:-1 group-title="📍国内", "凤凰中文"
+http://203.205.191.53/qctv.fengshows.cn/live/0701pcc72.flv
 #EXTINF:-1 group-title="📍小影院", "抖音电影"
 https://pull-flv-f11.douyincdn.com/media/stream-693944200757248684.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1751438745&major_anchor_level=common&sign=6dad94827b343fb999a452734aafdbfe&t_id=037-2025062514454434CA45B121D78F8F4D25-gLueSs&unique_id=stream-693944200757248684_684_flv&_session_id=822-202506251445462883137654DE9374E775.1750833946288.09971&rsi=0&abr_pts=-800
 #EXTINF:-1 group-title="📍小影院", "猎金游戏-2025"
