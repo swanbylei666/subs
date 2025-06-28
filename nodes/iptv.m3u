@@ -60,7 +60,7 @@ https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ec
 #EXTINF:-1 group-title="📍国内", "凤凰中文"
 http://203.205.191.53/qctv.fengshows.cn/live/0701pcc72.flv
 #EXTINF:-1 group-title="📍小影院", "抖音电影"
-https://pull-flv-f11.douyincdn.com/media/stream-693944200757248684.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1751438745&major_anchor_level=common&sign=6dad94827b343fb999a452734aafdbfe&t_id=037-2025062514454434CA45B121D78F8F4D25-gLueSs&unique_id=stream-693944200757248684_684_flv&_session_id=822-202506251445462883137654DE9374E775.1750833946288.09971&rsi=0&abr_pts=-800
+https://pull-hs-f5.flive.douyincdn.com/media/stream-693970743322477228.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1751681386&major_anchor_level=common&sign=c3c9e5404ade5b1f91692b22b1dde2ec&t_id=037-20250628100946948F90B44C57B0E6705A-QQNsXB&unique_id=stream-693970743322477228_684_flv&volcSecret=c3c9e5404ade5b1f91692b22b1dde2ec&volcTime=1751681386&_session_id=081-202506281009473819692512B5438A66CB.1751076587381.00867&rsi=0&abr_pts=-800
 #EXTINF:-1 group-title="📍小影院", "猎金游戏-2025"
 https://vip.ffzy-video.com/20250620/20660_21a94c76/index.m3u8
 #EXTINF:-1 group-title="📍小影院", "死神来了－6"
