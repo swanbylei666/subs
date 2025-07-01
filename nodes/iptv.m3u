@@ -64,7 +64,7 @@ https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ec
 #EXTINF:-1 group-title="📍国内", "凤凰中文"
 http://203.205.191.53/qctv.fengshows.cn/live/0701pcc72.flv
 #EXTINF:-1 group-title="📍小影院", "抖音电影"
-https://pull-hs-f5.flive.douyincdn.com/media/stream-693990552179049132.flv?arch_hrchy=w1&exp_hrchy=w1&expire=1751956373&major_anchor_level=common&sign=c345c1029c79ae54c5d59ec2c8d4da05&t_id=037-202507011432525DCD552B0DB17DF1976F-FC10Rr&unique_id=stream-693990552179049132_684_flv&volcSecret=c345c1029c79ae54c5d59ec2c8d4da05&volcTime=1751956373&abr_pts=-800&_session_id=037-202507011432525DCD552B0DB17DF1976F-FC10Rr.1751351575852.78932&rsi=1
+https://pull-flv-f26.douyincdn.com/media/stream-693990552179049132.flv?arch_hrchy=w1&exp_hrchy=w1&expire=686cc905&major_anchor_level=common&sign=acab389c7d3567237f85e75ab6f1c895&t_id=037-202507011530122A25F6CA608923E53AF0-4SJP9Q&unique_id=stream-693990552179049132_684_flv&_session_id=938-202507011530134249422555DF1C36136C.1751355013424.39399&rsi=0&abr_pts=-800
 #EXTINF:-1 group-title="📍小影院", "死神来了－6"
 https://miaoparty-svip-qq-1032285.deepsook.xyz/Miaoparty-1032285/Miaoparty-qq-1032285/8fc1d4247358fce3bea1d323cc73b4e4.m3u8
 #EXTINF:-1 group-title="📍TVAnywhere", "旅游最紧要近，2"
