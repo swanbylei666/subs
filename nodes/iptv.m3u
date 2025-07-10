@@ -72,5 +72,4 @@ https://miaoparty-svip-qq-1032285.deepsook.xyz/Miaoparty-1032285/Miaoparty-qq-10
 #EXTINF:-1 group-title="📍TVAnywhere", "旅游最紧要近，2"
 https://180978298-proxy.hiksemi.cn:8019/rest/1.1/share?access_token=0d580df60cb09e31b203acba5d43a4ed:1751443261&action=download&share_id=Q1Z5LZ&link_mode=0&path=%2Fdrives%2Fdisk_b1%2F%E5%BC%80%E6%94%BE%E8%B5%84%E6%BA%90%E5%BA%93%EF%BC%81%2F%E6%97%85%E8%A1%8C%E6%9C%80%E7%B7%8A%E8%A6%81%E8%BF%91%EF%BC%8C2.mp4&PROXY_TARGET=C88120392
 #EXTINF:-1 group-title="📍UA源", "翡翠台"
-#EXTVLCOPT http-user-agent=Herissmon/2016
-http://herissmon.zabc.net/Smart11.php?id=Jade_xue
+http://herissmon.zabc.net/Smart11.php?id=Jade_xue|user-agent=Herissmon/2016
