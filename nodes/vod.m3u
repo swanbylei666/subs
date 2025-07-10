@@ -1,5 +1,7 @@
 #EXTM3U
-#EXTINF:-1 group-title="🎬", 未知－电影
-http://
+
+#EXTVLCOPT:http-user-agent=Herissmon/2016
+#EXTINF:-1 group-title="🎬", ？
+http://herissmon.zabc.net/Smart11.php?id=Jade_xue
 #EXTINF:-1 group-title="🎬", 未知－电视剧
 http://
