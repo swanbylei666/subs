@@ -6,27 +6,27 @@
 #EXTINF:-1 provider-type="iptv" group-title="📍香港", "TVB 81"
 http://qwt.zhibotv.top:2016/全网通.php?id=翡翠台
 #EXTINF:-1 provider-type="iptv" group-title="📍香港", "翡翠台"
-https://s1.tvm4a1.cfd/aktv/CH-0/AKTV.m3u8
+http://s1.m16tv.cfd/aktv/CH-0/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "TVB 84"
-https://s1.tvm4a1.cfd/aktv/CH-2/AKTV.m3u8
+http://s1.m16tv.cfd/aktv/CH-2/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "明珠台"
 https://live.tvfix.org/live/pearl/index.m3u8
 #EXTINF:-1 group-title="📍香港", "明珠 剧集"
-https://s1.tvm4a1.cfd/aktv/CH-19/AKTV.m3u8
+http://s1.m16tv.cfd/aktv/CH-19/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "TVB 82"
 http://50.7.234.10:8278/j2_twn/playlist.m3u8?tid=MA8A1176878411768784&ct=19225&tsum=fea41bb592165942b9971148376f8b70
 #EXTINF:-1 group-title="📍香港", "J2"
-https://s1.tvm4a1.cfd/aktv/tvbplus/AKTV.m3u8
+http://s1.m16tv.cfd/aktv/tvbplus/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "TVB Plus"
 https://live.tvfix.org/live/tvbplus/index.m3u8
 #EXTINF:-1 group-title="📍香港", "TVB 83"
 http://tl.wsmywlkj.top/live/livestream.flv
 #EXTINF:-1 group-title="📍香港", "TVB新闻"
-https://s1.tvm4a1.cfd/aktv/CH-1/AKTV.m3u8
+http://s1.m16tv.cfd/aktv/CH-1/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "无线新闻"
 https://live.tvfix.org/live/inews/index.m3u8
 #EXTINF:-1 group-title="📍香港", "TVB星河"
-http://php.jdshipin.com/TVOD/iptv.php?id=xinghe
+http://s1.m16tv.cfd/taiwan2/tvb/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "港台32"
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
 #EXTINF:-1 group-title="📍香港", "港台33"
@@ -42,7 +42,7 @@ https://live.tvfix.org/live/fwxg/index.m3u8
 #EXTINF:-1 group-title="📍香港", "港台卫视"
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 group-title="📍香港", "美亚电影"
-https://s1.tvm4a1.cfd/aktv/hk/AKTV.m3u8
+http://s1.m16tv.cfd/aktv/hk/AKTV.m3u8
 #EXTINF:-1 group-title="📍台湾", "美亚电影"
 http://ali.hlspull.yximgs.com/live/awei_mydy.flv
 #EXTINF:-1 group-title="📍台湾", "东森电影"
@@ -70,6 +70,4 @@ https://pull-flv-f26.douyincdn.com/media/stream-693990552179049132.flv?arch_hrch
 #EXTINF:-1 group-title="📍小影院", "死神来了－6"
 https://miaoparty-svip-qq-1032285.deepsook.xyz/Miaoparty-1032285/Miaoparty-qq-1032285/8fc1d4247358fce3bea1d323cc73b4e4.m3u8
 #EXTINF:-1 group-title="📍TVAnywhere", "旅游最紧要近，2"
-https://180978298-proxy.hiksemi.cn:8019/rest/1.1/share?access_token=0d580df60cb09e31b203acba5d43a4ed:1751443261&action=download&share_id=Q1Z5LZ&link_mode=0&path=%2Fdrives%2Fdisk_b1%2F%E5%BC%80%E6%94%BE%E8%B5%84%E6%BA%90%E5%BA%93%EF%BC%81%2F%E6%97%85%E8%A1%8C%E6%9C%80%E7%B7%8A%E8%A6%81%E8%BF%91%EF%BC%8C2.mp4&PROXY_TARGET=C88120392
-#EXTINF:-1 group-title="📍UA源", "翡翠台"
-http://herissmon.zabc.net/Smart11.php?id=Jade_xue
+https://
