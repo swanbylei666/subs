@@ -13,8 +13,6 @@ https://live.tvfix.org/live/tvbplus/index.m3u8
 https://live.tvfix.org/live/inews/index.m3u8
 #EXTINF:-1 group-title="📍香港", "TVB 84"
 https://live.tvfix.org/live/pearl/index.m3u8
-#EXTINF:-1 group-title="📍香港", "TVB星河"
-http://s1.m16tv.cfd/taiwan2/tvb/AKTV.m3u8
 #EXTINF:-1 group-title="📍香港", "港台32"
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
 #EXTINF:-1 group-title="📍香港", "港台33"
