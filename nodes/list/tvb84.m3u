@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 ,明珠台
 http://s1.an94tv.cfd/aktv/CH-2/AKTV.m3u8
+#EXTINF:-1 ,明珠台
+https://live.tvfix.org/live/pearl/index.m3u8
