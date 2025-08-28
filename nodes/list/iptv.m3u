@@ -30,7 +30,7 @@ http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 group-title="📍香港", "美亚电影"
 http://s1.m16tv.cfd/aktv/hk/AKTV.m3u8
 #EXTINF:-1 group-title="📍台湾", "美亚电影"
-http://ali.hlspull.yximgs.com/live/awei_mydy.flv
+http://php.jdshipin.com/TVOD/iptv.php?id=meiya
 #EXTINF:-1 group-title="📍台湾", "东森电影"
 https://s1.m16tv.cfd/aktv2/CH-1/AKTV.m3u8
 #EXTINF:-1 group-title="📍台湾", "东森洋片"
