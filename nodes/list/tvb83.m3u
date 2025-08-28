@@ -1,3 +1,5 @@
 #EXTM3U
 #EXTINF:-1 ,无线新闻
 https://live.tvfix.org/live/inews/index.m3u8
+#EXTINF:-1 ,无线新闻
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
