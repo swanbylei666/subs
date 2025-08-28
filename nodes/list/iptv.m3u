@@ -10,7 +10,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=fct
 #EXTINF:-1 group-title="📍香港", "TVB 82"
 http://php.jdshipin.com/TVOD/iptv.php?id=j2
 #EXTINF:-1 group-title="📍香港", "TVB 83"
-https://live.tvfix.org/live/inews/index.m3u8
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
 #EXTINF:-1 group-title="📍香港", "TVB 84"
 https://live.tvfix.org/live/pearl/index.m3u8
 #EXTINF:-1 group-title="📍香港", "港台32"
