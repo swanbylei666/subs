@@ -22,7 +22,7 @@ https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPla
 #EXTINF:-1 group-title="📍香港", "港台35"
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
 #EXTINF:-1 group-title="📍香港", "ViuTV"
-https://iptv.korice.eu.org/live/29f86183a6450c615a3bdad160825b524c49ad0f28865b4b8311bf68c33971c7.php?token=807893327663754
+http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
 #EXTINF:-1 group-title="📍香港", "凤凰香港"
 https://live.tvfix.org/live/fwxg/index.m3u8
 #EXTINF:-1 group-title="📍香港", "港台卫视"
@@ -51,9 +51,4 @@ https://tencentplay.gztv.com/live/yingshi.m3u8?txSecret=ba244d8081891de486ca6bdb
 https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=c8f8cdb566361489c7ecc33c19745c5a&txTime=18d048f5667
 #EXTINF:-1 group-title="📍国内", "凤凰中文"
 http://203.205.191.53/qctv.fengshows.cn/live/0701pcc72.flv
-#EXTINF:-1 group-title="📍小影院", "抖音电影"
-https://pull-flv-f26.douyincdn.com/media/stream-693990552179049132.flv?arch_hrchy=w1&exp_hrchy=w1&expire=686cc905&major_anchor_level=common&sign=acab389c7d3567237f85e75ab6f1c895&t_id=037-202507011530122A25F6CA608923E53AF0-4SJP9Q&unique_id=stream-693990552179049132_684_flv&_session_id=938-202507011530134249422555DF1C36136C.1751355013424.39399&rsi=0&abr_pts=-800
-#EXTINF:-1 group-title="📍小影院", "死神来了－6"
-https://miaoparty-svip-qq-1032285.deepsook.xyz/Miaoparty-1032285/Miaoparty-qq-1032285/8fc1d4247358fce3bea1d323cc73b4e4.m3u8
-#EXTINF:-1 group-title="📍TVAnywhere", "旅游最紧要近，2"
-https://
+
