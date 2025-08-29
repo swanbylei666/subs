@@ -15,11 +15,11 @@ http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
 http://php.jdshipin.com/TVOD/iptv.php?id=mzt
 #EXTINF:-1 group-title="📍香港", "港台32"
 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
-#EXTINF:-1 group-title="📍香港", "港台33" 海外ip
+#EXTINF:-1 group-title="📍香港", "港台33" ip限制
 https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
-#EXTINF:-1 group-title="📍香港", "港台34" 海外ip
+#EXTINF:-1 group-title="📍香港", "港台34" ip限制
 https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream02/streamPlaylist.m3u8
-#EXTINF:-1 group-title="📍香港", "港台35" 海外ip
+#EXTINF:-1 group-title="📍香港", "港台35" ip限制
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/stream02/streamPlaylist.m3u8
 #EXTINF:-1 group-title="📍香港", "ViuTV"
 http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
