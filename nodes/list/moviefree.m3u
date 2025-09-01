@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="2025片库" tvg-logo="", 
+about:blank
 #EXTINF:-1 group-title="海外大片" tvg-logo="https://thcf.bing.com/th?id=OIP.4vaAfwuvypKKRt_91D_4YgHaDt&w=376&h=211&c=3&pid=5.1&rs=1&r=0&bgcl=3544DE", "侏罗纪世界：重生"
 https://onvideo-safety.ssscdn.com/ksc2/1-n5uRYBsf3bxa0r5IrkTpiy8jKCKX6RELNzs1R5tj1XtAamDV2hUGNSR7wg8a4vO-Ujh9aduDJzuKeRn1VUnhvZq5-mWtVjJCv-DGjjzGAdp0___OeULdEYdhqr7bPuiW9b3DLlyVLudfCqy63xVz2QO0WrwNwFYz9RGSBPzEUZqLxAHBj8piU5ZkrWHGEG.m3u8?pkey=AAWkGqE1rkupxyNFqm81MYIDTIognf_cqyBfklsMrd76JWrHmz8HQEZDTB169hg1WgTd38ybrRSnDjRDd9jRoFhjRMnBNq5Xfn4lR0jl-zBXOl2Vy-aX0vNeKeEm4RF8ucQ
 #EXTINF:-1 group-title="海外大片" tvg-logo="https://thcf.bing.com/th?id=OIP.mWmZhfRIkm5iOvfJ7YxJQAHaLH&w=376&h=211&c=3&pid=5.1&rs=1&r=0&bgcl=D245E1", "碟中谍8：最终清算"
@@ -7,3 +9,5 @@ https://v3-jianying.vlabvod.com/f2001a24a320a8fd19401dce2f8f6cf3/68b5f4e3/video/
 https://v3.bdxiguavod.com/6b7de1fbc140f7b93ff39ce66daa2505/68b5fe10/video/tos/cn/tos-cn-v-4eff5f/okGhAnfDNI2B1boqY23ceq3NoBBC2EgEFAFRJg/?fileccc=1.mp4
 #EXTINF:-1 group-title="海外大片" tvg-logo="https://thcf.bing.com/th?id=OIP.gtxGc5vOJErSwoW7v1ktAAHaDZ&w=376&h=211&c=3&pid=5.1&rs=1&r=0&bgcl=DA85DC", "会计刺客2"
 https://v3.bdxiguavod.com/a07cc7adbd88b2cb071a9e28057d7043/68b5fbe9/video/tos/cn/tos-cn-v-ec2668/o0hBxBBcixUgEziQ0lHKISqfWW5SAcMIFEAJAN/?fileccc=1.mp4
+#EXTINF:-1 group-title="海外大片" tvg-logo="https://thcf.bing.com/th/id/OVP.MnTYSGFYeu8bocZuJFkU-wEsCp?w=416&h=200&c=7&rs=1&qlt=90&o=6&dpr=3&pid=1.7", "制暴：无限杀机"
+https://v3.bdxiguavod.com/8eaceb841f3229cc7402043f35c2791c/68b5f79d/video/tos/cn/tos-cn-v-0004c800/owB4AfNA8FgE2AHAIoEDlgf2Jjzrg4AcADAMxR/?fileccc=1.mp4
