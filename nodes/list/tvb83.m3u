@@ -5,3 +5,5 @@ https://live.tvfix.org/live/inews/index.m3u8
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
 #EXTINF:-1 ,无线新闻
 http://php.jdshipin.com/TVOD/iptv.php?id=wxxwt
+#EXTINF:-1 ,无线新闻
+http://bxtv.3a.ink/api.php?id=wxxw
