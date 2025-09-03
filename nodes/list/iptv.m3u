@@ -6,7 +6,7 @@
 #EXTINF:-1 provider-type="iptv" group-title="📍宣传广告", "TVB J1"
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbj1
 #EXTINF:-1 group-title="📍香港", "TVB 81"
-http://php.jdshipin.com/TVOD/iptv.php?id=fct
+http://bxtv.3a.ink/api.php?id=fct
 #EXTINF:-1 group-title="📍香港", "TVB 82"
 http://php.jdshipin.com/TVOD/iptv.php?id=j2
 #EXTINF:-1 group-title="📍香港", "TVB 83"
