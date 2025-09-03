@@ -3,8 +3,8 @@
 #EXT-X-APTV-TYPE remote 
 #EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/nodes/iptv.m3u 
 
-#EXTINF:-1 provider-type="iptv" group-title="📍宣传广告", "TVB J1"
-http://php.jdshipin.com/TVOD/iptv.php?id=tvbj1
+#EXTINF:-1 provider-type="iptv" group-title="📍网络电视", "欢迎使用"
+http://about:blank
 #EXTINF:-1 group-title="📍香港", "TVB 81"
 http://php.jdshipin.com/TVOD/iptv.php?id=fct
 #EXTINF:-1 group-title="📍香港", "TVB 82"
