@@ -6,7 +6,7 @@
 #EXTINF:-1 provider-type="iptv" group-title="📍网络电视", "欢迎使用"
 http://about:blank
 #EXTINF:-1 group-title="📍香港", "TVB 81"
-http://php.jdshipin.com/TVOD/iptv.php?id=fct
+http://php.jdshipin.com/TVOD/iptv.php?id=fct3
 #EXTINF:-1 group-title="📍香港", "TVB 82"
 http://php.jdshipin.com/TVOD/iptv.php?id=j2
 #EXTINF:-1 group-title="📍香港", "TVB 83"
