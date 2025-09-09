@@ -3,7 +3,7 @@
 #EXT-X-APTV-TYPE remote 
 #EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/nodes/iptv.m3u 
 
-#EXTINF:-1 provider-type="iptv" group-title="📍网络电视", "看电视的快乐，谁懂"
+#EXTINF:-1 provider-type="iptv" group-title="📍标题", "看电视的快乐，谁懂"
 http://about:blank
 #EXTINF:-1 group-title="📍香港", "TVB 81"
 http://php.jdshipin.com/TVOD/iptv.php?id=fct3
