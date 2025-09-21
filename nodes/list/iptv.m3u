@@ -6,7 +6,7 @@
 #EXTINF:-1 provider-type="iptv" group-title="📍标题", "看电视"
 http://about:blank
 #EXTINF:-1 group-title="📍香港", "TVB 81"
-https://stream1.freetv.fun/fei-cui-14.ctv
+http://php.jdshipin.com/TVOD/iptv.php?id=fct3
 #EXTINF:-1 group-title="📍香港", "TVB 82"
 http://php.jdshipin.com/TVOD/iptv.php?id=j2
 #EXTINF:-1 group-title="📍香港", "TVB 83"
