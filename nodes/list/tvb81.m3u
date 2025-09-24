@@ -11,7 +11,7 @@ http://php.jdshipin.com/TVOD/iptv.php?id=fct4
 http://bxtv.3a.ink/api.php?id=fct
 #EXTINF:-1 ,翡翠台
 http://api.mg.itv888.cn:8080/hls/4bb8922027c/index.m3u8
-#EXTINF:-1 ,翡翠台[freetv14]
-https://stream1.freetv.fun/fei-cui-14.ctv
+#EXTINF:-1 ,翡翠台[freetv5]
+https://stream1.freetv.fun/fei-cui-5.ctv
 #EXTINF:-1 ,华丽翡翠台
 http://php.jdshipin.com/TVOD/iptv.php?id=huali2
