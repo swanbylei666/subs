@@ -1,19 +1,13 @@
 #EXTM3U
 #EXTINF:-1 group-title="标题" tvg-logo="", 2025 私人影院
 http://about:blank
-#EXTINF:-1 group-title="海外大片" tvg-logo="https://thcf.bing.com/th?id=OIP.4vaAfwuvypKKRt_91D_4YgHaDt&w=376&h=211&c=3&pid=5.1&rs=1&r=0&bgcl=3544DE", "侏罗纪世界：重生"
-https://onvideo-safety.ssscdn.com/ksc2/1-n5uRYBsf3bxa0r5IrkTpiy8jKCKX6RELNzs1R5tj1XtAamDV2hUGNSR7wg8a4vO-Ujh9aduDJzuKeRn1VUnhvZq5-mWtVjJCv-DGjjzGAdp0___OeULdEYdhqr7bPuiW9b3DLlyVLudfCqy63xVz2QO0WrwNwFYz9RGSBPzEUZqLxAHBj8piU5ZkrWHGEG.m3u8?pkey=AAWkGqE1rkupxyNFqm81MYIDTIognf_cqyBfklsMrd76JWrHmz8HQEZDTB169hg1WgTd38ybrRSnDjRDd9jRoFhjRMnBNq5Xfn4lR0jl-zBXOl2Vy-aX0vNeKeEm4RF8ucQ
-#EXTINF:-1 group-title="海外大片" tvg-logo="https://thcf.bing.com/th?id=OIP.mWmZhfRIkm5iOvfJ7YxJQAHaLH&w=376&h=211&c=3&pid=5.1&rs=1&r=0&bgcl=D245E1", "碟中谍8：最终清算"
-https://v3-jianying.vlabvod.com/f2001a24a320a8fd19401dce2f8f6cf3/68b5f4e3/video/tos/cn/tos-cn-v-4eff5f/okaPiQ2GiDQTvwigItAB41aoLqEqvvv8OEDYK/?fileccc=1.mp4
-#EXTINF:-1 group-title="海外大片" tvg-logo="https://ts3.tc.mm.bing.net/th/id/OIP-C.U-J8Hwk-d5FAoOY8K7JqwwHaK-?w=374&h=200&c=12&rs=1&p=0&o=6&dpr=3&pid=23.1", "F1：狂飙飞车"
-https://v3-jianying.vlabvod.com/201ecc6b3e1437505e9fc8241b8b3559/68b8500d/video/tos/cn/tos-cn-v-4eff5f/osLKLPCtEKijQzoqoU6OiRiTBJgIVgnAWEapo/?fileccc=1.mp4
-#EXTINF:-1 group-title="海外大片" tvg-logo="https://thcf.bing.com/th?id=OIP.vLjX2DYnd_FRDG8iaFf7dQHaJ4&w=376&h=211&c=3&pid=5.1&rs=1&r=0&bgcl=4DF54B", "哥斯拉大战金刚2：帝国崛起"
-https://v11-fq-tts.fqnovelvod.com/fadd03c34c1f920124dea98f4b059374/68b6011e/video/tos/cn/tos-cn-v-ec2668/oUDKlNAlJB7BwIEXefl1YXjA9vvIWgpNA0UHFo/?fileccc=1.mp4
-#EXTINF:-1 group-title="海外大片" tvg-logo="https://thcf.bing.com/th?id=OIP.gtxGc5vOJErSwoW7v1ktAAHaDZ&w=376&h=211&c=3&pid=5.1&rs=1&r=0&bgcl=DA85DC", "会计刺客2"
-https://v3.bdxiguavod.com/a07cc7adbd88b2cb071a9e28057d7043/68b5fbe9/video/tos/cn/tos-cn-v-ec2668/o0hBxBBcixUgEziQ0lHKISqfWW5SAcMIFEAJAN/?fileccc=1.mp4
-#EXTINF:-1 group-title="海外大片" tvg-logo="https://thcf.bing.com/th/id/OVP.MnTYSGFYeu8bocZuJFkU-wEsCp?w=416&h=200&c=7&rs=1&qlt=90&o=6&dpr=3&pid=1.7", "制暴：无限杀机"
-https://v3.bdxiguavod.com/8eaceb841f3229cc7402043f35c2791c/68b5f79d/video/tos/cn/tos-cn-v-0004c800/owB4AfNA8FgE2AHAIoEDlgf2Jjzrg4AcADAMxR/?fileccc=1.mp4
-#EXTINF:-1 group-title="海外大片" tvg-logo="https://th.bing.com/th/id/OVP.yRkjDaojTVT8AB1Pw3jtXAIIEk?w=374&h=210&c=7&bgcl=0d3ee8&r=0&o=6&pid=13.1", "前任杀神"
-https://124.223.74.47:8182/d/m3u8/hls2/%E5%89%8D%E4%BB%BB%E6%9D%80%E7%A5%9E%E9%AB%98%E6%B8%85.m3u8
-#EXTINF:-1 group-title="动画廊" tvg-logo="https://thcf.bing.com/th?id=OIP.8UgFXbS-WBjeq-a1yBrn1AHaER&w=376&h=211&c=3&pid=5.1&rs=1&r=0&bgcl=E82736", "疯狂元素城"
-https://124.223.74.47:8182/d/m3u8/yun/%E7%96%AF%E7%8B%82%E5%85%83%E7%B4%A0%E5%9F%8E.m3u8
+#EXTINF:-1 group-title="绝命法官＃剧" tvg-logo=", "01-绝命法官"
+https://vip.ffzy-online1.com/20250928/57806_ecf70358/2000k/hls/mixed.m3u8
+#EXTINF:-1 group-title="绝命法官＃剧" tvg-logo=", "02-绝命法官"
+https://vip.ffzy-online1.com/20250928/57807_67e003c3/2000k/hls/mixed.m3u8
+#EXTINF:-1 group-title="绝命法官＃剧" tvg-logo=", "03-绝命法官"
+https://vip.ffzy-online1.com/20250928/57805_5dec1dd9/2000k/hls/mixed.m3u8
+#EXTINF:-1 group-title="绝命法官＃剧" tvg-logo=", "04-绝命法官"
+https://vip.ffzy-online1.com/20250929/57835_e0bd056a/2000k/hls/mixed.m3u8
+#EXTINF:-1 group-title="绝命法官＃剧" tvg-logo=", "05-绝命法官"
+https://vip.ffzy-online1.com/20250929/57836_a98c9dca/2000k/hls/mixed.m3u8
