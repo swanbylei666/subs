@@ -5,6 +5,8 @@
 
 #EXTINF:-1 provider-type="iptv" group-title="📍标题", "看电视"
 http://about:blank
+#EXTINF:-1 provider-type="iptv" group-title="📍标题", "xxoo"
+https://v.gsuus.com/play/PdyZn5Ee/index.m3u8
 #EXTINF:-1 group-title="📍香港", "TVB 81"
 https://smt.1678520.xyz/smt3.2.1.php?id=jade_twn
 #EXTINF:-1 group-title="📍香港", "TVB 82"
