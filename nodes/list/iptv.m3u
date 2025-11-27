@@ -3,7 +3,7 @@
 #EXT-X-APTV-TYPE remote 
 #EXT-X-SUB-URL https://raw.githubusercontent.com/swanbylei666/subs/refs/heads/main/nodes/iptv.m3u 
 
-#EXTINF:-1 provider-type="iptv" group-title="📍标题", "看电视"
+#EXTINF:-1 provider-type="iptv" group-title="📍标题", "tvLive"
 http://about:blank
 #EXTINF:-1 provider-type="iptv" group-title="📍标题", "xxoo"
 https://v.gsuus.com/play/PdyZn5Ee/index.m3u8
