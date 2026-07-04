@@ -33,3 +33,6 @@ B2 = fallback, include-other-group="A2", policy-regex-filter=, url=http://www.gs
 GEOIP,CN,DIRECT
 GEOIP,LAN,DIRECT
 FINAL,全局
+
+###配置文件概览 | Surfboard Manual
+https://getsurfboard.com/zh-Hans/docs/profile-format/overview/
