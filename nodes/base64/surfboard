@@ -1,9 +1,9 @@
-#!MANAGED-CONFIG https://github.moeyy.xyz/https://raw.githubusercontent.com/swanbylei666/subs/main/nodes/surfboard interval=6000 strict=true
+#!MANAGED-CONFIG https://get.surfboard.com/ interval=1000 strict=true
 
 [General]
-skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
-dns-server = 1.1.1.1, 1.0.0.1, 8.8.8.8, 8.8.4.4, system
-doh-server = https://1.1.1.1/dns-query, https://8.8.8.8/dns-query
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local, www.example.com
+dns-server = 223.5.5.5, 119.29.29.29, 1.1.1.1, 8.8.4.4, system
+doh-server = https://doh.pub/dns-query, https://223.5.5.5/dns-query, https://1.1.1.1/dns-query, https://8.8.4.4/dns-query
 always-real-ip = stun.l.google.com
 internet-test-url = http://www.gstatic.cn/generate_204
 proxy-test-url = http://www.gstatic.com/generate_204
@@ -11,21 +11,25 @@ test-timeout = 5
 http-listen = 0.0.0.0:7890
 socks5-listen = 0.0.0.0:7892
 
+[Host]
+*.com = server:1.1.1.1
+
 [Proxy]
-国内通道 = Direct
-禁止通行 = REJECT
+通 = DIRECT
+止 = REJECT
 
 [Proxy Group]
-全局 = select, 国内通道, HK×SG, ½HK×SG, 禁止通行
+全局 = select, 世界飞, 世界飞fb, 通
+世界飞 = select, A1, A2
+世界飞fb = select, B1, B2
 
-HK×SG = select, A1, A2
-½HK×SG = select, B1, B2
+A1 = select, policy-path=https://tools.huanghaiwan.com/api/convert?url=https%3A%2F%2Fproxypool.dmit.dpdns.org%2Fclash%2Fproxies&target=surge&source=clash&emoji=1, update-interval=1000, policy-regex-filter=|
+A2 = select, policy-path=https://tools.huanghaiwan.com/api/convert?url=https%3A%2F%2Fproxypool.dmit.dpdns.org%2Fclash%2Fproxies&target=surge&source=clash&emoji=1, update-interval=1000, policy-regex-filter=|
 
-A1 = select, policy-path=https://hongxingdl.love/hxyunvip?token=df296d15405d67860367b32e4ae1f570, update-interval=6000, policy-regex-filter=G|香港|新加坡
-A2 = select, policy-path=https://sublink.cute-cloud.de/link?token=23c576fab4eb42d8bf6e89278e6244dc, update-interval=6000, policy-regex-filter=G|香港|新加坡
-
-B1 = fallback, include-other-group="A1", policy-regex-filter=, url=http://www.gstatic.com/generate_204, update-interval=6000, tolerance=100, timeout=5, hidden=false
-B2 = fallback, include-other-group="A2", policy-regex-filter=, url=http://www.gstatic.com/generate_204, update-interval=6000, tolerance=100, timeout=5, hidden=false
+B1 = fallback, include-other-group="A1", policy-regex-filter=, url=http://www.gstatic.com/generate_204, update-interval=1000, tolerance=100, timeout=5, hidden=true
+B2 = fallback, include-other-group="A2", policy-regex-filter=, url=http://www.gstatic.com/generate_204, update-interval=1000, tolerance=100, timeout=5, hidden=true
 
 [Rule]
+GEOIP,CN,DIRECT
+GEOIP,LAN,DIRECT
 FINAL,全局
