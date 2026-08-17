@@ -1,1 +1,3 @@
-xxx
+HK,#genre#
+tvb81,https://cdn3.indevs.in/stream/tvb/fct/
+tvb84,https://cdn6.cc.cd/163189/wxxw
