@@ -2,3 +2,4 @@ HK,#genre#
 tvb81,https://cdn3.indevs.in/stream/tvb/fct/
 tvb82,https://cdn3.indevs.in/stream/tvb/tvbp/
 tvb84,https://cdn6.cc.cd/163189/wxxw
+华丽翡翠,https://cdn.qd.je/163189.php?id=jade
