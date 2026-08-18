@@ -9,3 +9,5 @@ https://cdn3.indevs.in/stream/tvb/fct/
 https://cdn3.indevs.in/stream/tvb/tvbp/
 #EXTINF:-1 provider-type="iptv" group-title="HK", "tvb84"
 https://cdn6.cc.cd/163189/wxxw
+#EXTINF:-1 provider-type="iptv" group-title="HK", "华丽翡翠"
+https://cdn.qd.je/163189.php?id=jade
